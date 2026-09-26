@@ -314,7 +314,7 @@ public partial class MainWindow : Window
                 components = new object[]
                 {
                     new { uid = "net.minecraft", version = "1.21.1", important = true },
-                    new { uid = "net.neoforged", version = "21.1.219", important = true }
+                    new { uid = "net.neoforged", version = "21.1.244", important = true }
                 }
             };
             File.WriteAllText(mmcPack, JsonSerializer.Serialize(pack, new JsonSerializerOptions { WriteIndented = true }));
