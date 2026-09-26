@@ -94,6 +94,8 @@ public partial class MainWindow : Window
             RamSlider.Value = Math.Clamp(s.RamMb / 1024.0, 4, 16);
             RamValueText.Text = $"{(int)RamSlider.Value} Go";
             DirectConnectCheck.IsChecked = s.DirectConnect;
+            if (HomeRamSlider != null) HomeRamSlider.Value = RamSlider.Value;
+            if (HomeRamValueText != null) HomeRamValueText.Text = $"{(int)RamSlider.Value} Go / 16 Go";
         }
         catch { }
     }
@@ -119,6 +121,7 @@ public partial class MainWindow : Window
     void Refresh()
     {
         HomePackText.Text = $"{cfg.ModpackName} • Minecraft {cfg.MinecraftVersion}";
+        if (ServerAddressText != null) ServerAddressText.Text = cfg.Server;
         PackNameText.Text = cfg.ModpackName;
         PackInfoText.Text = $"Minecraft {cfg.MinecraftVersion} • {cfg.Loader} • pack {cfg.PackVersion}";
         ServerStatusText.Text = string.IsNullOrWhiteSpace(cfg.Server) ? "NON CONFIGURÉ" : "Vérification...";
@@ -257,6 +260,32 @@ public partial class MainWindow : Window
         await Task.Delay(500);
         PlayButton.IsEnabled = true;
         launching = false;
+    }
+
+    void HomeRamSlider_ValueChanged(object s, RoutedPropertyChangedEventArgs<double> e)
+    {
+        if (HomeRamValueText != null) HomeRamValueText.Text = $"{(int)e.NewValue} Go / 16 Go";
+        if (!uiReady || RamSlider == null) return;
+        RamSlider.Value = e.NewValue;
+        SaveSettings();
+    }
+
+    void MinecraftVersion_Changed(object s, System.Windows.Controls.SelectionChangedEventArgs e)
+    {
+        if (!uiReady || MinecraftVersionCombo?.SelectedItem is not System.Windows.Controls.ComboBoxItem item) return;
+        var version = item.Content?.ToString();
+        if (string.IsNullOrWhiteSpace(version)) return;
+        cfg.MinecraftVersion = version;
+        Refresh();
+    }
+
+    void Disconnect_Click(object s, RoutedEventArgs e)
+    {
+        // Microsoft OAuth is not active yet, so never pretend a session exists.
+        AccountStateText.Text = "Non connecté";
+        DisconnectButton.IsEnabled = false;
+        AccountActionButton.IsEnabled = true;
+        StatusText.Text = "Aucune session Microsoft active";
     }
 
     void RamSlider_ValueChanged(object s, RoutedPropertyChangedEventArgs<double> e)
