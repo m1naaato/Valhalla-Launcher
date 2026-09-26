@@ -8,5 +8,5 @@ for p in sorted(root.rglob("*")):
         with p.open("rb") as f:
             sha=hashlib.sha256(f.read()).hexdigest()
         files.append({"path":rel,"url":base+urllib.parse.quote(rel),"sha256":sha,"size":p.stat().st_size})
-manifest={"name":"Valhalla Server Pack","version":"auto","minecraftVersion":"26.3","loader":"auto","files":files}
+manifest={"name":"Valhalla Server Pack","version":"auto","minecraftVersion":"1.21.1","loader":"NeoForge","files":files}
 pathlib.Path("server-pack.json").write_text(json.dumps(manifest,indent=2),encoding="utf-8")
