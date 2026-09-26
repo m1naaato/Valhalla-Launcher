@@ -2375,6 +2375,12 @@
       "size": 256825
     },
     {
+      "path": "mods/watermedia-2.1.37.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/watermedia-2.1.37.jar",
+      "sha256": "cdd8e1b50e4dee0892c5ed02724cea6b1a74d2b718c7e974c9cfc0efa8c10389",
+      "size": 37046674
+    },
+    {
       "path": "mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
       "sha256": "3568da15d2687137b59aa2361c8fa0259d2a4774978fb3658c9c2cce9923a2d2",
