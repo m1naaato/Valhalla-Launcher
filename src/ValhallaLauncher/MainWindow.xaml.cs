@@ -314,7 +314,7 @@ public partial class MainWindow : Window
                 components = new object[]
                 {
                     new { uid = "net.minecraft", version = "1.21.1", important = true },
-                    new { uid = "net.neoforged", version = "latest", important = true }
+                    new { uid = "net.neoforged", version = "21.1.219", important = true }
                 }
             };
             File.WriteAllText(mmcPack, JsonSerializer.Serialize(pack, new JsonSerializerOptions { WriteIndented = true }));
@@ -473,8 +473,9 @@ public partial class MainWindow : Window
             foreach (var file in manifest.Files ?? new())
             {
                 var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
-                var local = Path.GetFullPath(Path.Combine(InstanceRoot, relative));
-                var root = Path.GetFullPath(InstanceRoot) + Path.DirectorySeparatorChar;
+                var gameRoot = Path.Combine(InstanceRoot, ".minecraft");
+                var local = Path.GetFullPath(Path.Combine(gameRoot, relative));
+                var root = Path.GetFullPath(Path.Combine(InstanceRoot, ".minecraft")) + Path.DirectorySeparatorChar;
                 if (!local.StartsWith(root, StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Chemin invalide.");
                 if (!File.Exists(local) || !await FileMatches(local, file)) missing.Add(file);
             }
@@ -489,7 +490,7 @@ public partial class MainWindow : Window
             PackSyncText.Foreground = System.Windows.Media.Brushes.Orange;
             PlayButton.IsEnabled = false;
             if (!repair) return false;
-            Directory.CreateDirectory(InstanceRoot);
+            Directory.CreateDirectory(Path.Combine(InstanceRoot, ".minecraft"));
             int done = 0;
             foreach (var file in missing)
             {
