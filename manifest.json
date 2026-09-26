@@ -1,10 +1,10 @@
 {
   "channel": "stable",
-  "launcherVersion": "0.5.4",
+  "launcherVersion": "0.5.5",
   "minimumLauncherVersion": "0.4.3",
   "updateAvailable": true,
-  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.5.4/Valhalla-Setup.exe",
-  "sha256": "85a5ced858ae2d6bae5a39fd9101b61b6fb07aee6eb292ea4ff4d75ae128082d",
+  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.5.5/Valhalla-Setup.exe",
+  "sha256": "d30fdba72ecdb917fd15aed8e36056edb62b62a7735e6bc609b36f1402d890af",
   "server": {
     "address": "109.239.152.82",
     "port": 26065
@@ -18,5 +18,5 @@
     "version": "26.3",
     "url": ""
   },
-  "message": "Valhalla Launcher 0.5.4 est disponible."
+  "message": "Valhalla Launcher 0.5.5 est disponible."
 }
