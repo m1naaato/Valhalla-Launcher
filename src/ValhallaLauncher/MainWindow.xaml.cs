@@ -297,14 +297,27 @@ public partial class MainWindow : Window
     {
         try
         {
-            var archive = Path.Combine(AppContext.BaseDirectory, cfg.InstanceArchive);
-            if (!File.Exists(archive)) return;
-            var root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances", cfg.PrismInstance);
-            if (!Directory.Exists(root))
+            var root = InstanceRoot;
+            Directory.CreateDirectory(root);
+            var instanceCfg = Path.Combine(root, "instance.cfg");
+            var mmcPack = Path.Combine(root, "mmc-pack.json");
+
+            File.WriteAllText(instanceCfg,
+                "InstanceType=OneSix\n" +
+                "name=Valhalla NeoForge 1.21.1\n" +
+                "iconKey=default\n" +
+                "JoinServerOnLaunch=false\n");
+
+            var pack = new
             {
-                Directory.CreateDirectory(root);
-                ZipFile.ExtractToDirectory(archive, root, true);
-            }
+                formatVersion = 1,
+                components = new object[]
+                {
+                    new { uid = "net.minecraft", version = "1.21.1", important = true },
+                    new { uid = "net.neoforged", version = "latest", important = true }
+                }
+            };
+            File.WriteAllText(mmcPack, JsonSerializer.Serialize(pack, new JsonSerializerOptions { WriteIndented = true }));
         }
         catch (Exception ex)
         {
