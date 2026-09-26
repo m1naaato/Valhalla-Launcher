@@ -1,0 +1,91 @@
+name: Build and publish Valhalla
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version a publier (ex: 0.4.7)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    runs-on: windows-latest
+    env:
+      PROJECT: src/ValhallaLauncher/ValhallaLauncher.csproj
+      ISS_FILE: src/installer/ValhallaLauncher.iss
+    steps:
+      - name: Recuperer le projet
+        uses: actions/checkout@v4
+      - name: Determiner la version
+        id: version
+        shell: pwsh
+        run: |
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") { $v = "${{ inputs.version }}" } else { $v = "${{ github.ref_name }}".TrimStart("v") }
+          "version=$v" >> $env:GITHUB_OUTPUT
+          "tag=v$v" >> $env:GITHUB_OUTPUT
+      - name: Installer .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Installer Inno Setup
+        shell: pwsh
+        run: choco install innosetup -y --no-progress
+      - name: Mettre la version dans le projet
+        shell: pwsh
+        run: |
+          $p = "$env:PROJECT"
+          $xml = Get-Content $p -Raw
+          $xml = $xml -replace '<Version>[^<]+</Version>', '<Version>${{ steps.version.outputs.version }}</Version>'
+          Set-Content $p $xml -Encoding UTF8
+          $iss = Get-Content "$env:ISS_FILE" -Raw
+          $iss = $iss -replace '#define MyAppVersion "[^"]+"', '#define MyAppVersion "${{ steps.version.outputs.version }}"'
+          Set-Content "$env:ISS_FILE" $iss -Encoding UTF8
+      - name: Compiler Valhalla
+        shell: pwsh
+        run: dotnet publish "$env:PROJECT" -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o publish
+      - name: Creer l installateur
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release | Out-Null
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" "$env:ISS_FILE"
+          if (!(Test-Path "release\Valhalla-Setup.exe")) { throw "Valhalla-Setup.exe non genere" }
+      - name: Calculer SHA-256
+        id: hash
+        shell: pwsh
+        run: |
+          $hash = (Get-FileHash "release\Valhalla-Setup.exe" -Algorithm SHA256).Hash.ToLower()
+          "sha256=$hash" >> $env:GITHUB_OUTPUT
+      - name: Creer la Release GitHub
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "${{ steps.version.outputs.tag }}"
+          $version = "${{ steps.version.outputs.version }}"
+          gh release view $tag 2>$null
+          if ($LASTEXITCODE -eq 0) { gh release upload $tag "release\Valhalla-Setup.exe" --clobber } else { gh release create $tag "release\Valhalla-Setup.exe" --title "Valhalla $version" --notes "Mise a jour automatique Valhalla $version" }
+      - name: Mettre a jour manifest.json
+        shell: pwsh
+        run: |
+          $version = "${{ steps.version.outputs.version }}"
+          $tag = "${{ steps.version.outputs.tag }}"
+          $sha = "${{ steps.hash.outputs.sha256 }}"
+          $url = "https://github.com/${{ github.repository }}/releases/download/$tag/Valhalla-Setup.exe"
+          $m = Get-Content manifest.json -Raw | ConvertFrom-Json
+          $m.launcherVersion = $version
+          $m.updateAvailable = $true
+          $m.releaseUrl = $url
+          $m.sha256 = $sha
+          $m.message = "Valhalla Launcher $version est disponible."
+          $m | ConvertTo-Json -Depth 10 | Set-Content manifest.json -Encoding UTF8
+          git config user.name "Valhalla Update Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add manifest.json
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) { git commit -m "Publier Valhalla $version"; git push origin HEAD:main }
