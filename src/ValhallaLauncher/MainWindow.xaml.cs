@@ -473,9 +473,9 @@ public partial class MainWindow : Window
             foreach (var file in manifest.Files ?? new())
             {
                 var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
-                var gameRoot = Path.Combine(InstanceRoot, ".minecraft");
+                var gameRoot = Path.Combine(InstanceRoot, "minecraft");
                 var local = Path.GetFullPath(Path.Combine(gameRoot, relative));
-                var root = Path.GetFullPath(Path.Combine(InstanceRoot, ".minecraft")) + Path.DirectorySeparatorChar;
+                var root = Path.GetFullPath(Path.Combine(InstanceRoot, "minecraft")) + Path.DirectorySeparatorChar;
                 if (!local.StartsWith(root, StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Chemin invalide.");
                 if (!File.Exists(local) || !await FileMatches(local, file)) missing.Add(file);
             }
@@ -490,13 +490,13 @@ public partial class MainWindow : Window
             PackSyncText.Foreground = System.Windows.Media.Brushes.Orange;
             PlayButton.IsEnabled = false;
             if (!repair) return false;
-            Directory.CreateDirectory(Path.Combine(InstanceRoot, ".minecraft"));
+            Directory.CreateDirectory(Path.Combine(InstanceRoot, "minecraft"));
             int done = 0;
             foreach (var file in missing)
             {
                 if (string.IsNullOrWhiteSpace(file.Url)) throw new InvalidDataException($"URL absente : {file.Path}");
                 var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
-                var local = Path.GetFullPath(Path.Combine(InstanceRoot, ".minecraft", relative));
+                var local = Path.GetFullPath(Path.Combine(InstanceRoot, "minecraft", relative));
                 Directory.CreateDirectory(Path.GetDirectoryName(local)!);
                 PackSyncText.Text = $"Téléchargement {++done}/{missing.Count} : {Path.GetFileName(file.Path)}";
                 var bytes = await http.GetByteArrayAsync(file.Url);
