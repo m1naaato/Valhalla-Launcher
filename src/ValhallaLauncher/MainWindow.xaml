@@ -19,7 +19,7 @@
    </Grid>
    <Grid Grid.Column="1">
     <Grid x:Name="HomePage">
-     <Button Style="{StaticResource Hotspot}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="310" Height="100" Margin="0,115,38,0" Click="CopyIp_Click" ToolTip="Copier l'adresse du serveur"/>
+     <Border HorizontalAlignment="Right" VerticalAlignment="Top" Width="310" Height="112" Margin="0,108,38,0" Background="#D914120F" BorderBrush="#806B45" BorderThickness="1" CornerRadius="8" Padding="14"><Grid><Grid.RowDefinitions><RowDefinition/><RowDefinition/><RowDefinition/></Grid.RowDefinitions><TextBlock Text="SERVEUR VALHALLA" Foreground="#E4BD69" FontWeight="Bold"/><StackPanel Grid.Row="1" Orientation="Horizontal"><Ellipse x:Name="ServerDot" Width="10" Height="10" Fill="#777" Margin="0,0,8,0"/><TextBlock x:Name="ServerStatusText" Text="Vérification..." Foreground="#F1E8DA" FontWeight="Bold"/></StackPanel><TextBlock x:Name="ServerPlayersText" Grid.Row="2" Text="Joueurs : --/--" Foreground="#BDB2A3"/><Button Style="{StaticResource Hotspot}" Grid.RowSpan="3" Click="CopyIp_Click" ToolTip="Copier l'adresse du serveur"/></Grid></Border>
      <Button x:Name="PlayButton" Style="{StaticResource GoldAction}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="310" Height="70" Margin="0,0,40,45" Click="Play_Click" ToolTip="Lancer Minecraft"><StackPanel Orientation="Horizontal" HorizontalAlignment="Center"><TextBlock Text="▶" FontSize="20" Margin="0,0,12,0"/><TextBlock Text="JOUER" FontSize="20" FontWeight="Bold"/></StackPanel></Button>
      <TextBlock x:Name="HomePackText" Visibility="Collapsed"/>
     </Grid>
@@ -35,8 +35,6 @@
     </Grid>
     <TextBlock x:Name="PageTitle" Visibility="Collapsed"/>
     <TextBlock x:Name="UpdateText" Visibility="Collapsed"/>
-    <TextBlock x:Name="ServerStatusText" Visibility="Collapsed"/>
-    <Ellipse x:Name="ServerDot" Visibility="Collapsed"/>
     <TextBlock x:Name="StatusText" Foreground="#D9CCBA" Background="#B811100E" Padding="10,5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24,0,0,14"/>
    </Grid>
   </Grid>
