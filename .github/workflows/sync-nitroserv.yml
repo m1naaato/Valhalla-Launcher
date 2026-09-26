@@ -29,11 +29,22 @@ jobs:
           # WaterMedia is disabled on the dedicated server but required by
           # client-side WaterFrames / WaterVision. Re-enable only the core jar
           # for the client pack. The large native binaries stay excluded.
-          WM="$(find server-pack-files/mods -maxdepth 1 -type f -name 'watermedia-*.jar.disabled' ! -name 'watermedia_binaries-*' ! -name 'watermedia_youtube_plugin-*' | head -n 1)"
-          if [ -n "$WM" ]; then
-            cp "$WM" "${WM%.disabled}"
-            echo "Client dependency enabled: $(basename "${WM%.disabled}")"
+          # NitroServ may expose disabled mods either as *.jar.disabled or
+          # *.disabled. Locate WaterMedia core robustly, but never binaries/plugin.
+          WM="$(find server-pack-files/mods -maxdepth 1 -type f \( -iname 'watermedia*.disabled' -o -iname 'watermedia*.jar' \) ! -iname 'watermedia_binaries*' ! -iname 'watermedia_youtube_plugin*' | head -n 1)"
+          if [ -z "$WM" ]; then
+            echo "::error::WaterMedia core not found in NitroServ mods mirror"
+            find server-pack-files/mods -maxdepth 1 -type f -iname '*water*' -printf '%f\n' || true
+            exit 1
           fi
+          if [[ "$WM" == *.disabled ]]; then
+            CLIENT_WM="${WM%.disabled}"
+            cp -f "$WM" "$CLIENT_WM"
+          else
+            CLIENT_WM="$WM"
+          fi
+          echo "Client dependency enabled: $(basename "$CLIENT_WM")"
+          test -s "$CLIENT_WM"
           LARGE="$(find server-pack-files/mods -type f ! -name '*.disabled' -size +95M -print)"
           if [ -n "$LARGE" ]; then
             echo "::error::Active client file too large for GitHub:"
