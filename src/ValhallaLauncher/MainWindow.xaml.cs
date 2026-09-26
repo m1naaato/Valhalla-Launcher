@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Sockets;
 using System.Text;
@@ -46,6 +47,7 @@ public partial class MainWindow : Window
             await RestoreMicrosoftSession();
             await LoadRemoteConfig();
             await RefreshServerStatus();
+            await CheckServerPack(false);
             await CheckLauncherUpdate(false);
         };
     }
@@ -273,7 +275,7 @@ public partial class MainWindow : Window
         return c.FirstOrDefault(File.Exists);
     }
 
-    void Prepare_Click(object s, RoutedEventArgs e)
+    async void Prepare_Click(object s, RoutedEventArgs e)
     {
         prismPath = FindPrism();
         if (prismPath == null)
@@ -288,7 +290,7 @@ public partial class MainWindow : Window
         }
 
         InstallInstanceSilently();
-        StatusText.Text = "✓ Modpack préparé";
+        await CheckServerPack(true);
     }
 
     void InstallInstanceSilently()
@@ -331,6 +333,12 @@ public partial class MainWindow : Window
         }
 
         InstallInstanceSilently();
+        if (!await CheckServerPack(true))
+        {
+            PlayButton.IsEnabled = true;
+            launching = false;
+            return;
+        }
         StatusText.Text = "Lancement de Minecraft…";
         await Task.Delay(150);
 
@@ -437,6 +445,75 @@ public partial class MainWindow : Window
         catch { }
     }
 
+    string InstanceRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances", cfg.PrismInstance);
+
+    async Task<bool> CheckServerPack(bool repair)
+    {
+        if (string.IsNullOrWhiteSpace(cfg.ModpackManifestUrl)) return true;
+        try
+        {
+            PackSyncText.Text = "Vérification du pack serveur...";
+            var json = await http.GetStringAsync(cfg.ModpackManifestUrl);
+            var manifest = JsonSerializer.Deserialize<ServerPackManifest>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            if (manifest == null) throw new InvalidDataException("Manifest invalide.");
+            var missing = new List<ServerPackFile>();
+            foreach (var file in manifest.Files ?? new())
+            {
+                var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
+                var local = Path.GetFullPath(Path.Combine(InstanceRoot, relative));
+                var root = Path.GetFullPath(InstanceRoot) + Path.DirectorySeparatorChar;
+                if (!local.StartsWith(root, StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Chemin invalide.");
+                if (!File.Exists(local) || !await FileMatches(local, file)) missing.Add(file);
+            }
+            if (missing.Count == 0)
+            {
+                PackSyncText.Text = "Pack serveur synchronisé";
+                PackSyncText.Foreground = System.Windows.Media.Brushes.LightGreen;
+                PlayButton.IsEnabled = true;
+                return true;
+            }
+            PackSyncText.Text = $"{missing.Count} fichier(s) requis manquant(s)";
+            PackSyncText.Foreground = System.Windows.Media.Brushes.Orange;
+            PlayButton.IsEnabled = false;
+            if (!repair) return false;
+            Directory.CreateDirectory(InstanceRoot);
+            int done = 0;
+            foreach (var file in missing)
+            {
+                if (string.IsNullOrWhiteSpace(file.Url)) throw new InvalidDataException($"URL absente : {file.Path}");
+                var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
+                var local = Path.GetFullPath(Path.Combine(InstanceRoot, relative));
+                Directory.CreateDirectory(Path.GetDirectoryName(local)!);
+                PackSyncText.Text = $"Téléchargement {++done}/{missing.Count} : {Path.GetFileName(file.Path)}";
+                var bytes = await http.GetByteArrayAsync(file.Url);
+                await File.WriteAllBytesAsync(local, bytes);
+                if (!await FileMatches(local, file)) throw new InvalidDataException($"Fichier invalide : {file.Path}");
+            }
+            PackSyncText.Text = "Pack serveur installé et vérifié";
+            PackSyncText.Foreground = System.Windows.Media.Brushes.LightGreen;
+            PlayButton.IsEnabled = true;
+            return true;
+        }
+        catch (Exception ex)
+        {
+            PackSyncText.Text = "Pack serveur non prêt";
+            PackSyncText.Foreground = System.Windows.Media.Brushes.IndianRed;
+            PlayButton.IsEnabled = false;
+            if (repair) MessageBox.Show("Impossible de préparer le pack : " + ex.Message, "Valhalla - Modpack");
+            return false;
+        }
+    }
+
+    static async Task<bool> FileMatches(string path, ServerPackFile file)
+    {
+        if (file.Size > 0 && new FileInfo(path).Length != file.Size) return false;
+        if (string.IsNullOrWhiteSpace(file.Sha256)) return true;
+        await using var stream = File.OpenRead(path);
+        var actual = Convert.ToHexString(await SHA256.HashDataAsync(stream)).ToLowerInvariant();
+        var expected = file.Sha256.Replace("sha256:", "", StringComparison.OrdinalIgnoreCase).Trim().ToLowerInvariant();
+        return actual == expected;
+    }
+
     async Task CheckLauncherUpdate(bool manual)
     {
         if (string.IsNullOrWhiteSpace(cfg.UpdateManifestUrl))
@@ -532,6 +609,7 @@ public class LauncherConfig
     public string PrismInstance { get; set; } = "Valhalla-Vanilla-26.3";
     public string InstanceArchive { get; set; } = "Valhalla-Vanilla-26.3.zip";
     public string UpdateManifestUrl { get; set; } = "";
+    public string ModpackManifestUrl { get; set; } = "";
 }
 
 public class UserSettings
@@ -567,4 +645,21 @@ public class RemoteModpack
     public string Name { get; set; } = "";
     public string Version { get; set; } = "";
     public string Url { get; set; } = "";
+}
+
+
+public class ServerPackManifest
+{
+    public string Name { get; set; } = "Valhalla Server Pack";
+    public string Version { get; set; } = "1.0.0";
+    public string MinecraftVersion { get; set; } = "";
+    public string Loader { get; set; } = "";
+    public List<ServerPackFile> Files { get; set; } = new();
+}
+public class ServerPackFile
+{
+    public string Path { get; set; } = "";
+    public string Url { get; set; } = "";
+    public string Sha256 { get; set; } = "";
+    public long Size { get; set; }
 }
