@@ -4,63 +4,48 @@
  Title="Valhalla" Width="1440" Height="900" MinWidth="1100" MinHeight="690"
  WindowStartupLocation="CenterScreen" Background="#090806">
  <Window.Resources>
-  <Style x:Key="Hotspot" TargetType="Button"><Setter Property="Background" Value="Transparent"/><Setter Property="BorderThickness" Value="0"/><Setter Property="Foreground" Value="Transparent"/><Setter Property="Cursor" Value="Hand"/><Setter Property="Opacity" Value="0.01"/></Style>
-  <Style x:Key="GoldAction" TargetType="Button"><Setter Property="Background" Value="#D2A447"/><Setter Property="Foreground" Value="#171109"/><Setter Property="BorderBrush" Value="#F0CE79"/><Setter Property="BorderThickness" Value="1"/><Setter Property="FontWeight" Value="Bold"/><Setter Property="Cursor" Value="Hand"/></Style>
+  <Style x:Key="NavButton" TargetType="Button"><Setter Property="Background" Value="#C912100D"/><Setter Property="Foreground" Value="#E8DFD1"/><Setter Property="BorderBrush" Value="#6B5330"/><Setter Property="BorderThickness" Value="0,0,0,1"/><Setter Property="FontSize" Value="16"/><Setter Property="FontWeight" Value="SemiBold"/><Setter Property="Cursor" Value="Hand"/></Style>
+  <Style x:Key="GoldAction" TargetType="Button"><Setter Property="Background" Value="#D2A447"/><Setter Property="Foreground" Value="#171109"/><Setter Property="BorderBrush" Value="#F0CE79"/><Setter Property="BorderThickness" Value="1"/><Setter Property="FontWeight" Value="Bold"/><Setter Property="FontSize" Value="16"/><Setter Property="Cursor" Value="Hand"/></Style>
+  <Style x:Key="DarkAction" TargetType="Button"><Setter Property="Background" Value="#D8181612"/><Setter Property="Foreground" Value="#EADFCB"/><Setter Property="BorderBrush" Value="#9A773D"/><Setter Property="BorderThickness" Value="1"/><Setter Property="FontWeight" Value="Bold"/><Setter Property="Cursor" Value="Hand"/></Style>
  </Window.Resources>
  <Grid>
-  <Image Source="launcher-ui.png" Stretch="Fill"/>
-  <Grid>
-   <Grid.ColumnDefinitions><ColumnDefinition Width="220"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
-   <Grid Grid.Column="0">
-    <Button Style="{StaticResource Hotspot}" Margin="12,170,12,650" Click="Accueil_Click" ToolTip="Accueil"/>
-    <Button Style="{StaticResource Hotspot}" Margin="12,225,12,595" Click="Modpack_Click" ToolTip="Modpack"/>
-    <Button Style="{StaticResource Hotspot}" Margin="12,280,12,540" Click="Parametres_Click" ToolTip="Paramètres"/>
-    <Button Style="{StaticResource Hotspot}" VerticalAlignment="Bottom" Height="62" Margin="12,0,12,28" Click="Compte_Click" ToolTip="Compte"/>
-   </Grid>
+  <Image Source="Image ChatGPT 26 sept. 2026, 16_08_47.png" Stretch="UniformToFill"/>
+  <Grid Background="#18000000">
+   <Grid.ColumnDefinitions><ColumnDefinition Width="205"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+   <Border Grid.Column="0" Background="#D90A0908" BorderBrush="#6E512A" BorderThickness="0,0,1,0">
+    <Grid>
+     <Grid.RowDefinitions><RowDefinition Height="210"/><RowDefinition Height="64"/><RowDefinition Height="64"/><RowDefinition Height="64"/><RowDefinition Height="64"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"><TextBlock Text="ᚢ" Foreground="#D8A94E" FontSize="58" HorizontalAlignment="Center"/><TextBlock Text="VALHALLA" Foreground="#E4BD69" FontFamily="Georgia" FontWeight="Bold" FontSize="27"/></StackPanel>
+     <Button Grid.Row="1" Style="{StaticResource NavButton}" Content="⌂   ACCUEIL" Click="Accueil_Click"/>
+     <Button Grid.Row="2" Style="{StaticResource NavButton}" Content="▣   MODPACKS" Click="Modpack_Click"/>
+     <Button Grid.Row="3" Style="{StaticResource NavButton}" Content="⚙   PARAMÈTRES" Click="Parametres_Click"/>
+     <Button Grid.Row="4" Style="{StaticResource NavButton}" Content="◯   COMPTE" Click="Compte_Click"/>
+    </Grid>
+   </Border>
    <Grid Grid.Column="1">
     <Grid x:Name="HomePage">
-     <!-- Live values placed directly inside the existing artwork cards: no duplicate panels -->
-     <Grid HorizontalAlignment="Right" VerticalAlignment="Top" Width="330" Height="96" Margin="0,86,38,0">
-      <StackPanel Margin="18,8,12,0">
-       <StackPanel Orientation="Horizontal"><Ellipse x:Name="ServerDot" Width="10" Height="10" Fill="#777" Margin="0,0,9,0"/><TextBlock x:Name="ServerStatusText" Text="VÉRIFICATION..." Foreground="#E4BD69" FontWeight="Bold"/></StackPanel>
-       <TextBlock x:Name="ServerAddressText" Text="109.239.152.82:26065" Foreground="#F3EBDD" FontSize="14" Margin="19,4,0,0"/>
-       <TextBlock x:Name="ServerPlayersText" Text="Joueurs : --/--" Foreground="#C6B9A6" Margin="19,3,0,0"/>
-      </StackPanel>
-      <Button Style="{StaticResource Hotspot}" Click="CopyIp_Click" ToolTip="Copier l'adresse"/>
-     </Grid>
-
-     <!-- Transparent interactive RAM control aligned with the settings card -->
-     <Grid HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="390" Height="142" Margin="430,0,0,170">
-      <TextBlock x:Name="HomeRamValueText" Text="8 Go / 16 Go" Foreground="#E7D7B6" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,25,18,0"/>
-      <Slider x:Name="HomeRamSlider" Minimum="4" Maximum="16" Value="8" TickFrequency="1" IsSnapToTickEnabled="True" Height="28" Margin="26,50,20,0" VerticalAlignment="Top" ValueChanged="HomeRamSlider_ValueChanged"/>
-      <ComboBox x:Name="MinecraftVersionCombo" Height="32" Margin="26,0,20,12" VerticalAlignment="Bottom" SelectionChanged="MinecraftVersion_Changed" Background="#261F17" Foreground="#E7D7B6" BorderBrush="#75603E">
-       <ComboBoxItem Content="26.3" IsSelected="True"/>
-      </ComboBox>
-     </Grid>
-
-     <!-- Account actions aligned to the existing Microsoft card -->
-     <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="330" Height="150" Margin="0,0,48,160">
-      <TextBlock x:Name="AccountStateText" Text="Non connecté" Foreground="#F3EBDD" FontWeight="Bold" FontSize="16" Margin="22,42,15,0" VerticalAlignment="Top"/>
-      <Button x:Name="AccountActionButton" Style="{StaticResource Hotspot}" Height="40" Margin="18,0,18,38" VerticalAlignment="Bottom" Content="CONNEXION" Click="Compte_Click" ToolTip="Connexion Microsoft"/>
-      <Button x:Name="DisconnectButton" Style="{StaticResource Hotspot}" Height="32" Margin="18,0,18,3" VerticalAlignment="Bottom" Content="DÉCONNEXION" IsEnabled="False" Click="Disconnect_Click" ToolTip="Déconnexion Microsoft"/>
-     </Grid>
-
-     <Button x:Name="PlayButton" Style="{StaticResource Hotspot}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="455" Height="92" Margin="0,0,38,18" Click="Play_Click" ToolTip="Jouer"/>
-     <TextBlock x:Name="HomePackText" Visibility="Collapsed"/>
-    </Grid>
-    <Grid x:Name="ModpackPage" Visibility="Collapsed" Background="#E511100E">
-     <Border Width="700" Height="360" Background="#E51A1814" BorderBrush="#796340" BorderThickness="1" CornerRadius="10" Padding="34">
-      <StackPanel VerticalAlignment="Center"><TextBlock Text="MODPACK VALHALLA" Foreground="#E4BD69" FontSize="14" FontWeight="Bold"/><TextBlock x:Name="PackNameText" Text="VANILLA" Foreground="#F3EBDD" FontFamily="Georgia" FontSize="42" FontWeight="Bold" Margin="0,14,0,5"/><TextBlock x:Name="PackInfoText" Foreground="#BDB2A3" FontSize="15"/><Button Style="{StaticResource GoldAction}" Content="VÉRIFIER / PRÉPARER LE MODPACK" Height="52" Margin="0,35,0,0" Click="Prepare_Click"/></StackPanel>
+     <Border HorizontalAlignment="Right" VerticalAlignment="Top" Width="350" Height="110" Margin="0,60,28,0" Background="#DD0D0C0A" BorderBrush="#72572F" BorderThickness="1" CornerRadius="9" Padding="18">
+      <Grid><StackPanel><StackPanel Orientation="Horizontal"><Ellipse x:Name="ServerDot" Width="10" Height="10" Fill="#777" Margin="0,0,9,0"/><TextBlock x:Name="ServerStatusText" Text="VÉRIFICATION..." Foreground="#E4BD69" FontWeight="Bold"/></StackPanel><TextBlock x:Name="ServerAddressText" Text="109.239.152.82:26065" Foreground="White" FontSize="15" Margin="19,8,0,0"/><TextBlock x:Name="ServerPlayersText" Text="Joueurs : --/--" Foreground="#C9BCAA" Margin="19,5,0,0"/></StackPanel><Button Background="Transparent" BorderThickness="0" Cursor="Hand" Click="CopyIp_Click" ToolTip="Copier l'adresse"/></Grid>
      </Border>
+     <Grid VerticalAlignment="Bottom" Margin="22,0,22,26">
+      <Grid.RowDefinitions><RowDefinition Height="210"/><RowDefinition Height="100"/></Grid.RowDefinitions>
+      <Grid.ColumnDefinitions><ColumnDefinition Width="1.05*"/><ColumnDefinition Width="1.05*"/><ColumnDefinition Width="1*"/></Grid.ColumnDefinitions>
+      <Border Grid.Row="0" Grid.Column="0" Margin="0,0,10,10" Background="#E20D0C0A" BorderBrush="#846438" BorderThickness="1" CornerRadius="8" Padding="22">
+       <StackPanel><TextBlock Text="▣  MODPACK" Foreground="#F2E9DA" FontSize="17" FontWeight="Bold"/><TextBlock x:Name="HomePackText" Text="Vanilla" Foreground="White" FontSize="27" FontWeight="Bold" Margin="0,38,0,4"/><TextBlock Text="Version Minecraft 26.3" Foreground="#CBBDA9" FontSize="15"/><TextBlock Text="Prêt à jouer" Foreground="#D5AA55" Margin="0,18,0,0"/></StackPanel>
+      </Border>
+      <Border Grid.Row="0" Grid.Column="1" Margin="0,0,10,10" Background="#E20D0C0A" BorderBrush="#846438" BorderThickness="1" CornerRadius="8" Padding="22">
+       <StackPanel><TextBlock Text="⚙  PARAMÈTRES" Foreground="#F2E9DA" FontSize="17" FontWeight="Bold"/><Grid Margin="0,26,0,3"><TextBlock Text="Mémoire RAM allouée" Foreground="#DDD2C2"/><TextBlock x:Name="HomeRamValueText" Text="8 Go / 16 Go" Foreground="#E7D7B6" HorizontalAlignment="Right"/></Grid><Slider x:Name="HomeRamSlider" Minimum="4" Maximum="16" Value="8" TickFrequency="1" IsSnapToTickEnabled="True" Height="28" ValueChanged="HomeRamSlider_ValueChanged"/><TextBlock Text="Version Minecraft" Foreground="#DDD2C2" Margin="0,10,0,5"/><ComboBox x:Name="MinecraftVersionCombo" Height="32" SelectionChanged="MinecraftVersion_Changed" Background="#261F17" Foreground="#E7D7B6" BorderBrush="#75603E"><ComboBoxItem Content="26.3" IsSelected="True"/></ComboBox></StackPanel>
+      </Border>
+      <Border Grid.Row="0" Grid.Column="2" Margin="0,0,0,10" Background="#E20D0C0A" BorderBrush="#846438" BorderThickness="1" CornerRadius="8" Padding="22">
+       <StackPanel><TextBlock Text="◯  COMPTE MICROSOFT" Foreground="#F2E9DA" FontSize="17" FontWeight="Bold"/><TextBlock x:Name="AccountStateText" Text="Non connecté" Foreground="White" FontWeight="Bold" FontSize="18" Margin="0,32,0,20"/><Button x:Name="AccountActionButton" Style="{StaticResource GoldAction}" Height="42" Content="CONNEXION" Click="Compte_Click"/><Button x:Name="DisconnectButton" Style="{StaticResource DarkAction}" Height="38" Margin="0,8,0,0" Content="DÉCONNEXION" IsEnabled="False" Click="Disconnect_Click"/></StackPanel>
+      </Border>
+      <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,10,0" Background="#DD0D0C0A" BorderBrush="#70552F" BorderThickness="1" CornerRadius="8" Padding="22"><StackPanel VerticalAlignment="Center"><TextBlock Text="✓  Valhalla est à jour" Foreground="#F1E9DD" FontWeight="Bold" FontSize="17"/><TextBlock Text="Mises à jour automatiques activées" Foreground="#BFB3A2" Margin="27,5,0,0"/></StackPanel></Border>
+      <Button x:Name="PlayButton" Grid.Row="1" Grid.Column="2" Style="{StaticResource GoldAction}" Margin="0" Content="▶   JOUER" FontFamily="Georgia" FontSize="32" Click="Play_Click"/>
+     </Grid>
     </Grid>
-    <Grid x:Name="SettingsPage" Visibility="Collapsed" Background="#E511100E">
-     <Border Width="700" Height="400" Background="#E51A1814" BorderBrush="#796340" BorderThickness="1" CornerRadius="10" Padding="34">
-      <StackPanel VerticalAlignment="Center"><TextBlock Text="PARAMÈTRES" Foreground="#E4BD69" FontFamily="Georgia" FontSize="27" FontWeight="Bold"/><TextBlock Text="Mémoire allouée à Minecraft" Foreground="#E8DFD1" Margin="0,28,0,6"/><TextBlock x:Name="RamValueText" Text="8 Go" Foreground="#F1D58B" FontSize="28" FontWeight="Bold"/><Slider x:Name="RamSlider" Minimum="4" Maximum="16" Value="8" TickFrequency="2" IsSnapToTickEnabled="True" TickPlacement="BottomRight" ValueChanged="RamSlider_ValueChanged" Margin="0,12,0,18"/><CheckBox x:Name="DirectConnectCheck" Content="Connexion directe au serveur" Foreground="#E8DFD1" IsChecked="True" Checked="DirectConnect_Changed" Unchecked="DirectConnect_Changed"/><Button Style="{StaticResource GoldAction}" Content="VÉRIFIER LES MISES À JOUR" Height="48" Margin="0,28,0,0" Click="CheckUpdate_Click"/></StackPanel>
-     </Border>
-    </Grid>
-    <TextBlock x:Name="PageTitle" Visibility="Collapsed"/>
-    <TextBlock x:Name="UpdateText" Visibility="Collapsed"/>
-    <TextBlock x:Name="StatusText" Foreground="#D9CCBA" Background="#B811100E" Padding="10,5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24,0,0,14"/>
+    <Grid x:Name="ModpackPage" Visibility="Collapsed" Background="#A5090807"><Border Width="700" Height="360" Background="#ED15130F" BorderBrush="#796340" BorderThickness="1" CornerRadius="10" Padding="34"><StackPanel VerticalAlignment="Center"><TextBlock Text="MODPACK VALHALLA" Foreground="#E4BD69" FontSize="14" FontWeight="Bold"/><TextBlock x:Name="PackNameText" Text="VANILLA" Foreground="#F3EBDD" FontFamily="Georgia" FontSize="42" FontWeight="Bold" Margin="0,14,0,5"/><TextBlock x:Name="PackInfoText" Foreground="#BDB2A3" FontSize="15"/><Button Style="{StaticResource GoldAction}" Content="VÉRIFIER / PRÉPARER LE MODPACK" Height="52" Margin="0,35,0,0" Click="Prepare_Click"/></StackPanel></Border></Grid>
+    <Grid x:Name="SettingsPage" Visibility="Collapsed" Background="#A5090807"><Border Width="700" Height="400" Background="#ED15130F" BorderBrush="#796340" BorderThickness="1" CornerRadius="10" Padding="34"><StackPanel VerticalAlignment="Center"><TextBlock Text="PARAMÈTRES" Foreground="#E4BD69" FontFamily="Georgia" FontSize="27" FontWeight="Bold"/><TextBlock Text="Mémoire allouée à Minecraft" Foreground="#E8DFD1" Margin="0,28,0,6"/><TextBlock x:Name="RamValueText" Text="8 Go" Foreground="#F1D58B" FontSize="28" FontWeight="Bold"/><Slider x:Name="RamSlider" Minimum="4" Maximum="16" Value="8" TickFrequency="2" IsSnapToTickEnabled="True" TickPlacement="BottomRight" ValueChanged="RamSlider_ValueChanged" Margin="0,12,0,18"/><CheckBox x:Name="DirectConnectCheck" Content="Connexion directe au serveur" Foreground="#E8DFD1" IsChecked="True" Checked="DirectConnect_Changed" Unchecked="DirectConnect_Changed"/><Button Style="{StaticResource GoldAction}" Content="VÉRIFIER LES MISES À JOUR" Height="48" Margin="0,28,0,0" Click="CheckUpdate_Click"/></StackPanel></Border></Grid>
+    <TextBlock x:Name="PageTitle" Visibility="Collapsed"/><TextBlock x:Name="UpdateText" Visibility="Collapsed"/><TextBlock x:Name="StatusText" Foreground="#E9DCC7" Background="#C20C0B09" Padding="10,5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="22,0,0,4"/>
    </Grid>
   </Grid>
  </Grid>
