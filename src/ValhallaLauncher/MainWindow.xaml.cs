@@ -17,12 +17,14 @@ public partial class MainWindow : Window
     LauncherConfig cfg = new();
     string? prismPath;
     bool launching;
+    bool uiReady;
 
     string UserCfg => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "settings.json");
 
     public MainWindow()
     {
         InitializeComponent();
+        uiReady = true;
         LoadConfig();
         prismPath = FindPrism();
         LoadSettings();
@@ -95,6 +97,7 @@ public partial class MainWindow : Window
 
     void SaveSettings()
     {
+        if (!uiReady || RamSlider == null || DirectConnectCheck == null || StatusText == null) return;
         try
         {
             var ram = (int)RamSlider.Value * 1024;
@@ -216,12 +219,12 @@ public partial class MainWindow : Window
     {
         if (RamValueText != null)
             RamValueText.Text = $"{(int)e.NewValue} Go";
-        SaveSettings();
+        if (uiReady) SaveSettings();
     }
 
     void DirectConnect_Changed(object s, RoutedEventArgs e)
     {
-        SaveSettings();
+        if (uiReady) SaveSettings();
     }
 
     async void CheckUpdate_Click(object s, RoutedEventArgs e)
