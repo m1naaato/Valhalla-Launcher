@@ -1,0 +1,18 @@
+{
+	"item.tfbr.respawn_hydra": "Résurrection de l'Hydre",
+	"block.tfbr.respawn_hydra": "Résurrection de l'Hydre",
+	"item.tfbr.respawn_lich": "Résurrection de la Liche",
+	"block.tfbr.respawn_lich": "Résurrection de la Liche",
+	"item.tfbr.respawn_naga": "Résurrection du Naga",
+	"block.tfbr.respawn_naga": "Résurrection du Naga",
+	"item.tfbr.respawn_snow_queen": "Résurrection de la Reine des Neiges",
+	"block.tfbr.respawn_snow_queen": "Résurrection de la Reine des Neiges",
+	"item.tfbr.respawn_ur_ghast": "Résurrection de l'Ur-Ghast",
+	"block.tfbr.respawn_ur_ghast": "Résurrection de l'Ur-Ghast",
+	"creativetab.tfbr_tab": "Twilight Forest: Bosses Resurrection",
+	"message.naga.incorrect": "§7Placez§f %s§7 sur les emplacements surlignés et§a %s §7au-dessus du piédestal.",
+	"message.lich.incorrect": "§7Placez§6 %s§7 sur les emplacements surlignés et§5 %s §7au-dessus du piédestal.",
+	"message.hydra.incorrect": "§7Placez§f %s§7 sur les emplacements surlignés et§6 %s §7au-dessus du piédestal.",
+	"message.ur_ghast.incorrect": "§7Placez§c %s§7 sur les emplacements surlignés et§e %s §7au-dessus du piédestal.",
+	"message.snow_queen.incorrect": "§7Placez§f %s§7 sur les emplacements surlignés et§b %s §7au-dessus du piédestal."
+}

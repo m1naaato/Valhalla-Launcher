@@ -1,0 +1,12 @@
+{
+	"item.sophisticatedstorageinmotion.storage_boat": "Bateau de stockage",
+	"block.sophisticatedstorageinmotion.storage_boat": "Bateau de stockage",
+	"item.sophisticatedstorageinmotion.storage_minecart": "Wagonnet de stockage",
+	"block.sophisticatedstorageinmotion.storage_minecart": "Wagonnet de stockage",
+	"itemGroup.sophisticatedstorageinmotion": "Sophisticated Storage In Motion",
+	"item.sophisticatedstorageinmotion.storage_raft": "Radeau %s avec %s",
+	"entity.sophisticatedstorageinmotion.storage_minecart": "Wagonnet %s",
+	"entity.sophisticatedstorageinmotion.storage_boat": "Bateau %s avec %s",
+	"entity.sophisticatedstorageinmotion.storage_raft": "Radeau %s avec %s",
+	"entity.sophisticatedstorageinmotion.chested_horse_with_storage": "%s avec %s"
+}

@@ -1,0 +1,202 @@
+{
+    "music.mike_le_loulou": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/mike_le_loulou",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_trois_femmes": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_trois_femmes",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_sac_a_gros_pt1": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_sac_a_gros_pt1",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_sac_a_gros_pt2": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_sac_a_gros_pt2",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_le_bouffeur_de_patee": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_le_bouffeur_de_patee",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_la_naine_pt1": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_la_naine_pt1",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_la_naine_pt2": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_la_naine_pt2",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_la_naine_pt3": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_la_naine_pt3",
+                "stream": true
+            }
+        ]
+    },
+    "music.vyrriox_la_femme_de_joie": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/vyrriox_la_femme_de_joie",
+                "stream": true
+            }
+        ]
+    },
+    "music.peter_le_frein_pt1": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/peter_le_frein_pt1",
+                "stream": true
+            }
+        ]
+    },
+    "music.peter_le_frein_pt2": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/peter_le_frein_pt2",
+                "stream": true
+            }
+        ]
+    },
+    "music.peter_le_frein_pt3": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/peter_le_frein_pt3",
+                "stream": true
+            }
+        ]
+    },
+    "music.peter_le_frein_pt4": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/peter_le_frein_pt4",
+                "stream": true
+            }
+        ]
+    },
+    "music.peter_le_frein_pt5": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/peter_le_frein_pt5",
+                "stream": true
+            }
+        ]
+    },
+    "music.boit_ton_picher": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/boit_ton_picher",
+                "stream": true
+            }
+        ]
+    },
+    "music.dans_la_tavern_lulu": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/dans_la_tavern_lulu",
+                "stream": true
+            }
+        ]
+    },
+    "music.janette": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/janette",
+                "stream": true
+            }
+        ]
+    },
+    "music.la_boulette_pt1": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/la_boulette_pt1",
+                "stream": true
+            }
+        ]
+    },
+    "music.la_boulette_pt2": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/la_boulette_pt2",
+                "stream": true
+            }
+        ]
+    },
+    "music.au_pactole": {
+        "category": "record",
+        "subtitle": "subtitles.item.music_disc.play",
+        "sounds": [
+            {
+                "name": "arcadia:music/au_pactole",
+                "stream": true
+            }
+        ]
+    }
+}

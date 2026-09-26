@@ -1,0 +1,4 @@
+{
+	"sit.configuration.block_reach_distance": "Distance d'atteinte du bloc",
+	"sit.configuration.block_reach_distance.tooltip": "La distance maximale en blocs à laquelle le joueur peut se trouver d'un bloc pour pouvoir s'y asseoir. Notez que cela est limité par la distance à laquelle un joueur peut accéder à un bloc dans Minecraft vanilla. Si cette valeur est définie sur 0, le joueur doit se tenir au sommet du bloc pour pouvoir s'y asseoir."
+}

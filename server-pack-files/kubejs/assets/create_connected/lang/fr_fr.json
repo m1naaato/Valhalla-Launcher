@@ -1,0 +1,18 @@
+{
+	"item.create_connected.cross_connector": "Connecteur en croix",
+	"block.create_connected.cross_connector": "Connecteur en croix",
+	"item.create_connected.fan_ending_catalyst_dragon_head": "Catalyseur de l'Ender pour ventilateur (Tête de dragon)",
+	"block.create_connected.fan_ending_catalyst_dragon_head": "Catalyseur de l'Ender pour ventilateur (Tête de dragon)",
+	"item.create_connected.fan_ending_catalyst_dragons_breath": "Catalyseur de l'Ender pour ventilateur (Souffle de dragon)",
+	"block.create_connected.fan_ending_catalyst_dragons_breath": "Catalyseur de l'Ender pour ventilateur (Souffle de dragon)",
+	"item.create_connected.fan_enriched_catalyst": "Catalyseur d'enrichissement pour ventilateur",
+	"block.create_connected.fan_enriched_catalyst": "Catalyseur d'enrichissement pour ventilateur",
+	"item.create_connected.kinetic_bridge": "Pont cinétique",
+	"block.create_connected.kinetic_bridge": "Pont cinétique",
+	"item.create_connected.redstone_link_wildcard": "Joker de liaison redstone",
+	"block.create_connected.redstone_link_wildcard": "Joker de liaison redstone",
+	"advancement.create_connected.shear_pin": "Clac !",
+	"create_connected.battery.charge": "Charge",
+	"item.create_connected.music_disc_elevator.desc": "Kevin MacLeod - Casa Bossa Nova",
+	"itemGroup.create_connected.main": "Create: Connected"
+}

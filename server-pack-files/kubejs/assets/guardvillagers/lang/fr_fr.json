@@ -1,0 +1,8 @@
+{
+	"guardvillagers.configuration.Display guard health in icons": "Display garde vie dans icons",
+	"guardvillagers.configuration.Mobs that guards actively protect when they get hurt": "Mobs ce gardes actively protect lorsque they get hurt",
+	"guardvillagers.configuration.Angle of how ranged guards determine if a friendly mob is infront of them before firing": "Angle of how ranged gardes determine si a friendly mob est infront of them before firing",
+	"guardvillagers.configuration.Depth value for guards fighting underwater mobs": "Depth valeur pour gardes fighting underwater mobs",
+	"guardvillagers.configuration.Allow guards to sink temporarily to fight mobs that are under water?": "Autoriser gardes à sink temporarily à fight mobs ce sont under eau?",
+	"guardvillagers.configuration.Mobs that guards actively protect when they get targeted": "Mobs ce gardes actively protect lorsque they get targeted"
+}

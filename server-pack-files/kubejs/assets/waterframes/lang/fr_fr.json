@@ -1,0 +1,6 @@
+{
+	"waterframes.commands.edit.pause.failed": "Cannot mise à jour le Pause State pour ce Display type",
+	"waterframes.commands.edit.pause.success": "Pause state updated successfully",
+	"waterframes.commands.edit.settime.failed": "Cannot mise à jour le Time pour ce Display type",
+	"waterframes.commands.edit.settime.success": "Time updated successfully"
+}

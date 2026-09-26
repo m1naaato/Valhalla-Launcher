@@ -1,0 +1,22 @@
+{
+	"itemGroup.titanium.resources": "Ressources Titanium",
+	"item.titanium.plate.name": "Plaque de %s",
+	"item.titanium.ingot.name": "Lingot de %s",
+	"item.titanium.dust.name": "Poussière de %s",
+	"item.titanium.smalldust.name": "Petite poussière de %s",
+	"item.titanium.nugget.name": "Pépite de %s",
+	"item.titanium.purified.name": "Broyures purifiées de %s",
+	"item.titanium.grindings.name": "Broyures de %s",
+	"item.titanium.pebbles.name": "Cailloux de %s",
+	"item.titanium.clump.name": "Amas de %s",
+	"item.titanium.chunk.name": "Morceau de %s",
+	"item.titanium.stone.name": "Pierre de %s",
+	"item.titanium.crushed.name": "%s broyé",
+	"item.titanium.flakes.name": "Flocons de %s",
+	"item.titanium.rod.name": "Tige de %s",
+	"item.titanium.dense_rod.name": "Tige dense de %s",
+	"item.titanium.gear.name": "Engrenage de %s",
+	"item.titanium.casing.name": "Boîtier de %s",
+	"item.titanium.reinforced_plate.name": "Plaque renforcée de %s",
+	"item.titanium.dense_plate.name": "Plaque dense de %s"
+}

@@ -1,0 +1,9 @@
+{
+	"item.worldedit_items.passthrough_compass": "Boussole passe-muraille",
+	"block.worldedit_items.passthrough_compass": "Boussole passe-muraille",
+	"item.worldedit_items.superpickaxe": "Super pioche",
+	"block.worldedit_items.superpickaxe": "Super pioche",
+	"item.worldedit_items.wand_axe": "Hache de sélection",
+	"block.worldedit_items.wand_axe": "Hache de sélection",
+	"item_group.worldedit_items.worldedititemstab": "WorldEdit Items"
+}

@@ -1,0 +1,23 @@
+{
+	"text.config.torchmaster-config.option.feralFlareLanternTickRate": "Fréquence de tick de la lanterne de fusée féroce",
+	"text.config.torchmaster-config.option.feralFlareLanternTickRate.tooltip": "À quelle fréquence la lanterne doit tenter de placer des lumières",
+	"text.config.torchmaster-config.option.feralFlareLanternLightHardcap": "Limite stricte de lumières de la lanterne de fusée féroce",
+	"text.config.torchmaster-config.option.feralFlareLanternLightHardcap.tooltip": "Combien de lumières la lanterne féroce est autorisée à placer au total. Ne réglez pas cette valeur trop haute, vous risqueriez de corrompre votre monde.",
+	"text.config.torchmaster-config.option.feralFlareLanternRadius": "Rayon de la lanterne de fusée féroce",
+	"text.config.torchmaster-config.option.feralFlareLanternRadius.tooltip": "Le rayon circulaire dans lequel la lanterne doit placer des lumières",
+	"text.config.torchmaster-config.option.feralFlareLanternMinLightLevel": "Niveau de lumière minimum de la lanterne de fusée féroce",
+	"text.config.torchmaster-config.option.feralFlareLanternMinLightLevel.tooltip": "Le niveau de lumière minimum avant de tenter de placer une lumière",
+	"text.config.torchmaster-config.option.dreadLampRadius": "Rayon de la lampe d'effroi",
+	"text.config.torchmaster-config.option.dreadLampRadius.tooltip": "Rayon de la lampe d'effroi",
+	"text.config.torchmaster-config.option.megaTorchRadius": "Rayon de la mégatorche",
+	"text.config.torchmaster-config.option.megaTorchRadius.tooltip": "Rayon de la mégatorche",
+	"text.config.torchmaster-config.option.blockOnlyNaturalSpawns": "Bloquer uniquement les apparitions naturelles",
+	"text.config.torchmaster-config.option.blockOnlyNaturalSpawns.tooltip": "Si désactivé, la mégatorche et la lampe d'effroi empêcheront les apparitions provenant des générateurs de monstres de Minecraft.",
+	"text.config.torchmaster-config.option.blockVillageSieges": "Bloquer les sièges de village",
+	"text.config.torchmaster-config.option.blockVillageSieges.tooltip": "La mégatorche empêchera les sièges de village par les zombies si cette option est activée",
+	"text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides": "Substitutions de liste de blocage d'entités de la mégatorche",
+	"text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides.tooltip": "Voir le wiki Torchmaster sur GitHub pour plus de détails",
+	"text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides": "Substitutions de liste de blocage d'entités de la lampe d'effroi",
+	"text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides.tooltip": "Voir le wiki Torchmaster sur GitHub pour plus de détails",
+	"itemGroup.torchmaster": "Torchmaster"
+}

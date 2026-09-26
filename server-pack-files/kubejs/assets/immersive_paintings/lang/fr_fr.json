@@ -1,0 +1,22 @@
+{
+	"item.immersive_paintings.graffiti": "Graffiti",
+	"entity.immersive_paintings.graffiti": "Graffiti",
+	"immersive_paintings.gui.pixelart": "Pixel Art",
+	"immersive_paintings.gui.dither": "%s%% tramage",
+	"immersive_paintings.gui.x_offset": "%s%% décalage X",
+	"immersive_paintings.gui.y_offset": "%s%% décalage Y",
+	"immersive_paintings.gui.zoom": "%s%% zoom",
+	"immersive_paintings.gui.page.datapacks": "Packs de données",
+	"immersive_paintings.frame.simple": "Simple",
+	"immersive_paintings.frame.vintage": "Vintage",
+	"immersive_paintings.material.acacia": "Acacia",
+	"immersive_paintings.material.calcite": "Calcite",
+	"immersive_paintings.material.crimson": "Carmin",
+	"immersive_paintings.material.glowstone": "Pierre lumineuse",
+	"immersive_paintings.material.jungle": "Jungle",
+	"immersive_paintings.material.lapis": "Lapis Lazuli",
+	"immersive_paintings.material.netherite": "Netherite",
+	"immersive_paintings.material.netherrack": "Netherrack",
+	"immersive_paintings.material.prismarine": "Prismarine",
+	"config.immersive_paintings.client.thumbnailSize": "Taille des miniatures"
+}

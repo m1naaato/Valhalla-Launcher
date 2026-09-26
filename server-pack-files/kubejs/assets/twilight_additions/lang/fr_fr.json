@@ -1,0 +1,14 @@
+{
+	"item.twilight_additions.fiery_axe": "Hache ardente",
+	"block.twilight_additions.fiery_axe": "Hache ardente",
+	"item.twilight_additions.fiery_hoe": "Houe ardente",
+	"block.twilight_additions.fiery_hoe": "Houe ardente",
+	"item.twilight_additions.fiery_shovel": "Pelle ardente",
+	"block.twilight_additions.fiery_shovel": "Pelle ardente",
+	"item.twilight_additions.torchberry_stew": "Ragoût de baies de torche",
+	"block.twilight_additions.torchberry_stew": "Ragoût de baies de torche",
+	"item_group.twilight_additions.twilight_additions": "Twilight Additions",
+	"item.twilight_additions.fiery_axe.description_0": "Cuisson automatique",
+	"item.twilight_additions.fiery_shovel.description_0": "Cuisson automatique",
+	"item.twilight_additions.fiery_hoe.description_0": "Cuisson automatique"
+}

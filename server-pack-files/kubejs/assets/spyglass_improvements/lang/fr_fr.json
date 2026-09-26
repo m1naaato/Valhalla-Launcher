@@ -1,0 +1,16 @@
+{
+	"category.spyglass-improvements": "Spyglass Improvements",
+	"key.spyglass-improvements.use": "Utiliser la longue-vue",
+	"options.spyglass-improvements.zoomQuantity": "Incréments de zoom : %s paliers",
+	"options.spyglass-improvements.hideSettingsButton": "Masquer le bouton de paramètres : %s",
+	"options.spyglass-improvements.hideSettingsButton.tooltip": "Masque le bouton de paramètres dans l'écran d'options de Minecraft. Vous pouvez toujours accéder à cet écran via Mod Menu",
+	"options.spyglass-improvements.showCrosshair": "Afficher le réticule : %s",
+	"options.spyglass-improvements.smoothCamera": "Caméra fluide : %s",
+	"options.spyglass-improvements.spyglassOverlay": "Surcouche de la longue-vue : %s",
+	"options.spyglass-improvements.spyglassOverlay.0": "Par défaut",
+	"options.spyglass-improvements.spyglassOverlay.1": "Transparent",
+	"options.spyglass-improvements.spyglassOverlay.2": "Cercle",
+	"options.spyglass-improvements.spyglassOverlay.3": "Aucun",
+	"options.spyglass-improvements.title": "Paramètres de Spyglass Improvements",
+	"options.spyglass-improvements.reset": "Réinitialiser la configuration"
+}

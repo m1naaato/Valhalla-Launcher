@@ -5,6 +5,3132 @@
   "loader": "NeoForge",
   "files": [
     {
+      "path": "kubejs/assets/accessories/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/accessories/lang/fr_fr.json",
+      "sha256": "32c04bccfd5d9bffc1e3782e8bcec9c33c92846b8030b4ed423ace5c21ffdc4e",
+      "size": 18977
+    },
+    {
+      "path": "kubejs/assets/advancednetherite/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/advancednetherite/lang/fr_fr.json",
+      "sha256": "62ac1fc0425d05c5278a9d7b1377eb096410a6b86bc4c546232f77664c6b7434",
+      "size": 135
+    },
+    {
+      "path": "kubejs/assets/advancedperipherals/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/advancedperipherals/lang/fr_fr.json",
+      "sha256": "71858964a65a91b084ddf34861cf2ad4d560da2712be064cb92cb3390c3548b3",
+      "size": 1931
+    },
+    {
+      "path": "kubejs/assets/aether/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/aether/lang/fr_fr.json",
+      "sha256": "d15978dc3038ba64578af2067d8c042178537dbe977873137c0e437f10aff046",
+      "size": 65612
+    },
+    {
+      "path": "kubejs/assets/amendments/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/lang/fr_fr.json",
+      "sha256": "478098c6793ef92a1f32380b9031dd1b507d148e74957fa84b2f3e21b825de34",
+      "size": 372
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_au_pactole.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_au_pactole.png",
+      "sha256": "6058aa2b1241d085768f7dbb24d4b6c767e3837866624e93484ac65dce324afe",
+      "size": 2862
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_boit_ton_picher.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_boit_ton_picher.png",
+      "sha256": "23cbcec898c4541fe1cd9da4a21e451d6e87e56a8c903b07eb309d0a0c35ccce",
+      "size": 2856
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_custom.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_custom.png",
+      "sha256": "83e32aceb3a71ea22564fa15c2a832a28082c4d3fc99cdbb5b95869ccb9411f2",
+      "size": 253
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_dans_la_tavern_lulu.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_dans_la_tavern_lulu.png",
+      "sha256": "21b796991160f970a6cf400d6d6e878fa09129e2e6b4185f8682f58a72f622dc",
+      "size": 2795
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_janette.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_janette.png",
+      "sha256": "1317e0c55073f401d25a9b50717c2da7161b325411f0935ce9a0793d297a3912",
+      "size": 2801
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_la_boulette_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_la_boulette_pt1.png",
+      "sha256": "20971a27f2db1feadadc26fba03c0f94a6d9b31d305cd0240305e9506cd4fde3",
+      "size": 2845
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_la_boulette_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_la_boulette_pt2.png",
+      "sha256": "a786646a0e9f2947e41f824818191005055f0ad8f7a308ac2708b57a270efb7b",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_mike_le_loulou.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_mike_le_loulou.png",
+      "sha256": "804264c4268b4a1a6c6829eeb15128fcb5d3fcdda95848d69edd25860075ba0a",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt1.png",
+      "sha256": "6d1308de06a8ddb0e06d122300a4336af81493daf55bc3d2094404528084b5e9",
+      "size": 2887
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt2.png",
+      "sha256": "9de380eaf06a99a9510dd9199a2d19263b21d7846905799bdf04a3a313d1ef6d",
+      "size": 2882
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt3.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt3.png",
+      "sha256": "bab948c3ad5482a46679285527af7ce23d00d7954f5c256b5a72a1851e96cdc4",
+      "size": 2892
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt4.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt4.png",
+      "sha256": "199d65fe4f554c8abdbf973a898694ec71d5a62001151c6f1c7c6c72e63a4b63",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt5.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_peter_le_frein_pt5.png",
+      "sha256": "c96a7f2f749eefee3a8c4fa3e944111c11b7b0fe0411b2a749e67092ad9dfc9c",
+      "size": 2864
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_femme_de_joie.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_femme_de_joie.png",
+      "sha256": "f06ee74452107da1fff5811d4e048d38e5a490316989e8b37765a29d840e9b86",
+      "size": 2852
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_naine_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_naine_pt1.png",
+      "sha256": "78a3b964a0cdf8b8cac451c25f721dd9d5bd9550576ca8dc7d539fed20dcc520",
+      "size": 2861
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_naine_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_naine_pt2.png",
+      "sha256": "c22b2f6575a6f3c8c1f0c8cac3734a81676eb6e22d60827222e3d91951435b73",
+      "size": 2890
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_naine_pt3.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_la_naine_pt3.png",
+      "sha256": "e5f6fa32fe65eb616f2f13dc696fb9357f2bb49c4faa287d030cd8000af3c5ea",
+      "size": 2857
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_patee.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_patee.png",
+      "sha256": "5680a7bf97d05bb7fb81b90673df51493241b4bdc64bdab49b89699d4a89094f",
+      "size": 2876
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_sac_a_gros_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_sac_a_gros_pt1.png",
+      "sha256": "46e23f677315018af595c8e37627ca06cd3274aae5a3c854d9b89d5c6b676bdd",
+      "size": 2872
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_sac_a_gros_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_sac_a_gros_pt2.png",
+      "sha256": "6048a53116c0865dd11187cd4229b05dc82b2326f37831c6bfca91a1547221d2",
+      "size": 2903
+    },
+    {
+      "path": "kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_trois_femmes.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/amendments/textures/block/music_discs/arcadia/music_disc_vyrriox_trois_femmes.png",
+      "sha256": "32644d2e1002f9f02ca8c8f7f34cf2bdec0d9b5c254083bf07f6ecf7ef3a499a",
+      "size": 2836
+    },
+    {
+      "path": "kubejs/assets/animalgarden_alligatorgar/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_alligatorgar/lang/fr_fr.json",
+      "sha256": "1d73ea11de31420c07f5251c3e3eaef6ba08b31d9b55416f5c194b74812985f5",
+      "size": 273
+    },
+    {
+      "path": "kubejs/assets/animalgarden_bullshark/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_bullshark/lang/fr_fr.json",
+      "sha256": "324398df91feacba3af15c17d04a123d0f1cd21a91b646ac4ad04989d7ae3c0a",
+      "size": 162
+    },
+    {
+      "path": "kubejs/assets/animalgarden_commonraven/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_commonraven/lang/fr_fr.json",
+      "sha256": "1bbbc228b6fc0ce7ad381c542818baf45351f4a1db71145da5ab0577e2f0f334",
+      "size": 242
+    },
+    {
+      "path": "kubejs/assets/animalgarden_fennecfox/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_fennecfox/lang/fr_fr.json",
+      "sha256": "013b3b21730184730830085324fd4e53e15673f05e4433f0553771133dde6d59",
+      "size": 140
+    },
+    {
+      "path": "kubejs/assets/animalgarden_manatee/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_manatee/lang/fr_fr.json",
+      "sha256": "6efca0fd9ea222caf28a4fee6fd5703fa5395866694623e6c398007a5a3aef35",
+      "size": 221
+    },
+    {
+      "path": "kubejs/assets/animalgarden_meerkat/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_meerkat/lang/fr_fr.json",
+      "sha256": "7328426a370b2288ca4ce065f2de3ebb2159bed01c7f5ba9e2c6bff5c9434dc6",
+      "size": 221
+    },
+    {
+      "path": "kubejs/assets/animalgarden_mouse/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_mouse/lang/fr_fr.json",
+      "sha256": "1a17c9648d5cca888fd5b07c83fe806976d80c54ee1bbc7a005fd3dee0af000c",
+      "size": 203
+    },
+    {
+      "path": "kubejs/assets/animalgarden_owl/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_owl/lang/fr_fr.json",
+      "sha256": "1697cfd95a64c0f5c43aae24ca12c890eccfa6078296359fe6fa2edef447c5e8",
+      "size": 187
+    },
+    {
+      "path": "kubejs/assets/animalgarden_porcupine/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_porcupine/lang/fr_fr.json",
+      "sha256": "f8dd57558b794080666e89a11ba0a8043f265d0f6a755a07e727e41b1371e102",
+      "size": 239
+    },
+    {
+      "path": "kubejs/assets/animalgarden_prairiedog/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_prairiedog/lang/fr_fr.json",
+      "sha256": "316fc1fd0ce1d01991df936a879a6e934cff849b47f6281bf53e5c218b346065",
+      "size": 157
+    },
+    {
+      "path": "kubejs/assets/animalgarden_redpanda/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_redpanda/lang/fr_fr.json",
+      "sha256": "fe1df963d4e4a902a46ca4ebd887c3095a391f3d334f61194cab7e09918f0778",
+      "size": 535
+    },
+    {
+      "path": "kubejs/assets/animalgarden_seaotter/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_seaotter/lang/fr_fr.json",
+      "sha256": "7bc5e33b0ef5ed9acb68bcbd5cf9f7403c257d048f2f2015179925322116caaf",
+      "size": 150
+    },
+    {
+      "path": "kubejs/assets/animalgarden_spottedhyena/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_spottedhyena/lang/fr_fr.json",
+      "sha256": "a6a5e917f91381bdc4c062d7ac6f94f2e141ff2bda80f1c4e06a243043c0a707",
+      "size": 172
+    },
+    {
+      "path": "kubejs/assets/animalgarden_sugarglider/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_sugarglider/lang/fr_fr.json",
+      "sha256": "5834c6b340c7d4c9cccdd9a7545325b12dbac014118f4c03858c18acbb23272f",
+      "size": 168
+    },
+    {
+      "path": "kubejs/assets/animalgarden_westerngorilla/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_westerngorilla/lang/fr_fr.json",
+      "sha256": "b37dc88c1abcf0da1af8cdfa5c9bd7d65d4b9538d7b422aa40c8636ffd6d3fc1",
+      "size": 184
+    },
+    {
+      "path": "kubejs/assets/animalgarden_whiterhinoceros/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/animalgarden_whiterhinoceros/lang/fr_fr.json",
+      "sha256": "5c89a9b9cde05371c1368e4e12a0a7efc09ad16caa4ef2252c2c8e90620648c9",
+      "size": 186
+    },
+    {
+      "path": "kubejs/assets/another_furniture/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/another_furniture/lang/fr_fr.json",
+      "sha256": "3f07bce86073e1494bf1cbeb91b8665bcd6f08eb34f2d5747e003b4fae087490",
+      "size": 22310
+    },
+    {
+      "path": "kubejs/assets/anvilcore/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/anvilcore/lang/fr_fr.json",
+      "sha256": "3845887884a73e642e40b376dbe718501ae4839619008c9e6f34fa1a79e0e114",
+      "size": 243
+    },
+    {
+      "path": "kubejs/assets/apotheosis/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/apotheosis/lang/fr_fr.json",
+      "sha256": "b55d27d989c84756eb47915a9e8b983d2b2fdc53b7881f1609959ea36ae725bf",
+      "size": 33885
+    },
+    {
+      "path": "kubejs/assets/apothic_attributes/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/apothic_attributes/lang/fr_fr.json",
+      "sha256": "4f370a9bfb33a9694b05c6c858204e0240a006552ceaa61d85d6b8f66d44e938",
+      "size": 13955
+    },
+    {
+      "path": "kubejs/assets/apothic_enchanting/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/apothic_enchanting/lang/fr_fr.json",
+      "sha256": "35099600a804f79df0834b134c9dd55521334a14ec2d7d8088c08dff3506899a",
+      "size": 3435
+    },
+    {
+      "path": "kubejs/assets/apothic_spawners/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/apothic_spawners/lang/fr_fr.json",
+      "sha256": "009c42c99a243366d3d109e1544a73c2540ca2aede10a2f9676189b8339e40bf",
+      "size": 7644
+    },
+    {
+      "path": "kubejs/assets/appleskin/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/appleskin/lang/fr_fr.json",
+      "sha256": "24629e424149842e1ef56d9a61be64c8ce705434d7c39ca8dbf0b768887338ee",
+      "size": 1600
+    },
+    {
+      "path": "kubejs/assets/aquaculture/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/aquaculture/lang/fr_fr.json",
+      "sha256": "dce4c510bad35642e39c958236783841d4bbb702f6a822d499969e493f96a0b3",
+      "size": 635
+    },
+    {
+      "path": "kubejs/assets/aquaculturedelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/aquaculturedelight/lang/fr_fr.json",
+      "sha256": "4771037565df4864bc07638a59edc99f1c61908e139573e4356b19c9ee909426",
+      "size": 4331
+    },
+    {
+      "path": "kubejs/assets/aquariuslibs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/aquariuslibs/lang/fr_fr.json",
+      "sha256": "0870bc6af61e54649df37bd4a157f78c440c35c214f244a09f1cbd3f25d51060",
+      "size": 161
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/de_de.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/de_de.json",
+      "sha256": "b5c57e2e455c5fc555ad143056c146d40def6b56a62745cd262f1133b94ffd0e",
+      "size": 1678
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/en_us.json",
+      "sha256": "3462414ee7f2bbc3ee23813dfea56f936ae930f13b0c83274a5b0d31e96e8692",
+      "size": 14255
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/es_es.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/es_es.json",
+      "sha256": "d84bb2afbaa777dea323c3939176c9880c2cfe12ec2f77d78227befe30683243",
+      "size": 1619
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/fr_fr.json",
+      "sha256": "59c02889f92bdde1aa6241bffda6e841fed485e9277a3a0f12385160f77c7faa",
+      "size": 15063
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/it_it.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/it_it.json",
+      "sha256": "23165a8d1061a0fa4b22ee4078deede51de2b10e00370c8c7c488b513acd56b4",
+      "size": 1660
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/pt_br.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/pt_br.json",
+      "sha256": "c77e17cc1b7ff8cbed4114a01aa6c6ec510c8e7c41678a7f329d72001e53bb08",
+      "size": 1595
+    },
+    {
+      "path": "kubejs/assets/arcadia/lang/ru_ru.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/lang/ru_ru.json",
+      "sha256": "28544c73a911e26b7ed77adce8b5283779e20443c93ba0e3bda93d3d72cffed4",
+      "size": 2191
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/au_pactole.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/au_pactole.ogg",
+      "sha256": "8c5b2388026e03ab9acf48972a7f659419e6a8e216f197df9ddc13b870b21662",
+      "size": 2146113
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/boit_ton_picher.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/boit_ton_picher.ogg",
+      "sha256": "e91716abbe1b3351499481a68d1e6145bb9693152e6a757656cfd07f8f0417a5",
+      "size": 1664643
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/dans_la_tavern_lulu.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/dans_la_tavern_lulu.ogg",
+      "sha256": "2c2e0045fff5823f058b9ca0d684e36c892317d87b7731041069c945985b8358",
+      "size": 1289086
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/janette.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/janette.ogg",
+      "sha256": "606b4db2625969b1bfaff8a7d1fd61a46d3fad62e12a6b86408148d1a7fe9109",
+      "size": 1204192
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/la_boulette_pt1.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/la_boulette_pt1.ogg",
+      "sha256": "6736b185bd9d8296c0380b568bba050b72fe4e35e843b8a82f8d966b69a200ad",
+      "size": 1569259
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/la_boulette_pt2.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/la_boulette_pt2.ogg",
+      "sha256": "5d8b856e8d1a283cdefc7afb79f8f213a258fe2763543263c1127626413c9441",
+      "size": 1340142
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/mike_le_loulou.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/mike_le_loulou.ogg",
+      "sha256": "40e89d874af816e59928f9421d1de7d088587c42f20d2b4829a23f21b9bfaa54",
+      "size": 2372441
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/peter_le_frein_pt1.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/peter_le_frein_pt1.ogg",
+      "sha256": "f3005b0deccebd5187d4d5a51d7865cf6adb338e3a5c27dae2746703ab1c35ae",
+      "size": 1606254
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/peter_le_frein_pt2.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/peter_le_frein_pt2.ogg",
+      "sha256": "61124d21cb62ceaae87463785752f8a0202fdea2b002252ec29f395bf6ddd9c4",
+      "size": 1411195
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/peter_le_frein_pt3.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/peter_le_frein_pt3.ogg",
+      "sha256": "083e0d60bd0759f912bdde1fefd73bc44d7d535c9ca1bafdb7c66e44a5683650",
+      "size": 1485308
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/peter_le_frein_pt4.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/peter_le_frein_pt4.ogg",
+      "sha256": "ca6dd57b8be8ddc1128b63decbda170ffb4005dc75cbcba16e2efdc8eb777626",
+      "size": 1392528
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/peter_le_frein_pt5.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/peter_le_frein_pt5.ogg",
+      "sha256": "f10cb82fe2f652f07590e8c84e855138335ffd85c85c6f53d175a3e0488e7703",
+      "size": 1419977
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_la_femme_de_joie.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_la_femme_de_joie.ogg",
+      "sha256": "1f6e7f050b2b4b34dd10ff970e4c4780a60bfebe052ecd51e3daa8d73bcaad7d",
+      "size": 1754067
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_la_naine_pt1.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_la_naine_pt1.ogg",
+      "sha256": "59d79edf318af2f57d1957df7777d488aea2788f05c874b8f2cd4a025c3573c2",
+      "size": 1172100
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_la_naine_pt2.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_la_naine_pt2.ogg",
+      "sha256": "c934470e9ac322e7b1628eba064999b361563275f2a4d1a3da050738ee8e03fc",
+      "size": 1223826
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_la_naine_pt3.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_la_naine_pt3.ogg",
+      "sha256": "83bd2876993bd5200c1ab7720f6cd95cb14ab7b4769dfb7f5ab142a8117fb283",
+      "size": 1053960
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_le_bouffeur_de_patee.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_le_bouffeur_de_patee.ogg",
+      "sha256": "69400e45ad03229989cce189185cc8ae565e92f72d0474f572c4825da2758226",
+      "size": 1090231
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_sac_a_gros_pt1.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_sac_a_gros_pt1.ogg",
+      "sha256": "8ba18d7954f4762910f29f53b6523e6d5ec31839706bb0b640e74c8d2e57bf57",
+      "size": 1892081
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_sac_a_gros_pt2.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_sac_a_gros_pt2.ogg",
+      "sha256": "0f9d3cd20d7d2eb788f9015f513b588cc65edcb63f694a2a2209651130b21217",
+      "size": 1493761
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds/music/vyrriox_trois_femmes.ogg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds/music/vyrriox_trois_femmes.ogg",
+      "sha256": "08b0bf94261dc8e823c0d012f521af64c44ba180c467fabe0ae44aa86aec2bea",
+      "size": 1792602
+    },
+    {
+      "path": "kubejs/assets/arcadia/sounds.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/sounds.json",
+      "sha256": "8b014ac59a3154247e27a0473b7425d80e8f9d76e7713446218e8c0365b45cce",
+      "size": 5685
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/atm.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/atm.png",
+      "sha256": "615eb608aa057698ec92ca5d47c6cc49a1b310535eb9361d33d4822e4c7cca8d",
+      "size": 39649
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_au_pactole.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_au_pactole.png",
+      "sha256": "6058aa2b1241d085768f7dbb24d4b6c767e3837866624e93484ac65dce324afe",
+      "size": 2862
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_boit_ton_picher.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_boit_ton_picher.png",
+      "sha256": "23cbcec898c4541fe1cd9da4a21e451d6e87e56a8c903b07eb309d0a0c35ccce",
+      "size": 2856
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_custom.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_custom.png",
+      "sha256": "83e32aceb3a71ea22564fa15c2a832a28082c4d3fc99cdbb5b95869ccb9411f2",
+      "size": 253
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_dans_la_tavern_lulu.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_dans_la_tavern_lulu.png",
+      "sha256": "21b796991160f970a6cf400d6d6e878fa09129e2e6b4185f8682f58a72f622dc",
+      "size": 2795
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_janette.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_janette.png",
+      "sha256": "1317e0c55073f401d25a9b50717c2da7161b325411f0935ce9a0793d297a3912",
+      "size": 2801
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_la_boulette_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_la_boulette_pt1.png",
+      "sha256": "20971a27f2db1feadadc26fba03c0f94a6d9b31d305cd0240305e9506cd4fde3",
+      "size": 2845
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_la_boulette_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_la_boulette_pt2.png",
+      "sha256": "a786646a0e9f2947e41f824818191005055f0ad8f7a308ac2708b57a270efb7b",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_mike_le_loulou.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_mike_le_loulou.png",
+      "sha256": "804264c4268b4a1a6c6829eeb15128fcb5d3fcdda95848d69edd25860075ba0a",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt1.png",
+      "sha256": "6d1308de06a8ddb0e06d122300a4336af81493daf55bc3d2094404528084b5e9",
+      "size": 2887
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt2.png",
+      "sha256": "9de380eaf06a99a9510dd9199a2d19263b21d7846905799bdf04a3a313d1ef6d",
+      "size": 2882
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt3.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt3.png",
+      "sha256": "bab948c3ad5482a46679285527af7ce23d00d7954f5c256b5a72a1851e96cdc4",
+      "size": 2892
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt4.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt4.png",
+      "sha256": "199d65fe4f554c8abdbf973a898694ec71d5a62001151c6f1c7c6c72e63a4b63",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt5.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_peter_le_frein_pt5.png",
+      "sha256": "c96a7f2f749eefee3a8c4fa3e944111c11b7b0fe0411b2a749e67092ad9dfc9c",
+      "size": 2864
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_femme_de_joie.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_femme_de_joie.png",
+      "sha256": "f06ee74452107da1fff5811d4e048d38e5a490316989e8b37765a29d840e9b86",
+      "size": 2852
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_naine_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_naine_pt1.png",
+      "sha256": "78a3b964a0cdf8b8cac451c25f721dd9d5bd9550576ca8dc7d539fed20dcc520",
+      "size": 2861
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_naine_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_naine_pt2.png",
+      "sha256": "c22b2f6575a6f3c8c1f0c8cac3734a81676eb6e22d60827222e3d91951435b73",
+      "size": 2890
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_naine_pt3.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_la_naine_pt3.png",
+      "sha256": "e5f6fa32fe65eb616f2f13dc696fb9357f2bb49c4faa287d030cd8000af3c5ea",
+      "size": 2857
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_patee.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_patee.png",
+      "sha256": "5680a7bf97d05bb7fb81b90673df51493241b4bdc64bdab49b89699d4a89094f",
+      "size": 2876
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_sac_a_gros_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_sac_a_gros_pt1.png",
+      "sha256": "46e23f677315018af595c8e37627ca06cd3274aae5a3c854d9b89d5c6b676bdd",
+      "size": 2872
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_sac_a_gros_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_sac_a_gros_pt2.png",
+      "sha256": "6048a53116c0865dd11187cd4229b05dc82b2326f37831c6bfca91a1547221d2",
+      "size": 2903
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_trois_femmes.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/block/music_discs/music_disc_vyrriox_trois_femmes.png",
+      "sha256": "32644d2e1002f9f02ca8c8f7f34cf2bdec0d9b5c254083bf07f6ecf7ef3a499a",
+      "size": 2836
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/ftbquests/rbf_quest.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/ftbquests/rbf_quest.png",
+      "sha256": "23166956231e701e7e0c436236f6d1b5bcbbae74969a6ff81cfd3fe9fe06b3af",
+      "size": 867077
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/_gen_all.py",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/_gen_all.py",
+      "sha256": "23869e035ad8dbac199fb6d1108648d727e450cc6095578cddcdb30ee2d66959",
+      "size": 42936
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/_gen_bridges.py",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/_gen_bridges.py",
+      "sha256": "b25d8be367057f9131cf6dc0f19c6de2caaf64a2e5fb6dd6676d17b6c2157918",
+      "size": 10208
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/_gen_discs.py",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/_gen_discs.py",
+      "sha256": "a6e1f496b695a6a28dde094fc0cb0a5a3b8a56c8489db99cca8a9db0724df704",
+      "size": 7595
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_boots.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_boots.png",
+      "sha256": "4f57e28a7d50356c4a72ee846c8a2859866f32cb84cffb52481868fe033ad2ff",
+      "size": 317
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_candle.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_candle.png",
+      "sha256": "8c0edfdfdb9b175bcb51c74f537289d19425d6e0783e1de9b5a7f42c12fec237",
+      "size": 413
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_chalice.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_chalice.png",
+      "sha256": "12f4df60031d083cda823c2447d70b8fe1d4f67b053c632200c1cac72a33483e",
+      "size": 355
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_chestplate.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_chestplate.png",
+      "sha256": "31d52e6a91ba88941fd710cb7c8ca00c5d8c05e6a78d81445198f125ab3f0270",
+      "size": 504
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_grimoire.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_grimoire.png",
+      "sha256": "ba0ba0ee9f530e9bb21636b592fca29ab77f40a9167dc9ed89552279658680b2",
+      "size": 419
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_helmet.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_helmet.png",
+      "sha256": "853fe314cd6506eaa318c043eb9223ff3810bcb1e08143e2ea61445703b6c801",
+      "size": 504
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_incense.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_incense.png",
+      "sha256": "15f180e5cd58a7b529034fb2eaa97035e8f25d4923ba4fd9ff917f6d34f940e3",
+      "size": 293
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_leggings.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_leggings.png",
+      "sha256": "1219ea5c30497994733a9216930fc43c0a62465d9bbd5d973bce90fa38fdcde5",
+      "size": 312
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_orb.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_orb.png",
+      "sha256": "1a16dbc32fec541578e2f932b05e8ee21f063f42a9142f05e577b674ef1c1041",
+      "size": 1697
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_pendant.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_pendant.png",
+      "sha256": "74b1409eecbf470db962b26c838860619c3f417bd044c5dd59e5fd8d444208a5",
+      "size": 1128
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_relic.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_relic.png",
+      "sha256": "cd77e51dcb5dc7dfb389496e1e3b70f1f18576c4ba2d2907ba860221ebcd6508",
+      "size": 1015
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_scroll.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_scroll.png",
+      "sha256": "8fac4162e23e4a017a2892f224a1b9e968bdbe2751d9ea665b1c45e841b8034a",
+      "size": 541
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_seal.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_seal.png",
+      "sha256": "aa09f1b01d797353584b9d7685c317567a7db9362bb20c94157da43f22342e5d",
+      "size": 1882
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/adept_staff.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/adept_staff.png",
+      "sha256": "3e091707f626552e37bba879451fb82ef8bd9e76f4178b652ad40ff9791bfa01",
+      "size": 735
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/alloy_blend.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/alloy_blend.png",
+      "sha256": "f7620c4aa6a585aa4c5efacb001b7314795f6fb1979803caaca802473e6cd38a",
+      "size": 257
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/arcadia_key.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/arcadia_key.png",
+      "sha256": "4e45f274a2259ca2062d48d3e5d53be3263d577d27d43ee9754760e7be11c3dd",
+      "size": 1048
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/arcane_circuit.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/arcane_circuit.png",
+      "sha256": "868871026dd1a9b9e0f96bb1703de6d828225fcb590e76daf4618109ee45d347",
+      "size": 415
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/basic_key.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/basic_key.png",
+      "sha256": "dd97c985d4c9fcacaf5ec2a5ec816c4db75fe7f383725213f6004680acecb4eb",
+      "size": 942
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/common_key.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/common_key.png",
+      "sha256": "2bcb6af6aca3c90ba07378a15eb953f21e4351e3d4183937d4f1b6fe34fff2ff",
+      "size": 1026
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/containment_field_generator.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/containment_field_generator.png",
+      "sha256": "1603753ecf670cbe051d7bade31e92e6f38075e1f87e1c82f127e0eeacc152f2",
+      "size": 2553
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/diamond_matrix.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/diamond_matrix.png",
+      "sha256": "3d741c60cba56f68245973f48df32059750d51ddafc96c289677a75741f05769",
+      "size": 622
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/energized_crystal.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/energized_crystal.png",
+      "sha256": "5eaf38278566e9f4c2edb1098c66648df3a99e9fb009ff681794382e10a2940a",
+      "size": 610
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/energized_dust.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/energized_dust.png",
+      "sha256": "beb5d4863bc3e51b9b8f6df34d82719c9861db7031b19a71189a9ed3b94f9da8",
+      "size": 385
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/ethereal_alloy.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/ethereal_alloy.png",
+      "sha256": "647084120e8f7b3e8655b6817904b198321f2375aea712e84b37e7d8b2b05bb9",
+      "size": 325
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/fusion_core.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/fusion_core.png",
+      "sha256": "ad1725d7cf11cbfaaccc16405ee43d298f54d3fb5b1f8d41a0f96673948d8459",
+      "size": 2781
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/fusion_matrix.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/fusion_matrix.png",
+      "sha256": "d950607dd5f37446d6f727cd2781f0270ef20951832caff42420527268c2f8d8",
+      "size": 2615
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/hardened_steel_compound.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/hardened_steel_compound.png",
+      "sha256": "e41b2ce715bf9621ab1c267a4b906118a820786506203e1b0b26909a9f50580f",
+      "size": 308
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heart_of_arcadia.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heart_of_arcadia.png",
+      "sha256": "aec5237535764d7048be6ee14470bef0b39b244eb0313278af0e941bb7a4749c",
+      "size": 517
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_blood_vial.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_blood_vial.png",
+      "sha256": "dbf7aafd08ee17a8e0bf1a7043759f45040fe23e9623cf28b6c0787f8352e943",
+      "size": 1317
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_bone_charm.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_bone_charm.png",
+      "sha256": "a7d32560cab593147bbcadf7ecc164a44549c9c27b1debff56ab7dd44286158c",
+      "size": 386
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_boots.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_boots.png",
+      "sha256": "16f008d132f08af76ff4f5619c6e7f12e67a6a23a22a8c0e6a7931f9a886b99b",
+      "size": 309
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_chain.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_chain.png",
+      "sha256": "1602d2ade560ac4b1d196306cf832133084480dceaa0a799bedc2a0294e95de5",
+      "size": 481
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_chestplate.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_chestplate.png",
+      "sha256": "3cb3e2a9cf4c159d63220efecd5f61e57453780075981589c1c99037934956ed",
+      "size": 498
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_crystal.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_crystal.png",
+      "sha256": "aa479712ff19bce08916589b16fd90f0cdcde9c9c9118b7f2f3219e1af4c2db0",
+      "size": 616
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_dagger.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_dagger.png",
+      "sha256": "6ac680486f794b089a8799fd42ba60891d41aad59d80eddcf6aac334f9b0755d",
+      "size": 670
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_helmet.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_helmet.png",
+      "sha256": "d72da069d5b189dadec0e76815675dda9c9ba691c40feffb6d74bcc54e9b88e4",
+      "size": 490
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_icon.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_icon.png",
+      "sha256": "dbb97ca13ef0687fd4ffae0c9a43e765c82d53e65316cc89afe9cf0edfcb1de6",
+      "size": 478
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_leggings.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_leggings.png",
+      "sha256": "562d5790d243dcd957fb74f4a6cc7a21efe8a4c70b966fb69b5d93c141f2c409",
+      "size": 300
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_mark.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_mark.png",
+      "sha256": "b2fb1e492ce9faa433d2f856276152f9e0fd6ba9611c54c2a4d88a3f14f47f83",
+      "size": 609
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_poison_flask.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_poison_flask.png",
+      "sha256": "68a99c1512c9f9bf34b82b7add79d4e3c928122095bf6596f2bc672ab63b3c00",
+      "size": 1438
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_skull_totem.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_skull_totem.png",
+      "sha256": "f44668561957a4f939db31586edc53b2db3ed2f16c704517e61fcf7e5459ad29",
+      "size": 609
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/heretic_tome.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/heretic_tome.png",
+      "sha256": "3d691ae3e952f474877617fcdcfc65bd61ed1000ef3a4637637539c86b35a9fb",
+      "size": 434
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/incomplete_neutron_reflector.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/incomplete_neutron_reflector.png",
+      "sha256": "d0303aa8bf14d0693e485dce9502397df3f93ee32c9ad3eae30d187dd9f33934",
+      "size": 2146
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/incomplete_plasma_cell.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/incomplete_plasma_cell.png",
+      "sha256": "c0e0e8135cf5ee3e607bc7f0c6d75cae0c9df8fa1c6de0d6636f54ad5d828408",
+      "size": 567
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/incomplete_reinforced_casing.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/incomplete_reinforced_casing.png",
+      "sha256": "8968cb6d78bcd64f008dc928336a3bba291792f07cc775c75a9c9eb6c8143e88",
+      "size": 614
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/industrial_heart.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/industrial_heart.png",
+      "sha256": "5f78de996f998def8a896b7f9dd0d384dfa5682f67bb3c61dd2f5494863fc186",
+      "size": 380
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/infused_steel.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/infused_steel.png",
+      "sha256": "a9bb0d710d79ab67982f8669e452bb1e762e981f6d4cf70f77d2472db438c88f",
+      "size": 300
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/legendary_key.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/legendary_key.png",
+      "sha256": "4bdb101905dca4be9969bc802ae6634047b84a415e149e9a8239a2143bbc0e0f",
+      "size": 1052
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_au_pactole.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_au_pactole.png",
+      "sha256": "6058aa2b1241d085768f7dbb24d4b6c767e3837866624e93484ac65dce324afe",
+      "size": 2862
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_boit_ton_picher.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_boit_ton_picher.png",
+      "sha256": "23cbcec898c4541fe1cd9da4a21e451d6e87e56a8c903b07eb309d0a0c35ccce",
+      "size": 2856
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_custom.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_custom.png",
+      "sha256": "83e32aceb3a71ea22564fa15c2a832a28082c4d3fc99cdbb5b95869ccb9411f2",
+      "size": 253
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_dans_la_tavern_lulu.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_dans_la_tavern_lulu.png",
+      "sha256": "21b796991160f970a6cf400d6d6e878fa09129e2e6b4185f8682f58a72f622dc",
+      "size": 2795
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_janette.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_janette.png",
+      "sha256": "1317e0c55073f401d25a9b50717c2da7161b325411f0935ce9a0793d297a3912",
+      "size": 2801
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_la_boulette_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_la_boulette_pt1.png",
+      "sha256": "20971a27f2db1feadadc26fba03c0f94a6d9b31d305cd0240305e9506cd4fde3",
+      "size": 2845
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_la_boulette_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_la_boulette_pt2.png",
+      "sha256": "a786646a0e9f2947e41f824818191005055f0ad8f7a308ac2708b57a270efb7b",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_mike_le_loulou.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_mike_le_loulou.png",
+      "sha256": "804264c4268b4a1a6c6829eeb15128fcb5d3fcdda95848d69edd25860075ba0a",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt1.png",
+      "sha256": "6d1308de06a8ddb0e06d122300a4336af81493daf55bc3d2094404528084b5e9",
+      "size": 2887
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt2.png",
+      "sha256": "9de380eaf06a99a9510dd9199a2d19263b21d7846905799bdf04a3a313d1ef6d",
+      "size": 2882
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt3.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt3.png",
+      "sha256": "bab948c3ad5482a46679285527af7ce23d00d7954f5c256b5a72a1851e96cdc4",
+      "size": 2892
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt4.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt4.png",
+      "sha256": "199d65fe4f554c8abdbf973a898694ec71d5a62001151c6f1c7c6c72e63a4b63",
+      "size": 2847
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt5.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_peter_le_frein_pt5.png",
+      "sha256": "c96a7f2f749eefee3a8c4fa3e944111c11b7b0fe0411b2a749e67092ad9dfc9c",
+      "size": 2864
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_femme_de_joie.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_femme_de_joie.png",
+      "sha256": "f06ee74452107da1fff5811d4e048d38e5a490316989e8b37765a29d840e9b86",
+      "size": 2852
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_naine_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_naine_pt1.png",
+      "sha256": "78a3b964a0cdf8b8cac451c25f721dd9d5bd9550576ca8dc7d539fed20dcc520",
+      "size": 2861
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_naine_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_naine_pt2.png",
+      "sha256": "c22b2f6575a6f3c8c1f0c8cac3734a81676eb6e22d60827222e3d91951435b73",
+      "size": 2890
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_naine_pt3.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_la_naine_pt3.png",
+      "sha256": "e5f6fa32fe65eb616f2f13dc696fb9357f2bb49c4faa287d030cd8000af3c5ea",
+      "size": 2857
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_patee.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_patee.png",
+      "sha256": "5680a7bf97d05bb7fb81b90673df51493241b4bdc64bdab49b89699d4a89094f",
+      "size": 2876
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_sac_a_gros_pt1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_sac_a_gros_pt1.png",
+      "sha256": "46e23f677315018af595c8e37627ca06cd3274aae5a3c854d9b89d5c6b676bdd",
+      "size": 2872
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_sac_a_gros_pt2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_sac_a_gros_pt2.png",
+      "sha256": "6048a53116c0865dd11187cd4229b05dc82b2326f37831c6bfca91a1547221d2",
+      "size": 2903
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/music_disc_vyrriox_trois_femmes.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/music_disc_vyrriox_trois_femmes.png",
+      "sha256": "32644d2e1002f9f02ca8c8f7f34cf2bdec0d9b5c254083bf07f6ecf7ef3a499a",
+      "size": 2836
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/nether_concentrate.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/nether_concentrate.png",
+      "sha256": "25de35d1e41aad01109a24037803d3ecaac1c8605693e7078acbdbcf25b02864",
+      "size": 384
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/neutron_reflector.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/neutron_reflector.png",
+      "sha256": "e43378dd6731c3d4dde413859d7a9e6e7aa2382075b6a2e3056c160f9884373e",
+      "size": 930
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/plasma_cell.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/plasma_cell.png",
+      "sha256": "4decff8a168f4c4447f2db613045038360d92f3e149df791a30fab28aa2edaa0",
+      "size": 575
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/quantum_circuit.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/quantum_circuit.png",
+      "sha256": "51dbf695107596f062a702c1656a285acd94fb0d6ef7d40559429c5050cd2412",
+      "size": 410
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/rare_key.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/rare_key.png",
+      "sha256": "e4d8f0c293276f04be410d06414bcb07e5e24964a82e80ce5865ba111e65932c",
+      "size": 1056
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/refined_alloy_ingot.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/refined_alloy_ingot.png",
+      "sha256": "fd7fb779e8a20bc612d4c7681ce174387fe2ededd5fd79b63b40a497a3cd5a47",
+      "size": 269
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/reinforced_casing.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/reinforced_casing.png",
+      "sha256": "d51b08218bc95ff7773c11ed009aba2a348dc498a98f07b792225520bd80407b",
+      "size": 647
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/rune_matrix.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/rune_matrix.png",
+      "sha256": "4bce1d47042bba828c87dec8fc03fd4e176e8fb758ad5c9a175ebdab96390a48",
+      "size": 469
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/thermal_conductor.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/thermal_conductor.png",
+      "sha256": "7f7d65abcf1af7738219ec77ccd4816664ea03de946e0b4e2151972d7255340c",
+      "size": 438
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/token_casino.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/token_casino.png",
+      "sha256": "924d2ab48e93938c48952f55d7be8c4e46e009b1960a061adee7c9834ce69b0d",
+      "size": 2160
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/treated_composite_plate.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/treated_composite_plate.png",
+      "sha256": "9d9cf4a5fad9b3ab23ac597dcd4bb86d8eb13923bf7995ce78616dcdc4636c92",
+      "size": 433
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/vote_key.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/vote_key.png",
+      "sha256": "c6f73076bee1c9308859e1d25a14d27ba233d41011aaa4d5b6def9d09dfc4940",
+      "size": 1038
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/item/wiring_bundle.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/item/wiring_bundle.png",
+      "sha256": "2f7a9e5a495731174e84b3e97888369fbbe4b58c31bd7e2b8048f20d9b9ac03d",
+      "size": 241
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/models/armor/adept.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/models/armor/adept.png",
+      "sha256": "7b4da1e01efcc6babe9140acc40606d201015503c70e0c202b0ea123efc3d840",
+      "size": 1041
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/models/armor/adept_layer_1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/models/armor/adept_layer_1.png",
+      "sha256": "7b4da1e01efcc6babe9140acc40606d201015503c70e0c202b0ea123efc3d840",
+      "size": 1041
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/models/armor/adept_layer_2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/models/armor/adept_layer_2.png",
+      "sha256": "9d1a92145456973147dcb405a2b17a7e3b3d58a6fa4b7a99d8164b96fe08c9b9",
+      "size": 496
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/models/armor/heretic.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/models/armor/heretic.png",
+      "sha256": "4d60d17355cd663f7c1e16202185273d8b9c171ef6e5b4567b43e0e86665f1df",
+      "size": 1119
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/models/armor/heretic_layer_1.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/models/armor/heretic_layer_1.png",
+      "sha256": "4d60d17355cd663f7c1e16202185273d8b9c171ef6e5b4567b43e0e86665f1df",
+      "size": 1119
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/models/armor/heretic_layer_2.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/models/armor/heretic_layer_2.png",
+      "sha256": "a7561afbc874b6cddeca07856b580108f15cdb2babdb87d6f80158bd545bdf80",
+      "size": 488
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/boiler.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/boiler.png",
+      "sha256": "7da8e4a219c2befde28fe3b6a6e493c9ba327226b9d70b1865bf47e2b09c6d6e",
+      "size": 400907
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_casing.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_casing.png",
+      "sha256": "8b72120e7d0dbdfa713f2edd0a1a8149590a2acc9c5a508a7f90f759bd6a8659",
+      "size": 5892
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_crystal.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_crystal.png",
+      "sha256": "ee1d2c8ba36f96b779e515db100e94d90baa49ec99b2036ccae11329b5ae445f",
+      "size": 5796
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_hard.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_hard.png",
+      "sha256": "8c9d8ab435ff7aba1dba002969de9cf21999d356dfd8e237f89dbb95b7bb8b13",
+      "size": 6075
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_metals.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_metals.png",
+      "sha256": "5bc549e8091ac3c4de379f9b00463d815d2ab9e5a1b91afe045806877fed962c",
+      "size": 4349
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_plasma.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_plasma.png",
+      "sha256": "d80608a0cf0f3ecfeec0336174697d375eb0859d996733c3a2ae3ab6527d48cc",
+      "size": 6484
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_plate.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_plate.png",
+      "sha256": "a1ab928a7e2c1c9ac444712d55525bb0048852c6a0c3afa6673af82c24fdd82d",
+      "size": 6433
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_quantum.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_quantum.png",
+      "sha256": "c5777503a9a04ef1e5d74656d934e2ee00bb275bfbfcf23cbef8432eb4a2226a",
+      "size": 4772
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/card_thermal.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/card_thermal.png",
+      "sha256": "bcc39d67925e8515107ca07da5096af77e5324d76905ee4cf8186697542848fb",
+      "size": 6272
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/evapo.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/evapo.png",
+      "sha256": "4be5b40356c3afcded909f18eaca8ccb97f4378a2a2a34bdb0bbee8f69301478",
+      "size": 969705
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/fusion.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/fusion.png",
+      "sha256": "69b6bf5da005ed3ea5282a6069b9fb82b17b9c6df642794bed913984b845306e",
+      "size": 98071
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/induc.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/induc.png",
+      "sha256": "6c6fbbc25f356bb7c47ed806fba7843ff47cd1dd15ddd5654c83dbfcb82dd6e5",
+      "size": 377963
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/isotop.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/isotop.png",
+      "sha256": "10ff1dbaff715a34b0b3c0c171aa95736fe3456a183fd1926b3337371010c5b9",
+      "size": 84254
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/mekareact.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/mekareact.png",
+      "sha256": "884c4619bfb3e52efbcef43c63ed2cbaba81081df02e10a247f30acc3bf03ec5",
+      "size": 2219741
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/reac.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/reac.png",
+      "sha256": "0177f59baafc43c814d58ef7018a4cea3f7410db366f9f605f6ee6f837572c7c",
+      "size": 416473
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/sps.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/sps.png",
+      "sha256": "b26d2c353850a6774dd872a835786b2c111ac3573d53b4862c3856a277f37ac6",
+      "size": 329070
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/tfmg_chem.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/tfmg_chem.png",
+      "sha256": "86a5c934ad593cba3e300f2dff5e9636255da9fa946b0eeacb6f5b88d65d8ec3",
+      "size": 3265
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/tfmg_elec.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/tfmg_elec.png",
+      "sha256": "94d70f6201e19251e31c4610ac85af7c6ce99a46033f66a0636b17699db230a4",
+      "size": 2168
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/tfmg_oil.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/tfmg_oil.png",
+      "sha256": "a91ee292ff25579ca08e701a685af70186c5edc009f63b078f5aefe62cb62cd8",
+      "size": 2332
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/tfmg_power.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/tfmg_power.png",
+      "sha256": "70a00af1fd1687b5b9ce416a29ab63a82e288c810c3a8b3dfb82aea8b6fb57f6",
+      "size": 3030
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/tfmg_steel.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/tfmg_steel.png",
+      "sha256": "c42b3f86e911af299fbd6390b8bb120468bec92eb3b16bbb122685bac91bed57",
+      "size": 3403
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/tower_runic.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/tower_runic.png",
+      "sha256": "20b2bb0c6c3658acae494ff478c4c4f24e06f6e8ffe09fb28ef5a5fe98c679b6",
+      "size": 9204
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/quest/turbine.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/quest/turbine.png",
+      "sha256": "de9b6742e94ef5166f540438b504ce64136c7394d5d286e64c9936d00ac4b83b",
+      "size": 121064
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/title/arcadia.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/title/arcadia.png",
+      "sha256": "97ca0cc9c6bc479bd8e2eb4d9ed389ab74e8f6e6fb62e1cc2b1a90730cd066f8",
+      "size": 420193
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/title/induc.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/title/induc.png",
+      "sha256": "6c6fbbc25f356bb7c47ed806fba7843ff47cd1dd15ddd5654c83dbfcb82dd6e5",
+      "size": 377963
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/title/isotop.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/title/isotop.png",
+      "sha256": "10ff1dbaff715a34b0b3c0c171aa95736fe3456a183fd1926b3337371010c5b9",
+      "size": 84254
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/title/reac.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/title/reac.png",
+      "sha256": "0177f59baafc43c814d58ef7018a4cea3f7410db366f9f605f6ee6f837572c7c",
+      "size": 416473
+    },
+    {
+      "path": "kubejs/assets/arcadia/textures/title/sps.png",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia/textures/title/sps.png",
+      "sha256": "b26d2c353850a6774dd872a835786b2c111ac3573d53b4862c3856a277f37ac6",
+      "size": 329070
+    },
+    {
+      "path": "kubejs/assets/arcadia_lib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia_lib/lang/fr_fr.json",
+      "sha256": "7e9b3e90f361d36e158d1b5eb4bbeb96268ad42fba0ec1fa53d3e8bd0800458f",
+      "size": 96
+    },
+    {
+      "path": "kubejs/assets/arcadia_pets/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia_pets/lang/fr_fr.json",
+      "sha256": "631f2cb6ad9b96d7feaa8e89708413d9336a2622d3abc738fc9db5d17fe5bb74",
+      "size": 934
+    },
+    {
+      "path": "kubejs/assets/arcadia_prestige/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia_prestige/lang/fr_fr.json",
+      "sha256": "40c247173e34696dcf1b851e6609675242c09c6e7f48de663dede8560d4ef1d6",
+      "size": 1549
+    },
+    {
+      "path": "kubejs/assets/arcadia_spawn/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadia_spawn/lang/fr_fr.json",
+      "sha256": "4d1b92ef02fa1a0c124d4692f719ffcbcfd7efa2cd85d611b412b1b6a0e0dce0",
+      "size": 92
+    },
+    {
+      "path": "kubejs/assets/arcadiaadminpanel/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadiaadminpanel/lang/fr_fr.json",
+      "sha256": "34afcbb66bb46a3f4283f4bbe8efd40a7e1c2345a182e4dfd774e4c666b01d8d",
+      "size": 105
+    },
+    {
+      "path": "kubejs/assets/arcadiaguard/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadiaguard/lang/fr_fr.json",
+      "sha256": "8e143e9be2763fea24cf27f8a981c7d438a26da7bc5dbbb9610eae1959175d11",
+      "size": 2028
+    },
+    {
+      "path": "kubejs/assets/arcadialootbox/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arcadialootbox/lang/fr_fr.json",
+      "sha256": "673cc8d7a422ced7258b75044cde1891f5e2a9988ff742228c3c9b4a06687f8f",
+      "size": 44
+    },
+    {
+      "path": "kubejs/assets/armourers_workshop/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/armourers_workshop/lang/fr_fr.json",
+      "sha256": "b1a52194d0b3aff848d1b65a70a06e5424514bed0d1dc179dee9e8fc9a400a30",
+      "size": 135
+    },
+    {
+      "path": "kubejs/assets/ars_additions/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ars_additions/lang/fr_fr.json",
+      "sha256": "5cef546a19d0aa80ac93f8efd353db094e90d677fd660a6985cb94b98dd6010c",
+      "size": 30964
+    },
+    {
+      "path": "kubejs/assets/ars_creo/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ars_creo/lang/fr_fr.json",
+      "sha256": "e330726f68453bc5fdeceb50aa22c3aac97270ee1f4116e00e948f3c2fe641d2",
+      "size": 1960
+    },
+    {
+      "path": "kubejs/assets/ars_nouveau/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ars_nouveau/lang/fr_fr.json",
+      "sha256": "8fe22b028fd672ccba8f244218657286c348a692b008025edb9650b6685d4089",
+      "size": 97758
+    },
+    {
+      "path": "kubejs/assets/ars_ocultas/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ars_ocultas/lang/fr_fr.json",
+      "sha256": "2ba5be2fce3ba1fc9344fdb2c03f235b2843a91f95f2fbf8ad7e3cb1786efd1c",
+      "size": 78
+    },
+    {
+      "path": "kubejs/assets/ars_technica/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ars_technica/lang/fr_fr.json",
+      "sha256": "073dd55e0e799c2d4f757ec9e185b5c182100c04ac7a0df7d115ee73cadc4e31",
+      "size": 17512
+    },
+    {
+      "path": "kubejs/assets/arsdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/arsdelight/lang/fr_fr.json",
+      "sha256": "d51f267f1247e551a6265e2cf849a5952b73b1f052ed1869e68cc06092e9d6c4",
+      "size": 24117
+    },
+    {
+      "path": "kubejs/assets/artifacts/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/artifacts/lang/en_us.json",
+      "sha256": "e742c858cb1a02bc9d61124bdc8960b3eb4d8b1c3ca4a0cca5ca6e26f96960e7",
+      "size": 113
+    },
+    {
+      "path": "kubejs/assets/artifacts/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/artifacts/lang/fr_fr.json",
+      "sha256": "48acf94d47181fceecd7df82dc05615c631b30f0f280a98c8cef8aab3cb95426",
+      "size": 43751
+    },
+    {
+      "path": "kubejs/assets/baguettelib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/baguettelib/lang/fr_fr.json",
+      "sha256": "188c8fd333334cfbee6f29fca5577b2f00fc623e71dea0481c58a2aa2ce82e6c",
+      "size": 158
+    },
+    {
+      "path": "kubejs/assets/balm/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/balm/lang/fr_fr.json",
+      "sha256": "ad79cd460abb688ce78f202db2303dbbe83d9d077b5a628ea8f832775b6268a5",
+      "size": 2664
+    },
+    {
+      "path": "kubejs/assets/barbequesdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/barbequesdelight/lang/fr_fr.json",
+      "sha256": "ad837f7bc3ceab049f18086c137088463b4c348fad8042abb81a528c2b35fd0a",
+      "size": 6588
+    },
+    {
+      "path": "kubejs/assets/bellsandwhistles/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/bellsandwhistles/lang/fr_fr.json",
+      "sha256": "908e1d3bac5bf8eb9b7c60e2bbe589f989768808af24d4fbe1a847f32748c1bb",
+      "size": 5774
+    },
+    {
+      "path": "kubejs/assets/betterarcheology/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/betterarcheology/lang/fr_fr.json",
+      "sha256": "f63669d6e3a4ca9b40c3b0dc9a148857b6040088fa8ee202dd2ba14a6a43347d",
+      "size": 3875
+    },
+    {
+      "path": "kubejs/assets/bettercombat/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/bettercombat/lang/fr_fr.json",
+      "sha256": "e02ec0bdee0ab7718f745101a81c0d9d1ca17bc7908a9539fe5422c77c018219",
+      "size": 1607
+    },
+    {
+      "path": "kubejs/assets/bettercopper/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/bettercopper/lang/fr_fr.json",
+      "sha256": "ff8c97b61e56454859e0ca8bf3a62bdad37eee249491114edf3528620aceebe8",
+      "size": 1946
+    },
+    {
+      "path": "kubejs/assets/betterf3/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/betterf3/lang/fr_fr.json",
+      "sha256": "a64ba95345a8fd43dbfd617d79dd0020dfd1f4a1d4af5f74be75f877d7389904",
+      "size": 621
+    },
+    {
+      "path": "kubejs/assets/betterfpsdist/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/betterfpsdist/lang/fr_fr.json",
+      "sha256": "5bdef4cb5a726ae3e90fd8c40994bdc5ef146dbf1d5939ad992c8d7b05fc6f09",
+      "size": 155
+    },
+    {
+      "path": "kubejs/assets/betterthirdperson/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/betterthirdperson/lang/fr_fr.json",
+      "sha256": "f25abb97df38f569b4026a06207c15264493e3a4d95ff5c4d10a6146419cfb31",
+      "size": 766
+    },
+    {
+      "path": "kubejs/assets/biomesoplenty/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/biomesoplenty/lang/fr_fr.json",
+      "sha256": "ca28a3e244a8626c81ad1b5091eeea461406c2f0445495b5d2856a6ca6d993eb",
+      "size": 2691
+    },
+    {
+      "path": "kubejs/assets/bookshelf/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/bookshelf/lang/fr_fr.json",
+      "sha256": "23a0db6903b130ae361caa6cf80c7e5a945384c882e3bd758d3655bba1686636",
+      "size": 14782
+    },
+    {
+      "path": "kubejs/assets/botanypots/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/botanypots/lang/fr_fr.json",
+      "sha256": "113821b3b55749f373bf0afda8a96e61345aa15815c64f15ddbb41e4d1f87fd2",
+      "size": 40911
+    },
+    {
+      "path": "kubejs/assets/brewinandchewin/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/brewinandchewin/lang/fr_fr.json",
+      "sha256": "4d74e9bf9f6abb2bba8fb76a213f8d67dd34419de09f0cd4d1c90d6b48e2db78",
+      "size": 5420
+    },
+    {
+      "path": "kubejs/assets/buildinggadgets2/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/buildinggadgets2/lang/fr_fr.json",
+      "sha256": "628ecc7a48f2c811463928507edca9113688b96e9a5ca52f027e9d04468b9c07",
+      "size": 729
+    },
+    {
+      "path": "kubejs/assets/burgermod/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/burgermod/lang/fr_fr.json",
+      "sha256": "f018ce4dfecb808ad53472115dcd652383417358f88149bcc5e3c595b149759b",
+      "size": 5281
+    },
+    {
+      "path": "kubejs/assets/cable_facades/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cable_facades/lang/fr_fr.json",
+      "sha256": "f4e259fb38fee3fa7e9922a3f02cc7f7e096ce4208c53e74e37a5f908cd1bcef",
+      "size": 1719
+    },
+    {
+      "path": "kubejs/assets/caelus/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/caelus/lang/fr_fr.json",
+      "sha256": "36655c4a0585c808602ad3bb180585aeb1adc51a75d562ac7d6783de4bb40299",
+      "size": 66
+    },
+    {
+      "path": "kubejs/assets/charginggadgets/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/charginggadgets/lang/fr_fr.json",
+      "sha256": "c9d96f026e600453782008b20229efee02df1b088fdf45d6bc52050f810040a7",
+      "size": 386
+    },
+    {
+      "path": "kubejs/assets/charmofundying/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/charmofundying/lang/fr_fr.json",
+      "sha256": "5ffef3cf049acfa3ac946ecb5ce5393b8441e3f06e5a1a44c65dfe96ad7c7314",
+      "size": 874
+    },
+    {
+      "path": "kubejs/assets/chat_heads/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/chat_heads/lang/fr_fr.json",
+      "sha256": "9545fb745aa968f7895feddf988b20cd64a14e2027be3ca05958268267bf9d31",
+      "size": 1570
+    },
+    {
+      "path": "kubejs/assets/chefsdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/chefsdelight/lang/fr_fr.json",
+      "sha256": "7190c6d0e2c6a43d16107f75a2540ed9ac5af2eab45fdaeba6a35ca9712f8b94",
+      "size": 122
+    },
+    {
+      "path": "kubejs/assets/chipped/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/chipped/lang/fr_fr.json",
+      "sha256": "5b3f45bac1ba84204dc99aa542c182d2724f5dd06fc054c25c681d35b1d59d10",
+      "size": 544967
+    },
+    {
+      "path": "kubejs/assets/choccos_mobs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/choccos_mobs/lang/fr_fr.json",
+      "sha256": "c872462a445a571838d51e72b2c44a5edfb21da9feadff95139ab974423fae75",
+      "size": 4257
+    },
+    {
+      "path": "kubejs/assets/chunkactivitytracker/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/chunkactivitytracker/lang/fr_fr.json",
+      "sha256": "12e2016c0e04d9be2cebce4751c1b80af1c33589abe43d5470058cb393eb56e6",
+      "size": 104
+    },
+    {
+      "path": "kubejs/assets/cloth-config2/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cloth-config2/lang/fr_fr.json",
+      "sha256": "979cec32c482a119a41052502a80731c74149bc41bc2cc0a956fc9a6d24d8a62",
+      "size": 385
+    },
+    {
+      "path": "kubejs/assets/colorfulhearts/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/colorfulhearts/lang/fr_fr.json",
+      "sha256": "151812f77b4549ab3c329cb9a476fbf0d329d14e6176c5110d33c35c0b0ac9a5",
+      "size": 919
+    },
+    {
+      "path": "kubejs/assets/colorwheel/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/colorwheel/lang/fr_fr.json",
+      "sha256": "0f50892a1277d0db4f8a879a4661c0739ec0eb8f59b8bc1c3ab710ba0e69ff75",
+      "size": 2297
+    },
+    {
+      "path": "kubejs/assets/comforts/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/comforts/lang/fr_fr.json",
+      "sha256": "6c2555a4db57662f70bce90a0fe257b8b7a5375b42e7cd417e536b0725421517",
+      "size": 425
+    },
+    {
+      "path": "kubejs/assets/computercraft/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/computercraft/lang/fr_fr.json",
+      "sha256": "bbcfa57b94231b37e19d4aac03bd54a6746a741c660e18c45f4125eecf0229f1",
+      "size": 238
+    },
+    {
+      "path": "kubejs/assets/connectedglass/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/connectedglass/lang/fr_fr.json",
+      "sha256": "eb55bf0479bf420580a281a4cc9976495a9729a1f88c95a1570f7d8766dc5e30",
+      "size": 53
+    },
+    {
+      "path": "kubejs/assets/construction_blocks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/construction_blocks/lang/fr_fr.json",
+      "sha256": "90428b2bbf9fb25e1dc506ab534b5f2bb1503bde72031b0862a3fba92a1821d9",
+      "size": 349
+    },
+    {
+      "path": "kubejs/assets/controlling/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/controlling/lang/fr_fr.json",
+      "sha256": "d5820ef57824681607f6d1c993a783186dd9efb951b58ef8aa6860b65db42daf",
+      "size": 73
+    },
+    {
+      "path": "kubejs/assets/copperdeco/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/copperdeco/lang/fr_fr.json",
+      "sha256": "ffd84f46c690ff917b0422f63f9c532ed5075f910f323fe7ec39a58002c2a5f0",
+      "size": 5492
+    },
+    {
+      "path": "kubejs/assets/copycats/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/copycats/lang/fr_fr.json",
+      "sha256": "e53d5dbba8f23f4c8f80da4f2fd4a37b586fc74c9d98f2aa084e75a1fa2f72ae",
+      "size": 3901
+    },
+    {
+      "path": "kubejs/assets/corn_delight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/corn_delight/lang/fr_fr.json",
+      "sha256": "2453a6e5758488deb3b288a1ac7c9d4102bc1cc77f73b54f5a2f0526d3103a3c",
+      "size": 4854
+    },
+    {
+      "path": "kubejs/assets/corpse/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/corpse/lang/fr_fr.json",
+      "sha256": "b3e79104432fb87f908c3303386a21f987c8da52d00f1c999a25362021e61419",
+      "size": 145
+    },
+    {
+      "path": "kubejs/assets/cosmeticarmorreworked/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cosmeticarmorreworked/lang/fr_fr.json",
+      "sha256": "20b504fbbca8d2099b853e969a11bbaec90a596d0b62e6d518af80f817730b4e",
+      "size": 39
+    },
+    {
+      "path": "kubejs/assets/cosmeticarmoursmod/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cosmeticarmoursmod/lang/en_us.json",
+      "sha256": "4bc692aca8621b5add767761329eda28d1a077ebb5faea259330342dc64b957c",
+      "size": 235
+    },
+    {
+      "path": "kubejs/assets/cosmeticarmoursmod/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cosmeticarmoursmod/lang/fr_fr.json",
+      "sha256": "e8c197ce1d7a3ae3719bc92078770a70ceed405d33b814232c5eebb6d88b20b6",
+      "size": 110868
+    },
+    {
+      "path": "kubejs/assets/cosmeticcorpsecompat/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cosmeticcorpsecompat/lang/fr_fr.json",
+      "sha256": "3afae866b10d727efedb200fd9b6b227c00655b8f1ad4c3409178cb7246dc6e8",
+      "size": 185
+    },
+    {
+      "path": "kubejs/assets/cosmeticweaponsmod/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cosmeticweaponsmod/lang/en_us.json",
+      "sha256": "0e671397237a81dae332db420bfe361fb539223380923e0c6eaf62dbb824e383",
+      "size": 68
+    },
+    {
+      "path": "kubejs/assets/cosmeticweaponsmod/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cosmeticweaponsmod/lang/fr_fr.json",
+      "sha256": "53caa4e6e5ad5a3ff6deb69d295ba2de0e358d18979efa1ee38c6f4aef7f3273",
+      "size": 20556
+    },
+    {
+      "path": "kubejs/assets/crabbersdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/crabbersdelight/lang/fr_fr.json",
+      "sha256": "926f8e3e379ac6b70a7a1eab351a417883b390b70aa1d7220fba0ceb3838c737",
+      "size": 16666
+    },
+    {
+      "path": "kubejs/assets/craftpresence/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/craftpresence/lang/fr_fr.json",
+      "sha256": "f02a33e45e63943b963e201f404e68ce52e16e0f82e63229e6fcdef6e3b6ec21",
+      "size": 52991
+    },
+    {
+      "path": "kubejs/assets/cratedelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cratedelight/lang/fr_fr.json",
+      "sha256": "7040f598087661f5ed4a619e26117c85e37add273f5a0116b5ba5ba5ef601b2a",
+      "size": 554
+    },
+    {
+      "path": "kubejs/assets/create/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create/lang/fr_fr.json",
+      "sha256": "09fc7f4cc0d91cdb3fb0c7c8844f716408e360cbe12fbd1e3ef0908814cc65e3",
+      "size": 140
+    },
+    {
+      "path": "kubejs/assets/create_aquatic_ambitions/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_aquatic_ambitions/lang/fr_fr.json",
+      "sha256": "5418aed8d0e7ca383cefd596fda88714b6b66b6cd14fbcd37a2ea2bcb58397ab",
+      "size": 4747
+    },
+    {
+      "path": "kubejs/assets/create_central_kitchen/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_central_kitchen/lang/fr_fr.json",
+      "sha256": "f44b9122748cf0223c29566fec19ae8e86381e39643537af69112aaa3e8458a8",
+      "size": 4366
+    },
+    {
+      "path": "kubejs/assets/create_confectionery/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_confectionery/lang/fr_fr.json",
+      "sha256": "08b05bd7a873bdf6d10a6038c28ba60d4ba3a1e2a8e43b7b764af2505380dda2",
+      "size": 18758
+    },
+    {
+      "path": "kubejs/assets/create_connected/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_connected/lang/fr_fr.json",
+      "sha256": "1246bc290502a42e3c05e2dfbf522dea2b3eaf93b0eba9c81d3ec999d3364904",
+      "size": 1347
+    },
+    {
+      "path": "kubejs/assets/create_cuisine/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_cuisine/lang/fr_fr.json",
+      "sha256": "26d2aeec1f705d76cdd929e04879c2581fd1d6932d31738b3d2d83558655f39c",
+      "size": 914
+    },
+    {
+      "path": "kubejs/assets/create_dragons_plus/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_dragons_plus/lang/fr_fr.json",
+      "sha256": "35b56fc5f35be8225f89e9c1a029d8c5f0c1945861bab45b5f8ee8790a1e3ead",
+      "size": 3934
+    },
+    {
+      "path": "kubejs/assets/create_easy_structures/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_easy_structures/lang/fr_fr.json",
+      "sha256": "d4c824442c93712d39107a81d31cd3a6120b56db285afb0c66a8556c6a4981d4",
+      "size": 700
+    },
+    {
+      "path": "kubejs/assets/create_enchantment_industry/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_enchantment_industry/lang/fr_fr.json",
+      "sha256": "f08e4470ee2289b2f1e1424b7906c650dc6103eec6bd0dfb06816b92c6a5e74f",
+      "size": 229
+    },
+    {
+      "path": "kubejs/assets/create_hypertube/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_hypertube/lang/fr_fr.json",
+      "sha256": "b338aba03fc55d2b99d69407665e4f3b885da14ca0c645a8c1cd90eae3070933",
+      "size": 2178
+    },
+    {
+      "path": "kubejs/assets/create_integrated_farming/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_integrated_farming/lang/fr_fr.json",
+      "sha256": "6f5ac85959f812bcf0d98f140fd3b1f7565addd0f466599aa1f99bdf8c9043b9",
+      "size": 5789
+    },
+    {
+      "path": "kubejs/assets/create_jetpack/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_jetpack/lang/fr_fr.json",
+      "sha256": "ba0aea1e5275c859efaff5d6d3ebef000bfd975de08e33aa980ed0053936e120",
+      "size": 58
+    },
+    {
+      "path": "kubejs/assets/create_ltab/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_ltab/lang/fr_fr.json",
+      "sha256": "51b37fdfc8ace801ba7373f7c92118a04a67118f6e290ca5f783c529fb75d0b2",
+      "size": 2147
+    },
+    {
+      "path": "kubejs/assets/create_mechanical_extruder/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_mechanical_extruder/lang/fr_fr.json",
+      "sha256": "3328897327b23fb87fcbd0bd80c467509faa8520d3b6ed61f13869987cbd0cab",
+      "size": 1713
+    },
+    {
+      "path": "kubejs/assets/create_sa/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_sa/lang/fr_fr.json",
+      "sha256": "868d221a45aa53182ef5902509693980bf74fde40769bfee34eef11355f2a9c0",
+      "size": 33
+    },
+    {
+      "path": "kubejs/assets/create_things_and_misc/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_things_and_misc/lang/fr_fr.json",
+      "sha256": "5e9c6b7ec51b6aac0d0e5c05591c2367f72e291496fa8dde47a15f262ccd204b",
+      "size": 20351
+    },
+    {
+      "path": "kubejs/assets/create_winery/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/create_winery/lang/fr_fr.json",
+      "sha256": "55fe37ce94d6f912411721b6be350603363e5a7e42b8146c001b1bd1aa4afb06",
+      "size": 11663
+    },
+    {
+      "path": "kubejs/assets/createaddition/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createaddition/lang/fr_fr.json",
+      "sha256": "a2466099c5c9556413e8b2651df7f5a7b3b3a7df99f57da4bc6b62d01906add9",
+      "size": 2910
+    },
+    {
+      "path": "kubejs/assets/createcasing/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createcasing/lang/fr_fr.json",
+      "sha256": "fb6960878c12278c63ebd8c37702fee73191e73ef0a468336a2ecab8e7516a58",
+      "size": 62330
+    },
+    {
+      "path": "kubejs/assets/createdieselgenerators/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createdieselgenerators/lang/fr_fr.json",
+      "sha256": "06d7e10c94feaf7a53b02ab6de31c48d782a79f37d810c3c548d489d35499d35",
+      "size": 9391
+    },
+    {
+      "path": "kubejs/assets/createendertransmission/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createendertransmission/lang/fr_fr.json",
+      "sha256": "3a3a3041ab24539ef27f0d56c6ff3d551be715bc043905125b0a1040a709f6c8",
+      "size": 1165
+    },
+    {
+      "path": "kubejs/assets/createfood/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createfood/lang/fr_fr.json",
+      "sha256": "979739060b8bcf7b434101497981f0a637974b380a8f01dfb25e28253ea90e05",
+      "size": 214099
+    },
+    {
+      "path": "kubejs/assets/createframed/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createframed/lang/fr_fr.json",
+      "sha256": "7c47d2b580bfb71ad4ad5fce41cbeac48d46a41e13c1f916a56a25a46221e0d7",
+      "size": 49455
+    },
+    {
+      "path": "kubejs/assets/creategoggles/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/creategoggles/lang/en_us.json",
+      "sha256": "91da931346b50a7fd73256238de328a72923e3c3c59105e74a291af2f01c92cc",
+      "size": 73
+    },
+    {
+      "path": "kubejs/assets/creategoggles/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/creategoggles/lang/fr_fr.json",
+      "sha256": "ff8decab3f49b1d548b354e2b3a5cf9dfeefb1b87ca547bf37a8c83349bf4428",
+      "size": 14708
+    },
+    {
+      "path": "kubejs/assets/createnuclear/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createnuclear/lang/fr_fr.json",
+      "sha256": "f0c3667e3209d6c195ec0a6f6ad8f6b701bcde7a2397490e74fbe7dc7b91d36f",
+      "size": 822
+    },
+    {
+      "path": "kubejs/assets/createoreexcavation/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/createoreexcavation/lang/fr_fr.json",
+      "sha256": "8e55b75a5b16482979ed2728dd20ff0110d4502e3a509312f7364630c5a3e81f",
+      "size": 8151
+    },
+    {
+      "path": "kubejs/assets/creativecore/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/creativecore/lang/fr_fr.json",
+      "sha256": "3b368fc7f2d23698ca6909ba009364da4e07e6e1c9353d194d72d8ef201bde58",
+      "size": 445
+    },
+    {
+      "path": "kubejs/assets/cristellib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cristellib/lang/fr_fr.json",
+      "sha256": "21258e5ae3275e0e8ed0106a7fd4993fafa8d08d0ef2e713ca9d40f7ce5dcf0b",
+      "size": 418
+    },
+    {
+      "path": "kubejs/assets/critterarmory/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/critterarmory/lang/fr_fr.json",
+      "sha256": "4e4406fae5b8f3bf7bd26c364271e613411423c96d1a4081c4856e047bdf57c0",
+      "size": 4015
+    },
+    {
+      "path": "kubejs/assets/cuisinedelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/cuisinedelight/lang/fr_fr.json",
+      "sha256": "d369362c3167af7d0d3168173abba74db3db9883dae1f832ce99b70ed809014d",
+      "size": 7974
+    },
+    {
+      "path": "kubejs/assets/culturaldelights/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/culturaldelights/lang/fr_fr.json",
+      "sha256": "9d28a9add526eb63f46302bb6fa6d9198bd1b253f3256bdc2e7844bf30f9bb17",
+      "size": 4060
+    },
+    {
+      "path": "kubejs/assets/curios/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/curios/lang/fr_fr.json",
+      "sha256": "89d44d51894656cff72b3d146ae7994a8e82b46e2d8c25d68cee2c395ac7731c",
+      "size": 766
+    },
+    {
+      "path": "kubejs/assets/customizableelytra/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/customizableelytra/lang/fr_fr.json",
+      "sha256": "1ac51171e8f3e7559297dade8c92107a283f24c348da6020f87428c65168d767",
+      "size": 1295
+    },
+    {
+      "path": "kubejs/assets/deep_aether/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/deep_aether/lang/fr_fr.json",
+      "sha256": "9f013ea55e28ddab23da6f9451e8b91168975f72ff7106e17591f4f820df75ad",
+      "size": 80277
+    },
+    {
+      "path": "kubejs/assets/deeperdarker/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/deeperdarker/lang/fr_fr.json",
+      "sha256": "3f708539410f802d3044f03b3b60e0d3936b2c4ddad7c5b460e400a2dba039d9",
+      "size": 10867
+    },
+    {
+      "path": "kubejs/assets/defaultoptions/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/defaultoptions/lang/fr_fr.json",
+      "sha256": "50387c561ff45cece65d8f683cf323efad206489adab036f9e5f5f4b01f01a57",
+      "size": 648
+    },
+    {
+      "path": "kubejs/assets/displaydelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/displaydelight/lang/fr_fr.json",
+      "sha256": "766bd9b605f237dbf8c693cbae466bd8984415758782be9c470621989078cc6a",
+      "size": 25726
+    },
+    {
+      "path": "kubejs/assets/dndecor/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/dndecor/lang/fr_fr.json",
+      "sha256": "bf8c6b31a05b804b10cba1d64a767866333f607c3471b8cbac8e68839418a9d9",
+      "size": 52268
+    },
+    {
+      "path": "kubejs/assets/dndesires/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/dndesires/lang/fr_fr.json",
+      "sha256": "b8110e6024882cb08b9870f427b3376f29e0110f548d3b7aaddd7dff20d87830",
+      "size": 13778
+    },
+    {
+      "path": "kubejs/assets/doesittick/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/doesittick/lang/fr_fr.json",
+      "sha256": "b478da424750994d4dd84c955943c78a91e22dc180a8ae82a3ecb8a7bccf0ccc",
+      "size": 558
+    },
+    {
+      "path": "kubejs/assets/dungeons_arise/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/dungeons_arise/lang/fr_fr.json",
+      "sha256": "5a75c4320f66657a55c9475b05e5514ef54c93334187e9fa27d0d41f5ae8e37a",
+      "size": 10722
+    },
+    {
+      "path": "kubejs/assets/durabilitytooltip/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/durabilitytooltip/lang/fr_fr.json",
+      "sha256": "c0735ab0cb449d125d60e363231281e2fe0717e414908fff0a36da6b230dda7e",
+      "size": 732
+    },
+    {
+      "path": "kubejs/assets/dustydecorations/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/dustydecorations/lang/fr_fr.json",
+      "sha256": "dcf7c0fdb43a82d5afa69365625bed1cdccdcac134e08949630c5f98ad6d9678",
+      "size": 76652
+    },
+    {
+      "path": "kubejs/assets/easy_npc/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/easy_npc/lang/fr_fr.json",
+      "sha256": "7c70a8154aad8844c6671e3da583a2f3953f871259a94431328c75a81737acb4",
+      "size": 11015
+    },
+    {
+      "path": "kubejs/assets/easy_npc_config_ui/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/easy_npc_config_ui/lang/fr_fr.json",
+      "sha256": "295683b6ff9efdfdbe7555e98a7521aebbb25150505d5b496faf39bd72c9f630",
+      "size": 30615
+    },
+    {
+      "path": "kubejs/assets/easy_npc_example/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/easy_npc_example/lang/fr_fr.json",
+      "sha256": "bb780693bdaaa7786184f1241fa466ff53a2b36670aa2588791b10bd2305b15a",
+      "size": 500
+    },
+    {
+      "path": "kubejs/assets/easy_villagers/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/easy_villagers/lang/fr_fr.json",
+      "sha256": "c808843bb0c63e7d2ead4093335d8b27ca9766b2fcf0dc52fd9fa89a153db155",
+      "size": 448
+    },
+    {
+      "path": "kubejs/assets/ecologics/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ecologics/lang/fr_fr.json",
+      "sha256": "dbef7bd0abece199022139b126666cc2fa3711b68a2afa5a5686a13c2bed9dda",
+      "size": 1414
+    },
+    {
+      "path": "kubejs/assets/elevatorid/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/elevatorid/lang/fr_fr.json",
+      "sha256": "f048bc3c27f9055fb4568a0ee6cdeaccc4c372214211906077c1918b4e661bac",
+      "size": 331
+    },
+    {
+      "path": "kubejs/assets/emojiful/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/emojiful/lang/fr_fr.json",
+      "sha256": "282745dee52875760d4c3f2c154d42c535567a3806d4bc7c9192974a5e0fcbde",
+      "size": 1861
+    },
+    {
+      "path": "kubejs/assets/emotecraft/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/emotecraft/lang/fr_fr.json",
+      "sha256": "57bacd2c7d12f062fa5f77defecc283246c8edb536742cde64fb241ab0e96b40",
+      "size": 177
+    },
+    {
+      "path": "kubejs/assets/enchdesc/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/enchdesc/lang/fr_fr.json",
+      "sha256": "c7ba35be499ba4916bc9074a0cf7f59dfef801ab8334b17f05fc3e5f3b07a664",
+      "size": 10648
+    },
+    {
+      "path": "kubejs/assets/endersdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/endersdelight/lang/fr_fr.json",
+      "sha256": "d111492b1949bfd06a73f36189e8e92724034d5b4e0513ba40313914544f243a",
+      "size": 5293
+    },
+    {
+      "path": "kubejs/assets/ends_delight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ends_delight/lang/fr_fr.json",
+      "sha256": "2983ebe493f8ebddba031972470e9d6f4332c06da95a62879cb3812640c80cd2",
+      "size": 11584
+    },
+    {
+      "path": "kubejs/assets/entityculling/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/entityculling/lang/fr_fr.json",
+      "sha256": "897fa0cf5cdf817f2bdc9c7329f706eaf321b43f604989faaea71d639b170382",
+      "size": 3049
+    },
+    {
+      "path": "kubejs/assets/escalated/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/escalated/lang/fr_fr.json",
+      "sha256": "e03e0f82372daa93dccf51b6fed63d1d02f4db6475d80339a07648d01f0836ce",
+      "size": 6213
+    },
+    {
+      "path": "kubejs/assets/example_mod/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/example_mod/lang/fr_fr.json",
+      "sha256": "49d2111e57ed64c0c09d8a1e2a487d0c9c56c91dc8a3bb3294140377cabc26c4",
+      "size": 101
+    },
+    {
+      "path": "kubejs/assets/examplemod/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/examplemod/lang/fr_fr.json",
+      "sha256": "8a86b3514a817c58c29645679a0fc9e863e98945959b21db73a4296903bbd94b",
+      "size": 672
+    },
+    {
+      "path": "kubejs/assets/expandeddelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/expandeddelight/lang/fr_fr.json",
+      "sha256": "b0608bc0393cd76d8b0d7af1251a7054fdc5a8683d468ea67029679a99c2710e",
+      "size": 439
+    },
+    {
+      "path": "kubejs/assets/exposure/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/exposure/lang/fr_fr.json",
+      "sha256": "990e4434694840f6bdfe974d15ad7d5f7a144065b2e65a26b18d6fbd5fb2ef99",
+      "size": 22170
+    },
+    {
+      "path": "kubejs/assets/exposure_catalog/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/exposure_catalog/lang/fr_fr.json",
+      "sha256": "42dbebe19cd11d5ca5d71a70448f86242fc78dd06d3f1559478c09d220673b67",
+      "size": 5818
+    },
+    {
+      "path": "kubejs/assets/exposure_expanded/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/exposure_expanded/lang/fr_fr.json",
+      "sha256": "d476555a6c93d5b42ac59fb9da1dca9a08fcf41360c7d8f159d755e8606e06a4",
+      "size": 7486
+    },
+    {
+      "path": "kubejs/assets/exposure_polaroid/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/exposure_polaroid/lang/fr_fr.json",
+      "sha256": "dba6784195d7fe38d621c78ce65d4ad13b899b6deec3c84da56b237a2d797438",
+      "size": 3547
+    },
+    {
+      "path": "kubejs/assets/extradisks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/extradisks/lang/fr_fr.json",
+      "sha256": "2617c4dd16c4de01d77bf39b7a395f9bfbf58c32fe113638852a2e5f8f7eead1",
+      "size": 7047
+    },
+    {
+      "path": "kubejs/assets/extremesoundmuffler/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/extremesoundmuffler/lang/fr_fr.json",
+      "sha256": "e8c868483984cf2eff44824cc93459e710b0093bf1d4add253ee59c7999e6c0e",
+      "size": 1481
+    },
+    {
+      "path": "kubejs/assets/fallingtree/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/fallingtree/lang/fr_fr.json",
+      "sha256": "089b52bfbc617f1c85fce4b47d78f0314fc821926b227eb85fb7b4379cf0e8c9",
+      "size": 15245
+    },
+    {
+      "path": "kubejs/assets/fancymenu/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/fancymenu/lang/fr_fr.json",
+      "sha256": "e366d0cf3a82efb47f1888556aaaf59c245d8f056a1b9f9793297b0b41a6bc38",
+      "size": 89
+    },
+    {
+      "path": "kubejs/assets/farmersdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/farmersdelight/lang/fr_fr.json",
+      "sha256": "ddd594165edbc03f3fdd5bb919425b7f3f790411bdc1ac6a9f31bb00a4a23459",
+      "size": 880
+    },
+    {
+      "path": "kubejs/assets/farmersknives/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/farmersknives/lang/fr_fr.json",
+      "sha256": "89535d98719510f19bc5177118a8513fc4e0500103165d9cf578e1a90eeb1708",
+      "size": 3490
+    },
+    {
+      "path": "kubejs/assets/farmersrespite/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/farmersrespite/lang/fr_fr.json",
+      "sha256": "06dc6817f350abd9ecb137a9c9a137b8ae4b1488d464b3cebb4719a378ad0b4c",
+      "size": 78
+    },
+    {
+      "path": "kubejs/assets/fastpaintings/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/fastpaintings/lang/fr_fr.json",
+      "sha256": "cb46faafbb25f8a67333d9479e48009907576eccf9bcfd02b92e33aa88bd8194",
+      "size": 47
+    },
+    {
+      "path": "kubejs/assets/fluxnetworks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/fluxnetworks/lang/fr_fr.json",
+      "sha256": "47c3585a2a9af33a91920a6a4abdec374754b6288dc0ac708a2e28bb264a477b",
+      "size": 8470
+    },
+    {
+      "path": "kubejs/assets/framedblocks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/framedblocks/lang/fr_fr.json",
+      "sha256": "437a23cc52c58719cbc101a6d9952d0017f568eb92a5a0dd075bec882b68260f",
+      "size": 56122
+    },
+    {
+      "path": "kubejs/assets/ftbchunks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ftbchunks/lang/fr_fr.json",
+      "sha256": "c17b7329dc4571f4a79798ef6498fd7402b3f2aab12d4be8ffd0fc485ddd562e",
+      "size": 32512
+    },
+    {
+      "path": "kubejs/assets/ftbessentials/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ftbessentials/lang/fr_fr.json",
+      "sha256": "6d93e8a305eb6ce04de687b715bbe683648b973f2d3d73363b8a92b792e3dc1a",
+      "size": 69
+    },
+    {
+      "path": "kubejs/assets/ftbfiltersystem/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ftbfiltersystem/lang/fr_fr.json",
+      "sha256": "b49d40d6309b34a65c2a3194ba0710e9ab5dae983028a1ac2effc034b58ba831",
+      "size": 6491
+    },
+    {
+      "path": "kubejs/assets/ftblibrary/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ftblibrary/lang/fr_fr.json",
+      "sha256": "7ac5540964eb2439fa1408c3ca7911ba3b626f90320c2e4ee9d313e59133f9d0",
+      "size": 2937
+    },
+    {
+      "path": "kubejs/assets/ftbquests/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ftbquests/lang/fr_fr.json",
+      "sha256": "93119cef0e8400a7310576178b7e6a5e619e8ee2c1810720a503fd81cf64e3cd",
+      "size": 52311
+    },
+    {
+      "path": "kubejs/assets/ftbteams/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/ftbteams/lang/fr_fr.json",
+      "sha256": "61a8bbd718e5191c235b3b96da781696d481244c9c70b47f8892cfda699e118f",
+      "size": 1403
+    },
+    {
+      "path": "kubejs/assets/fusion/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/fusion/lang/fr_fr.json",
+      "sha256": "811915aa292baec2b16837383acd8f4c84c842c9923d46d3d6d66d1a4f4b3a88",
+      "size": 793
+    },
+    {
+      "path": "kubejs/assets/fzzy_config/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/fzzy_config/lang/fr_fr.json",
+      "sha256": "832a0d31a3aaab43906e3f92ee1207128e50492e4ce93a58f54f567c536d609a",
+      "size": 23552
+    },
+    {
+      "path": "kubejs/assets/guardvillagers/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/guardvillagers/lang/fr_fr.json",
+      "sha256": "91ef354759081135495fbbf557f63876fc54da5df02eb68631506d534d8ce14c",
+      "size": 920
+    },
+    {
+      "path": "kubejs/assets/handcrafted/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/handcrafted/lang/fr_fr.json",
+      "sha256": "e03f219c32421dceb3aa6161040978c52a822faceffd0b053d2789a012f5c997",
+      "size": 42042
+    },
+    {
+      "path": "kubejs/assets/hiddennames/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/hiddennames/lang/fr_fr.json",
+      "sha256": "1cd3a9b290112f3c28812dc7f53a5b1d465b585a5c7f494f24e3c88e279270be",
+      "size": 486
+    },
+    {
+      "path": "kubejs/assets/immersive_aircraft/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/immersive_aircraft/lang/fr_fr.json",
+      "sha256": "1c8bd3dda00302f99904863733366b563137a169fa8a53130c31b6025a64f880",
+      "size": 252
+    },
+    {
+      "path": "kubejs/assets/immersive_melodies/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/immersive_melodies/lang/fr_fr.json",
+      "sha256": "163e47882dc9172bb3e04a74fd7232101bbe5dfd2a86e183f55ed9e226673da2",
+      "size": 236
+    },
+    {
+      "path": "kubejs/assets/immersive_paintings/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/immersive_paintings/lang/fr_fr.json",
+      "sha256": "867b19340c2520dfba1f328b9037c95f9a843de913cd63b668c4974bf7ab9bda",
+      "size": 1116
+    },
+    {
+      "path": "kubejs/assets/immersiveengineering/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/immersiveengineering/lang/fr_fr.json",
+      "sha256": "fd56052526379f72e4e8af130f1ff1f84c6d7473eadb297cb2cfdf2bc494b011",
+      "size": 110246
+    },
+    {
+      "path": "kubejs/assets/invocore/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/invocore/lang/fr_fr.json",
+      "sha256": "1ab25128e7b7008cca2c1b473c885d00e8b9ef2c55ea4c6a9436abea293dd153",
+      "size": 149
+    },
+    {
+      "path": "kubejs/assets/invtweaks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/invtweaks/lang/fr_fr.json",
+      "sha256": "3213d4346a1a62028ff12420e45ca138d2b1bcb1b9d147d1cd0d8bab67dcacdf",
+      "size": 272
+    },
+    {
+      "path": "kubejs/assets/iris/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/iris/lang/fr_fr.json",
+      "sha256": "49033b33262ae50b185c292d75f883d7fd616b27c192ecd7599c274b2ce8d394",
+      "size": 4749
+    },
+    {
+      "path": "kubejs/assets/irons_lib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/irons_lib/lang/fr_fr.json",
+      "sha256": "122db3622177f35f8e39a705b27e13d961eebde46eac63f8b73e4f13b55fc20f",
+      "size": 3432
+    },
+    {
+      "path": "kubejs/assets/irons_patreon_lib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/irons_patreon_lib/lang/fr_fr.json",
+      "sha256": "5338513a79185399cfb44332c93a00e900a17e50aeb7e1a1aedb5e11727ce080",
+      "size": 135
+    },
+    {
+      "path": "kubejs/assets/irons_spellbooks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/irons_spellbooks/lang/fr_fr.json",
+      "sha256": "03680f12cedebc3f9eaff79f746c667ce239f75a72535a9f8cb986d0d1cc2c2c",
+      "size": 29395
+    },
+    {
+      "path": "kubejs/assets/itemcollectors/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/itemcollectors/lang/fr_fr.json",
+      "sha256": "9643b3308970e72a4a960d52f6c586cc66e52b02fcbd05c955c013ac2e52b714",
+      "size": 1459
+    },
+    {
+      "path": "kubejs/assets/jade/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jade/lang/fr_fr.json",
+      "sha256": "4a3565904db98011ef6fab63db8ab55bdd0169a72f0154854df8a7607c259769",
+      "size": 25232
+    },
+    {
+      "path": "kubejs/assets/jadeaddons/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jadeaddons/lang/fr_fr.json",
+      "sha256": "8959f7fcf584d110ec0238654ffae6ef98ab6f24f1dad92e1bad65ea63a2344f",
+      "size": 2548
+    },
+    {
+      "path": "kubejs/assets/jamlib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jamlib/lang/fr_fr.json",
+      "sha256": "c516be1803f69e206f2edc5b9467df01a44b061381c9eb065be2f5a4e602f83c",
+      "size": 1358
+    },
+    {
+      "path": "kubejs/assets/javd/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/javd/lang/fr_fr.json",
+      "sha256": "8ad6976fc61450a5d294c09d8a05289b5cde93e846389283c8a1f678590721bf",
+      "size": 482
+    },
+    {
+      "path": "kubejs/assets/jearchaeology/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jearchaeology/lang/fr_fr.json",
+      "sha256": "aa10a0637d177e733f93b4b8157abbe9747f707b58725e7e67bbd9ba3d5ab1d3",
+      "size": 15278
+    },
+    {
+      "path": "kubejs/assets/jeed/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jeed/lang/fr_fr.json",
+      "sha256": "cf87a2105dba3bf6dc837e12d486eac945cefa4d334e1272eca4eae336a655ac",
+      "size": 4130
+    },
+    {
+      "path": "kubejs/assets/jei/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jei/lang/fr_fr.json",
+      "sha256": "406ece7cc93aa2c5fe4019ba786ba7997f5a6f5c490b02d3b65e0579e09ba8c0",
+      "size": 16779
+    },
+    {
+      "path": "kubejs/assets/jeresources/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/jeresources/lang/fr_fr.json",
+      "sha256": "a15e2360cda262f679404c1764772c840b4f242067609a19e67fcb8f342b07d1",
+      "size": 58
+    },
+    {
+      "path": "kubejs/assets/justenoughbreeding/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/justenoughbreeding/lang/fr_fr.json",
+      "sha256": "16c9bd99d89629b144ffa25cc7fa6c4d6cc6d96ee8dcd5cbc6a49d721c28e91c",
+      "size": 357
+    },
+    {
+      "path": "kubejs/assets/justenoughprofessions/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/justenoughprofessions/lang/fr_fr.json",
+      "sha256": "1d801ff925c742459cb7b9ef48fba44b5a915fdf02ac188ccbfad7cf75178cfd",
+      "size": 60
+    },
+    {
+      "path": "kubejs/assets/justzoom/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/justzoom/lang/fr_fr.json",
+      "sha256": "48fdd241c9f5451b9084d527195443f7895ef501fb0542f6a977d8453be74130",
+      "size": 3163
+    },
+    {
+      "path": "kubejs/assets/knightlib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/knightlib/lang/fr_fr.json",
+      "sha256": "9ea65579d12441a2cab7692ee6e73b16b734c2db2258f660ece05ee30b115668",
+      "size": 1359
+    },
+    {
+      "path": "kubejs/assets/knightquest/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/knightquest/lang/fr_fr.json",
+      "sha256": "8cf1a140a3befedf706213887292aa2c32964ef9cc77dec5b6ff572a86cee1bc",
+      "size": 2619
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/kubejs/lang/en_us.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/kubejs/lang/fr_fr.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2
+    },
+    {
+      "path": "kubejs/assets/kubejstweaks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/kubejstweaks/lang/fr_fr.json",
+      "sha256": "21243bdd6f0b5231eb8fef87cb07ff1be1e867f84e06c1ffecb91f3bc8ca3841",
+      "size": 310
+    },
+    {
+      "path": "kubejs/assets/legendarytooltips/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/legendarytooltips/lang/fr_fr.json",
+      "sha256": "fbe086993e60866c2d7e999988d8455c76b2a3b5d379f1d9366c510afe224c82",
+      "size": 77
+    },
+    {
+      "path": "kubejs/assets/lootr/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/lootr/lang/fr_fr.json",
+      "sha256": "5cb8d117cbec2241e4864ee50061d07dd4b7a8618c9481415de64ca2a84f21ac",
+      "size": 10523
+    },
+    {
+      "path": "kubejs/assets/mcwbiomesoplenty/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwbiomesoplenty/lang/fr_fr.json",
+      "sha256": "960b081c7f72fe69ea947cb517de78dc674acffed2261b0ee05fb206faa2bc1f",
+      "size": 58
+    },
+    {
+      "path": "kubejs/assets/mcwbridges/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwbridges/lang/fr_fr.json",
+      "sha256": "d74f5225de4e2a820d51a4f037ec3cc5b2a529c6ad29b8331de778959d020d9b",
+      "size": 767
+    },
+    {
+      "path": "kubejs/assets/mcwdoors/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwdoors/lang/fr_fr.json",
+      "sha256": "a32b461ea4e7632174f731fa992ade26aa1b02e86e163fde2a33c8c00575af97",
+      "size": 36074
+    },
+    {
+      "path": "kubejs/assets/mcwfences/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwfences/lang/fr_fr.json",
+      "sha256": "da79508d206d9721c55a85b7816795d7157998e0ae15c3fcd811e7559db89426",
+      "size": 146
+    },
+    {
+      "path": "kubejs/assets/mcwfurnitures/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwfurnitures/lang/fr_fr.json",
+      "sha256": "37406069d5c28e8b5e403017c0db7a0b2efc2049620369745ebc3ec28ba72350",
+      "size": 4001
+    },
+    {
+      "path": "kubejs/assets/mcwholidays/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwholidays/lang/fr_fr.json",
+      "sha256": "4de04527de994b96b556c44027509dfe3ea7d349e0ac20d123ac1f441f78d482",
+      "size": 48446
+    },
+    {
+      "path": "kubejs/assets/mcwpaintings/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwpaintings/lang/fr_fr.json",
+      "sha256": "bd4dd20c5339edb8a3a4924d20c599a281574e759ee9c4253cd89e98e21e7ba5",
+      "size": 4035
+    },
+    {
+      "path": "kubejs/assets/mcwpaths/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwpaths/lang/fr_fr.json",
+      "sha256": "1bc73d9d5034407f87db38cde8b73e3d020c5a577dbb70409e1cb2b23c10822e",
+      "size": 14927
+    },
+    {
+      "path": "kubejs/assets/mcwroofs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwroofs/lang/fr_fr.json",
+      "sha256": "9f87e03b8728efa3b55808da62419b8c4099e6cde830a3e52e1cd6974882d690",
+      "size": 651
+    },
+    {
+      "path": "kubejs/assets/mcwstairs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwstairs/lang/fr_fr.json",
+      "sha256": "c572c9ffe6529590f8f64d399adf8bd670f41a5f6415a63b10f1e5dac95dbaf1",
+      "size": 728
+    },
+    {
+      "path": "kubejs/assets/mcwtrpdoors/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwtrpdoors/lang/fr_fr.json",
+      "sha256": "ff77a4ade5701c5fa10aa349fc4dd0fbdb06c5c09093acd052005a3c36adc126",
+      "size": 1119
+    },
+    {
+      "path": "kubejs/assets/mcwwindows/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mcwwindows/lang/fr_fr.json",
+      "sha256": "6a23a703238e0a9fe37f44bcc4010d659509c128d1b06d59d977b87e868e7857",
+      "size": 1477
+    },
+    {
+      "path": "kubejs/assets/mechanical_botany/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mechanical_botany/lang/en_us.json",
+      "sha256": "90f19752186af6f2d50fb97b627f6e0dc0f1a3c37a11f792b08d87fa3f5bef56",
+      "size": 86
+    },
+    {
+      "path": "kubejs/assets/mechanical_botany/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mechanical_botany/lang/fr_fr.json",
+      "sha256": "4aa8799b3db5909f66be2d376fba063da3d18e0aa8673eb4ea3740dcc7396fd2",
+      "size": 5742
+    },
+    {
+      "path": "kubejs/assets/mechanicals/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mechanicals/lang/fr_fr.json",
+      "sha256": "1c7291c2e0732de935611e78a82884f7b09ed0438c350743dad1d0f32199efa4",
+      "size": 1962
+    },
+    {
+      "path": "kubejs/assets/mekanism/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mekanism/lang/fr_fr.json",
+      "sha256": "5ca62638a66e126f8f4eecfb55b4bf1750966857c80e3592e3ab47823d21e769",
+      "size": 160273
+    },
+    {
+      "path": "kubejs/assets/mekanismgenerators/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mekanismgenerators/lang/fr_fr.json",
+      "sha256": "ad8ea53aeaaf79093254ff326a48aaa38e3ab1ac866732f2d425ee31f2c6e840",
+      "size": 20837
+    },
+    {
+      "path": "kubejs/assets/mekanismtools/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mekanismtools/lang/fr_fr.json",
+      "sha256": "55f0c523831f66d9d5f6f6e5695f02e923254e09a3b0803d32c0adecb90d00bf",
+      "size": 60
+    },
+    {
+      "path": "kubejs/assets/mimi/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mimi/lang/fr_fr.json",
+      "sha256": "dde13547a0441dbe9bcb59ff6bc6496577803d1c5fe4c80ddb15e936e64a42a5",
+      "size": 10683
+    },
+    {
+      "path": "kubejs/assets/minecraft/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/minecraft/lang/en_us.json",
+      "sha256": "0f5dbba301a0370f82d9d41d98777d7bae2e4d1cbb4f544c45617406b070a2d3",
+      "size": 106
+    },
+    {
+      "path": "kubejs/assets/minecraft/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/minecraft/lang/fr_fr.json",
+      "sha256": "7f636e7006eb7edbf68d1d327df74a0bb9838505c92ac894a9fe15c271582dcf",
+      "size": 613
+    },
+    {
+      "path": "kubejs/assets/modernfix/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/modernfix/lang/fr_fr.json",
+      "sha256": "782f33f685efdf27cd75d406f3473f87aa1c1606e02d192f5762f8b32e869097",
+      "size": 36788
+    },
+    {
+      "path": "kubejs/assets/modonomicon/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/modonomicon/lang/fr_fr.json",
+      "sha256": "0a57f229ac60f4441acec13aad4a338f586466a3cbfad00d33b25ada73eb5abb",
+      "size": 23460
+    },
+    {
+      "path": "kubejs/assets/mowziesmobs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mowziesmobs/lang/fr_fr.json",
+      "sha256": "7965db3c791bec3c3ed73ee722ca665dabba3f0f640e8728d9d16b0bed4f1090",
+      "size": 18742
+    },
+    {
+      "path": "kubejs/assets/mutantmonsters/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mutantmonsters/lang/fr_fr.json",
+      "sha256": "5a426b82eeca46284fb03392bedb3236b177e06db9d7497dfdbd77999841b877",
+      "size": 9825
+    },
+    {
+      "path": "kubejs/assets/mvs/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mvs/lang/fr_fr.json",
+      "sha256": "4d2c181b080a5dfb550310a398bca14a5b2f866e2cec66c4f0217c3ac1d81c78",
+      "size": 127
+    },
+    {
+      "path": "kubejs/assets/mynethersdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mynethersdelight/lang/fr_fr.json",
+      "sha256": "8bc6b06d27f05aa1ab7d407cb837a88884643ad328fd4b4e048328874e446973",
+      "size": 18586
+    },
+    {
+      "path": "kubejs/assets/mysterious_mountain_lib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/mysterious_mountain_lib/lang/fr_fr.json",
+      "sha256": "05580621b72d1b200427131b09b43d3f2ed815bdf27fc6a175e7b5729b17db34",
+      "size": 344
+    },
+    {
+      "path": "kubejs/assets/naturescompass/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/naturescompass/lang/fr_fr.json",
+      "sha256": "eaaffe23c19ba2516ab925c218da90b56bad7e5d79d6c00dd9730a1a2c26d754",
+      "size": 187
+    },
+    {
+      "path": "kubejs/assets/neoncraft/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/neoncraft/lang/fr_fr.json",
+      "sha256": "20eb31ece548416e1f6368a2dbdfea8e7284da05b657d36aa6ba658825446ba3",
+      "size": 42307
+    },
+    {
+      "path": "kubejs/assets/netherite_horse_armor/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/netherite_horse_armor/lang/fr_fr.json",
+      "sha256": "cb1c6987ed87182a5582feda2b282c6e06407158d1714bb8e0a3e82ec32ac4b1",
+      "size": 369
+    },
+    {
+      "path": "kubejs/assets/nochatreports/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/nochatreports/lang/fr_fr.json",
+      "sha256": "cbf6eae86383cf0b60bc6f8f4f7d3ace23fe69fb0bd9e54c93810a059386b80b",
+      "size": 19344
+    },
+    {
+      "path": "kubejs/assets/nomowanderer/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/nomowanderer/lang/fr_fr.json",
+      "sha256": "ede6fa2d41e35ac791c73e3b71681a3d9aa7770ce20e2d7767671aea3899c444",
+      "size": 410
+    },
+    {
+      "path": "kubejs/assets/notenoughanimations/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/notenoughanimations/lang/fr_fr.json",
+      "sha256": "85b97ebaf43b4c508abd0bdd63c23bf3059b3ef1b0429c299101420de740a5a7",
+      "size": 2716
+    },
+    {
+      "path": "kubejs/assets/numismatics/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/numismatics/lang/en_us.json",
+      "sha256": "de2090fd144ac4fe54c689e21230fbb51d74ce02c4df464bb480515cf38b4318",
+      "size": 285
+    },
+    {
+      "path": "kubejs/assets/numismatics/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/numismatics/lang/fr_fr.json",
+      "sha256": "6df5a24f2fd2c60743db4cb42dd98b2e654ad026ba7f288f5ca1dfca37866e24",
+      "size": 390
+    },
+    {
+      "path": "kubejs/assets/observable/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/observable/lang/fr_fr.json",
+      "sha256": "02e4aa6190e5fc508898ef0ab67f4c3d58e8015e920e473c0dc6a59aa085b28e",
+      "size": 2510
+    },
+    {
+      "path": "kubejs/assets/occultengineering/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/occultengineering/lang/fr_fr.json",
+      "sha256": "5b9b43efcbd6a46dde3fea6c01a72b8ea6cd98495ab21d2f8a5dfcd4458ccf0f",
+      "size": 5520
+    },
+    {
+      "path": "kubejs/assets/occultism/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/occultism/lang/fr_fr.json",
+      "sha256": "e5603bdebbf466697428e44c95afed7da548a940095136ddb0a46b9bed412676",
+      "size": 434475
+    },
+    {
+      "path": "kubejs/assets/oceansdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/oceansdelight/lang/fr_fr.json",
+      "sha256": "557ca19a58f7602c7d1c672d717ce3b38a66c3aef1cb193754c396516dd1fc3f",
+      "size": 3153
+    },
+    {
+      "path": "kubejs/assets/owo/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/owo/lang/fr_fr.json",
+      "sha256": "4007d9dbb53f92bec943c5a83e6e9a0a2a3aaf9cbaf6466f2888bfc1570e24c7",
+      "size": 2573
+    },
+    {
+      "path": "kubejs/assets/packs_classic_b173_aether/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/packs_classic_b173_aether/lang/fr_fr.json",
+      "sha256": "493c3736160c3538daa45ea84ab1b26bcb23e2c6e5e8b59336b5e55c298ea65a",
+      "size": 1097
+    },
+    {
+      "path": "kubejs/assets/packs_client_deep_aether_tooltips_deep_aether/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/packs_client_deep_aether_tooltips_deep_aether/lang/fr_fr.json",
+      "sha256": "d25d2d8340585b7a1956b7adcf4204639b92137de867623b44037bed6808d649",
+      "size": 5455
+    },
+    {
+      "path": "kubejs/assets/packs_tooltips_aether/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/packs_tooltips_aether/lang/fr_fr.json",
+      "sha256": "3cc3e2648e7ac79d6b4275dc7c588ffd4ca6d85d6c0f50e721bae598f5fca73f",
+      "size": 13916
+    },
+    {
+      "path": "kubejs/assets/parcool/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/parcool/lang/fr_fr.json",
+      "sha256": "20a055d19d2e8453f99316576d74cddef7fedd93970fba3a15ff95861ade69c9",
+      "size": 11397
+    },
+    {
+      "path": "kubejs/assets/particle_core/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/particle_core/lang/fr_fr.json",
+      "sha256": "0e6650d7dff2d1d6fa699a5a832a26f349567a6433963caeb6367c9c351d96ae",
+      "size": 5801
+    },
+    {
+      "path": "kubejs/assets/particular/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/particular/lang/fr_fr.json",
+      "sha256": "4c5626ca501df0d1c6a8f3eb990e9f489bbe20fe7ff8f3c1e2e2ddddb2173e76",
+      "size": 59
+    },
+    {
+      "path": "kubejs/assets/patchouli/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/patchouli/lang/fr_fr.json",
+      "sha256": "c9fb79f21c7f96af3dec8fdb80670a49de7d77428196cbce5a87787d42237958",
+      "size": 463
+    },
+    {
+      "path": "kubejs/assets/pipeorgans/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/pipeorgans/lang/fr_fr.json",
+      "sha256": "d789815e29e05fee5b6ad7d2d14330bfd208628f2e3169c9fa0a3e43b255fb31",
+      "size": 16531
+    },
+    {
+      "path": "kubejs/assets/placeable_food/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/placeable_food/lang/fr_fr.json",
+      "sha256": "0d57322a2c17243598d6a518a82b5ff33713fc2f8fa072c9977a7b1411308dc0",
+      "size": 9102
+    },
+    {
+      "path": "kubejs/assets/placebo/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/placebo/lang/fr_fr.json",
+      "sha256": "ecd4f4176e74d44c15724572ea7aad78ec4d92d780eb81a1052ce2584599bda0",
+      "size": 42
+    },
+    {
+      "path": "kubejs/assets/rechiseled/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/rechiseled/lang/fr_fr.json",
+      "sha256": "54105f3b0e14bc471314643ffe35b667ade9e72f2879f146fac67d418656cdf7",
+      "size": 545244
+    },
+    {
+      "path": "kubejs/assets/rechiseledcreate/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/rechiseledcreate/lang/fr_fr.json",
+      "sha256": "c456102fbf06d570e7dfba8ff7de8480fb3f8dda18eacb37d6db3249bff69c80",
+      "size": 56708
+    },
+    {
+      "path": "kubejs/assets/refinedstorage/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/refinedstorage/lang/fr_fr.json",
+      "sha256": "4f279e9fe069ba18fc2e467ddee79a901cae30c4de0fe67cfb01650f61e99ba8",
+      "size": 1287
+    },
+    {
+      "path": "kubejs/assets/refinedstorage_curios_integration/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/refinedstorage_curios_integration/lang/fr_fr.json",
+      "sha256": "1e7a6fba7f86f96f08b2f861f739691e0e4c2dd56d4fa5b1df0dc2b2b79238f4",
+      "size": 79
+    },
+    {
+      "path": "kubejs/assets/refurbished_furniture/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/refurbished_furniture/lang/fr_fr.json",
+      "sha256": "b9c67121a4f22ba266f27b32ddd41909e57f2ff48aa135dddf794125b5a5b7c4",
+      "size": 85942
+    },
+    {
+      "path": "kubejs/assets/resourcefulconfig/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/resourcefulconfig/lang/fr_fr.json",
+      "sha256": "b418dc2cc9b6c397dee7a135bacb7609bb9b3b01f69efbf0fb433a9ff36c453c",
+      "size": 2158
+    },
+    {
+      "path": "kubejs/assets/resourcepackoverrides/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/resourcepackoverrides/lang/fr_fr.json",
+      "sha256": "899106c22e73222bcfbb748055d9205eedd62b63d2d0b52380075e932678c2ab",
+      "size": 728
+    },
+    {
+      "path": "kubejs/assets/revive_me/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/revive_me/lang/fr_fr.json",
+      "sha256": "fbd15160401ec8d80b57f2a6d6759efdc5157a5092af565351025067dbe14cf6",
+      "size": 7464
+    },
+    {
+      "path": "kubejs/assets/rightclickharvest/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/rightclickharvest/lang/fr_fr.json",
+      "sha256": "59bd1ad5396980267d71963338329471444327184b88adbd3d4c5f031d3f6893",
+      "size": 2277
+    },
+    {
+      "path": "kubejs/assets/rsinfinitybooster/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/rsinfinitybooster/lang/fr_fr.json",
+      "sha256": "ec8ef8de3aeaa63a3d64518385b0f116ab41a834fcabe4b19a3484f0c991bb28",
+      "size": 621
+    },
+    {
+      "path": "kubejs/assets/securitycraft/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/securitycraft/lang/fr_fr.json",
+      "sha256": "4c5ef60163d703caaea34630a3c78a0c4d8e6d0328c79d78b786995126d84f8b",
+      "size": 231
+    },
+    {
+      "path": "kubejs/assets/selfexpression/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/selfexpression/lang/fr_fr.json",
+      "sha256": "3a6be2b59a974a8d522c2e3cd77a4bc1628998819f245f6326bbd7ebedec2873",
+      "size": 163542
+    },
+    {
+      "path": "kubejs/assets/selfexpression_new_edge/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/selfexpression_new_edge/lang/fr_fr.json",
+      "sha256": "050e7d22db014fca3e12a955166dffd60cd60234513b7c6cbea5e6d09d26ad37",
+      "size": 2294
+    },
+    {
+      "path": "kubejs/assets/selfexpression_romashka_edition/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/selfexpression_romashka_edition/lang/fr_fr.json",
+      "sha256": "eb45ae01a1a3776a339d7abee39eba66530f1c0c34d9993e167a1f9a506cbcb0",
+      "size": 7900
+    },
+    {
+      "path": "kubejs/assets/selfexpression_slim/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/selfexpression_slim/lang/fr_fr.json",
+      "sha256": "fd0034b37aeace3c793e2920621d3402fd0d241a29f09ad0c28c4a7aa4be3162",
+      "size": 36529
+    },
+    {
+      "path": "kubejs/assets/simplehats/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/simplehats/lang/en_us.json",
+      "sha256": "068014cc721327e9b8febc0b8236aaa96f0c7419b2f229a77ac8dcad9c0067e9",
+      "size": 15437
+    },
+    {
+      "path": "kubejs/assets/simplehats/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/simplehats/lang/fr_fr.json",
+      "sha256": "f6e0a3829bf13d6ca52dab57ce7dc1170ec3f909f4bcf207a4fbdf9e55c81f2e",
+      "size": 17293
+    },
+    {
+      "path": "kubejs/assets/simplyswords/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/simplyswords/lang/fr_fr.json",
+      "sha256": "ba4d39625d293978bde0dbae02a45b497a94b001d6d1f0e7258c0ece0217d3b4",
+      "size": 132130
+    },
+    {
+      "path": "kubejs/assets/simplytooltips/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/simplytooltips/lang/fr_fr.json",
+      "sha256": "378aeab13742da640fbba042a2fabc6984d00b3489618873160e51a7cf3a34f0",
+      "size": 198
+    },
+    {
+      "path": "kubejs/assets/sit/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sit/lang/fr_fr.json",
+      "sha256": "390bcbd2e59b4110b26e6861ce4c0a7c312e6b963397e713239a5cc1e785c5e3",
+      "size": 453
+    },
+    {
+      "path": "kubejs/assets/sliceanddice/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sliceanddice/lang/fr_fr.json",
+      "sha256": "197c731859aafa786e6708bd2a9b20d00ef158370d024c96937e1aa9b63369ef",
+      "size": 108
+    },
+    {
+      "path": "kubejs/assets/sodium/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sodium/lang/fr_fr.json",
+      "sha256": "66aaa848a656465f7e6674a7e9c3a8eb6c906ae4be6f334dbd9d65344469cb65",
+      "size": 11008
+    },
+    {
+      "path": "kubejs/assets/sodiumextras/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sodiumextras/lang/fr_fr.json",
+      "sha256": "9c1605f1f3bfc5dab3d6c93cc8fbe6e6f4db43f9cceb2c51cec54a6e2c33386b",
+      "size": 9087
+    },
+    {
+      "path": "kubejs/assets/sodiumleafculling/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sodiumleafculling/lang/fr_fr.json",
+      "sha256": "01946841cdc951140ac11c7cee55db56ef520fafbb1146f02714bb8f34fc2be9",
+      "size": 583
+    },
+    {
+      "path": "kubejs/assets/sodiumoptionsmodcompat/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sodiumoptionsmodcompat/lang/fr_fr.json",
+      "sha256": "340623623fe109bff3d17feebec372567cfae0281889561bc92749a2f27a2534",
+      "size": 356
+    },
+    {
+      "path": "kubejs/assets/solonion/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/solonion/lang/fr_fr.json",
+      "sha256": "e63f404dddd34a7fca3bf88038db3d7e9da79c92c5689eb7228acba5aee32d7d",
+      "size": 4946
+    },
+    {
+      "path": "kubejs/assets/somemoreblocks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/somemoreblocks/lang/fr_fr.json",
+      "sha256": "ba5ea2075cfe218d57117b16f2a842847caf826e3994fb2c304ce10cd62cf933",
+      "size": 53607
+    },
+    {
+      "path": "kubejs/assets/sophisticatedbackpacks/lang/en_us.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sophisticatedbackpacks/lang/en_us.json",
+      "sha256": "65ee0c48066207e44eb76d5af4c892ebb1c555c565e24895a897b38de50596e2",
+      "size": 493
+    },
+    {
+      "path": "kubejs/assets/sophisticatedbackpacks/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sophisticatedbackpacks/lang/fr_fr.json",
+      "sha256": "949dd8542f26a8a3a42c4782080a37956d7ea788c7b4c85686511e1616afe8db",
+      "size": 17957
+    },
+    {
+      "path": "kubejs/assets/sophisticatedcore/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sophisticatedcore/lang/fr_fr.json",
+      "sha256": "9c6bdd60e46d496c9eade9e8642cbdaedadfa299118c0d7cd06f8e9cbf364e4b",
+      "size": 28485
+    },
+    {
+      "path": "kubejs/assets/sophisticatedstorage/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sophisticatedstorage/lang/fr_fr.json",
+      "sha256": "a7abfa0070208fae8ce988a61d06d1e3e3e2e6b2ea67451dc6bf3c361d3013cc",
+      "size": 48239
+    },
+    {
+      "path": "kubejs/assets/sophisticatedstorageinmotion/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sophisticatedstorageinmotion/lang/fr_fr.json",
+      "sha256": "9a91225bb4f4af2c33dbc6290ebbbc70dfa59592e930354c6a99f29afce3d3a4",
+      "size": 770
+    },
+    {
+      "path": "kubejs/assets/sound_physics_remastered/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/sound_physics_remastered/lang/fr_fr.json",
+      "sha256": "5deb4049239387d27a8d39330b76d4d8583893eea6c84e0a97339dc00653b587",
+      "size": 10334
+    },
+    {
+      "path": "kubejs/assets/spiffyhud/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/spiffyhud/lang/fr_fr.json",
+      "sha256": "af5e5f45eed5fb8dcf0627bd1888351270c3bb9e4ce3925e8c68423e8130793b",
+      "size": 114
+    },
+    {
+      "path": "kubejs/assets/spyglass_improvements/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/spyglass_improvements/lang/fr_fr.json",
+      "sha256": "d20352413b9277c15c1ad90439927fdc3448488af8774cef41b5b5c6689a9329",
+      "size": 1150
+    },
+    {
+      "path": "kubejs/assets/storagedelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/storagedelight/lang/fr_fr.json",
+      "sha256": "b760b605567cbc65184eafbd072106f700e1cf3767471ec7b54a443fb7ffcce6",
+      "size": 10396
+    },
+    {
+      "path": "kubejs/assets/strawstatues/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/strawstatues/lang/fr_fr.json",
+      "sha256": "c4f8617f5a017467da89322574f8cb9e80e70c9b9625d38798d5c8468559ce06",
+      "size": 1206
+    },
+    {
+      "path": "kubejs/assets/supermartijn642corelib/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/supermartijn642corelib/lang/fr_fr.json",
+      "sha256": "5a66f484cc19b00d0a3239f6fa2791108f4c828e31cee947a2031f0024d62dca",
+      "size": 82
+    },
+    {
+      "path": "kubejs/assets/supplementaries/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/supplementaries/lang/fr_fr.json",
+      "sha256": "4c6b78e1a0f8266339f85668a3524f10fea42c6e2a4dba418f18c337fc46b89d",
+      "size": 20356
+    },
+    {
+      "path": "kubejs/assets/suppsquared/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/suppsquared/lang/fr_fr.json",
+      "sha256": "8a950cf907a6c28d4a62e0dd6dbd420c5df567458dcaada234041dc514fe037f",
+      "size": 153
+    },
+    {
+      "path": "kubejs/assets/terrablender/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/terrablender/lang/fr_fr.json",
+      "sha256": "cc55486aba1f6fd8fd17423f848ba6b3ec822f89a666c19bfabc8f2495164088",
+      "size": 183
+    },
+    {
+      "path": "kubejs/assets/tfbr/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/tfbr/lang/fr_fr.json",
+      "sha256": "aeecc032149f53c09358ab376bbedd5bf38bdfe7b59a0e717fd817455d885967",
+      "size": 1288
+    },
+    {
+      "path": "kubejs/assets/tfmg/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/tfmg/lang/fr_fr.json",
+      "sha256": "97d1750b7ddd4e8cd3e163f7fc88f3e34ac8bc4c16dbae48075742907188ee83",
+      "size": 64803
+    },
+    {
+      "path": "kubejs/assets/titanium/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/titanium/lang/fr_fr.json",
+      "sha256": "a8ffaccc7b29ba624607f9ca7fd2c3cda11a17f38c45aab9bcdb86ac1f47b9f3",
+      "size": 1003
+    },
+    {
+      "path": "kubejs/assets/torchmaster/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/torchmaster/lang/fr_fr.json",
+      "sha256": "456876899bf8399943a2de0db14789d4a7c5f28576abee4f8d8655ce70823364",
+      "size": 2782
+    },
+    {
+      "path": "kubejs/assets/trade_cycling/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/trade_cycling/lang/fr_fr.json",
+      "sha256": "66d1f10bec864ae52252abee3d9297c6f18fdce4aca9893d99208412662349e9",
+      "size": 141
+    },
+    {
+      "path": "kubejs/assets/trading_floor/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/trading_floor/lang/fr_fr.json",
+      "sha256": "7fc3e84de1a0bdceeddcea9855785df5b67481b99b4582d1f0f3a3c25271ffe5",
+      "size": 3652
+    },
+    {
+      "path": "kubejs/assets/trailandtales_delight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/trailandtales_delight/lang/fr_fr.json",
+      "sha256": "d3991fbd7bf2999531277a8be37aa5162b80625a49200e6a2f51a1ffe7d8a7dd",
+      "size": 6440
+    },
+    {
+      "path": "kubejs/assets/trashcans/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/trashcans/lang/fr_fr.json",
+      "sha256": "1bfd56033ba0d73b85a5efb168025c87a16e671c003afb6c89bff80d1fa90ca1",
+      "size": 1106
+    },
+    {
+      "path": "kubejs/assets/trashslot/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/trashslot/lang/fr_fr.json",
+      "sha256": "15b5cd1403b28f2b36715c974640597ff1a497bfb687b8a3b1534b153d7d7e55",
+      "size": 2516
+    },
+    {
+      "path": "kubejs/assets/twilight_additions/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/twilight_additions/lang/fr_fr.json",
+      "sha256": "d2d288832a80af791fafcb3bf26699ab0258fc8716a0ef44fbb7470262d625e3",
+      "size": 804
+    },
+    {
+      "path": "kubejs/assets/twilight_forest_final_boss/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/twilight_forest_final_boss/lang/fr_fr.json",
+      "sha256": "1713d988124e492e9240ca1a39a0ab64acafcd81cd65f3093a53070ad7ad3615",
+      "size": 905
+    },
+    {
+      "path": "kubejs/assets/twilightdelight/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/twilightdelight/lang/fr_fr.json",
+      "sha256": "fcc3f3b629954d377c8f7c9189bc773b5d6c3bdbe831013163c9be94dd22e3f4",
+      "size": 13236
+    },
+    {
+      "path": "kubejs/assets/twilightforest/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/twilightforest/lang/fr_fr.json",
+      "sha256": "b950ed8698f4ffa268c765a329ba8b2e1a5d6ef18ed9ba263d2430064eae7805",
+      "size": 179180
+    },
+    {
+      "path": "kubejs/assets/underground_village/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/underground_village/lang/fr_fr.json",
+      "sha256": "295bf1f622f2eaf324700b83608e62aee0437467dca7053d685ad70620719878",
+      "size": 1226
+    },
+    {
+      "path": "kubejs/assets/visualworkbench/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/visualworkbench/lang/fr_fr.json",
+      "sha256": "bbbf137c56fe831277362191b09139b403c6dec0600d7269775f39fd3bd81de3",
+      "size": 166
+    },
+    {
+      "path": "kubejs/assets/voicechat/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/voicechat/lang/fr_fr.json",
+      "sha256": "bfcf1757b83269b396082510b3182d584c37d4ceed69afad76c7c96b62f6774c",
+      "size": 3276
+    },
+    {
+      "path": "kubejs/assets/voidtotem/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/voidtotem/lang/fr_fr.json",
+      "sha256": "bfb87d2030829a1441dfe2cb4f31ffed876696c62b822e6e0803ba071aa98de2",
+      "size": 361
+    },
+    {
+      "path": "kubejs/assets/waterframes/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/waterframes/lang/fr_fr.json",
+      "sha256": "e167075f40bc8d1d1b915555aab3492998584fe4e9467457417d6bbc72ed4d33",
+      "size": 361
+    },
+    {
+      "path": "kubejs/assets/waystones/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/waystones/lang/fr_fr.json",
+      "sha256": "b203c3b098eba3330f871e981a2a0da6b1c580130c262cc95da2c375e9244500",
+      "size": 19480
+    },
+    {
+      "path": "kubejs/assets/worldedit_items/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/worldedit_items/lang/fr_fr.json",
+      "sha256": "73100376838f48cbe35666949309b4fc9ef49f142172ec67abf79e7596e1446a",
+      "size": 447
+    },
+    {
+      "path": "kubejs/assets/xpbook/lang/fr_fr.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/assets/xpbook/lang/fr_fr.json",
+      "sha256": "b5bd970c101e21db35a662e6a02a5dd3160ee9777eff0c04fca18a8a1b389bfb",
+      "size": 500
+    },
+    {
+      "path": "kubejs/client_scripts/arcadia_item_tooltips.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/client_scripts/arcadia_item_tooltips.js",
+      "sha256": "878b2cd47aec13e025631f6734b63b40da42101bdf60e19ba95bd118e03b6519",
+      "size": 6793
+    },
+    {
+      "path": "kubejs/startup_scripts/compat/knightlib_enable_content.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/compat/knightlib_enable_content.js",
+      "sha256": "02544c523b694b3fd4531d38e7f1e79d8037e01ee5c91a04d538b67699b7f50b",
+      "size": 1434
+    },
+    {
+      "path": "kubejs/startup_scripts/registry/armor_tiers.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/registry/armor_tiers.js",
+      "sha256": "317249d5920185768477756db593bd136c4c1b4aa130320d68390ec263e5d819",
+      "size": 694
+    },
+    {
+      "path": "kubejs/startup_scripts/registry/block_registry.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/registry/block_registry.js",
+      "sha256": "b8d5d80de4035b986cc4c850b06b51dddb07ce54cf8d7df2576d708d688d97c3",
+      "size": 382
+    },
+    {
+      "path": "kubejs/startup_scripts/registry/item_registry.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/registry/item_registry.js",
+      "sha256": "c0f7189771eab69bc6ee18239cf5505148a6e12d976dad9c0a23e7f3cb207cee",
+      "size": 11599
+    },
+    {
+      "path": "kubejs/startup_scripts/registry/item_stat_tweaks.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/registry/item_stat_tweaks.js",
+      "sha256": "11624fa82b9786062ea603725e8b1b0aa2f5e43584243dbee771a50f9413e793",
+      "size": 596
+    },
+    {
+      "path": "kubejs/startup_scripts/registry/sound_registry.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/registry/sound_registry.js",
+      "sha256": "025e1e9e00142a7179553714f3b85972a6b4226ae35a5171ef3277fa304910d5",
+      "size": 794
+    },
+    {
+      "path": "kubejs/startup_scripts/ui/arcadia_creative_tab.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/ui/arcadia_creative_tab.js",
+      "sha256": "1e8a63fabb61a25282116d74c4184f75174812e57662363a648f94cae70dce9b",
+      "size": 3777
+    },
+    {
+      "path": "kubejs/startup_scripts/ui/hide_banned_from_creative.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/ui/hide_banned_from_creative.js",
+      "sha256": "c42c0eba34ede7ffe6030b744a2d34bd219a0e18161c70cde8460b121079082e",
+      "size": 15036
+    },
+    {
+      "path": "kubejs/startup_scripts/ui/player_welcome_message.js",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/kubejs/startup_scripts/ui/player_welcome_message.js",
+      "sha256": "70b7f7abae6a3f72802d0f8d5478748ede0c9b99bdd9412fd17697e263dbc5f0",
+      "size": 504
+    },
+    {
       "path": "mods/3d_placeable_food-2.4.0-neoforge-1.21.1.jar",
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/3d_placeable_food-2.4.0-neoforge-1.21.1.jar",
       "sha256": "571f4d50f47d58143ba365b6caed5054232cf1a8a9d97ca752d10e85e1b74887",

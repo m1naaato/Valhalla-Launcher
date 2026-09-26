@@ -1,0 +1,10 @@
+{
+	"item.numismatics.spur": "Sou d'Arcadia",
+	"item.numismatics.bevel": "Florin d'Arcadia",
+	"item.numismatics.sprocket": "Ducat d'Arcadia",
+	"item.numismatics.cog": "Sceau d'Arcadia",
+	"item.numismatics.crown": "Couronne d'Arcadia",
+	"item.numismatics.sun": "Soleil d'Arcadia",
+	"block.numismatics.vendor.tooltip.mode": "Mode",
+	"block.numismatics.vendor.tooltip.stock": "Stock"
+}

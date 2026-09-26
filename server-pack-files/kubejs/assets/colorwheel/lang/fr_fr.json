@@ -1,0 +1,23 @@
+{
+	"colorwheel.fallback_mode": "mode de repli",
+	"colorwheel.fallback_mode.enable": "Activer le mode de repli",
+	"colorwheel.alert.ask_disable": "Désactiver cette alerte",
+	"colorwheel.alert.incompatible_pack": "Le pack de shaders %1$s n'est pas compatible",
+	"colorwheel.alert.incompatible_pack.patch_available": "Vous devriez plutôt sélectionner %1$s dans le menu Packs de Shaders",
+	"colorwheel.alert.incompatible_pack.ask_fallback_mode": "Vous pouvez demander la prise en charge de Colorwheel au développeur du pack de shaders. Vous pouvez aussi activer le %1$s pour une prise en charge entièrement automatique. IL Y AURA des problèmes graphiques et un support étendu NE SERA PAS fourni.",
+	"colorwheel.alert.incompatible_pack.disable": "Désactiver l'alerte de pack de shaders incompatible",
+	"colorwheel.alert.broken_pack": "Le pack de shaders actuel contient des shaders cassés, attendez-vous à des problèmes graphiques",
+	"colorwheel.alert.broken_pack.disable": "Désactiver l'alerte de pack de shaders cassé",
+	"command.colorwheel.alert_incompatible_pack.get.on": "L'alerte de pack de shaders incompatible est activée",
+	"command.colorwheel.alert_incompatible_pack.get.off": "L'alerte de pack de shaders incompatible est désactivée",
+	"command.colorwheel.alert_incompatible_pack.set.on": "L'alerte de pack de shaders incompatible est maintenant activée",
+	"command.colorwheel.alert_incompatible_pack.set.off": "L'alerte de pack de shaders incompatible est maintenant désactivée",
+	"command.colorwheel.alert_broken_pack.get.on": "L'alerte de pack de shaders cassé est activée",
+	"command.colorwheel.alert_broken_pack.get.off": "L'alerte de pack de shaders cassé est désactivée",
+	"command.colorwheel.alert_broken_pack.set.on": "L'alerte de pack de shaders cassé est maintenant activée",
+	"command.colorwheel.alert_broken_pack.set.off": "L'alerte de pack de shaders cassé est maintenant désactivée",
+	"command.colorwheel.fallback_mode.get.on": "Le mode de repli est activé",
+	"command.colorwheel.fallback_mode.get.off": "Le mode de repli est désactivé",
+	"command.colorwheel.fallback_mode.set.on": "Le mode de repli est maintenant activé. Ici soient les dragons !",
+	"command.colorwheel.fallback_mode.set.off": "Le mode de repli est maintenant désactivé"
+}

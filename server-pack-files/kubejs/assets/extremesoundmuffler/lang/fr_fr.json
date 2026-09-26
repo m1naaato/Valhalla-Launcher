@@ -1,0 +1,23 @@
+{
+	"forbiddenSounds.button": "Set Forbidden Sons",
+	"general.button": "Général",
+	"Anchors.button": "Anchors",
+	"inventory_button.button": "Bouton d'inventaire",
+	"extremesoundmuffler.configuration.inventory_button": "Bouton d'inventaire",
+	"extremesoundmuffler.configuration.Anchors": "Anchors",
+	"extremesoundmuffler.configuration.general": "Général",
+	"extremesoundmuffler.configuration.forbiddenSounds": "Forbidden Sons",
+	"extremesoundmuffler.configuration.modsMuffled": "Mods Muffled",
+	"extremesoundmuffler.configuration.useDarkTheme": "Utiliser Dark theme",
+	"extremesoundmuffler.configuration.leftButtons": "Left buttons",
+	"extremesoundmuffler.configuration.lawfulAllList": "lawful All sons List",
+	"extremesoundmuffler.configuration.defaultMuteVolume": "Par défaut Mute Volume",
+	"extremesoundmuffler.configuration.showTip": "Afficher tips",
+	"extremesoundmuffler.configuration.disableInventoryButton": "Désactiver Inventory button",
+	"extremesoundmuffler.configuration.invButtonX": "Inventory button X coord",
+	"extremesoundmuffler.configuration.invButtonY": "Inventory button Y coord",
+	"extremesoundmuffler.configuration.disableCreativeInventoryButton": "Désactiver Créatif inventory button",
+	"extremesoundmuffler.configuration.creativeInvButtonX": "Créatif button X coord",
+	"extremesoundmuffler.configuration.creativeInvButtonY": "Créatif button Y coord",
+	"extremesoundmuffler.configuration.disableAnchors": "Désactiver Anchors"
+}

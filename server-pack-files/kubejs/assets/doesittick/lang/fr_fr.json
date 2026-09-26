@@ -1,0 +1,4 @@
+{
+	"doesittick.warn.1": "Does It Tick est installé sur ce serveur. Si votre ferme à mobs ne fonctionne pas lorsque vous en êtes loin, essayez d'utiliser FTB Chunks / OPAC pour réclamer ses chunks. Vous pouvez désactiver ce message dans la configuration de Does It Tick",
+	"doesittick.warn.2": "Does It Tick est installé mais pas FTB Chunks. Si votre ferme à mobs ne fonctionne pas lorsque vous en êtes loin, essayez d'installer FTB Chunks / OPAC et de réclamer ses chunks. Vous pouvez désactiver ce message dans la configuration de Does It Tick"
+}

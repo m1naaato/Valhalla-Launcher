@@ -1,0 +1,14 @@
+{
+	"text.autoconfig.bettercombat.option.client.isSwingThruGrassSmart": "Smart swing through grass",
+	"text.autoconfig.bettercombat.option.client.isSwingThruGrassSmart.@Tooltip": "Only swing through grass si there sont enemies dans attaque range",
+	"text.autoconfig.bettercombat.option.client.isShowingWeaponTrails": "Afficher weapon swing trails",
+	"text.autoconfig.bettercombat.option.client.isShowingWeaponTrails.@Tooltip": "Rendre weapon trail particles pour attacks dans all perspectives",
+	"text.autoconfig.bettercombat.option.client.isTooltipAttackRangeReformat": "Objet tooltip: reformat vanilla range",
+	"text.autoconfig.bettercombat.option.client.isTooltipAttackRangeReformat.@Tooltip": "Format Entité Interaction Range à Attaque Range",
+	"text.autoconfig.bettercombat.option.client.mineWithWeaponWhitelist": "Mine avec weapon whitelist",
+	"text.autoconfig.bettercombat.option.client.mineWithWeaponWhitelist.@Tooltip": "Weapons avec an ID ce matches ce regex peut always mine blocs, even lorsque 'Mine avec weapons' est désactivé",
+	"text.autoconfig.bettercombat.option.client.firstPersonAnimations": "First-person joueur animations",
+	"text.autoconfig.bettercombat.option.client.firstPersonAnimations.@Tooltip": "Attaque joueur animations à be shown. Only recommended à changer si custom appareil photo mods dans utiliser.",
+	"text.autoconfig.bettercombat.option.client.legAnimationThreshold": "Désactiver leg animations",
+	"text.autoconfig.bettercombat.option.client.legAnimationThreshold.@Tooltip": "EXPERIMENTAL: Désactiver leg animations pendant running over ce vitesse"
+}

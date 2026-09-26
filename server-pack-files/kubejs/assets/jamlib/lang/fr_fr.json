@@ -1,0 +1,20 @@
+{
+	"config.jamlib.selection_screen_title": "Sélectionner la configuration pour %s",
+	"config.jamlib.open": "Ouvrir",
+	"config.jamlib.edit_manually": "Modifier manuellement",
+	"config.jamlib.reset": "Réinitialiser",
+	"config.jamlib.reset_tooltip": "Réinitialiser à la valeur par défaut",
+	"config.jamlib.matches_regex_tooltip": "La valeur doit correspondre à l'expression régulière suivante : %s",
+	"config.jamlib.requires_restart_tooltip": "Un redémarrage est nécessaire pour que ce changement prenne effet",
+	"config.jamlib.within_range_tooltip": "La valeur doit être entre %d et %d",
+	"text.jamlib.renamed_1": "Les fichiers de mod suivants ont été renommés - c'est souvent le signe qu'un mod est %s.",
+	"text.jamlib.renamed_1.1": "redistribué sans permission",
+	"text.jamlib.renamed_2": "Des sites comme %s %s et peuvent être utilisés pour %s. Les mods peuvent être trouvés officiellement sur %s et %s.",
+	"text.jamlib.renamed_2.1": "9minecraft",
+	"text.jamlib.renamed_2.2": "nuire aux moddeurs",
+	"text.jamlib.renamed_2.3": "distribuer des malwares",
+	"text.jamlib.renamed_2.4": "CurseForge",
+	"text.jamlib.renamed_2.5": "Modrinth",
+	"text.jamlib.renamed_3": "Ce message n'apparaîtra qu'une fois. %s.",
+	"text.jamlib.renamed_3.1": "Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter l'auteur du mod"
+}

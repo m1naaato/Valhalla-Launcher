@@ -1,0 +1,16 @@
+{
+	"colorfulhearts.screen.configuration.title": "Colorful Hearts",
+	"colorfulhearts.screen.configuration.colors.category": "Couleurs",
+	"colorfulhearts.screen.health.title": "Couleurs de santé",
+	"colorfulhearts.screen.absorption.title": "Couleurs d'absorption",
+	"colorfulhearts.options.button.health_colors": "Santé",
+	"colorfulhearts.options.button.absorption_colors": "Absorption",
+	"colorfulhearts.options.button.hearttype.normal": "Normal",
+	"colorfulhearts.options.button.hearttype.poisoned": "Empoisonné",
+	"colorfulhearts.options.button.hearttype.withered": "Flétri",
+	"colorfulhearts.options.button.hearttype.frozen": "Gelé",
+	"colorfulhearts.options.button.confirmsave": "Sauvegarder et quitter",
+	"colorfulhearts.options.button.cancel": "Annuler",
+	"colorfulhearts.options.button.vanillaheart.true": "Vanilla : Oui",
+	"colorfulhearts.options.button.vanillaheart.false": "Vanilla : Non"
+}

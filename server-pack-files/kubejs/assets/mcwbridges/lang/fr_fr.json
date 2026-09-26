@@ -1,0 +1,12 @@
+{
+	"item.mcwbridges.mossy_stone_bridge_stair": "Escalier de pont en pierre moussue",
+	"block.mcwbridges.mossy_stone_bridge_stair": "Escalier de pont en pierre moussue",
+	"block.mcwbridges.pale_oak_log_bridge_middle": "Pont en chêne pâle",
+	"block.mcwbridges.rope_pale_oak_bridge": "Pont de corde en chêne pâle",
+	"block.mcwbridges.pale_oak_rail_bridge": "Pont à rambarde en chêne pâle",
+	"block.mcwbridges.pale_oak_bridge_pier": "Pilier de pont en chêne pâle",
+	"block.mcwbridges.stone_bridge_pier": "Pilier de pont en pierre",
+	"block.mcwbridges.pale_oak_log_bridge_stair": "Escalier de pont en chêne pâle",
+	"block.mcwbridges.pale_oak_rope_bridge_stair": "Escalier de pont de corde en chêne pâle",
+	"itemGroup.mcwbridges": "Ponts de Macaw"
+}

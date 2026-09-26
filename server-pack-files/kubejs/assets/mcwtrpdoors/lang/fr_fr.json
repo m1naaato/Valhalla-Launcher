@@ -1,0 +1,16 @@
+{
+	"item.mcwtrpdoors.print_whispering": "Empreinte de trappe murmurante",
+	"block.mcwtrpdoors.bamboo_bark_trapdoor": "Trappe en écorce de bambou",
+	"block.mcwtrpdoors.oak_whispering_trapdoor": "Trappe murmurante en chêne",
+	"block.mcwtrpdoors.spruce_whispering_trapdoor": "Trappe murmurante en épicéa",
+	"block.mcwtrpdoors.birch_whispering_trapdoor": "Trappe murmurante en bouleau",
+	"block.mcwtrpdoors.jungle_whispering_trapdoor": "Trappe murmurante en acajou",
+	"block.mcwtrpdoors.acacia_whispering_trapdoor": "Trappe murmurante en acacia",
+	"block.mcwtrpdoors.dark_oak_whispering_trapdoor": "Trappe murmurante en chêne foncé",
+	"block.mcwtrpdoors.mangrove_whispering_trapdoor": "Trappe murmurante en palétuvier",
+	"block.mcwtrpdoors.warped_whispering_trapdoor": "Trappe murmurante en bois biscornu",
+	"block.mcwtrpdoors.crimson_whispering_trapdoor": "Trappe murmurante en bois carmin",
+	"block.mcwtrpdoors.bamboo_whispering_trapdoor": "Trappe murmurante en bambou",
+	"block.mcwtrpdoors.cherry_whispering_trapdoor": "Trappe murmurante en cerisier",
+	"itemGroup.mcwtrpdoors": "Trappes de Macaw"
+}

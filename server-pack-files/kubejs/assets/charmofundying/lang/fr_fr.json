@@ -1,0 +1,12 @@
+{
+	"gui.charmofundying.config.xOffset.name": "Décalage horizontal du rendu",
+	"gui.charmofundying.config.xOffset.description": "Le décalage horizontal pour le rendu du totem sur le joueur.",
+	"gui.charmofundying.config.yOffset.name": "Décalage vertical du rendu",
+	"gui.charmofundying.config.yOffset.description": "Le décalage vertical pour le rendu du totem sur le joueur.",
+	"gui.charmofundying.config.zOffset.name": "Décalage en Z du rendu",
+	"gui.charmofundying.config.zOffset.description": "Le décalage sur l'axe Z pour le rendu du totem sur le joueur.",
+	"gui.charmofundying.config.renderTotem.name": "Afficher le totem équipé",
+	"gui.charmofundying.config.renderTotem.description": "Si activé, affiche le totem équipé sur les joueurs.",
+	"trinkets.slot.charm.charm": "Charme",
+	"charmofundying.networking.failed": "Échec du réseau de Charm of Undying"
+}

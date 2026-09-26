@@ -1,0 +1,18 @@
+{
+	"item.trashcans.energy_trash_can": "Poubelle à énergie",
+	"block.trashcans.energy_trash_can": "Poubelle à énergie",
+	"item.trashcans.item_trash_can": "Poubelle à objets",
+	"block.trashcans.item_trash_can": "Poubelle à objets",
+	"item.trashcans.liquid_trash_can": "Poubelle à liquides",
+	"block.trashcans.liquid_trash_can": "Poubelle à liquides",
+	"item.trashcans.ultimate_trash_can": "Poubelle ultime",
+	"block.trashcans.ultimate_trash_can": "Poubelle ultime",
+	"trashcans.block.item_trash_can": "Poubelle à objet",
+	"trashcans.block.liquid_trash_can": "Fluid Trash Peut",
+	"trashcans.block.energy_trash_can": "Poubelle d'énergie",
+	"trashcans.block.ultimate_trash_can": "Poubelle ultime",
+	"trashcans.item_trash_can.info": "Peut void objets, aussi contains a filter pour up à 9 objets",
+	"trashcans.liquid_trash_can.info": "Peut void liquids et gasses, aussi contains a filter pour up à 9 fluids",
+	"trashcans.energy_trash_can.info": "Peut void energy, peut aussi limit le energy transfer rate",
+	"trashcans.ultimate_trash_can.info": "Peut void objets, fluids, et energy"
+}

@@ -1,0 +1,6 @@
+{
+	"gui.comforts.config.enableHammockRecipes.name": "Activer hammock recettes",
+	"gui.comforts.config.enableHammockRecipes.description": "Si activé, le par défaut hammock recettes va be disponible.",
+	"gui.comforts.config.enableSleepingBagRecipes.name": "Activer sleeping bag recettes",
+	"gui.comforts.config.enableSleepingBagRecipes.description": "Si activé, le par défaut sleeping bag recettes va be disponible."
+}

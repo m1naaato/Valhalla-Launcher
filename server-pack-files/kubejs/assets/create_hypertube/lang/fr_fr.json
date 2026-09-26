@@ -1,0 +1,22 @@
+{
+	"create_hypertube.ponder.simple_tube.header": "Creating a Hypertube",
+	"create_hypertube.ponder.simple_tube.text_1": "À create a Hypertube connection, Just Right Clic le tube pendant en tenant another tube.",
+	"create_hypertube.ponder.simple_tube.text_2": "Then placer le seconde tube.",
+	"create_hypertube.ponder.simple_tube.text_3": "Et vous have a Hypertube connection!",
+	"create_hypertube.ponder.simple_tube.text_4": "Vous peut connect already placé tubes.",
+	"create_hypertube.ponder.simple_tube.text_5": "Vous peut changer tube segment count avec le wrench.",
+	"create_hypertube.ponder.entrance.header": "Hypertube Entrances",
+	"create_hypertube.ponder.entrance.text_1": "Hypertube Entrances connect à le Hypertube network, allowing high-vitesse travel.",
+	"create_hypertube.ponder.entrance.text_2": "À be able à enter le Hypertube, vous need à power avec à least 16 RPM.",
+	"create_hypertube.ponder.entrance.text_3": "Le faster it spins, le faster vous peut travel.",
+	"create_hypertube.ponder.entrance.text_4": "Vous peut changer le entrance mode par Right Clicking it avec a Wrench.",
+	"create_hypertube.ponder.accelerator.header": "Hypertube Accelerators",
+	"create_hypertube.ponder.accelerator.text_1": "Hypertube Accelerators augmenter le vitesse of entités traveling le Hypertube.",
+	"create_hypertube.ponder.accelerator.text_2": "Vous peut changer à BRAKE mode par Right Clicking le Accelerator.",
+	"create_hypertube.ponder.attachments.header": "Hypertube Attachments",
+	"create_hypertube.ponder.attachments.text_1": "Le Scanner Attachment permet vous à detect entités traveling le Hypertube. (8 power pour babies et 15 pour adults)",
+	"create_hypertube.ponder.attachments.text_2": "Vous peut aussi placer attachments dans accelerators, dans any side à le same time.",
+	"create_hypertube.ponder.attachments.text_3": "Le Redstone Detector Attachment permet vous à changer le Accelerator/Entrance mode avec a Redstone signal.",
+	"create_hypertube.ponder.tag.hypertube_systems": "Hypertube Systems",
+	"create_hypertube.ponder.tag.hypertube_systems.description": "Blocs et objets utilisé dans Hypertube transportation systems."
+}

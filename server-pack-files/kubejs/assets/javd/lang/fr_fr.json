@@ -1,0 +1,10 @@
+{
+	"item.javd.portal_block": "Bloc de portail",
+	"block.javd.portal_block": "Bloc de portail",
+	"advancement.javd.enter_void_dimension": "Vers l'infini et le néant",
+	"advancement.javd.enter_void_dimension.description": "Entrer dans la Dimension du Vide",
+	"biome.javd.void": "Le Vide",
+	"dimension.javd.void": "Le Vide",
+	"javd.invalid.pos": "Impossible de trouver un emplacement valide pour le portail",
+	"javd.invalid.world": "Impossible de trouver le monde « %s »"
+}

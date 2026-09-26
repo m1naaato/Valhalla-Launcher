@@ -1,0 +1,11 @@
+{
+	"block.mcwstairs.nether_brick_terrace_stairs": "Escalier en briques du Nether terrasse",
+	"block.mcwstairs.nether_brick_skyline_stairs": "Escalier en briques du Nether skyline",
+	"block.mcwstairs.nether_brick_compact_stairs": "Escalier en briques du Nether compact",
+	"block.mcwstairs.nether_brick_bulk_stairs": "Escalier en briques du Nether massif",
+	"block.mcwstairs.nether_brick_loft_stairs": "Escalier en briques du Nether loft",
+	"block.mcwstairs.nether_brick_railing": "Rambarde en briques du Nether",
+	"block.mcwstairs.nether_brick_balcony": "Balcon en briques du Nether",
+	"block.mcwstairs.nether_brick_platform": "Plateforme en briques du Nether",
+	"itemGroup.mcwstairs": "Escaliers et balcons de Macaw"
+}

@@ -1,0 +1,20 @@
+{
+	"block.mcwwindows.crimson_stem_window": "Fenêtre redimensionnable en tige carmin",
+	"block.mcwwindows.crimson_stem_window2": "Fenêtre rectangulaire en tige carmin",
+	"block.mcwwindows.warped_stem_window": "Fenêtre redimensionnable en tige biscornue",
+	"block.mcwwindows.warped_stem_window2": "Fenêtre rectangulaire en tige biscornue",
+	"block.mcwwindows.crimson_planks_window": "Fenêtre redimensionnable en planches carmin",
+	"block.mcwwindows.crimson_planks_window2": "Fenêtre rectangulaire en planches carmin",
+	"block.mcwwindows.warped_planks_window": "Fenêtre redimensionnable en planches biscornues",
+	"block.mcwwindows.warped_planks_window2": "Fenêtre rectangulaire en planches biscornues",
+	"block.mcwwindows.crimson_stem_four_window": "Fenêtre à quatre carreaux en tige carmin",
+	"block.mcwwindows.warped_stem_four_window": "Fenêtre à quatre carreaux en tige biscornue",
+	"block.mcwwindows.crimson_planks_four_window": "Fenêtre à quatre carreaux en planches carmin",
+	"block.mcwwindows.warped_planks_four_window": "Fenêtre à quatre carreaux en planches biscornues",
+	"block.mcwwindows.metal_curtain_rod": "Tringle à rideau en métal",
+	"block.mcwwindows.golden_curtain_rod": "Tringle à rideau en or",
+	"itemGroup.mcwwindows": "Fenêtres de Macaw",
+	"itemGroup.windows2": "Ajouts aux fenêtres de Macaw",
+	"subtitle.mcwwindows.bars_close": "Barreaux de fer activés",
+	"subtitle.mcwwindows.bars_open": "Barreaux de fer activés"
+}

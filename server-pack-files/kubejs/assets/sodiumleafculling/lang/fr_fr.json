@@ -1,0 +1,8 @@
+{
+	"sodiumleafculling.options.leaf_culling.name": "Mode d'élimination des feuilles",
+	"sodiumleafculling.options.leaf_culling.tooltip": "Si activé, les feuilles cachées derrière d'autres feuilles ne seront plus rendues afin d'améliorer les performances. Le mode Creux supprime agressivement les faces, le mode Plein active un rendu rapide en bloc plein des feuilles derrière d'autres feuilles.",
+	"options.leaf_culling.none": "Aucun",
+	"options.leaf_culling.hollow": "Creux",
+	"options.leaf_culling.solid": "Plein",
+	"options.leaf_culling.solid_aggressive": "Plein agressif"
+}

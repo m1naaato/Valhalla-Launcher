@@ -1,0 +1,16 @@
+{
+	"format.betterf3.fps": "%s fps / %s fps %s",
+	"config.betterf3.title": "BetterF3",
+	"config.betterf3.category.modules": "Modules",
+	"text.betterf3.module.minecraft": "Minecraft",
+	"text.betterf3.line.minecraft": "Minecraft",
+	"text.betterf3.line.total": "total",
+	"text.betterf3.line.axolotls": "Axolotls",
+	"text.betterf3.line.shader": "Shader",
+	"text.betterf3.line.visible": "Visible",
+	"text.betterf3.line.dimension": "Dimension",
+	"text.betterf3.line.rotation": "Rotation",
+	"text.betterf3.line.biome": "Biome",
+	"text.betterf3.line.maximum": "maximum",
+	"text.betterf3.line.off_heap": "Off-Heap"
+}

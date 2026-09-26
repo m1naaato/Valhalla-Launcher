@@ -1,0 +1,14 @@
+{
+	"curios.tooltip.inactive": "Inactive Emplacement",
+	"commands.curios.drop.success": "Lâché objets dans emplacement %s pour %s",
+	"commands.curios.dropAll.success": "Lâché objets dans all emplacements pour %s",
+	"commands.curios.replace.success": "Replaced emplacement %s pour %s avec %s",
+	"argument.entity.options.curios.description": "Entité curios inventory",
+	"curios.modifiers.slots.plus": "+%s %s Emplacement",
+	"curios.modifiers.slots.plus.multiple": "+%s %s Emplacements",
+	"curios.modifiers.slots.take": "%s %s Emplacement",
+	"curios.modifiers.slots.take.multiple": "%s %s Emplacements",
+	"gui.curios.toggle.cosmetics": "Basculer Cosmetics",
+	"gui.curios.page": "Page %d / %d",
+	"curios.networking.failed": "Curios Networking Failure"
+}

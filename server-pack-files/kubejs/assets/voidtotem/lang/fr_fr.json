@@ -1,0 +1,6 @@
+{
+	"text.autoconfig.voidtotem.option.BLOCKLISTED_DIMENSIONS": "Blocklisted dimensions",
+	"text.autoconfig.voidtotem.option.IS_INVERTED_BLOCKLIST": "Est inverted blocklist",
+	"text.autoconfig.voidtotem.option.TELEPORT_HEIGHT_OFFSET": "Téléporter height offset",
+	"text.autoconfig.voidtotem.option.USE_TOTEM_FROM_INVENTORY": "Utiliser totem de inventory"
+}

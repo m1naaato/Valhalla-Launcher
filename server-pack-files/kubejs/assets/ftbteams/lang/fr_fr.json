@@ -1,0 +1,20 @@
+{
+	"ftbteams.team_already_exists": "Équipe %s already exists!",
+	"ftbteams.out_of_lives": "Votre party has run out of lives! Peut't invite new members!",
+	"ftbteams.lost_a_life": "Votre party has lost a life! %s / %s lives remaining!",
+	"ftbteams.kicked_no_lives": "Joueur %s was kicked because they died et votre party has no lives left!",
+	"ftbteams.disbanded_no_lives": "Votre party was disbanded because vous ran out of lives et joueurs!",
+	"ftbteams.gui.toggle_chat": "Cliquez pour basculer",
+	"ftbteams.message.limited_lives": "Votre party has %s / %s lives remaining!",
+	"ftbteams.message.limited_lives.warn": "Si vous die, vous va be kicked de le party!",
+	"ftbteams.message.chat_redirected.on": "Chat messages sont redirected à équipe chat",
+	"ftbteams.message.chat_redirected.off": "Chat messages sont sent à vanilla chat",
+	"ftbteams.message.added_stage": "Ajouté équipe stage: %s",
+	"ftbteams.message.no_team_stages": "No équipe stages pour ce équipe",
+	"ftbteams.message.removed_stage": "Retiré équipe stage: %s",
+	"ftbteams.message.team_stages_header": "%s équipe stage(s) pour ce équipe:",
+	"ftbteams.message.set_property": "Set property %s à %s",
+	"ftbteams.message.parse_failed": "Failed à parse valeur: %s",
+	"ftbteams.message.property_not_editable": "Property %s may pas be edited!",
+	"ftbteams.click_show_info": "Cliquer pour afficher équipe info"
+}

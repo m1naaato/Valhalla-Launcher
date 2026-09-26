@@ -1,0 +1,23 @@
+{
+	"item.createendertransmission.chunk_loader": "Chargeur de tronçons",
+	"block.createendertransmission.chunk_loader": "Chargeur de tronçons",
+	"item.createendertransmission.energy_transmitter": "Transmetteur d'énergie",
+	"block.createendertransmission.energy_transmitter": "Transmetteur d'énergie",
+	"item.createendertransmission.fluid_transmitter": "Transmetteur de fluides",
+	"block.createendertransmission.fluid_transmitter": "Transmetteur de fluides",
+	"item.createendertransmission.item_transmitter": "Transmetteur d'objets",
+	"block.createendertransmission.item_transmitter": "Transmetteur d'objets",
+	"create.gui.transmitter.channel_title": "Réseau",
+	"createendertransmission.chunk_loader.loaded": "Chargeur de chunk a chargé %1$s chunks à proximité",
+	"itemGroup.ender_transmission": "Create Ender Transmission",
+	"transmitter.network.1": "1",
+	"transmitter.network.10": "10",
+	"transmitter.network.2": "2",
+	"transmitter.network.3": "3",
+	"transmitter.network.4": "4",
+	"transmitter.network.5": "5",
+	"transmitter.network.6": "6",
+	"transmitter.network.7": "7",
+	"transmitter.network.8": "8",
+	"transmitter.network.9": "9"
+}

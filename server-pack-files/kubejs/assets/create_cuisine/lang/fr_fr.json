@@ -1,0 +1,7 @@
+{
+	"create_cuisine.ponder.add_food.header": "Bras mécanique et poêle de cuisine",
+	"create_cuisine.ponder.add_food.text_1": "Le bras mécanique peut placer de la nourriture dans une poêle de cuisine chauffée (Note : Poêle de cuisine ! Pas une simple poêle !).",
+	"create_cuisine.ponder.add_food.text_2": "Le bras mécanique peut aussi tenter d'ajouter des paquets contenant de la nourriture dans la poêle de cuisine.",
+	"create_cuisine.ponder.add_food.text_3": "Lorsqu'il tient une spatule, le bras mécanique fait sauter les aliments en continu tant qu'il y a de la nourriture dans la poêle de cuisine, jusqu'à ce que la poêle soit vide.",
+	"create_cuisine.ponder.add_food.text_4": "Lorsqu'il ne tient qu'une seule assiette, en sélectionnant les sorties dans la séquence illustrée, le bras mécanique peut d'abord récupérer les plats de la poêle de cuisine et les livrer à la sortie suivante."
+}

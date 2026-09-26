@@ -1,0 +1,13 @@
+{
+	"config.common.title": "Paramètres des villages souterrains",
+	"config.common.structureSize": "Taille de structure du village souterrain",
+	"config.common.structureSize.tooltip": "Contrôle la taille globale des structures de villages souterrains.",
+	"config.common.maxDistanceFromCenter": "Distance max du centre du village souterrain",
+	"config.common.maxDistanceFromCenter.tooltip": "Distance maximale à laquelle les pièces de structure peuvent être générées depuis le centre du village.",
+	"config.common.waterStructureSize": "Taille de structure du village sous-marin",
+	"config.common.waterStructureSize.tooltip": "Contrôle la taille des structures de villages souterrains aquatiques.",
+	"config.common.waterMaxDistanceFromCenter": "Distance max du centre du village sous-marin",
+	"config.common.waterMaxDistanceFromCenter.tooltip": "Distance maximale à laquelle les pièces de structure aquatiques peuvent être générées depuis le centre.",
+	"config.common.enableInGameMessage": "Afficher le message de bienvenue",
+	"config.common.enableInGameMessage.tooltip": "Affiche un message de bienvenue avec des liens Discord, GitHub et de support à la première connexion. Nécessite un redémarrage du jeu."
+}

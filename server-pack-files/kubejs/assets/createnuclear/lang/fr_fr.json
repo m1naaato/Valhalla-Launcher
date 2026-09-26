@@ -1,0 +1,17 @@
+{
+	"item.createnuclear.enriched_yellowcake": "Yellowcake enrichi",
+	"block.createnuclear.enriched_yellowcake": "Bloc de yellowcake enrichi",
+	"item.createnuclear.yellowcake": "Yellowcake",
+	"block.createnuclear.yellowcake": "Bloc de yellowcake",
+	"item.createnuclear.steel_ingot": "Lingot d'acier",
+	"block.createnuclear.steel_block": "Bloc d'acier",
+	"item.createnuclear.lead_ingot": "Lingot de plomb",
+	"block.createnuclear.lead_block": "Bloc de plomb",
+	"item.createnuclear.steel_nugget": "Pépite d'acier",
+	"item.createnuclear.lead_nugget": "Pépite de plomb",
+	"block.createnuclear.autunite": "Autunite",
+	"block.createnuclear.uranium": "Uranium",
+	"createnuclear.tooltip.heatLevel.danger": "Danger",
+	"effect.createnuclear.radiation": "Radiation",
+	"itemGroup.createnuclear.main": "Create Nuclear"
+}

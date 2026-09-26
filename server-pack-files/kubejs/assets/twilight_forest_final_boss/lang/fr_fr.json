@@ -1,0 +1,10 @@
+{
+	"item.twilight_forest_final_boss.castle_keeper_spawn_egg": "Œuf d'apparition de gardien du château",
+	"block.twilight_forest_final_boss.castle_keeper_spawn_egg": "Œuf d'apparition de gardien du château",
+	"entity.twilight_forest_final_boss.castle_keeper": "Gardien du château",
+	"advancement.twilight_forest_final_boss.a_tussel_with_calamity.desc": "Vaincre le Gardien du Château au sommet du Château Final",
+	"advancement.twilight_forest_final_boss.a_tussel_with_calamity.title": "Une bagarre avec la calamité",
+	"advancement.twilight_forest_final_boss.no_stone_left_unturned.desc": "Combiner le talisman du cube, un boulet et une chaîne, et une lampe de cendres pour créer le cube d'annihilation",
+	"advancement.twilight_forest_final_boss.no_stone_left_unturned.title": "Ne rien laisser au hasard",
+	"block.twilight_forest_final_boss.violet_fragile_field": "Champ fragile violet"
+}

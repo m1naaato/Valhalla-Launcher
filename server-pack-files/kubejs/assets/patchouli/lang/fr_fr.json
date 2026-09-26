@@ -1,0 +1,9 @@
+{
+	"item.patchouli.guide_book": "Guide",
+	"block.patchouli.guide_book": "Guide",
+	"item.patchouli:pamphlet.name": "Test Pamphlet",
+	"item.patchouli:pamphlet.landing": "A test pamphlet, which est a book avec only one category.",
+	"patchouli.gui.lexicon.button.toggle_mock_header": "Basculer Mock Header",
+	"patchouli.networking.open_book.failed": "Failed à open book %s",
+	"patchouli.networking.reload_contents.failed": "Failed à recharger contents %S"
+}

@@ -1,0 +1,19 @@
+{
+	"item.strawstatues.straw_statue": "Statue de Paille",
+	"block.strawstatues.straw_statue": "Statue de Paille",
+	"entity.strawstatues.straw_statue": "Statue de paille",
+	"item.strawstatues.straw_statue.named": "Statue de %s",
+	"statuemenus.screen.rotations.pose.cape": "Cape",
+	"statuemenus.screen.style.crouching": "Accroupi",
+	"statuemenus.screen.style.crouching.description": "Affiche la statue comme si elle était accroupie.",
+	"statuemenus.screen.style.slimArms": "Bras fins",
+	"statuemenus.screen.style.slimArms.description": "Rend les bras de la statue quelques pixels moins larges, comme la skin Alex de Minecraft.",
+	"statuemenus.screen.type.modelParts": "Parties du modèle",
+	"statuemenus.screen.type.scale": "Échelle et rotations",
+	"strawstatues.screen.modelParts.name": "Définir un nom de joueur pour prendre la skin de la statue.",
+	"strawstatues.screen.modelParts.refreshSkin": "Aucune skin de statue trouvée. Cliquer pour réessayer.",
+	"strawstatues.screen.position.rotationX": "Rotation X :",
+	"strawstatues.screen.position.rotationY": "Rotation Y :",
+	"strawstatues.screen.position.rotationZ": "Rotation Z :",
+	"strawstatues.screen.position.scale": "Échelle :"
+}

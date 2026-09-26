@@ -1,0 +1,23 @@
+{
+	"emojiful.midnightconfig.title": "Emojiful",
+	"emojiful.midnightconfig.enableRenderEmoji": "Activer le rendu des emojis",
+	"emojiful.midnightconfig.renderEmoji": "Rendu des emojis",
+	"emojiful.midnightconfig.showEmojiSelector": "Activer l'interface de sélection d'emojis dans la ligne de chat",
+	"emojiful.midnightconfig.emojiSelector": "Sélecteur d'emojis",
+	"emojiful.midnightconfig.emojiAutocomplete": "Autocomplétion d'emojis",
+	"emojiful.midnightconfig.loadGifEmojis": "Charger les emojis animés, si désactivé ils seront une image fixe",
+	"emojiful.midnightconfig.gifEmojis": "Emojis GIF",
+	"emojiful.midnightconfig.shortEmojiReplacement": "Remplacer les versions courtes des emojis comme :) en :smile: pour qu'ils soient affichés en emoji",
+	"emojiful.midnightconfig.emojiReplacement": "Remplacement court d'emoji",
+	"emojiful.midnightconfig.emojiTypes": "Types d'emojis",
+	"emojiful.midnightconfig.loadTwemoji": "Charge les Twemojis utilisés sur des sites comme Twitter et Discord",
+	"emojiful.midnightconfig.enableLoadTwemoji": "Charger Twemoji",
+	"emojiful.midnightconfig.enableLoadCustom": "Charge les emojis personnalisés fournis par Emojiful",
+	"emojiful.midnightconfig.loadCustom": "Charger les emojis personnalisés",
+	"emojiful.midnightconfig.enableLoadDatapack": "Charge les emojis de datapack fournis par le serveur que vous rejoignez",
+	"emojiful.midnightconfig.loadDatapack": "Charger les datapacks du serveur",
+	"emojiful.midnightconfig.enableProfanityFilter": "Activer le filtre de grossièretés, cela remplacera les mots grossiers par des emojis",
+	"emojiful.midnightconfig.profanityFilter": "Filtre de grossièretés",
+	"emojiful.midnightconfig.profanityFilterString": "Mot de remplacement pour le filtre de grossièretés",
+	"emojiful.midnightconfig.profanityFilterReplacement": "Mot de remplacement"
+}

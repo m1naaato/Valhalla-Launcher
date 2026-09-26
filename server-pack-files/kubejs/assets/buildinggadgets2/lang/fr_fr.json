@@ -1,0 +1,10 @@
+{
+	"buildinggadgets2.messages.axistoolarge": "%s Axis too large! Max size est: %d. Size was: %d",
+	"buildinggadgets2.messages.copycoordsfailed": "Copying Coordinates Failed.",
+	"buildinggadgets2.messages.namealreadyexists": "Ce name est already dans utiliser, either supprimer it avec commands ou donner a new name.",
+	"buildinggadgets2.messages.namerequired": "Name Requis pour Redprints. Veuillez try again.",
+	"buildinggadgets2.messages.redprintgivefail": "Failed à donner redprint %s à %s",
+	"buildinggadgets2.messages.redprintremovefail": "Failed à supprimer redprint: %s",
+	"buildinggadgets2.messages.redprintremovesuccess": "Successfully supprimé redprint: %s",
+	"item.buildinggadgets2.redprint": "Redprint"
+}

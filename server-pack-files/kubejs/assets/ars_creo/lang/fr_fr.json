@@ -1,0 +1,21 @@
+{
+	"item.ars_creo.starbuncle_wheel": "Roue d'écureuil étoilé",
+	"block.ars_creo.starbuncle_wheel": "Roue d'écureuil étoilé",
+	"ars_creo.page1.starbuncle_wheel": "Génère une force rotative pour Create. Placer un bloc d'or devant la roue augmentera les tr/min.",
+	"ars_creo.page.behaviors": "Ars Creo active des comportements de contraption spéciaux pour les blocs d'Ars Nouveau, incluant les tourelles de sort et les jarres de source. Tourelle de sort basique - Tire un sort sur la contraption lors de l'interaction. Tourelle minuteur - Tire un sort à son intervalle. Tourelle de sort enchantée - Tire un sort à chaque nouveau bloc visité. Jarre de source - Peut être consommée par les tourelles sur une contraption.",
+	"itemGroup.ars_creo.general": "Ars Creo",
+	"ars_creo.display_source.turret.not_enough_space": "Pas assez d'espace ",
+	"ars_creo.display_source.turret.for_turret_status": "pour le statut de la tourelle",
+	"ars_creo.display_source.turret.no_spell": "Aucun sort défini.",
+	"ars_creo.display_source.turret.spell_name": "Sort : %s",
+	"ars_creo.display_source.turret.spell": "%s",
+	"ars_creo.display_source.turret_target": "Tourelle de sort",
+	"ars_creo.display_source.source_count": "Source : %s",
+	"ars_creo.display_source.for_source_status": "pour le statut de source",
+	"ars_creo.display_source.source_jar": "Quantité de source",
+	"ars_creo.display_source.turret": "Sort",
+	"ars_creo.page1.ars_creo.display_link": "Le lien d'affichage peut être attaché à une jarre de source pour afficher la quantité de source dans la jarre, ou à une tourelle de sort pour afficher le sort actuel sur un tableau d'affichage.",
+	"ars_creo.page1.ars_creo.fluid_tank": "Les potions peuvent être stockées et transférées entre un réservoir de fluide Create en utilisant des tuyaux et un réservoir.",
+	"ars_creo.display_link": "Ars Creo : Lien d'affichage",
+	"ars_creo.fluid_tank": "Ars Creo : Réservoir de fluide"
+}

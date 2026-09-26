@@ -1,0 +1,5 @@
+{
+	"block.securitycraft.reinforced_lightning_rod": "Reinforced Lightning Rod",
+	"tooltip.securitycraft.component.success_chance": "Success chance: %s",
+	"tooltip.securitycraft.component.success_chance.disabled": "Désactivé"
+}

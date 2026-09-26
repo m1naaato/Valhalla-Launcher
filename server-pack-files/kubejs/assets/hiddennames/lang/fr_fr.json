@@ -1,0 +1,9 @@
+{
+	"hiddennames.configuration.general": "Général",
+	"hiddennames.configuration.render_animations": "Animations de rendu",
+	"hiddennames.configuration.blocks_hide": "Les blocs masquent",
+	"hiddennames.configuration.change_own_name_level": "Permission de changer son propre nom",
+	"hiddennames.configuration.show_own": "Afficher le sien",
+	"hiddennames.configuration.default_visible": "Visible par défaut",
+	"hiddennames.configuration.team_override": "L'équipe remplace la couleur"
+}

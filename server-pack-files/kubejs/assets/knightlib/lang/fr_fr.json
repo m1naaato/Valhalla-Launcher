@@ -1,0 +1,22 @@
+{
+	"item.knightlib.empty_grail": "Graal vide",
+	"block.knightlib.empty_grail": "Graal vide",
+	"item.knightlib.filled_grail": "Graal rempli",
+	"block.knightlib.filled_grail": "Graal rempli",
+	"item.knightlib.great_chalice": "Grand calice",
+	"block.knightlib.great_chalice": "Grand calice",
+	"item.knightlib.great_essence": "Grande essence",
+	"block.knightlib.great_essence": "Grande essence",
+	"item.knightlib.homunculus": "Homoncule",
+	"block.knightlib.homunculus": "Homoncule",
+	"item.knightlib.small_essence": "Petite essence",
+	"block.knightlib.small_essence": "Petite essence",
+	"tooltip.item.knightlib.great_essence": "§8§oMême les rois deviennent du carburant à la fin.",
+	"tooltip.item.knightlib.small_essence": "§8§oLe dernier soupir d'une vie qui n'a rien changé.",
+	"tooltip.item.knightlib.homunculus": "§8§oUn miracle malformé, lié au prix de l'alchimie.",
+	"tooltip.item.knightlib.empty_grail": "§8§oRemplissez-le d'essence.",
+	"tooltip.item.knightlib.filled_grail": "§8§oY boire, c'est danser avec la mort elle-même.",
+	"tooltip.item.knightlib.great_chalice": "§8§oMurmure des noms que vous n'avez jamais entendus... mais dont vous vous souvenez.",
+	"jei.knightlib.great_chalice_grail_interaction.title": "Grand calice",
+	"jei.knightlib.great_chalice_fill_interaction.title": "Remplissage du grand calice"
+}

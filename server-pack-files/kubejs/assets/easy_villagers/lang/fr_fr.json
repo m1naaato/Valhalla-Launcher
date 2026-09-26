@@ -1,0 +1,9 @@
+{
+	"block.easy_villagers.inventory_viewer": "Inventory Viewer",
+	"gui.easy_villagers.inventory_viewer": "Inventory Viewer",
+	"gui.easy_villagers.villager_inventory": "Villageois Inventory",
+	"gui.easy_villagers.villager_equipment": "Villageois Equipment",
+	"config.jade.plugin_easy_villagers.villager": "Villageois",
+	"config.jade.plugin_easy_villagers.converter": "Convertisseur",
+	"config.jade.plugin_easy_villagers.breeder": "Éleveur"
+}

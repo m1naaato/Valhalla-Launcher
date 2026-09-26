@@ -1,0 +1,12 @@
+{
+	"itemGroup.examplemod": "Onglet Example Mod",
+	"block.examplemod.example_block": "Bloc d'exemple",
+	"item.examplemod.example_item": "Objet d'exemple",
+	"examplemod.configuration.title": "Configurations Example Mod",
+	"examplemod.configuration.section.examplemod.common.toml": "Configurations Example Mod",
+	"examplemod.configuration.section.examplemod.common.toml.title": "Configurations Example Mod",
+	"examplemod.configuration.items": "Liste d'objets",
+	"examplemod.configuration.logDirtBlock": "Journaliser le bloc de terre",
+	"examplemod.configuration.magicNumberIntroduction": "Texte du nombre magique",
+	"examplemod.configuration.magicNumber": "Nombre magique"
+}
