@@ -1,8 +1,8 @@
 {
   "name": "Valhalla Server Pack",
   "version": "auto",
-  "minecraftVersion": "26.3",
-  "loader": "auto",
+  "minecraftVersion": "1.21.1",
+  "loader": "NeoForge",
   "files": [
     {
       "path": "mods/3d_placeable_food-2.4.0-neoforge-1.21.1.jar",
