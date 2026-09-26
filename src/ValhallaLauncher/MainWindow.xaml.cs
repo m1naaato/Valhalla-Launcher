@@ -1,3 +1,4 @@
+using Microsoft.Identity.Client;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -20,6 +21,9 @@ public partial class MainWindow : Window
     string? prismPath;
     bool launching;
     bool uiReady;
+    const string MicrosoftClientId = "145aaa6c-af6a-43b9-915e-413dd1818b41";
+    IPublicClientApplication? microsoftAuth;
+    AuthenticationResult? microsoftSession;
 
     string UserCfg => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "settings.json");
 
@@ -28,6 +32,10 @@ public partial class MainWindow : Window
         InitializeComponent();
         uiReady = true;
         LoadConfig();
+        microsoftAuth = PublicClientApplicationBuilder.Create(MicrosoftClientId)
+            .WithAuthority(AadAuthorityAudience.AzureAdAndPersonalMicrosoftAccount)
+            .WithRedirectUri("http://localhost")
+            .Build();
         prismPath = FindPrism();
         LoadSettings();
         Refresh();
@@ -51,13 +59,43 @@ public partial class MainWindow : Window
     void Modpack_Click(object s, RoutedEventArgs e) => ShowPage(ModpackPage);
     void Parametres_Click(object s, RoutedEventArgs e) => ShowPage(SettingsPage);
 
-    void Compte_Click(object s, RoutedEventArgs e)
+    async void Compte_Click(object s, RoutedEventArgs e)
     {
-        MessageBox.Show(
-            "La connexion Microsoft intégrée n'est pas encore activée dans cette version. Valhalla ne demande ni ne stocke ton mot de passe Microsoft.",
-            "Valhalla - Compte Minecraft",
-            MessageBoxButton.OK,
-            MessageBoxImage.Information);
+        if (microsoftAuth == null) return;
+        AccountActionButton.IsEnabled = false;
+        try
+        {
+            var scopes = new[] { "openid", "profile", "offline_access", "User.Read" };
+            try
+            {
+                var accounts = await microsoftAuth.GetAccountsAsync();
+                microsoftSession = await microsoftAuth.AcquireTokenSilent(scopes, accounts.FirstOrDefault()).ExecuteAsync();
+            }
+            catch (MsalUiRequiredException)
+            {
+                microsoftSession = await microsoftAuth.AcquireTokenInteractive(scopes)
+                    .WithUseEmbeddedWebView(false)
+                    .ExecuteAsync();
+            }
+
+            var name = microsoftSession.Account?.Username ?? "Compte Microsoft";
+            AccountStateText.Text = name;
+            AccountActionButton.Content = "CONNECTÉ";
+            AccountActionButton.IsEnabled = false;
+            DisconnectButton.IsEnabled = true;
+            StatusText.Text = "✓ Connexion Microsoft réussie";
+        }
+        catch (MsalException ex)
+        {
+            AccountActionButton.IsEnabled = true;
+            StatusText.Text = "Connexion Microsoft impossible";
+            MessageBox.Show(ex.Message, "Valhalla - Microsoft", MessageBoxButton.OK, MessageBoxImage.Warning);
+        }
+        catch (Exception ex)
+        {
+            AccountActionButton.IsEnabled = true;
+            MessageBox.Show(ex.Message, "Valhalla - Microsoft", MessageBoxButton.OK, MessageBoxImage.Warning);
+        }
     }
 
     void CopyIp_Click(object s, RoutedEventArgs e)
@@ -279,13 +317,24 @@ public partial class MainWindow : Window
         Refresh();
     }
 
-    void Disconnect_Click(object s, RoutedEventArgs e)
+    async void Disconnect_Click(object s, RoutedEventArgs e)
     {
-        // Microsoft OAuth is not active yet, so never pretend a session exists.
+        try
+        {
+            if (microsoftAuth != null)
+            {
+                var accounts = await microsoftAuth.GetAccountsAsync();
+                foreach (var account in accounts)
+                    await microsoftAuth.RemoveAsync(account);
+            }
+        }
+        catch { }
+        microsoftSession = null;
         AccountStateText.Text = "Non connecté";
-        DisconnectButton.IsEnabled = false;
+        AccountActionButton.Content = "CONNEXION";
         AccountActionButton.IsEnabled = true;
-        StatusText.Text = "Aucune session Microsoft active";
+        DisconnectButton.IsEnabled = false;
+        StatusText.Text = "✓ Déconnecté de Microsoft";
     }
 
     void RamSlider_ValueChanged(object s, RoutedPropertyChangedEventArgs<double> e)
