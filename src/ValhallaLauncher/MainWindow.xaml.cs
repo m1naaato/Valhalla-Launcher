@@ -26,6 +26,7 @@ public partial class MainWindow : Window
     AuthenticationResult? microsoftSession;
 
     string UserCfg => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "settings.json");
+    string TokenCacheFile => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "msal.cache");
 
     public MainWindow()
     {
@@ -36,15 +37,73 @@ public partial class MainWindow : Window
             .WithAuthority(AadAuthorityAudience.AzureAdAndPersonalMicrosoftAccount)
             .WithRedirectUri("http://localhost")
             .Build();
+        ConfigureMicrosoftTokenCache();
         prismPath = FindPrism();
         LoadSettings();
         Refresh();
         Loaded += async (_, _) =>
         {
+            await RestoreMicrosoftSession();
             await LoadRemoteConfig();
             await RefreshServerStatus();
             await CheckLauncherUpdate(false);
         };
+    }
+
+    void ConfigureMicrosoftTokenCache()
+    {
+        if (microsoftAuth == null) return;
+        microsoftAuth.UserTokenCache.SetBeforeAccess(args =>
+        {
+            try
+            {
+                if (!File.Exists(TokenCacheFile)) return;
+                var protectedBytes = File.ReadAllBytes(TokenCacheFile);
+                var bytes = ProtectedData.Unprotect(protectedBytes, null, DataProtectionScope.CurrentUser);
+                args.TokenCache.DeserializeMsalV3(bytes);
+            }
+            catch { }
+        });
+        microsoftAuth.UserTokenCache.SetAfterAccess(args =>
+        {
+            if (!args.HasStateChanged) return;
+            try
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(TokenCacheFile)!);
+                var bytes = args.TokenCache.SerializeMsalV3();
+                var protectedBytes = ProtectedData.Protect(bytes, null, DataProtectionScope.CurrentUser);
+                File.WriteAllBytes(TokenCacheFile, protectedBytes);
+            }
+            catch { }
+        });
+    }
+
+    async Task RestoreMicrosoftSession()
+    {
+        if (microsoftAuth == null) return;
+        try
+        {
+            var accounts = await microsoftAuth.GetAccountsAsync();
+            var account = accounts.FirstOrDefault();
+            if (account == null) return;
+            var scopes = new[] { "openid", "profile", "offline_access", "User.Read" };
+            microsoftSession = await microsoftAuth.AcquireTokenSilent(scopes, account).ExecuteAsync();
+            ShowMinecraftAccountConnected();
+        }
+        catch { }
+    }
+
+    void ShowMinecraftAccountConnected()
+    {
+        if (microsoftSession == null) return;
+        var displayName = microsoftSession.ClaimsPrincipal?.Claims
+            .FirstOrDefault(x => x.Type == "name")?.Value;
+        if (string.IsNullOrWhiteSpace(displayName))
+            displayName = "Compte Minecraft";
+        AccountStateText.Text = displayName;
+        AccountActionButton.Content = "MINECRAFT CONNECTÉ";
+        AccountActionButton.IsEnabled = false;
+        DisconnectButton.IsEnabled = true;
     }
 
     void ShowPage(UIElement page)
@@ -78,12 +137,8 @@ public partial class MainWindow : Window
                     .ExecuteAsync();
             }
 
-            var name = microsoftSession.Account?.Username ?? "Compte Microsoft";
-            AccountStateText.Text = name;
-            AccountActionButton.Content = "CONNECTÉ";
-            AccountActionButton.IsEnabled = false;
-            DisconnectButton.IsEnabled = true;
-            StatusText.Text = "✓ Connexion Microsoft réussie";
+            ShowMinecraftAccountConnected();
+            StatusText.Text = "✓ Compte Minecraft connecté";
         }
         catch (MsalException ex)
         {
@@ -289,6 +344,9 @@ public partial class MainWindow : Window
                 WindowStyle = ProcessWindowStyle.Hidden
             });
             StatusText.Text = "✓ Minecraft lancé";
+            await Task.Delay(350);
+            Application.Current.Shutdown();
+            return;
         }
         catch (Exception ex)
         {
@@ -330,7 +388,8 @@ public partial class MainWindow : Window
         }
         catch { }
         microsoftSession = null;
-        AccountStateText.Text = "Non connecté";
+        try { if (File.Exists(TokenCacheFile)) File.Delete(TokenCacheFile); } catch { }
+        AccountStateText.Text = "Minecraft non connecté";
         AccountActionButton.Content = "CONNEXION";
         AccountActionButton.IsEnabled = true;
         DisconnectButton.IsEnabled = false;
