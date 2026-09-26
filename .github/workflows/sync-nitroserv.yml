@@ -25,7 +25,7 @@ jobs:
           echo "Connexion SFTP à $SFTP_HOST:${SFTP_PORT:-22}..."
           timeout 1740s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete \"${SFTP_MODS_PATH:-/mods}\" server-pack-files/mods; bye"
       - name: Sync KubeJS client data
-        timeout-minutes: 15
+        timeout-minutes: 30
         env:
           SFTP_HOST: ${{ secrets.NITRO_SFTP_HOST }}
           SFTP_PORT: ${{ secrets.NITRO_SFTP_PORT }}
@@ -40,7 +40,7 @@ jobs:
           mkdir -p server-pack-files/kubejs
           REMOTE_KUBEJS="${SERVER_ROOT%/}/kubejs"
           echo "Synchronisation client KubeJS depuis $REMOTE_KUBEJS ..."
-          timeout 840s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete --exclude-glob 'server_scripts/**' --exclude-glob 'config/**' --exclude-glob 'logs/**' \"$REMOTE_KUBEJS\" server-pack-files/kubejs; bye"
+          timeout 1740s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete --exclude-glob 'server_scripts/**' --exclude-glob 'config/**' --exclude-glob 'logs/**' \"$REMOTE_KUBEJS\" server-pack-files/kubejs; bye"
           test -d server-pack-files/kubejs/startup_scripts || { echo "::error::kubejs/startup_scripts absent; Arcadia client registry cannot be reproduced"; exit 1; }
 
       - name: Prepare client pack
