@@ -496,7 +496,7 @@ public partial class MainWindow : Window
             {
                 if (string.IsNullOrWhiteSpace(file.Url)) throw new InvalidDataException($"URL absente : {file.Path}");
                 var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
-                var local = Path.GetFullPath(Path.Combine(InstanceRoot, relative));
+                var local = Path.GetFullPath(Path.Combine(InstanceRoot, ".minecraft", relative));
                 Directory.CreateDirectory(Path.GetDirectoryName(local)!);
                 PackSyncText.Text = $"Téléchargement {++done}/{missing.Count} : {Path.GetFileName(file.Path)}";
                 var bytes = await http.GetByteArrayAsync(file.Url);
