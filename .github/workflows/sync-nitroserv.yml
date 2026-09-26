@@ -13,7 +13,7 @@ jobs:
       - name: Install SFTP client
         run: sudo apt-get update && sudo apt-get install -y lftp
       - name: Sync mods
-        timeout-minutes: 3
+        timeout-minutes: 30
         env:
           SFTP_HOST: ${{ secrets.NITRO_SFTP_HOST }}
           SFTP_PORT: ${{ secrets.NITRO_SFTP_PORT }}
@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p server-pack-files/mods
           echo "Connexion SFTP à $SFTP_HOST:${SFTP_PORT:-22}..."
-          timeout 150s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete \"${SFTP_MODS_PATH:-/mods}\" server-pack-files/mods; bye"
+          timeout 1740s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete \"${SFTP_MODS_PATH:-/mods}\" server-pack-files/mods; bye"
       - name: Generate manifest
         run: python3 scripts/build-server-pack.py
       - name: Publish pack
