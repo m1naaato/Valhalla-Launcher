@@ -19,8 +19,40 @@
    </Grid>
    <Grid Grid.Column="1">
     <Grid x:Name="HomePage">
-     <Border HorizontalAlignment="Right" VerticalAlignment="Top" Width="310" Height="112" Margin="0,108,38,0" Background="#D914120F" BorderBrush="#806B45" BorderThickness="1" CornerRadius="8" Padding="14"><Grid><Grid.RowDefinitions><RowDefinition/><RowDefinition/><RowDefinition/></Grid.RowDefinitions><TextBlock Text="SERVEUR VALHALLA" Foreground="#E4BD69" FontWeight="Bold"/><StackPanel Grid.Row="1" Orientation="Horizontal"><Ellipse x:Name="ServerDot" Width="10" Height="10" Fill="#777" Margin="0,0,8,0"/><TextBlock x:Name="ServerStatusText" Text="Vérification..." Foreground="#F1E8DA" FontWeight="Bold"/></StackPanel><TextBlock x:Name="ServerPlayersText" Grid.Row="2" Text="Joueurs : --/--" Foreground="#BDB2A3"/><Button Style="{StaticResource Hotspot}" Grid.RowSpan="3" Click="CopyIp_Click" ToolTip="Copier l'adresse du serveur"/></Grid></Border>
-     <Button x:Name="PlayButton" Style="{StaticResource GoldAction}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="310" Height="70" Margin="0,0,40,45" Click="Play_Click" ToolTip="Lancer Minecraft"><StackPanel Orientation="Horizontal" HorizontalAlignment="Center"><TextBlock Text="▶" FontSize="20" Margin="0,0,12,0"/><TextBlock Text="JOUER" FontSize="20" FontWeight="Bold"/></StackPanel></Button>
+     <!-- Live server card covers the static artwork values -->
+     <Border HorizontalAlignment="Right" VerticalAlignment="Top" Width="360" Height="106" Margin="0,80,38,0" Background="#F012100E" BorderBrush="#806B45" BorderThickness="1" CornerRadius="8" Padding="18,12">
+      <Grid><Grid.RowDefinitions><RowDefinition/><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+       <StackPanel Orientation="Horizontal"><Ellipse x:Name="ServerDot" Width="11" Height="11" Fill="#777" Margin="0,0,10,0"/><TextBlock x:Name="ServerStatusText" Text="VÉRIFICATION..." Foreground="#E4BD69" FontWeight="Bold"/></StackPanel>
+       <TextBlock x:Name="ServerAddressText" Grid.Row="1" Text="109.239.152.82:26065" Foreground="White" FontSize="15"/>
+       <TextBlock x:Name="ServerPlayersText" Grid.Row="2" Text="Joueurs : --/--" Foreground="#BDB2A3"/>
+       <Button Style="{StaticResource Hotspot}" Grid.RowSpan="3" Click="CopyIp_Click" ToolTip="Copier l'adresse du serveur"/>
+      </Grid>
+     </Border>
+
+     <!-- Functional controls aligned over the settings card in the artwork -->
+     <Border HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="430" Height="238" Margin="455,0,0,92" Background="#F012100E" BorderBrush="#806B45" BorderThickness="1" CornerRadius="8" Padding="24,16">
+      <StackPanel>
+       <TextBlock Text="PARAMÈTRES" Foreground="#E4BD69" FontWeight="Bold" FontSize="17"/>
+       <DockPanel Margin="0,18,0,4"><TextBlock Text="MÉMOIRE RAM" Foreground="#E8DFD1"/><TextBlock x:Name="HomeRamValueText" Text="8 Go / 16 Go" Foreground="#E8DFD1" HorizontalAlignment="Right"/></DockPanel>
+       <Slider x:Name="HomeRamSlider" Minimum="4" Maximum="16" Value="8" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="HomeRamSlider_ValueChanged"/>
+       <TextBlock Text="VERSION MINECRAFT" Foreground="#E8DFD1" Margin="0,18,0,5"/>
+       <ComboBox x:Name="MinecraftVersionCombo" Height="34" SelectionChanged="MinecraftVersion_Changed">
+        <ComboBoxItem Content="26.3" IsSelected="True"/>
+       </ComboBox>
+      </StackPanel>
+     </Border>
+
+     <!-- Account artwork is static: cover false identity and expose real current state -->
+     <Border HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="365" Height="238" Margin="0,0,38,92" Background="#F012100E" BorderBrush="#806B45" BorderThickness="1" CornerRadius="8" Padding="24,18">
+      <StackPanel>
+       <TextBlock Text="COMPTE MICROSOFT" Foreground="#E4BD69" FontWeight="Bold" FontSize="17"/>
+       <TextBlock x:Name="AccountStateText" Text="Non connecté" Foreground="White" FontSize="19" FontWeight="Bold" Margin="0,30,0,18"/>
+       <Button x:Name="AccountActionButton" Style="{StaticResource GoldAction}" Content="CONNEXION" Height="42" Click="Compte_Click"/>
+       <Button x:Name="DisconnectButton" Content="DÉCONNEXION" Height="36" Margin="0,8,0,0" IsEnabled="False" Click="Disconnect_Click"/>
+      </StackPanel>
+     </Border>
+
+     <Button x:Name="PlayButton" Style="{StaticResource Hotspot}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="490" Height="105" Margin="0,0,38,18" Click="Play_Click" ToolTip="Jouer"/>
      <TextBlock x:Name="HomePackText" Visibility="Collapsed"/>
     </Grid>
     <Grid x:Name="ModpackPage" Visibility="Collapsed" Background="#E511100E">
