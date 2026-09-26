@@ -20,7 +20,7 @@
    <Grid Grid.Column="1">
     <Grid x:Name="HomePage">
      <Button Style="{StaticResource Hotspot}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="310" Height="100" Margin="0,115,38,0" Click="CopyIp_Click" ToolTip="Copier l'adresse du serveur"/>
-     <Button x:Name="PlayButton" Style="{StaticResource Hotspot}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="310" Height="90" Margin="0,0,40,35" Click="Play_Click" ToolTip="Jouer"/>
+     <Button x:Name="PlayButton" Style="{StaticResource GoldAction}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="310" Height="70" Margin="0,0,40,45" Click="Play_Click" ToolTip="Lancer Minecraft"><StackPanel Orientation="Horizontal" HorizontalAlignment="Center"><TextBlock Text="▶" FontSize="20" Margin="0,0,12,0"/><TextBlock Text="JOUER" FontSize="20" FontWeight="Bold"/></StackPanel></Button>
      <TextBlock x:Name="HomePackText" Visibility="Collapsed"/>
     </Grid>
     <Grid x:Name="ModpackPage" Visibility="Collapsed" Background="#E511100E">
