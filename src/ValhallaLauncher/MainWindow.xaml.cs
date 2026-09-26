@@ -4,6 +4,8 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Sockets;
+using System.Text;
 using System.Security.Cryptography;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -32,6 +34,7 @@ public partial class MainWindow : Window
         Loaded += async (_, _) =>
         {
             await LoadRemoteConfig();
+            await RefreshServerStatus();
             await CheckLauncherUpdate(false);
         };
     }
@@ -118,8 +121,49 @@ public partial class MainWindow : Window
         HomePackText.Text = $"{cfg.ModpackName} • Minecraft {cfg.MinecraftVersion}";
         PackNameText.Text = cfg.ModpackName;
         PackInfoText.Text = $"Minecraft {cfg.MinecraftVersion} • {cfg.Loader} • pack {cfg.PackVersion}";
-        ServerStatusText.Text = string.IsNullOrWhiteSpace(cfg.Server) ? "Serveur : non configuré" : "Serveur : configuré";
+        ServerStatusText.Text = string.IsNullOrWhiteSpace(cfg.Server) ? "NON CONFIGURÉ" : "Vérification...";
+        ServerPlayersText.Text = "Joueurs : --/--";
         StatusText.Text = prismPath == null ? "Configuration Minecraft requise" : "✓ Moteur Minecraft prêt";
+    }
+
+    async Task RefreshServerStatus()
+    {
+        if (string.IsNullOrWhiteSpace(cfg.Server)) return;
+        try
+        {
+            var parts = cfg.Server.Split(':', 2);
+            var host = parts[0];
+            var port = parts.Length > 1 && int.TryParse(parts[1], out var p) ? p : 25565;
+            using var tcp = new TcpClient();
+            using var timeout = new CancellationTokenSource(TimeSpan.FromSeconds(4));
+            await tcp.ConnectAsync(host, port, timeout.Token);
+            using var stream = tcp.GetStream();
+
+            static void WriteVarInt(Stream s, int value) { while (true) { if ((value & ~0x7F) == 0) { s.WriteByte((byte)value); return; } s.WriteByte((byte)((value & 0x7F) | 0x80)); value = (int)((uint)value >> 7); } }
+            static int ReadVarInt(Stream s) { int n = 0, r = 0; byte b; do { if (n++ > 5) throw new InvalidDataException(); int v = s.ReadByte(); if (v < 0) throw new EndOfStreamException(); b = (byte)v; r |= (b & 0x7F) << (7 * (n - 1)); } while ((b & 0x80) != 0); return r; }
+
+            using var packet = new MemoryStream();
+            WriteVarInt(packet, 0); WriteVarInt(packet, -1);
+            var hostBytes = Encoding.UTF8.GetBytes(host); WriteVarInt(packet, hostBytes.Length); packet.Write(hostBytes);
+            packet.WriteByte((byte)(port >> 8)); packet.WriteByte((byte)port); WriteVarInt(packet, 1);
+            WriteVarInt(stream, (int)packet.Length); packet.Position = 0; await packet.CopyToAsync(stream, timeout.Token);
+            stream.WriteByte(1); stream.WriteByte(0);
+            _ = ReadVarInt(stream); _ = ReadVarInt(stream); int len = ReadVarInt(stream);
+            var data = new byte[len]; int read = 0; while (read < len) { int n = await stream.ReadAsync(data.AsMemory(read, len - read), timeout.Token); if (n == 0) throw new EndOfStreamException(); read += n; }
+            using var doc = JsonDocument.Parse(data);
+            var players = doc.RootElement.GetProperty("players");
+            var online = players.GetProperty("online").GetInt32();
+            var max = players.GetProperty("max").GetInt32();
+            ServerStatusText.Text = "EN LIGNE";
+            ServerPlayersText.Text = $"Joueurs : {online}/{max}";
+            ServerDot.Fill = System.Windows.Media.Brushes.LimeGreen;
+        }
+        catch
+        {
+            ServerStatusText.Text = "HORS LIGNE";
+            ServerPlayersText.Text = "Joueurs : --/--";
+            ServerDot.Fill = System.Windows.Media.Brushes.IndianRed;
+        }
     }
 
     string? FindPrism()
