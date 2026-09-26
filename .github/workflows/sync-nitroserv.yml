@@ -1,0 +1,34 @@
+name: Sync NitroServ Pack
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install SFTP client
+        run: sudo apt-get update && sudo apt-get install -y lftp
+      - name: Sync mods
+        env:
+          SFTP_HOST: ${{ secrets.NITRO_SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.NITRO_SFTP_PORT }}
+          SFTP_USER: ${{ secrets.NITRO_SFTP_USER }}
+          SFTP_PASSWORD: ${{ secrets.NITRO_SFTP_PASSWORD }}
+          SFTP_MODS_PATH: ${{ secrets.NITRO_SFTP_MODS_PATH }}
+        run: |
+          mkdir -p server-pack-files/mods
+          lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; mirror --delete \"${SFTP_MODS_PATH:-/mods}\" server-pack-files/mods; bye"
+      - name: Generate manifest
+        run: python3 scripts/build-server-pack.py
+      - name: Publish pack
+        run: |
+          git config user.name "Valhalla Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add server-pack.json server-pack-files/mods
+          git diff --cached --quiet && exit 0
+          git commit -m "Sync NitroServ server pack"
+          git push
