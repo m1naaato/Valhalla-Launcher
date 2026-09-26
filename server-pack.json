@@ -1,7 +1,2432 @@
 {
   "name": "Valhalla Server Pack",
-  "version": "1.0.0",
+  "version": "auto",
   "minecraftVersion": "26.3",
-  "loader": "Vanilla",
-  "files": []
+  "loader": "auto",
+  "files": [
+    {
+      "path": "mods/3d_placeable_food-2.4.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/3d_placeable_food-2.4.0-neoforge-1.21.1.jar",
+      "sha256": "571f4d50f47d58143ba365b6caed5054232cf1a8a9d97ca752d10e85e1b74887",
+      "size": 4992416
+    },
+    {
+      "path": "mods/AI-Improvements-1.21-0.5.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/AI-Improvements-1.21-0.5.3.jar",
+      "sha256": "795618769ff1ac782750be9e8faaf3e3d212f1687c3baab98c1282a98a63a41e",
+      "size": 28984
+    },
+    {
+      "path": "mods/AdvancedPeripherals-1.21.1-0.7.61b.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/AdvancedPeripherals-1.21.1-0.7.61b.jar",
+      "sha256": "aeeb4ec4f0eb192b6fdb278b8df248a041863f6a83dd46eb92450b1d779a6582",
+      "size": 935498
+    },
+    {
+      "path": "mods/AetherVillages-1.21.1-1.0.8-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/AetherVillages-1.21.1-1.0.8-neoforge.jar",
+      "sha256": "9f9837ec289bdcd016b0386374e7507503a5a7d78fb4941ac74cb44cad15cc34",
+      "size": 647447
+    },
+    {
+      "path": "mods/Almanac-1.21.1-2-neoforge-1.5.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Almanac-1.21.1-2-neoforge-1.5.2.jar",
+      "sha256": "379893246c33aaa6dd8e4a8711e349cd6835e08c2bd5b8bd7b7e81be9822aacb",
+      "size": 25593
+    },
+    {
+      "path": "mods/Apotheosis-1.21.1-8.5.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Apotheosis-1.21.1-8.5.4.jar",
+      "sha256": "5270327a67ee411692566b140f9ec8e72246d961da1d7306e41120c695eb6ea4",
+      "size": 6949410
+    },
+    {
+      "path": "mods/ApothicAttributes-1.21.1-2.9.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ApothicAttributes-1.21.1-2.9.1.jar",
+      "sha256": "6e3dd73d01c1784f4d1293126e3020470887456cd0d246a4c44a0fc1a244e381",
+      "size": 314269
+    },
+    {
+      "path": "mods/ApothicEnchanting-1.21.1-1.5.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ApothicEnchanting-1.21.1-1.5.3.jar",
+      "sha256": "4aa30b8669f2ddeac6ca37de059225060849c7fe1dc75c92ecff7f6ab385687a",
+      "size": 5354706
+    },
+    {
+      "path": "mods/ApothicSpawners-1.21.1-1.3.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ApothicSpawners-1.21.1-1.3.4.jar",
+      "sha256": "df6e176d9b00593ae6e712f8440ee75ffe8b1fc5af39f77970e8a0255a193e15",
+      "size": 125015
+    },
+    {
+      "path": "mods/Aquaculture-1.21.1-2.7.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Aquaculture-1.21.1-2.7.21.jar",
+      "sha256": "45f00f9059838b2fecc988861111d8b3d4613a5f1b3688a8dbfa8655751b85bb",
+      "size": 605949
+    },
+    {
+      "path": "mods/ArcadiaLootbox-1.2.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ArcadiaLootbox-1.2.6.jar",
+      "sha256": "1cc01b94120407e2e7c94036b6e773321d0c29ed986c24fd98ff819279d22358",
+      "size": 159316
+    },
+    {
+      "path": "mods/BetterCopper-neoforge-1.21-1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/BetterCopper-neoforge-1.21-1.3.jar",
+      "sha256": "f933fcf17b1ef57b0f87e17f83e6d522bf4b7e67fe51cb20aad3aa162150fc6b",
+      "size": 119811
+    },
+    {
+      "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+      "sha256": "99e4edeacfd7c9b0992144988df4f190dcb7955a7cc1e7323715505b3579bc9b",
+      "size": 22338157
+    },
+    {
+      "path": "mods/Chunky-NeoForge-1.4.23.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Chunky-NeoForge-1.4.23.jar",
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274",
+      "size": 340572
+    },
+    {
+      "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e",
+      "size": 18382
+    },
+    {
+      "path": "mods/CosmeticArmours - 1.5.3.1 - 1.21.1 - NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/CosmeticArmours%20-%201.5.3.1%20-%201.21.1%20-%20NeoForge.jar",
+      "sha256": "098c3cfc7c88d508c8956fcbcbd72121cf90e102d13d77c4e3a3387924eeba03",
+      "size": 17478086
+    },
+    {
+      "path": "mods/CosmeticWeapons - 1.1.0.1 - 1.21.1 - NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/CosmeticWeapons%20-%201.1.0.1%20-%201.21.1%20-%20NeoForge.jar",
+      "sha256": "ad3b559b0f0424ca46573afa4695412a229e6f48d43b6336aa4f352981823efc",
+      "size": 4837922
+    },
+    {
+      "path": "mods/Create Encased-1.21.1-1.9.0-ht1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Create%20Encased-1.21.1-1.9.0-ht1.jar",
+      "sha256": "2d9ba3d55e21008c7da4b5a73642340952037045d8658854ac41dfd607c2b57c",
+      "size": 3113809
+    },
+    {
+      "path": "mods/CreateDragonsPlus-1.11.2b.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/CreateDragonsPlus-1.11.2b.jar",
+      "sha256": "9b15e464465a639de9ef5a935ae9fd94ea545904517d1428bc784a4012e0a1e2",
+      "size": 1006723
+    },
+    {
+      "path": "mods/CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/CreateNumismatics-1.0.20%2Bneoforge-mc1.21.1.jar",
+      "sha256": "1375ba1b50e53fd09435029b5b2d5b94779ba397cca7e01180d07b0f624e5b9b",
+      "size": 693446
+    },
+    {
+      "path": "mods/CreateOPlenty-NeoForge-Create+6.0.7-3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/CreateOPlenty-NeoForge-Create%2B6.0.7-3.0.jar",
+      "sha256": "8106343cf01ed912ce100c3705cebd29c21d5d98d4ab248a70e905fe5d54eccb",
+      "size": 45837
+    },
+    {
+      "path": "mods/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+      "sha256": "bd4164b9ec8e21775e34a99a8d21e5280ee8cc6d3bd003a1b32dc3ada59ae887",
+      "size": 1218640
+    },
+    {
+      "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Design-n-Decor-1.21.1-2.2b.jar",
+      "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f",
+      "size": 6329899
+    },
+    {
+      "path": "mods/DnDesires-1.21.1-2.3a-BETA.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/DnDesires-1.21.1-2.3a-BETA.jar",
+      "sha256": "d3f7f2384e8327c81671f2d48df15a0bba98ef04b727a430079cfc9145a7a379",
+      "size": 1249099
+    },
+    {
+      "path": "mods/DungeonsArise-1.21.1-2.1.68-release.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/DungeonsArise-1.21.1-2.1.68-release.jar",
+      "sha256": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+      "size": 11842679
+    },
+    {
+      "path": "mods/DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar",
+      "sha256": "549040fbd81d1b33aea38681109685e86d63985785246a831112c4ba5740d2df",
+      "size": 244981
+    },
+    {
+      "path": "mods/DustyDecorations_1.21.1Neoforge_V1.13.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/DustyDecorations_1.21.1Neoforge_V1.13.jar",
+      "sha256": "05f7a1d95d33281395fb5e0e38c7825f8d8137b418e4e567008f89244d7c5078",
+      "size": 4977657
+    },
+    {
+      "path": "mods/Emojiful-Neoforge-1.21-5.2.4-all.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Emojiful-Neoforge-1.21-5.2.4-all.jar",
+      "sha256": "5a09713874ceccc50f433c26a50b6a44af8a4d01dd93ee1616f3d6fc32e7bf37",
+      "size": 259509
+    },
+    {
+      "path": "mods/ExtraDisks-1.21.1-4.0.15.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ExtraDisks-1.21.1-4.0.15.jar",
+      "sha256": "0124461b4445c1f478566e80b92f7d5546cb38430a415e1e6a001d75f54bd019",
+      "size": 343628
+    },
+    {
+      "path": "mods/ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+      "sha256": "3c4152461540e3cce8fe25c3e1a1fa8ce6982bbad44dca6d3b7e30a05ab2d531",
+      "size": 270115
+    },
+    {
+      "path": "mods/FallingTree-1.21.1-1.21.1.11.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FallingTree-1.21.1-1.21.1.11.jar",
+      "sha256": "70ee147602d2239e7a093e166fdf0c0abcef959d5d457c0f8f3669ef9b483dc4",
+      "size": 496356
+    },
+    {
+      "path": "mods/FarmersDelight-1.21.1-1.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FarmersDelight-1.21.1-1.3.2.jar",
+      "sha256": "8ff438d62e1fce61542945faae45975d823e04bd6e73a07a121ea05ce2f03de7",
+      "size": 3163042
+    },
+    {
+      "path": "mods/FastFurnace-1.21.1-9.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FastFurnace-1.21.1-9.0.1.jar",
+      "sha256": "4a8743c5d870aa9885d65e20d728c76fec894e01e81d1b49ef0f4459a67f0eea",
+      "size": 4623
+    },
+    {
+      "path": "mods/FastSuite-1.21.1-6.0.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FastSuite-1.21.1-6.0.7.jar",
+      "sha256": "3e274cd01bdc27dff8e2514213f1c45306c86fe38e4271a4209bc1471de6c70d",
+      "size": 28193
+    },
+    {
+      "path": "mods/FastWorkbench-1.21.1-9.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FastWorkbench-1.21.1-9.1.3.jar",
+      "sha256": "abf593ba1584c761f198989008d334c95932afe0a7c6b16af4baa16b54fd1449",
+      "size": 28635
+    },
+    {
+      "path": "mods/FluxNetworks-1.21.1-8.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FluxNetworks-1.21.1-8.0.0.jar",
+      "sha256": "29e511b2d76f85bd247aa213a92bb059ecc037fcc3fed82baffcff97b638d3a6",
+      "size": 535938
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "sha256": "1fffe12e3e8343ef52d306ee29f7d6f6724d47a185a375c4a3c75aab3894c68d",
+      "size": 104654
+    },
+    {
+      "path": "mods/FramedBlocks-10.6.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/FramedBlocks-10.6.1.jar",
+      "sha256": "3337f29e1fa3331e8740eef9c20b0750d81fd86d1057fb81012a5c4792aa3369",
+      "size": 4306703
+    },
+    {
+      "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "sha256": "d9ea421e7449a35cf3adc41c9f740156342b7b17a08b1be843660608af7b60f9",
+      "size": 90717
+    },
+    {
+      "path": "mods/HellishTrials-neoforge-1.0.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/HellishTrials-neoforge-1.0.5.jar",
+      "sha256": "7f28724652eedd275970455e37629758f7279bd3918a4f1d852676dcf392db63",
+      "size": 581988
+    },
+    {
+      "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c",
+      "size": 213853
+    },
+    {
+      "path": "mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc",
+      "size": 14232121
+    },
+    {
+      "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+      "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
+      "size": 725742
+    },
+    {
+      "path": "mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+      "sha256": "5f242668ad710092964d4d9afda8a94fa2401665ea13eea67d55d07e4dff8a64",
+      "size": 74419
+    },
+    {
+      "path": "mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+      "sha256": "b34d6bb434d507874a6ebe49d40169c26f7cad8f51c9ffea615eedb153746696",
+      "size": 24879
+    },
+    {
+      "path": "mods/Mekanism-1.21.1-10.7.19.85.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Mekanism-1.21.1-10.7.19.85.jar",
+      "sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+      "size": 11976009
+    },
+    {
+      "path": "mods/MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "sha256": "0e5783b111e756f27b48c62b2f0e02fff750c77f7985ff809bfadc5f444ba4ac",
+      "size": 1114598
+    },
+    {
+      "path": "mods/MekanismTools-1.21.1-10.7.19.85.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MekanismTools-1.21.1-10.7.19.85.jar",
+      "sha256": "e1dbca7d70df150101da535f6ab4b165a2e402fde830d34df75b58d9aad24dd8",
+      "size": 526620
+    },
+    {
+      "path": "mods/MoogsEndStructures-1.21-2.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MoogsEndStructures-1.21-2.0.3.jar",
+      "sha256": "6dd403739a473c38aa2a6660dc4891be1525743f5e7be0cf4c25b93b4491b4ea",
+      "size": 1210283
+    },
+    {
+      "path": "mods/MoogsMissingVillages-1.21-2.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MoogsMissingVillages-1.21-2.1.2.jar",
+      "sha256": "971966a8ad9721b9a8393d362e5f323bc63e61d9596f34183d6186b3b4c2b610",
+      "size": 599142
+    },
+    {
+      "path": "mods/MoogsNetherStructures-1.21-3.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MoogsNetherStructures-1.21-3.0.0.jar",
+      "sha256": "024bce3098fcba6b7eb55f3526708cbf9dfdf3b074da057ce72b896a2567a6af",
+      "size": 3794509
+    },
+    {
+      "path": "mods/MoogsSoaringStructures-1.21-2.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MoogsSoaringStructures-1.21-2.1.2.jar",
+      "sha256": "5392b23878488bf167669b9d9eb0ed3b129115155856ac28059e88d8ac9b0080",
+      "size": 3621647
+    },
+    {
+      "path": "mods/MoogsVoyagerStructures-1.21-5.0.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MoogsVoyagerStructures-1.21-5.0.14.jar",
+      "sha256": "28695cbb33b7af504c3b4b44dfec2449ea9c5fa4923c801d8558c965fb16bdc7",
+      "size": 1796857
+    },
+    {
+      "path": "mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar",
+      "sha256": "1e20340a6642dcd6e43399292825f8cd84a079e0b917e36cf7341e787b626a4f",
+      "size": 1346730
+    },
+    {
+      "path": "mods/MyNethersDelight-1.21.1-1.10.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/MyNethersDelight-1.21.1-1.10.2.jar",
+      "sha256": "002678f15ae0e61805d3bbd0bc8c7d7f683d63e6ab479ff8fb2518514134c4c2",
+      "size": 825875
+    },
+    {
+      "path": "mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "sha256": "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c",
+      "size": 224657
+    },
+    {
+      "path": "mods/Necronomicon-NeoForge-1.6.0+1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Necronomicon-NeoForge-1.6.0%2B1.21.jar",
+      "sha256": "63c3057fd28bf9e4a94ffe84f53dd20d9e7172b3e4afdf1b989213935d4aaf14",
+      "size": 29865
+    },
+    {
+      "path": "mods/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "sha256": "866ac9a47afcd829bdb03890b5d8f80bb4c6f47332c64717b6e909bee51337b6",
+      "size": 306668
+    },
+    {
+      "path": "mods/OctoLib-NEOFORGE-0.6.2+1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/OctoLib-NEOFORGE-0.6.2%2B1.21.jar",
+      "sha256": "92ba07d9d9e55a65421f3c3f203c72fe5149cb024d5277267e81d812e11a7f38",
+      "size": 544378
+    },
+    {
+      "path": "mods/ParCool-1.21.1-3.4.3.1-NF.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ParCool-1.21.1-3.4.3.1-NF.jar",
+      "sha256": "bfb7d41aea3f3fb94a4956e2a98a99eb352e01ca9af027d21683d639ff389110",
+      "size": 1133660
+    },
+    {
+      "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993",
+      "size": 646777
+    },
+    {
+      "path": "mods/Pehkui-3.8.3+1.21-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Pehkui-3.8.3%2B1.21-neoforge.jar",
+      "sha256": "50aab835b0f98dedf33383483b021789c2991786f02b00e6d1b7152dc43570ec",
+      "size": 507568
+    },
+    {
+      "path": "mods/PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+      "sha256": "b49535698de9c7b5a879c8ec99175771d87d5261d5cc4c6152ba1fa51fc5676a",
+      "size": 97094
+    },
+    {
+      "path": "mods/Placebo-1.21.1-9.9.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Placebo-1.21.1-9.9.2.jar",
+      "sha256": "1a844a5b081813b1edb82656329e54d38389ed470f6a6516a5887f5303d7daad",
+      "size": 324058
+    },
+    {
+      "path": "mods/PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar",
+      "sha256": "00069866c4c6bb67ee5192d1b425d46e6a1601dc598e61bd10b67ba5fa8b029c",
+      "size": 1425176
+    },
+    {
+      "path": "mods/SimplyTooltips-neoforge-0.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/SimplyTooltips-neoforge-0.1.3.jar",
+      "sha256": "ea21464cfd363efe2965cdf801b82b37ecda83e93051193f4830783ead723518",
+      "size": 5320037
+    },
+    {
+      "path": "mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "sha256": "68036561cc5511766d54cc0deabc3fc3a5e68f9e3db2478f2574ec82b494374b",
+      "size": 391053
+    },
+    {
+      "path": "mods/SomeMoreBlocks@neoforge-1.21-1.1.5-HF.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/SomeMoreBlocks%40neoforge-1.21-1.1.5-HF.jar",
+      "sha256": "c565d699a1f4ec31d68b6431eaae765c9d5de7808089c78e65674f6ceb7631d6",
+      "size": 2989088
+    },
+    {
+      "path": "mods/Spice of Life Onion_NEOFORGE_v1.5.6_mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Spice%20of%20Life%20Onion_NEOFORGE_v1.5.6_mc1.21.1.jar",
+      "sha256": "11605cfec2ac2e6385fc119d01bb6633b8a9ce8fdf0614cd272254630d56c0a7",
+      "size": 292176
+    },
+    {
+      "path": "mods/StrawStatues-v21.1.0-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/StrawStatues-v21.1.0-1.21.1-NeoForge.jar",
+      "sha256": "46b10676fa5cf3d472119e38537a912e656832fd784f9343f853fc1b571d3f2e",
+      "size": 313043
+    },
+    {
+      "path": "mods/Structory_26.2_v1.3.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Structory_26.2_v1.3.7.jar",
+      "sha256": "e9079b2bb9bc2efb9b0f1244376488e41f8b50f25415094d8f03dc753cdfb131",
+      "size": 1261346
+    },
+    {
+      "path": "mods/Structory_Towers_26.1_v1.0.16.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/Structory_Towers_26.1_v1.0.16.jar",
+      "sha256": "a9c1715219642c87d105bd944a0316c9a22cd3caf83836e21bcaaee3fd4f04e2",
+      "size": 491545
+    },
+    {
+      "path": "mods/TA 1.6.4, Neoforge 1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/TA%201.6.4%2C%20Neoforge%201.21.1.jar",
+      "sha256": "42af68966c09f2ff7b2b343ba18f2318e87e4025e6394791d16183ef4f4716fe",
+      "size": 1265657
+    },
+    {
+      "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+      "size": 120364
+    },
+    {
+      "path": "mods/TwilightTreehouses-1.0.2-1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/TwilightTreehouses-1.0.2-1.21.1-neoforge.jar",
+      "sha256": "853454ce9a2e8922899fafc8d18d7771160de55ca9f0b8cb0a1d4c267197ff99",
+      "size": 228528
+    },
+    {
+      "path": "mods/UndergroundBunkers-1.0.4-1.21.x-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/UndergroundBunkers-1.0.4-1.21.x-neoforge.jar",
+      "sha256": "d8da6e19612fe54b8784509847deeed693b76b69f442e9327b6a7c7523c4c0b8",
+      "size": 591113
+    },
+    {
+      "path": "mods/VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
+      "sha256": "a5bb002229e30a44237282371cff48baf6e889bc69b5753e70323e1d41c0616d",
+      "size": 81945
+    },
+    {
+      "path": "mods/[1.21.1] SecurityCraft v1.10.2.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/%5B1.21.1%5D%20SecurityCraft%20v1.10.2.1.jar",
+      "sha256": "75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229",
+      "size": 5193371
+    },
+    {
+      "path": "mods/accessories-neoforge-1.1.0-beta.53+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/accessories-neoforge-1.1.0-beta.53%2B1.21.1.jar",
+      "sha256": "10017a3da78ea63e9ece27a1ca32f8cf490362f348778cf8cb759e7282f3beb0",
+      "size": 1078697
+    },
+    {
+      "path": "mods/addonslib-neoforge-1.21.1-1.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/addonslib-neoforge-1.21.1-1.14.jar",
+      "sha256": "788323e3a19258a073112f3b89161d51f3f9e283eee8d662a8c61c428fea8639",
+      "size": 131893
+    },
+    {
+      "path": "mods/advancednetherite-neoforge-2.3.1-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/advancednetherite-neoforge-2.3.1-1.21.1.jar",
+      "sha256": "ae0ec0a574d4ebd0644b37913c65a6f92ea20a0fe7e3d3799fd872cfe01a278a",
+      "size": 520611
+    },
+    {
+      "path": "mods/aether-1.21.1-1.5.10-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/aether-1.21.1-1.5.10-neoforge.jar",
+      "sha256": "b19386301560a017a458e9790a7b59999e270f93010def0b61e7cbe4c8630dbf",
+      "size": 40223909
+    },
+    {
+      "path": "mods/alltheleaks-1.1.10+1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/alltheleaks-1.1.10%2B1.21.1-neoforge.jar",
+      "sha256": "43bf78569341397ac67901029bf199aa98cd11db70373bccfc87975b4a9c53bb",
+      "size": 538832
+    },
+    {
+      "path": "mods/amendments-neoforge-1.21-2.1.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/amendments-neoforge-1.21-2.1.7.jar",
+      "sha256": "f2ab59fedfbfa09b67c55271599c9e31a2b44cdcbcf60cc2ee70b69c2fe0cf84",
+      "size": 1154863
+    },
+    {
+      "path": "mods/animalgarden-alligatorgar-1.0.0-neoforge-1.21.1-21.1.215.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-alligatorgar-1.0.0-neoforge-1.21.1-21.1.215.jar",
+      "sha256": "14a9bcbd898342cf247493568c21a62732fb7f82b65e884d7143934c5c6a93f7",
+      "size": 120052
+    },
+    {
+      "path": "mods/animalgarden-bullshark-1.1.0-neoforge-1.21.1-21.1.210.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-bullshark-1.1.0-neoforge-1.21.1-21.1.210.jar",
+      "sha256": "c89ecf8b63c77f01b00f6d2b53de7f0d13c8792b70e45f0f00a1ad1dc3dbcd62",
+      "size": 62041
+    },
+    {
+      "path": "mods/animalgarden-commonraven-1.0.0-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-commonraven-1.0.0-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "3d88d550fde17f67704ded63478797c40a9629c3e2d1e7a2e0dd813787c9cb59",
+      "size": 244895
+    },
+    {
+      "path": "mods/animalgarden-fennecfox-1.0.1-neoforge-1.21.1-21.1.215.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-fennecfox-1.0.1-neoforge-1.21.1-21.1.215.jar",
+      "sha256": "902475d9aa30725d3c911aed04ed07ddfeed905bb0a6b3a463c34d2c16b23aa5",
+      "size": 285354
+    },
+    {
+      "path": "mods/animalgarden-manatee-1.0.0-neoforge-1.21.1-21.1.209.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-manatee-1.0.0-neoforge-1.21.1-21.1.209.jar",
+      "sha256": "34b1c5e3d079844ba41687caf10afef352b7317bf5251eb920557c1465781e2b",
+      "size": 101606
+    },
+    {
+      "path": "mods/animalgarden-meerkat-1.0.4-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-meerkat-1.0.4-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "866bad4ee30f95cac7900730b329e17dedd987b9dfa4b7c5b6362ed849adb11c",
+      "size": 80868
+    },
+    {
+      "path": "mods/animalgarden-mouse-1.0.3-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-mouse-1.0.3-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "1b4c8f5b5c6092e34babacc4c6709396e344704042c9d9edc7016b2a7bb2da79",
+      "size": 115184
+    },
+    {
+      "path": "mods/animalgarden-prairiedog-1.0.1-neoforge-1.21.1-21.1.217.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-prairiedog-1.0.1-neoforge-1.21.1-21.1.217.jar",
+      "sha256": "d9267f4f230902805e3cc8f23e4aa9732c023c18a53c22bc4b76d0f9e712da7a",
+      "size": 155822
+    },
+    {
+      "path": "mods/animalgarden-redpanda-1.1.1-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-redpanda-1.1.1-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "80576e99f1c74062441c9c05f77718f14be8a777cf449545c7010e04dec7000f",
+      "size": 94273
+    },
+    {
+      "path": "mods/animalgarden-seaotter-1.1.0-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-seaotter-1.1.0-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "c57bf83d9e8b1eb0c4e0082124854391ed4132e8e2ca17fb4f062917d13f39fa",
+      "size": 356067
+    },
+    {
+      "path": "mods/animalgarden-spottedhyena-1.0.0-neoforge-1.21.1-21.1.211.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-spottedhyena-1.0.0-neoforge-1.21.1-21.1.211.jar",
+      "sha256": "e712cffc85766a76c57e56c752640ec23d30bdb446d1d52fe1f4a03d809bcfb4",
+      "size": 506948
+    },
+    {
+      "path": "mods/animalgarden-sugargilder-1.0.0-neoforge-1.21.1-21.1.214.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-sugargilder-1.0.0-neoforge-1.21.1-21.1.214.jar",
+      "sha256": "02c6e69c86bdcc5afed238d5b87609e0e1827e9e38da6df14588eb33d8832760",
+      "size": 317381
+    },
+    {
+      "path": "mods/animalgarden-westerngorilla-1.0.0-neoforge-1.21.1-21.1.216.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-westerngorilla-1.0.0-neoforge-1.21.1-21.1.216.jar",
+      "sha256": "3fa3f4a886b33f3ebee86533180a7b1258201f98deeac305ce9263ad68c7a2dc",
+      "size": 248451
+    },
+    {
+      "path": "mods/animalgarden-whiterhinoceros-1.0.0-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden-whiterhinoceros-1.0.0-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "ffad2be1726550ac5138912ff192c910515cf4e19980a514fea6ee5bdbe54e0e",
+      "size": 238301
+    },
+    {
+      "path": "mods/animalgarden_porcupine-1.0.2-neoforge-1.21.1-21.1.213.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/animalgarden_porcupine-1.0.2-neoforge-1.21.1-21.1.213.jar",
+      "sha256": "c9998f611f4eccb57ce30e265a8a19ccb6a591bdf0d017f5e5ed8f7e27d83379",
+      "size": 38833
+    },
+    {
+      "path": "mods/another_furniture-neoforge-4.0.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/another_furniture-neoforge-4.0.2.jar",
+      "sha256": "c61a66c73bcc5147d9983dc72c485493a612d2dbc078fcb86e2024155e34b7dd",
+      "size": 2417424
+    },
+    {
+      "path": "mods/anvianslib-neoforge-1.21-1.4.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/anvianslib-neoforge-1.21-1.4.2.jar",
+      "sha256": "7bc8e8204699c08870ae022e7a7356ee872adf4e0a56d29d5be82ea3f22922b7",
+      "size": 29731
+    },
+    {
+      "path": "mods/anvilcore-10.1 Release-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/anvilcore-10.1%20Release-neoforge-1.21.1.jar",
+      "sha256": "8b4056202f36380b9223e3b40b09669a736b9d3f690c2299ee29ebb64074b676",
+      "size": 104557
+    },
+    {
+      "path": "mods/apotheosis_create-1.1.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/apotheosis_create-1.1.0-neoforge-1.21.1.jar",
+      "sha256": "2eb0fea63be34e12506194958e941c31bebd80250cc2e0269a7056591153c95b",
+      "size": 9556
+    },
+    {
+      "path": "mods/apothic_sups_enchanting-0.1.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/apothic_sups_enchanting-0.1.0-neoforge-1.21.1.jar",
+      "sha256": "ed6490feab447deb5a1f03278236e144147ce40a6fe6eb50a9b9c795afd0a5c8",
+      "size": 13130
+    },
+    {
+      "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df",
+      "size": 75804
+    },
+    {
+      "path": "mods/aquaculturedelight-1.2.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/aquaculturedelight-1.2.0-neoforge-1.21.1.jar",
+      "sha256": "0a0565d1a3801b00801ecec70dcb2c240e68bae9a41ffd4ffa6d0365226b9875",
+      "size": 213607
+    },
+    {
+      "path": "mods/aquariuslibs-1.2.0-neoforge-1.21.1-21.1.217.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/aquariuslibs-1.2.0-neoforge-1.21.1-21.1.217.jar",
+      "sha256": "6ad4d547330d02dade5946c6b7172d00f7d6cc7357751dd41440046f85abef28",
+      "size": 234187
+    },
+    {
+      "path": "mods/arcadia-admin-panel-1.2.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia-admin-panel-1.2.10.jar",
+      "sha256": "b2f3777b462fd88413a5d3514a86467cdd3782cb686e313569a2fadca98bc612",
+      "size": 300233
+    },
+    {
+      "path": "mods/arcadia-ah-1.3.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia-ah-1.3.3.jar",
+      "sha256": "f0d90a4b3db77fcd2ac3ef0b14398044235bf573cc3eefe82c5de39fdd980643",
+      "size": 144429
+    },
+    {
+      "path": "mods/arcadia-lib-1.2.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia-lib-1.2.14.jar",
+      "sha256": "eee40f4825afdeadbac3bfc67ed6c2eb4ff53b53a55571cf054418af6ab4f384",
+      "size": 2698999
+    },
+    {
+      "path": "mods/arcadia-patch-create-1.4.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia-patch-create-1.4.2.jar",
+      "sha256": "a62c3f917da036f0f553770abc1b60f6cbd8e9123b68f793219baa7b5164fec0",
+      "size": 65204
+    },
+    {
+      "path": "mods/arcadia-pets-1.2.16.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia-pets-1.2.16.jar",
+      "sha256": "51544410f0ff0e155c040ad7df5961ab8ea691999d6778dbb2a3b4f09145dc5c",
+      "size": 645092
+    },
+    {
+      "path": "mods/arcadia-prestige-1.2.15.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia-prestige-1.2.15.jar",
+      "sha256": "8f5b0083e7181e5c90baa6e754d53e0676aa900f0b14054bb2f808b13ede5db7",
+      "size": 146302
+    },
+    {
+      "path": "mods/arcadia_spawn-1.5.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadia_spawn-1.5.6.jar",
+      "sha256": "29f013a80897b8a3b1ff8c14ebdcdf84f451064ff1598844b33037ce3f8c7638",
+      "size": 151918
+    },
+    {
+      "path": "mods/arcadiaguard-1.5.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadiaguard-1.5.9.jar",
+      "sha256": "1cad044086f116388d3f374d9c717629f7c259e4d0a199e5cbef7159b8e5877a",
+      "size": 553476
+    },
+    {
+      "path": "mods/arcadiatweaks-0.1.1-all.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arcadiatweaks-0.1.1-all.jar",
+      "sha256": "1757e89d5d653e2ef0b078282501a2bb5efe661a99a951eb9261f9f25c88eccf",
+      "size": 355838
+    },
+    {
+      "path": "mods/architectury-13.0.8-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/architectury-13.0.8-neoforge.jar",
+      "sha256": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+      "size": 584004
+    },
+    {
+      "path": "mods/ars_additions-1.21.1-21.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ars_additions-1.21.1-21.3.0.jar",
+      "sha256": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
+      "size": 1458261
+    },
+    {
+      "path": "mods/ars_creo-1.21.1-5.4.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ars_creo-1.21.1-5.4.0.jar",
+      "sha256": "50f0fe5c5f855151c1482c1772ea94c2eaadc2b0c85c963bb9aeb421fc801e4f",
+      "size": 95973
+    },
+    {
+      "path": "mods/ars_nouveau-1.21.1-5.12.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ars_nouveau-1.21.1-5.12.1.jar",
+      "sha256": "b24412acce7303baf5c46bf4130ba6add5c349047a6dfc445e1add0cd8528fa2",
+      "size": 20724579
+    },
+    {
+      "path": "mods/ars_ocultas-1.21.1-2.4.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ars_ocultas-1.21.1-2.4.1.jar",
+      "sha256": "af5be78e40802f42a45f1b73996408a7e6df23c654cafd5487087a19e00482be",
+      "size": 78526
+    },
+    {
+      "path": "mods/ars_technica-1.21.1-2.7.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ars_technica-1.21.1-2.7.6.jar",
+      "sha256": "64b70f39f8c8ca38262c69e2b84a6494a8a11c8ef7e570d8136b1818d5d3159d",
+      "size": 3691171
+    },
+    {
+      "path": "mods/arsdelight-2.2.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/arsdelight-2.2.2.jar",
+      "sha256": "52b9b2372e77bf61f6e24cdcd894cc7f8a99c18b928093f27a022caff5f42d61",
+      "size": 1250237
+    },
+    {
+      "path": "mods/artifacts-neoforge-13.2.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/artifacts-neoforge-13.2.1.jar",
+      "sha256": "4a8e1f4d5702937a707861e478829695e432286bcd9e58f5834d82c6d998eea8",
+      "size": 1030252
+    },
+    {
+      "path": "mods/athena-neoforge-1.21.1-4.0.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/athena-neoforge-1.21.1-4.0.6.jar",
+      "sha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+      "size": 99944
+    },
+    {
+      "path": "mods/attributefix-neoforge-1.21.1-21.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/attributefix-neoforge-1.21.1-21.1.3.jar",
+      "sha256": "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4",
+      "size": 19809
+    },
+    {
+      "path": "mods/baguettelib-1.21.1-NeoForge-2.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/baguettelib-1.21.1-NeoForge-2.0.3.jar",
+      "sha256": "98addfb68b1e92d4f40ef37cdea8f46217bf7188991cc7347a3fc510a410f1e5",
+      "size": 74380
+    },
+    {
+      "path": "mods/balm-neoforge-1.21.1-21.0.63.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/balm-neoforge-1.21.1-21.0.63.jar",
+      "sha256": "cced7e33b55e77e241a967ba29f52232185c1c3e72af7b4dd255bd557bb9aee0",
+      "size": 782380
+    },
+    {
+      "path": "mods/barbequesdelight-1.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/barbequesdelight-1.3.0.jar",
+      "sha256": "fce559ad8c0964cf4e3bfd9fc03fc2ab87bebc31e446968c87d3876a86f23f7e",
+      "size": 847092
+    },
+    {
+      "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/bellsandwhistles-0.4.7-1.21.1.jar",
+      "sha256": "a438cf2ea3a05120e12342484f1e12ca11526fbf4195d259ce1d7df8a9b3ffca",
+      "size": 193619
+    },
+    {
+      "path": "mods/better_lib-neoforge-1.21.1-1.0.109.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/better_lib-neoforge-1.21.1-1.0.109.jar",
+      "sha256": "7d567fac31f88f9df39a81f1a02b255c4b1ec3c2ad8719fb391c17b80adfb2ce",
+      "size": 256724
+    },
+    {
+      "path": "mods/betterarcheology-neoforge-1.21.1-1.3.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/betterarcheology-neoforge-1.21.1-1.3.7.jar",
+      "sha256": "a3ea64785a294b4dc7530cf104f625143ebff1327b51d346cfbd2ea23f5c3111",
+      "size": 3105868
+    },
+    {
+      "path": "mods/bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/bettercombat-neoforge-2.4.0%2B1.21.1.jar",
+      "sha256": "0446e9faa98b764ba010ac31e337d14ac96bbb2fbfeff9b599e1efd510dfde5a",
+      "size": 1045389
+    },
+    {
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+      "size": 328813
+    },
+    {
+      "path": "mods/botanypots-neoforge-1.21.1-21.1.44.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/botanypots-neoforge-1.21.1-21.1.44.jar",
+      "sha256": "45b23ac195511f724f62ab5f0c2d7a1c2c2403ff324a7403a1142e28a7d65edd",
+      "size": 1068816
+    },
+    {
+      "path": "mods/botanytrees-neoforge-1.21.1-21.1.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/botanytrees-neoforge-1.21.1-21.1.7.jar",
+      "sha256": "72060638703da61e868d5d52674c580a58ed68cfc80a99697d360f8ed0092678",
+      "size": 341853
+    },
+    {
+      "path": "mods/buildinggadgets2-1.3.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/buildinggadgets2-1.3.9.jar",
+      "sha256": "acae3b628fa60ae8d34059b40c696ea282c01d20b14d32a506c4f85dd357b114",
+      "size": 3858597
+    },
+    {
+      "path": "mods/burgermod-neoforge-2.10.3-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/burgermod-neoforge-2.10.3-1.21.1.jar",
+      "sha256": "e2cc43168b155a17a72a39f5b66120601c6506b58445592f6c45bca9f0d0d6d7",
+      "size": 185554
+    },
+    {
+      "path": "mods/cable_facades-1.21.1-NeoForge-2.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cable_facades-1.21.1-NeoForge-2.1.3.jar",
+      "sha256": "52a155a31c4891dceb669159d1282cd6160cbed8476344efae404ee1cd5b36e9",
+      "size": 281963
+    },
+    {
+      "path": "mods/caelus-neoforge-7.0.1+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/caelus-neoforge-7.0.1%2B1.21.1.jar",
+      "sha256": "432a645557f29de159d9edde2fd109f8e3b32ff30895b4fede04ee5f1a1a682f",
+      "size": 50235
+    },
+    {
+      "path": "mods/carpetscore-neoforge-1.21.1-1.0.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/carpetscore-neoforge-1.21.1-1.0.10.jar",
+      "sha256": "3341a3ae133a4c4c483811757dd5d8031733f8e1145208f9673cc4a78ccb37c9",
+      "size": 107178
+    },
+    {
+      "path": "mods/cc-tweaked-1.21.1-forge-1.117.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cc-tweaked-1.21.1-forge-1.117.1.jar",
+      "sha256": "828d37b1fd2360db026c0cc1053373ada02d1aadd6e3ec3b787c8bfd718615ca",
+      "size": 3120277
+    },
+    {
+      "path": "mods/charginggadgets-1.14.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/charginggadgets-1.14.1.jar",
+      "sha256": "411bae6c95c1c4ab19e0431785341dabe39b6eaf5f132abd00514264243ba2ac",
+      "size": 67206
+    },
+    {
+      "path": "mods/charmofundying-neoforge-9.1.0+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/charmofundying-neoforge-9.1.0%2B1.21.1.jar",
+      "sha256": "361bb87bb0cd0881ab5d1f469595c26c49992d4ed965f2631015135d61f515d1",
+      "size": 178369
+    },
+    {
+      "path": "mods/chefsdelight-1.0.5-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/chefsdelight-1.0.5-neoforge-1.21.1.jar",
+      "sha256": "9fd7920a4cced00443c107c1ac05002b35543734c76e05ef1d1ebf5f17ce99c8",
+      "size": 95250
+    },
+    {
+      "path": "mods/chipped-neoforge-1.21.1-4.0.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/chipped-neoforge-1.21.1-4.0.2.jar",
+      "sha256": "18ac6fd6b30db4922ccc6ee8bea5b113f69587505b7529834f37ace506427291",
+      "size": 15020578
+    },
+    {
+      "path": "mods/chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
+      "sha256": "4b0dc7252b626c80be0fb9e3e72ea3b461f33cdc66d6c08bad320a4ed4b864e3",
+      "size": 385815
+    },
+    {
+      "path": "mods/cleanswing-1.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cleanswing-1.9.jar",
+      "sha256": "b86e69372a3451a09c1b5d09d69f2e20485c6d2aa62fa8a538ef77509a5f5595",
+      "size": 8449
+    },
+    {
+      "path": "mods/clientcrafting-1.21-2.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/clientcrafting-1.21-2.1.jar",
+      "sha256": "318a7a7c28b9d5cbeecb69f8e27eb8d1b638d991108316364c64dc8bc5f013c0",
+      "size": 7144
+    },
+    {
+      "path": "mods/cloth-config-15.0.140-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cloth-config-15.0.140-neoforge.jar",
+      "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+      "size": 1163890
+    },
+    {
+      "path": "mods/collective-1.21.1-8.39.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/collective-1.21.1-8.39.jar",
+      "sha256": "ae59b63790c3097fb01e7801c21f3e7feed13b151c2ad993895196c74381a8fe",
+      "size": 1061931
+    },
+    {
+      "path": "mods/comforts-neoforge-9.0.5+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/comforts-neoforge-9.0.5%2B1.21.1.jar",
+      "sha256": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615",
+      "size": 422658
+    },
+    {
+      "path": "mods/connectedglass-1.1.14-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/connectedglass-1.1.14-neoforge-mc1.21.jar",
+      "sha256": "e5b2a1cd8ef1b8a49a322aeccfc5cd9a53d8303613b9f30718f12a1e525d49fe",
+      "size": 819976
+    },
+    {
+      "path": "mods/connectivity-1.21.1-7.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/connectivity-1.21.1-7.6.jar",
+      "sha256": "2366973ddae5ba00b9ba15a26e5b610a6648038b9f2549bf81b9ae61342b281a",
+      "size": 114165
+    },
+    {
+      "path": "mods/construction_blocks-b1.2-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/construction_blocks-b1.2-neoforge-1.21.1.jar",
+      "sha256": "fb0f9ef24579dafa0a179bf78cbe17db2bc627fa70840a39cac16dd8d3e3ef9b",
+      "size": 57509
+    },
+    {
+      "path": "mods/copperdeco-1.21.1-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/copperdeco-1.21.1-1.0.1.jar",
+      "sha256": "17619f3766ef1f957d58188866995959dee180defe5ea9587a087fea6ed06ff3",
+      "size": 263728
+    },
+    {
+      "path": "mods/copycats-3.0.4+mc.1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/copycats-3.0.4%2Bmc.1.21.1-neoforge.jar",
+      "sha256": "8480e2a62eaa625f75776831c1d8a9ef3d77d2d816fa2e67566c6ec25ba745d1",
+      "size": 1791747
+    },
+    {
+      "path": "mods/corn_delight-1.2.10-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/corn_delight-1.2.10-1.21.1.jar",
+      "sha256": "825a87e6d6b8b9daa0660a0bba0d0c2d803f8cc20013fb80c4934a1e2213c700",
+      "size": 165038
+    },
+    {
+      "path": "mods/coroutil-neoforge-1.21.0-1.3.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/coroutil-neoforge-1.21.0-1.3.9.jar",
+      "sha256": "097434e256a428335cc4e9b718ad7bb9c6804c2c775aa3dd7149a6904adca2bc",
+      "size": 65716
+    },
+    {
+      "path": "mods/corpse-neoforge-1.21.1-1.1.13.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/corpse-neoforge-1.21.1-1.1.13.jar",
+      "sha256": "f61e750eb2cb49867483d34d6630e02597a52e41680fc38d1c65ece4ef36fd2b",
+      "size": 253695
+    },
+    {
+      "path": "mods/corpsecurioscompat-1.21.1-NeoForge-3.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/corpsecurioscompat-1.21.1-NeoForge-3.1.3.jar",
+      "sha256": "43c1ac104381748439f92ea426207b86f93bc641f1d6cfebc08be4a563d91260",
+      "size": 24683
+    },
+    {
+      "path": "mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+      "sha256": "6328049755735159c55f5918ac301cff53a8d8790c3fe63e32e7d8a0e37f123f",
+      "size": 92722
+    },
+    {
+      "path": "mods/cosmeticcorpsecompat-1.21.1-NeoForge--1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cosmeticcorpsecompat-1.21.1-NeoForge--1.0.0.jar",
+      "sha256": "549c6b3447fbfad2e99bd2a0ca034dc433e1ff5975ad505902998bdfcab20f00",
+      "size": 9651
+    },
+    {
+      "path": "mods/crabbersdelight-1.21.1-1.2.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/crabbersdelight-1.21.1-1.2.6.jar",
+      "sha256": "dde14329fa2ee127a76c27af4dad2608c3405d3639260478f765b5d819f69dc4",
+      "size": 634794
+    },
+    {
+      "path": "mods/cratedelight-26.07.01-1.21-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cratedelight-26.07.01-1.21-neoforge.jar",
+      "sha256": "a530f387b2fc973dc730e07b516fd6d01cd9917979525ee507c62bea06d433b2",
+      "size": 202120
+    },
+    {
+      "path": "mods/create-1.21.1-6.0.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "size": 19123767
+    },
+    {
+      "path": "mods/create-central-kitchen-2.3.0-arcadia-fix.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create-central-kitchen-2.3.0-arcadia-fix.jar",
+      "sha256": "f8c12d04954501da7b2020ed15c712f34e34d4a30cb8a5a4296b2d408c013e58",
+      "size": 327094
+    },
+    {
+      "path": "mods/create-confectionery1.21.1_v1.1.3b.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create-confectionery1.21.1_v1.1.3b.jar",
+      "sha256": "1a5022528f5c06bf2cdd39c71169c90cd61e80c3f44879c747a7debd63e25a96",
+      "size": 2127265
+    },
+    {
+      "path": "mods/create-enchantment-industry-2.4.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create-enchantment-industry-2.4.2.jar",
+      "sha256": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef",
+      "size": 1283517
+    },
+    {
+      "path": "mods/create-integrated-farming-1.2.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create-integrated-farming-1.2.6.jar",
+      "sha256": "6eef62f0a46d68e0fec18ce23c14104a0608ff9c66939c59e88c606fa268dd40",
+      "size": 438847
+    },
+    {
+      "path": "mods/create-stuff-additions1.21.1_v2.1.4a.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create-stuff-additions1.21.1_v2.1.4a.jar",
+      "sha256": "3e93a9930e49bc3f8ae5cf5e45f5e9065860ea708365f8ed4336289295b66893",
+      "size": 1344545
+    },
+    {
+      "path": "mods/create_aquatic_ambitions-1.21.1-2.0.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_aquatic_ambitions-1.21.1-2.0.4.jar",
+      "sha256": "d50180fd30dc7f034ea4ad5185d18cfa652457be1d8e7a45f0b491d0e6642d44",
+      "size": 1074131
+    },
+    {
+      "path": "mods/create_connected-1.3.2-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_connected-1.3.2-mc1.21.1.jar",
+      "sha256": "90bdceac63cb0ebd5e51351e22136182b996512edef937d0635d2857b0a3f24b",
+      "size": 6779410
+    },
+    {
+      "path": "mods/create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar",
+      "sha256": "1882e3102771ed2db4ba7f62c0b500d7a40e4d2c1823700c2fa55a75b77359f9",
+      "size": 98709
+    },
+    {
+      "path": "mods/create_cuisine-1.0.0-mc1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_cuisine-1.0.0-mc1.21.1-neoforge.jar",
+      "sha256": "8888fd57128c1800584f96aef4c17314dce8453281231e6dc35286a2f2e683f7",
+      "size": 671089
+    },
+    {
+      "path": "mods/create_easy_structures-0.2a-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_easy_structures-0.2a-neoforge-1.21.1.jar",
+      "sha256": "8d5949114e9dd506c4a8598f789e63678fdf6b2b90f40a8e6ef2babc6f56029f",
+      "size": 469490
+    },
+    {
+      "path": "mods/create_heat_js-1.21.1-0.0.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_heat_js-1.21.1-0.0.6.jar",
+      "sha256": "6d7d9b8f629d51ea2d66bf275cd032b54feb5fdc18410e3c147d65c480632449",
+      "size": 176374
+    },
+    {
+      "path": "mods/create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_hypertube-0.5.0-ALPHA-NEOFORGE.jar",
+      "sha256": "fdcf86646a75465dfe711123e2d98c32d582f8a60d7819295315bbc066f8099e",
+      "size": 499740
+    },
+    {
+      "path": "mods/create_ice_creams-1.51.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_ice_creams-1.51.jar",
+      "sha256": "f86e8726f968c51da5cebf58fc5816c8bd8f89f5f25c679b709f2a63ceba415a",
+      "size": 755672
+    },
+    {
+      "path": "mods/create_jetpack-forge-5.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_jetpack-forge-5.1.2.jar",
+      "sha256": "9fe5a681ea841ce9dc02e7132cd360e1c3e75314905b4ef1493e7548265d0985",
+      "size": 481239
+    },
+    {
+      "path": "mods/create_ltab-4.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_ltab-4.0.3.jar",
+      "sha256": "2c7d8a0c7b0f5bea5c21267e0531955b55acfab499d5d5f37d946dced54fc41e",
+      "size": 2857558
+    },
+    {
+      "path": "mods/create_mechanical_extruder-1.21.1-2.2.2-6.0.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_mechanical_extruder-1.21.1-2.2.2-6.0.10.jar",
+      "sha256": "d192d0e665df0af3a06f65ffe0abad49beed802fdafebfcd8f4e9cf3b6b5c139",
+      "size": 523501
+    },
+    {
+      "path": "mods/create_oxidized-0.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_oxidized-0.1.3.jar",
+      "sha256": "9221f4caa70036d05a04e83e6b57844fa03b60cdef6ade1491c37c0f7800d063",
+      "size": 121297
+    },
+    {
+      "path": "mods/create_structures_arise-176.49.48 NeoForge 1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_structures_arise-176.49.48%20NeoForge%201.21.1.jar",
+      "sha256": "1d871fe9071da0cfae8664876b2efd6a7e9514eb94bb5be2380b231c01901d05",
+      "size": 1817379
+    },
+    {
+      "path": "mods/create_things_and_misc-4.1.1-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_things_and_misc-4.1.1-neoforge-1.21.1.jar",
+      "sha256": "37cfe32ca602a37bd21307e6f456a35788c30315722f14e07326ff555d188fc0",
+      "size": 1055815
+    },
+    {
+      "path": "mods/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "sha256": "b95dcdd43c859eaf1825f33b2b4c42226187a1e875d368b0b24ed0be1e0fa1b0",
+      "size": 235239
+    },
+    {
+      "path": "mods/create_waystones_recipes-3.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_waystones_recipes-3.0.1.jar",
+      "sha256": "6d158fe0f924eb85a5d3d4ac9e7580829f41ad9be54232b652dc61b4856dfb4b",
+      "size": 106083
+    },
+    {
+      "path": "mods/create_winery-2.0.2-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/create_winery-2.0.2-neoforge-1.21.1.jar",
+      "sha256": "fc79b74000361cfbb7586e72c28a584d22e605561a2a1952f5c82310373f8612",
+      "size": 513007
+    },
+    {
+      "path": "mods/createaddition-1.6.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createaddition-1.6.0.jar",
+      "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+      "size": 1661802
+    },
+    {
+      "path": "mods/createdieselgenerators-1.21.1-1.3.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createdieselgenerators-1.21.1-1.3.14.jar",
+      "sha256": "038d7f9173fe7f792b77054ab98e9543e04630825610a05b036329d30d02329c",
+      "size": 3143118
+    },
+    {
+      "path": "mods/createendertransmission-2.1.1-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createendertransmission-2.1.1-1.21.1.jar",
+      "sha256": "13f237796ba51312a385ebd55b252c55598d49bcf677ea68f0bfb9bd88c23b63",
+      "size": 84366
+    },
+    {
+      "path": "mods/createfood-neoforge-1.21.1-2.6.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createfood-neoforge-1.21.1-2.6.0.jar",
+      "sha256": "0e6de446dc911144c3148b091e038f279872ce911bf5436caf43ac649e4c6bc1",
+      "size": 9032984
+    },
+    {
+      "path": "mods/createframed-1.21.1-1.8.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createframed-1.21.1-1.8.2.jar",
+      "sha256": "a1f0434f5485de5ba5683320ebca7b71841488421a5249641ae357dbeeb35283",
+      "size": 2871366
+    },
+    {
+      "path": "mods/creategoggles-1.21.1-6.1.1-[NEOFORGE].jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/creategoggles-1.21.1-6.1.1-%5BNEOFORGE%5D.jar",
+      "sha256": "f08ff14c72ff15de9b3c87200ad06115ff48c73ac21458e038d6e137e162a907",
+      "size": 180932
+    },
+    {
+      "path": "mods/createnuclear-1.3.2-beta.3-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createnuclear-1.3.2-beta.3-neoforge.jar",
+      "sha256": "0d33c608c756ef5e293f1734403050d64c9651332a311e7aaf01370f40d9b1e3",
+      "size": 1842160
+    },
+    {
+      "path": "mods/createoreexcavation-1.21-1.6.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/createoreexcavation-1.21-1.6.8.jar",
+      "sha256": "d3a2e1a6e65de7e50ae9e279de399b6535da407abc8e6b4688a56f2e461aab99",
+      "size": 476990
+    },
+    {
+      "path": "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cristellib-neoforge-1.21.1-3.1.7.jar",
+      "sha256": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38",
+      "size": 583525
+    },
+    {
+      "path": "mods/critterarmory-1.21.1-0.6.5-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/critterarmory-1.21.1-0.6.5-neoforge.jar",
+      "sha256": "008396e98e9705481bc753a7fc185f82c6e60c894c38978c0ad565ab96ad1441",
+      "size": 230231
+    },
+    {
+      "path": "mods/cuisinedelight-1.2.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cuisinedelight-1.2.10.jar",
+      "sha256": "3c40a659da59112972f0d370826f8bfaccdd77a68fe6f7a25c0ab7ab42499e64",
+      "size": 923074
+    },
+    {
+      "path": "mods/culturaldelights-0.17.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/culturaldelights-0.17.8.jar",
+      "sha256": "3d0255548fd4cafb04d7eaa9092a10993b67c9f5084865970b4e3d414a964911",
+      "size": 261247
+    },
+    {
+      "path": "mods/cupboard-1.21.1-3.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/cupboard-1.21.1-3.8.jar",
+      "sha256": "722847521c1f9bae079bd3ec1a70b187c3186e71247ddf1182c0ea498cdec067",
+      "size": 28741
+    },
+    {
+      "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/curios-neoforge-9.5.1%2B1.21.1.jar",
+      "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+      "size": 410690
+    },
+    {
+      "path": "mods/customizableelytra-neoforge-2.2.8+1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/customizableelytra-neoforge-2.2.8%2B1.21.jar",
+      "sha256": "45e0bab275a3d432047862ecf034a99e5edf9f0d46d8a16b8d3796fbdc3216b3",
+      "size": 263380
+    },
+    {
+      "path": "mods/deep_aether-1.21.1-1.1.5.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/deep_aether-1.21.1-1.1.5.1.jar",
+      "sha256": "0f55ad970715bb933344e785b2c35a7354dfba25ffd426c0b68921d08bbe0ce5",
+      "size": 46236011
+    },
+    {
+      "path": "mods/deeperdarker-neoforge-1.21.1-1.4-arcadia-fix.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/deeperdarker-neoforge-1.21.1-1.4-arcadia-fix.jar",
+      "sha256": "5a93b7f5d81f4dfae9197b1c8deffc24283e1041b27cd79118ae73e40afce724",
+      "size": 3906337
+    },
+    {
+      "path": "mods/defaultoptions-neoforge-1.21.1-21.1.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/defaultoptions-neoforge-1.21.1-21.1.7.jar",
+      "sha256": "e55633bab9275da6d979a1aabd5f1d7115fd26e5cc9a6f43d110bd3908d7b40a",
+      "size": 102366
+    },
+    {
+      "path": "mods/dg_js-1.21.1-1.2.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/dg_js-1.21.1-1.2.3.jar",
+      "sha256": "1cc0e23f6c54c2946dbd74596ba370166779be6ec203cd8999129de981c590ac",
+      "size": 125254
+    },
+    {
+      "path": "mods/does_it_tick-neoforge-1.1.4-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/does_it_tick-neoforge-1.1.4-1.21.1.jar",
+      "sha256": "414b3fb33c695d463f0ea138753457fc4d38cdd2d3788b457545bbda3dbf882b",
+      "size": 93269
+    },
+    {
+      "path": "mods/doubledoors-1.21.1-7.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/doubledoors-1.21.1-7.2.jar",
+      "sha256": "947cc425dba61a003fc6cfc9ce6bb87dbef1f2d4561701235eb2fed6073b72ff",
+      "size": 75041
+    },
+    {
+      "path": "mods/dragondropselytra-1.21.1-3.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/dragondropselytra-1.21.1-3.6.jar",
+      "sha256": "c46e2b6629576a8ce52ee884a9325d9946ed313429328fa01484e62ee58e5872",
+      "size": 30852
+    },
+    {
+      "path": "mods/dummmmmmy-1.21-2.0.12-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/dummmmmmy-1.21-2.0.12-neoforge.jar",
+      "sha256": "4d35c6cdc7a17d6175f116ec8b31ce5ebc740e5d1412ce32cc721b042b2f5298",
+      "size": 219158
+    },
+    {
+      "path": "mods/easy-villagers-neoforge-1.21.1-1.1.42.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/easy-villagers-neoforge-1.21.1-1.1.42.jar",
+      "sha256": "e093c86ce419fc1fab1533bed5fa95b509b1f7240760c5ab628de228b55c9d50",
+      "size": 456700
+    },
+    {
+      "path": "mods/easy_npc-neoforge-1.21.1-7.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/easy_npc-neoforge-1.21.1-7.3.0.jar",
+      "sha256": "a095b686a9e458ff1690f9be66d9f9a81471c1f29dbcda4b169d976425a4e6f6",
+      "size": 2300956
+    },
+    {
+      "path": "mods/easy_npc_bundle-neoforge-1.21.1-7.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/easy_npc_bundle-neoforge-1.21.1-7.3.0.jar",
+      "sha256": "0a35b0f45531172d58e83212c1b650433096c7063598693954a71c68fc6ddd14",
+      "size": 25214
+    },
+    {
+      "path": "mods/easy_npc_config_ui-neoforge-1.21.1-7.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/easy_npc_config_ui-neoforge-1.21.1-7.3.0.jar",
+      "sha256": "047ea508c19319929dc05910fe7e0c4adcc2d00dedf9140fcc2519aebba14334",
+      "size": 1022774
+    },
+    {
+      "path": "mods/ecologics-1.21.1-2.3.4-arcadia-fix.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ecologics-1.21.1-2.3.4-arcadia-fix.jar",
+      "sha256": "3d936367304803f681cab2a6220aed0dce67cecd07128302251ffdde5b90a6ba",
+      "size": 1845690
+    },
+    {
+      "path": "mods/elevatorid-neoforge-1.21.1-1.11.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/elevatorid-neoforge-1.21.1-1.11.4.jar",
+      "sha256": "c3908b14549addaa18951c473d2d1f67a3df61bcf5599c6031e71ca5685bf14c",
+      "size": 191190
+    },
+    {
+      "path": "mods/elytraslot-neoforge-9.0.2+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/elytraslot-neoforge-9.0.2%2B1.21.1.jar",
+      "sha256": "d86adf384390c40b144a296ef4fc11b72fd81e2780b264bd9ceb7b5ab9147399",
+      "size": 65086
+    },
+    {
+      "path": "mods/emotecraft-for-MC1.21.1-2.4.12-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/emotecraft-for-MC1.21.1-2.4.12-neoforge.jar",
+      "sha256": "8cff63e900acd55bb39d41978cc2a70a974e326e2038c30ff20ccfde4c953a43",
+      "size": 861829
+    },
+    {
+      "path": "mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
+      "sha256": "74d546ecb147da7e2cb53fe3115f6e062094329dcf15639b3da694cc00d3f843",
+      "size": 81847
+    },
+    {
+      "path": "mods/endersdelight-1.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/endersdelight-1.3.0.jar",
+      "sha256": "2210b5d3c7ce22ba8ffb6f70bb620c838a4b514a4cbd40a6a2b74b529199b5c0",
+      "size": 152449
+    },
+    {
+      "path": "mods/ends_delight-2.6.1+neoforge.1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ends_delight-2.6.1%2Bneoforge.1.21.1.jar",
+      "sha256": "030593aa0957520b114c7ab36532cbf3c63c02d7d1bff86331b8bd9fc4145c4e",
+      "size": 258124
+    },
+    {
+      "path": "mods/escalated-1.3.1-mc.1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/escalated-1.3.1-mc.1.21.1.jar",
+      "sha256": "cf2de1ac5439e72a7020ba7ad42ea5b0e225b0fbaaa4ca941913e74c77ea582b",
+      "size": 512511
+    },
+    {
+      "path": "mods/exposure-neoforge-1.21.1-1.9.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/exposure-neoforge-1.21.1-1.9.18.jar",
+      "sha256": "674c537a99f69b2bae53521c95dae59bc5f4eb2eb15418eec0ecbaf36b53d888",
+      "size": 2192415
+    },
+    {
+      "path": "mods/exposure_catalog-neoforge-1.1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/exposure_catalog-neoforge-1.1.1.jar",
+      "sha256": "5a3b74deb591f2592bb6ef4e650c55935729ef37e9e4af937395096096229939",
+      "size": 149303
+    },
+    {
+      "path": "mods/exposure_expanded-neoforge-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/exposure_expanded-neoforge-1.0.1.jar",
+      "sha256": "e56f4e93fe48e97cd37c0e63c82622b8fe75c1f272ac033ec2f3e3cbb8ba391d",
+      "size": 951304
+    },
+    {
+      "path": "mods/exposure_polaroid-neoforge-1.21.1-1.1.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/exposure_polaroid-neoforge-1.21.1-1.1.5.jar",
+      "sha256": "6585f7c8764d798ec05a5dce09dec6cd6b9a8367b4529169de98d42b5190dcea",
+      "size": 361361
+    },
+    {
+      "path": "mods/fakedate-1.0.4+1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fakedate-1.0.4%2B1.21.1-neoforge.jar",
+      "sha256": "d26d418cda4026350cee2e06281d87141158ad9cf6dffd4a11a8acb8fc8a2159",
+      "size": 1015108
+    },
+    {
+      "path": "mods/fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+      "sha256": "ce3605a2737dc7d1e5c5b70ea78664e9eb6804b8a6eeb49cb5805be359cc4cee",
+      "size": 25346355
+    },
+    {
+      "path": "mods/farmersknives-neoforge-1.21.1-4.2.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/farmersknives-neoforge-1.21.1-4.2.0.jar",
+      "sha256": "7e0588633596d1f089e5c199588766809aa4b45ae9c3a6e70a53b7aea7e9f185",
+      "size": 91362
+    },
+    {
+      "path": "mods/farsight-1.21.1-5.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/farsight-1.21.1-5.1.jar",
+      "sha256": "741851d107e0e105da6efc863bb1e787a2ab57b70b7086daeee0b325d20afae2",
+      "size": 388544
+    },
+    {
+      "path": "mods/fastboot-1.21.x-v1.3neo.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fastboot-1.21.x-v1.3neo.jar",
+      "sha256": "23f44f8b2c479a4242f070e118c6dfe8084942b12d125743e784e121d076ad8d",
+      "size": 9085
+    },
+    {
+      "path": "mods/fastpaintings-1.21-1.3.0-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fastpaintings-1.21-1.3.0-neoforge.jar",
+      "sha256": "782afb6f4c631c9d3313b6442d304b36336f794273dfa5c381485142020ca05a",
+      "size": 155810
+    },
+    {
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ferritecore-7.0.3-neoforge.jar",
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+      "size": 121559
+    },
+    {
+      "path": "mods/fncct-1.21.1-1.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fncct-1.21.1-1.1.0.jar",
+      "sha256": "a67c48c7d0a14f8d10047543f08257185e7ade17b874c66eab2a5317fb421417",
+      "size": 9179
+    },
+    {
+      "path": "mods/forgified-fabric-api-0.116.14+2.3.0+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/forgified-fabric-api-0.116.14%2B2.3.0%2B1.21.1.jar",
+      "sha256": "4a2487dac22314075b0c2f4baf61a08b332d38b706fb0bb3fadfb060a8ca05a3",
+      "size": 5592546
+    },
+    {
+      "path": "mods/framework-neoforge-1.21.1-0.13.11.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/framework-neoforge-1.21.1-0.13.11.jar",
+      "sha256": "429ea90a162d7c25c1463ee60979e4d7b1ddb525d9384a3a2a2f45d70bda03f5",
+      "size": 387334
+    },
+    {
+      "path": "mods/ftb-chunks-neoforge-2101.1.20.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-chunks-neoforge-2101.1.20.jar",
+      "sha256": "3bcd6f0032cec7310dc90b02b5a00e4cf1dd7a507f758bb353de864cb5e9241e",
+      "size": 655911
+    },
+    {
+      "path": "mods/ftb-essentials-neoforge-2101.1.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-essentials-neoforge-2101.1.10.jar",
+      "sha256": "a61de1b883ec9d6d652276f453e8e60b18bd315fef8c62f21d6545260d526587",
+      "size": 217288
+    },
+    {
+      "path": "mods/ftb-filter-system-neoforge-21.1.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-filter-system-neoforge-21.1.4.jar",
+      "sha256": "b8700e8bfd9c78b09bc7819cb28a6318b20d2bf68969bc6894a0bfa39581a99b",
+      "size": 211671
+    },
+    {
+      "path": "mods/ftb-jei-extras-21.1.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-jei-extras-21.1.7.jar",
+      "sha256": "141b02587d71a6591e71c1ed50de5ddd5b297bb580e26aabf1273bb6fbdbe6dd",
+      "size": 69759
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.33.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-library-neoforge-2101.1.33.jar",
+      "sha256": "6e8f7b57f243caf5cbb2c80387924df7b555b98d0fc6e1e575d4b5d74f5ff2e2",
+      "size": 1425984
+    },
+    {
+      "path": "mods/ftb-quests-neoforge-2101.1.27.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-quests-neoforge-2101.1.27.jar",
+      "sha256": "460b163ebefb4580e1ad32e1f94f1ea4bdc8f763692ee821628ace10bde49a03",
+      "size": 1470929
+    },
+    {
+      "path": "mods/ftb-teams-neoforge-2101.1.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-teams-neoforge-2101.1.10.jar",
+      "sha256": "a656f2aa0e11a933aab3ba697690aa0eb2041f65e6c5daa448897ee0a6d37a6c",
+      "size": 302712
+    },
+    {
+      "path": "mods/ftb-xmod-compat-neoforge-21.1.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/ftb-xmod-compat-neoforge-21.1.9.jar",
+      "sha256": "64bbccbb0efbeb0d8309e561d714f0994dd1c45108b547fc6db73d3c69d8e8f1",
+      "size": 150617
+    },
+    {
+      "path": "mods/fusion-1.2.12-neoforge-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fusion-1.2.12-neoforge-mc1.21.1.jar",
+      "sha256": "5961f78d85b7bd88205bc65c9f8182bc041646aa3579fa39810878d9b5b87c0c",
+      "size": 532912
+    },
+    {
+      "path": "mods/fzzy_config-0.7.6+1.21+neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/fzzy_config-0.7.6%2B1.21%2Bneoforge.jar",
+      "sha256": "4e5cc1438087b0bc0276969e88b9ad0bdf2bcc60d6caf5fe79e18947d7a29050",
+      "size": 2369895
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.9.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/geckolib-neoforge-1.21.1-4.9.2.jar",
+      "sha256": "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba",
+      "size": 630584
+    },
+    {
+      "path": "mods/gpumemleakfix-1.21-1.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/gpumemleakfix-1.21-1.8.jar",
+      "sha256": "4bd0682e26b8d4ba78442ce8d969fc7fa3cac2c21fc600de34a54b2ff7814931",
+      "size": 6574
+    },
+    {
+      "path": "mods/guardvillagers-2.4.10-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/guardvillagers-2.4.10-1.21.1.jar",
+      "sha256": "1e4e9b47a5f6580370d7e3056379eb0c36ec90bef6e014e098805ace1de980a4",
+      "size": 283467
+    },
+    {
+      "path": "mods/handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "sha256": "6f2a776fb28ed07d370899814e5e711fbeebe31396097d78a3b550439b364948",
+      "size": 7132842
+    },
+    {
+      "path": "mods/immersive_aircraft-1.4.6+1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/immersive_aircraft-1.4.6%2B1.21.1-neoforge.jar",
+      "sha256": "953222fefb9439b74760583d46dbf620ed85cc614f5ab629aec05ab6ce40ebe7",
+      "size": 2447578
+    },
+    {
+      "path": "mods/immersive_melodies-neoforge-0.6.4+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/immersive_melodies-neoforge-0.6.4%2B1.21.1.jar",
+      "sha256": "a6bfb284b3def1e34d62f8cfb0d63dff5683f2a98081b4d9a76580b806ae3972",
+      "size": 5521192
+    },
+    {
+      "path": "mods/immersive_paintings-neoforge-1.21.1-0.7.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/immersive_paintings-neoforge-1.21.1-0.7.8.jar",
+      "sha256": "c377f6dfaf5be5022761f6e3d6310ef90e59e10bd00bb252d78cff5381b2520c",
+      "size": 5500916
+    },
+    {
+      "path": "mods/invocore-1.21.1-5.2.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/invocore-1.21.1-5.2.4.jar",
+      "sha256": "565b5cdbb6eae2f24b3a213578571a7fddf3591a0e92818d5dad30265ac767b1",
+      "size": 68011
+    },
+    {
+      "path": "mods/invtweaks-1.21.1-1.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/invtweaks-1.21.1-1.3.2.jar",
+      "sha256": "ceb5b20a43ca1c5bd707f60bb5d5fa61099c7a7ba50b19f6bddfe93f1ca0073c",
+      "size": 77127
+    },
+    {
+      "path": "mods/irons_lib-1.21.1-2.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/irons_lib-1.21.1-2.1.0.jar",
+      "sha256": "3d0ad1003d6edeaad2500b9922267b4192d2c603cdd846fda339b168f4deff72",
+      "size": 406284
+    },
+    {
+      "path": "mods/irons_spellbooks-1.21.1-3.16.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/irons_spellbooks-1.21.1-3.16.2.jar",
+      "sha256": "82b650aff7636c8fa88da0e4cfea008c229bb62843274678ee932f6b4ec74430",
+      "size": 13874139
+    },
+    {
+      "path": "mods/irons_spells_js-4.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/irons_spells_js-4.0.3.jar",
+      "sha256": "af95472638bf595eb702675db1adec54f8b6fa708d7ec3e99675015c29596fc7",
+      "size": 150121
+    },
+    {
+      "path": "mods/itemcollectors-1.1.10-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/itemcollectors-1.1.10-neoforge-mc1.21.jar",
+      "sha256": "148a3a90f2cfcff8c8c1549a4e7b706494ebc9bd859d848158f469426e6e5fb5",
+      "size": 100837
+    },
+    {
+      "path": "mods/jamlib-neoforge-1.3.6+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/jamlib-neoforge-1.3.6%2B1.21.1.jar",
+      "sha256": "911afdfe717a2375a651253e282ac9e769f8bead381d33c2167955c25eefe514",
+      "size": 188553
+    },
+    {
+      "path": "mods/javd-neo-9.0.0+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/javd-neo-9.0.0%2Bmc1.21.1.jar",
+      "sha256": "fd2afc69a6745321bee1a358f583cc33dd029a1b0370ccff281be1a866dcba3f",
+      "size": 54632
+    },
+    {
+      "path": "mods/jearchaeology-1.21.1-1.2.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/jearchaeology-1.21.1-1.2.0.jar",
+      "sha256": "36628748bfdd145f764d0bf7af16e1d8b336a09b31e801ec68954dc39a20f7bf",
+      "size": 53509
+    },
+    {
+      "path": "mods/jei-1.21.1-neoforge-19.39.0.368.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/jei-1.21.1-neoforge-19.39.0.368.jar",
+      "sha256": "ac27623a1e425a05f95f170eea94974d26ea68ca2037e5695176fb66a090de84",
+      "size": 1635411
+    },
+    {
+      "path": "mods/kjsbotanypots-1.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kjsbotanypots-1.3.2.jar",
+      "sha256": "5e66ccb2956665b9860d57ed05bb237f9dba8610525d2af3bb6020ace800f404",
+      "size": 14245
+    },
+    {
+      "path": "mods/knightlib-neoforge-1.21.1-1.6.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/knightlib-neoforge-1.21.1-1.6.1.jar",
+      "sha256": "f9cf072095d2ed69bd03960a20ec3b285e1c4aa6c4931e9deda82db2e8d8c4f6",
+      "size": 716314
+    },
+    {
+      "path": "mods/knightquest-neoforge-1.21.1-1.9.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/knightquest-neoforge-1.21.1-1.9.3.jar",
+      "sha256": "4412d59a6033a13e81dd7f98d1c699ec0427e2a6a258221a19ee324b928edc6c",
+      "size": 5193278
+    },
+    {
+      "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd",
+      "size": 618842
+    },
+    {
+      "path": "mods/kotlinforforge-5.12.0-all.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kotlinforforge-5.12.0-all.jar",
+      "sha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+      "size": 7279276
+    },
+    {
+      "path": "mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "sha256": "60fab77c339e5757a97a9a1e2d4019ed2a610bd46583d4353c9a13596e01e614",
+      "size": 38630
+    },
+    {
+      "path": "mods/kubejs-mekanism-neoforge-2101.1.7-build.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejs-mekanism-neoforge-2101.1.7-build.18.jar",
+      "sha256": "dacb4a139b071b9958b0fc8fe8ba74585703886af0970d821bc49247ecbf89ae",
+      "size": 58054
+    },
+    {
+      "path": "mods/kubejs-neoforge-2101.7.2-build.368.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejs-neoforge-2101.7.2-build.368.jar",
+      "sha256": "28867299e7a9f02cfd74e34745fdbbb073fe4887fddbc98fd6c1ed2e87b01482",
+      "size": 2281720
+    },
+    {
+      "path": "mods/kubejs_curios_neoforge_1.21.1-1.0.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejs_curios_neoforge_1.21.1-1.0.4.jar",
+      "sha256": "a1ea50b512aabae8859951ea6ac94f03e425e33446b4a3c507ed5e8c3f3739ab",
+      "size": 41200
+    },
+    {
+      "path": "mods/kubejsarsnouveau-1.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejsarsnouveau-1.3.2.jar",
+      "sha256": "5beedb785fc0a5f07ecff20645131d2cbf02d1c946a4ebb0657d9e2cbb8248cf",
+      "size": 22770
+    },
+    {
+      "path": "mods/kubejsdelight-1.1.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejsdelight-1.1.6.jar",
+      "sha256": "7f09822eb44a1e22b6dd1d6e63b9a38d0d73307cd79cbd0a2e048dc092e2e51c",
+      "size": 20406
+    },
+    {
+      "path": "mods/kubejstweaks-1.0.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/kubejstweaks-1.0.6.jar",
+      "sha256": "2a444fb6e0931f30acc4d5880b164cc7bc8fe24801973a75bde384996c827e8f",
+      "size": 421764
+    },
+    {
+      "path": "mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
+      "sha256": "074ffdbe34bf97b7d15fa4db7cfff547578a9c2f547479128a43d184c4ca642a",
+      "size": 14911
+    },
+    {
+      "path": "mods/liste_mods.txt",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/liste_mods.txt",
+      "sha256": "cdbc54ec69f06fdaea982b145b26227ddd5236f90db87c9e798275d0b5c5da67",
+      "size": 31094
+    },
+    {
+      "path": "mods/logbegone-neoforge-1.21.1-1.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/logbegone-neoforge-1.21.1-1.0.3.jar",
+      "sha256": "0ee3005ffa553aed37a313ad43dd5947080c45bcbaa8ed8cd4e00342321ff6a9",
+      "size": 73237
+    },
+    {
+      "path": "mods/lootintegration_wda-1.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/lootintegration_wda-1.8.jar",
+      "sha256": "8645bc1926c231c715beb2393141c97079f9a84798039734479d69753ddd42bb",
+      "size": 8134
+    },
+    {
+      "path": "mods/lootintegrations-1.21.1-4.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/lootintegrations-1.21.1-4.7.jar",
+      "sha256": "1de9e6352f643f2850dce3e6b7aa8274902798a2243ea9e494fe13aabaa90d2c",
+      "size": 36966
+    },
+    {
+      "path": "mods/lootintegrations_moog-2.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/lootintegrations_moog-2.1.jar",
+      "sha256": "3c05d252948fd5133c5d89274a0c1c2f661ff8c0383994324def510596bbe5f6",
+      "size": 7137
+    },
+    {
+      "path": "mods/lootintegrations_structory-1.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/lootintegrations_structory-1.4.jar",
+      "sha256": "3d6dd6dc2abb042a0ffd993971d2f0bb91d1f100e58e219aa3c8c5f5a248b3df",
+      "size": 6115
+    },
+    {
+      "path": "mods/lootjs-neoforge-1.21.1-3.7.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/lootjs-neoforge-1.21.1-3.7.0.jar",
+      "sha256": "d168fd80f45e5f23dced8a54fdee87347a4c7fc6ccd9c76d30ae4d067ba9c60a",
+      "size": 247689
+    },
+    {
+      "path": "mods/lootr-neoforge-1.21.1-1.11.37.122.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/lootr-neoforge-1.21.1-1.11.37.122.jar",
+      "sha256": "fd330d69bb0740d2833ad91784ee5f8b0e4c5d8dbee379e60e93ca2d1c252fce",
+      "size": 992330
+    },
+    {
+      "path": "mods/man_of_many_planes-0.2.1+1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/man_of_many_planes-0.2.1%2B1.21.1-neoforge.jar",
+      "sha256": "31edfe5553bb29e0c98c685313790c2887e4995306d69e2cff45f0dafd126949",
+      "size": 725743
+    },
+    {
+      "path": "mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+      "sha256": "070b817d3282760d9789b22ce13779613c8b558e02012fd5884d343175d88fd9",
+      "size": 661387
+    },
+    {
+      "path": "mods/mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "87261e309f5e10c9910169d5acbba613cab3a2d2270698b0bd47e657a45b0518",
+      "size": 1190404
+    },
+    {
+      "path": "mods/mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+      "sha256": "819fda8059b210e9de8b9275c8b8e0d931054af5a5ad47771c72d9fd4ab85e88",
+      "size": 2080436
+    },
+    {
+      "path": "mods/mcw-holidays-1.1.2-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-holidays-1.1.2-mc1.21.1neoforge.jar",
+      "sha256": "f972b8d62ce77539129015732eb2e2d2d600cc036bf2cfbd7491b9d66e199350",
+      "size": 1012915
+    },
+    {
+      "path": "mods/mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "b27cd68a7673874b0f6d765bdef2a022666cc07ca0e5057209a16d1a535da9e4",
+      "size": 525744
+    },
+    {
+      "path": "mods/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar",
+      "sha256": "e4b0e5a5b67decc2285e71f017fb4f60284796fa0838de3edeaf6b7cb0395735",
+      "size": 673871
+    },
+    {
+      "path": "mods/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar",
+      "sha256": "f04b51518f75c8a7d5fe1be5589dbcb8a7b0d4f67373ca903578804d971b1286",
+      "size": 777742
+    },
+    {
+      "path": "mods/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+      "sha256": "177fe382ff22caa14983d862ead2717321315a5e4afa778d245e9acd2f61608d",
+      "size": 529082
+    },
+    {
+      "path": "mods/mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+      "sha256": "8970c40ec622edd34c9b055226b403af08ab441c77303a6dc625ae18005f8184",
+      "size": 1261268
+    },
+    {
+      "path": "mods/mcw-paintings-1.1.0-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-paintings-1.1.0-mc1.21.1neoforge.jar",
+      "sha256": "fddf73508f3c98cadd9b3c1fe08d792141eb3db7f89134cf313ed175c3ba031c",
+      "size": 179058
+    },
+    {
+      "path": "mods/mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+      "sha256": "25c79def993a24b05b0f8494ee9417717d469bc000d5ed7c219b47dcc3b3e9c8",
+      "size": 1784829
+    },
+    {
+      "path": "mods/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "1408d46bc2e7515b25b4da8393f8dbb3d79bcd9fb6d51fcf26fe84734c2597af",
+      "size": 572870
+    },
+    {
+      "path": "mods/mcwbiomesoplenty-neoforge-1.21.1-1.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mcwbiomesoplenty-neoforge-1.21.1-1.6.jar",
+      "sha256": "b4fd5206ed2225758c05661c95ec822d2ce9eac741ca8f8eea8915c3843068fd",
+      "size": 7018204
+    },
+    {
+      "path": "mods/mechanical_botany-1.1.3+1.21.1-neoforged.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mechanical_botany-1.1.3%2B1.21.1-neoforged.jar",
+      "sha256": "b6959cbb275e1d381e33455487f9e54a8aa0d8c4408a37d50ee98eda59deaf48",
+      "size": 807129
+    },
+    {
+      "path": "mods/mechanicals-1.21.1-1.1.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mechanicals-1.21.1-1.1.6.jar",
+      "sha256": "0ce9bb97a68a2fc7340695eacd5b9898f2dc481dc6384df62bfb10c92c9de549",
+      "size": 2022181
+    },
+    {
+      "path": "mods/melody_neoforge_1.0.10_MC_1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/melody_neoforge_1.0.10_MC_1.21.jar",
+      "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871",
+      "size": 36096
+    },
+    {
+      "path": "mods/mimimod-1.21.1-4.3.0-neo.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mimimod-1.21.1-4.3.0-neo.jar",
+      "sha256": "d19fc9ce881aaaad3b1d3ea44c70696487af0c62ab8b4868add64faa275f4600",
+      "size": 5885739
+    },
+    {
+      "path": "mods/modernfix-neoforge-5.27.20+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/modernfix-neoforge-5.27.20%2Bmc1.21.1.jar",
+      "sha256": "6f367ea4002c39e3cfe27e0a0be1008880a4b35a8482a78a437cfb9d8ee38273",
+      "size": 599474
+    },
+    {
+      "path": "mods/modonomicon-1.21.1-neoforge-1.120.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/modonomicon-1.21.1-neoforge-1.120.3.jar",
+      "sha256": "4f3feee0a5e78498f11f2d0cf490f5f7d55ade04785f76e5003f377c9736881b",
+      "size": 2399811
+    },
+    {
+      "path": "mods/moogs_structures-neoforge-1.21.1-3.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/moogs_structures-neoforge-1.21.1-3.0.3.jar",
+      "sha256": "d4e1837730370fa3fd5153ab152c7a6862615f1159ce3b7331bc25e4db8a78b4",
+      "size": 336607
+    },
+    {
+      "path": "mods/moonlight-neoforge-1.21.1-3.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/moonlight-neoforge-1.21.1-3.1.2.jar",
+      "sha256": "b7bde1aba44206c93dc5bfd8ce951b6e67b0a4bced7ecf2e74b9a68f74a08e31",
+      "size": 2055371
+    },
+    {
+      "path": "mods/mowziesmobs-1.21.1-1.8.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mowziesmobs-1.21.1-1.8.2.jar",
+      "sha256": "b8e7e39fb6430326de7fbb193db56588ee8bd04d0054527924fe588f37131e4f",
+      "size": 36042925
+    },
+    {
+      "path": "mods/mss-1.2.7-1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mss-1.2.7-1.21.jar",
+      "sha256": "88d5aaf4788e297669beb1452ab4aa66b8cdf0280df42a7c2fdab1324cb29449",
+      "size": 3512360
+    },
+    {
+      "path": "mods/mysterious_mountain_lib-1.2.15-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/mysterious_mountain_lib-1.2.15-1.21.1.jar",
+      "sha256": "d750a23aac696222984935263baeec96e95901bbeca134d8a1018d66e6e9e2d6",
+      "size": 291753
+    },
+    {
+      "path": "mods/neoncraft-1.1.1-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/neoncraft-1.1.1-neoforge-1.21.1.jar",
+      "sha256": "64df76aa9f451b609a8a3ebc8c9dbd3499badc08d2a3ce5724481e396d70a706",
+      "size": 3072785
+    },
+    {
+      "path": "mods/netherite_horse_armor-neoforge-1.21.1-2.0a.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/netherite_horse_armor-neoforge-1.21.1-2.0a.jar",
+      "sha256": "acc3a6c41f568de3b041557956c15552c2ed0b362e7621315af92986a1ad55e0",
+      "size": 19602
+    },
+    {
+      "path": "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/netherportalfix-neoforge-1.21.1-21.1.1.jar",
+      "sha256": "c1077de0c7f1ff5289d1852e0674d9c477247d4318c9809b21c60e56a31ae31a",
+      "size": 211972
+    },
+    {
+      "path": "mods/nomowanderer-neoforge-1.21.1-1.10.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/nomowanderer-neoforge-1.21.1-1.10.2.jar",
+      "sha256": "e7067085190891a89cceb37c61162c74cef0768c6d9340f061177effc9afa381",
+      "size": 207303
+    },
+    {
+      "path": "mods/observable-5.4.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/observable-5.4.4.jar",
+      "sha256": "f344b47b58f4fd48d1aa95ee4d5c16252b5e5bd39f829fabc96b27097202d2e5",
+      "size": 388133
+    },
+    {
+      "path": "mods/occultengineering-1.21.1-0.12.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/occultengineering-1.21.1-0.12.3.jar",
+      "sha256": "8ba5f2442359ec7273193d149c944e4fa891fde4e35696770780aea8cbac96bc",
+      "size": 596043
+    },
+    {
+      "path": "mods/occultism-1.21.1-neoforge-1.224.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/occultism-1.21.1-neoforge-1.224.0.jar",
+      "sha256": "6a642164262aafefba174d0fee82db4fa379eb7a3899eeff0da9b8ea98c6f379",
+      "size": 6951374
+    },
+    {
+      "path": "mods/occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
+      "sha256": "7499b1ae2278f620eb57fd6cfcd455d27d0c1a8bea277d5c7471e9f5ad55c493",
+      "size": 434372
+    },
+    {
+      "path": "mods/oceansdelight-neoforge-1.0.4-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/oceansdelight-neoforge-1.0.4-1.21.1.jar",
+      "sha256": "30fec2263f77bcd4002995d9fc127a911c964317dbd0e3c54e348954d1722d38",
+      "size": 117108
+    },
+    {
+      "path": "mods/offhandtickfix-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/offhandtickfix-neoforge-1.0.0-1.21.1.jar",
+      "sha256": "41a00fab21a7a110e796a3da841c3653bc5e40a2a9870222069d3ddf47fe17e7",
+      "size": 7589
+    },
+    {
+      "path": "mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar",
+      "sha256": "de6ed336bd80154b7241a7b3276694befc1c94550add8bcdfe7f82e5172fd13d",
+      "size": 1221583
+    },
+    {
+      "path": "mods/pipeorgans-0.8.2+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/pipeorgans-0.8.2%2B1.21.1.jar",
+      "sha256": "bf51565afb47d0c0d1fef3cced7c837eff18302740f472372845339f5f22d939",
+      "size": 6593821
+    },
+    {
+      "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/player-animation-lib-forge-2.0.4%2B1.21.1.jar",
+      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+      "size": 203149
+    },
+    {
+      "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/polymorph-neoforge-1.1.0%2B1.21.1.jar",
+      "sha256": "bec8118978adeb052de9c4eaf9a595830621d82515a764f32f9c8a4dd52ab94b",
+      "size": 174972
+    },
+    {
+      "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+      "size": 84812
+    },
+    {
+      "path": "mods/railways-0.2.0+neoforge-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/railways-0.2.0%2Bneoforge-mc1.21.1.jar",
+      "sha256": "1bd19694cfc746f261afc2f00b87d1083e734e778d65b1481094931100fca1a9",
+      "size": 12106875
+    },
+    {
+      "path": "mods/rch-supplementaries-compat-neoforge-2.0.0+1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rch-supplementaries-compat-neoforge-2.0.0%2B1.21.jar",
+      "sha256": "31ae5aa7f9f458cffb01ba6a9eb9c787c07fc58fca8393f0aa5e3c9b1d08ddfa",
+      "size": 134054
+    },
+    {
+      "path": "mods/recepiesfromjoe-3.0.4-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/recepiesfromjoe-3.0.4-neoforge-1.21.1.jar",
+      "sha256": "e34e127750e2c2624b81e4d31ce080db00c8450eb313dcf8246e47f66213f6d6",
+      "size": 7250
+    },
+    {
+      "path": "mods/rechiseled-1.2.5-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rechiseled-1.2.5-neoforge-mc1.21.jar",
+      "sha256": "7bf14cf8a4bfdc4b6c990126a75da29fd2bb7559d1c05b71e29c8fd5ae044435",
+      "size": 11498611
+    },
+    {
+      "path": "mods/rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "sha256": "ba89cd5d1221621ed226cc7f1c26dc84a660cc4f6d122753052429f96d71248d",
+      "size": 983177
+    },
+    {
+      "path": "mods/recipeessentials-1.21.1-4.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/recipeessentials-1.21.1-4.7.jar",
+      "sha256": "d2ab36a95424654bede6fd7aedceefd05912fc12f6de3f8bb0db8b8b245b6f85",
+      "size": 43983
+    },
+    {
+      "path": "mods/refinedstorage-curios-integration-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/refinedstorage-curios-integration-1.0.0.jar",
+      "sha256": "5f5132f7d5c08791d6111b14bbce94c5e221ab83300b1aa10565279c09938890",
+      "size": 11177
+    },
+    {
+      "path": "mods/refinedstorage-jei-integration-neoforge-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/refinedstorage-jei-integration-neoforge-1.0.0.jar",
+      "sha256": "e1721529412de7be9087702c46acbe1c4d1d594418df73a2bbebe3780396fb79",
+      "size": 58343
+    },
+    {
+      "path": "mods/refinedstorage-mekanism-integration-1.1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/refinedstorage-mekanism-integration-1.1.1.jar",
+      "sha256": "bf02761ac0ec1508f1551a448d1409946c6873280d19ce03cc4aeee8cc8aab76",
+      "size": 160633
+    },
+    {
+      "path": "mods/refinedstorage-neoforge-2.0.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/refinedstorage-neoforge-2.0.9.jar",
+      "sha256": "a1947e315ee8e4f1d4c552aecc14cb977272bee1895340558f222fa5596fe9f8",
+      "size": 4360871
+    },
+    {
+      "path": "mods/refinedstorage-quartz-arsenal-neoforge-1.0.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/refinedstorage-quartz-arsenal-neoforge-1.0.8.jar",
+      "sha256": "4b2fdd989a21fa341a90297f2b492ce79df7f5515a2d2f9ae2c73f5275a9e986",
+      "size": 67115
+    },
+    {
+      "path": "mods/refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "sha256": "953a7840261eb79959769a97caa60cba2ee141700a4cbe208825268327136bdf",
+      "size": 7133477
+    },
+    {
+      "path": "mods/resourcefulconfig-neoforge-1.21-3.0.11.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/resourcefulconfig-neoforge-1.21-3.0.11.jar",
+      "sha256": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4",
+      "size": 341009
+    },
+    {
+      "path": "mods/resourcefullib-neoforge-1.21-3.0.12.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/resourcefullib-neoforge-1.21-3.0.12.jar",
+      "sha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+      "size": 484332
+    },
+    {
+      "path": "mods/revive_me-1.21.1-5.9.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/revive_me-1.21.1-5.9.2.jar",
+      "sha256": "3c678c14051cf2a6c8cd07647158fb1a8761af0aa766fbcc1c30637ed7de8536",
+      "size": 1350867
+    },
+    {
+      "path": "mods/rhino-2101.2.7-build.85.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rhino-2101.2.7-build.85.jar",
+      "sha256": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+      "size": 882075
+    },
+    {
+      "path": "mods/rightclickharvest-neoforge-4.6.1+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rightclickharvest-neoforge-4.6.1%2B1.21.1.jar",
+      "sha256": "b5d597ed361964ba9530a848fe8987715f40af2390dfa1a6adb70a2a74076d52",
+      "size": 287634
+    },
+    {
+      "path": "mods/rsinfinitybooster-neoforge-1.21.1-1.0.0.48.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rsinfinitybooster-neoforge-1.21.1-1.0.0.48.jar",
+      "sha256": "4b21d308cf80aebba98777f20f50eaee0c1466ee2b08559eb8300d8550036c82",
+      "size": 25726
+    },
+    {
+      "path": "mods/rspolymorph-neoforge-1.21.1-1.2.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/rspolymorph-neoforge-1.21.1-1.2.2.jar",
+      "sha256": "b99cd2761c745a60ab9a315fc781c7f05e356858ae9173f4057f62f56abf3e78",
+      "size": 73682
+    },
+    {
+      "path": "mods/selfexpression-2.22a-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/selfexpression-2.22a-neoforge-1.21.1.jar",
+      "sha256": "8d8772bb9a5b1d33916295a3f98c082a6e488196458d1924a21a1591581cad46",
+      "size": 6806565
+    },
+    {
+      "path": "mods/selfexpression_new_edge-1.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/selfexpression_new_edge-1.0-neoforge-1.21.1.jar",
+      "sha256": "808b2ce8b7309161e3c08ac3681323301ffc09c56d7a762741d08fe5edeaf8cf",
+      "size": 243725
+    },
+    {
+      "path": "mods/selfexpression_romashka_edition-0.0.4-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/selfexpression_romashka_edition-0.0.4-neoforge-1.21.1.jar",
+      "sha256": "4329e08898e1caad53b27d16e9ace5af9784580d17ffc8e906d87beda4b2fc2c",
+      "size": 276804
+    },
+    {
+      "path": "mods/selfexpression_slim-1.5-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/selfexpression_slim-1.5-neoforge-1.21.1.jar",
+      "sha256": "89a5718d18b316553549942412b9d82644624138d4f6b4afdded27e1cad4910e",
+      "size": 1305972
+    },
+    {
+      "path": "mods/set-home-waypoints-neoforge-2.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/set-home-waypoints-neoforge-2.0.0.jar",
+      "sha256": "ec0bb567983b45247224670eda427a605701c55b012ae98bd06fc140582fe194",
+      "size": 58388
+    },
+    {
+      "path": "mods/simple_voice_broadcast-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/simple_voice_broadcast-neoforge-1.21.1-1.0.0.jar",
+      "sha256": "a320ea43b7bfd6efa6b92ece03e642214bda7f0627f64d3d2ef6832f01903ac6",
+      "size": 13124
+    },
+    {
+      "path": "mods/simplehats-neoforge-1.21.1-0.4.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/simplehats-neoforge-1.21.1-0.4.0.jar",
+      "sha256": "227c366601509a62493c6b0a7ef3b3ff8941d2d85a1714fc18835e2a55021864",
+      "size": 1400084
+    },
+    {
+      "path": "mods/simplehomes-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/simplehomes-neoforge-1.21.1-1.0.0.jar",
+      "sha256": "23fc213b3e0fce96f120d8e9408716e9b9b53b8c3d2e4fba4969d1890d7169cc",
+      "size": 11593
+    },
+    {
+      "path": "mods/simplyswords-neoforge-1.63.0-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/simplyswords-neoforge-1.63.0-1.21.1.jar",
+      "sha256": "4619dcf1501fc82c1a52acd4c88a466436f5c1d7d2bccc0932912a12b0bc5198",
+      "size": 12617777
+    },
+    {
+      "path": "mods/sit-1.21.1-1.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sit-1.21.1-1.4.jar",
+      "sha256": "a726385d1c6781f93906dce38d125fe5f4da32b10ae5601bf855773939603c04",
+      "size": 14031
+    },
+    {
+      "path": "mods/skinrestorer-2.9.0+1.21-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/skinrestorer-2.9.0%2B1.21-neoforge.jar",
+      "sha256": "841f8ed0805ae0697e2a25b4da0e1d87094886c455178e52bd487cc46332bbef",
+      "size": 257883
+    },
+    {
+      "path": "mods/sliceanddice-neoforge-4.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sliceanddice-neoforge-4.3.2.jar",
+      "sha256": "334afd3a0d543674823032eb710189d29b6ffb74bc35e27c569c75e6c7ca07e0",
+      "size": 1353585
+    },
+    {
+      "path": "mods/smoothchunk-1.21-4.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/smoothchunk-1.21-4.1.jar",
+      "sha256": "a79f06eaffe7e5b834620da3c2cdad782aeaf4f1f207d03f8b0228a20bab65e3",
+      "size": 12852
+    },
+    {
+      "path": "mods/sneak_through_berries-neoforge-21.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sneak_through_berries-neoforge-21.1.0.jar",
+      "sha256": "7645c87f38d4159176e3fd9bacc74abb53fb78e532b096c92b19ee85dbf76176",
+      "size": 15685
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.21.1-3.25.71.1997.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sophisticatedbackpacks-1.21.1-3.25.71.1997.jar",
+      "sha256": "769832c57ce9da537e4d96260166cb4114c8c6e26d3abc24d369ff36fc6f4a16",
+      "size": 1144127
+    },
+    {
+      "path": "mods/sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar",
+      "sha256": "f396364bfb146d05c1c44d21431f357b68742699cf49e6f8815751db129dc068",
+      "size": 82627
+    },
+    {
+      "path": "mods/sophisticatedcore-1.21.1-1.4.77.2173.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sophisticatedcore-1.21.1-1.4.77.2173.jar",
+      "sha256": "f4a60dce693d0baf53d73b54a2df361aa861aaeda70f69e734c7053a9085edb1",
+      "size": 1672527
+    },
+    {
+      "path": "mods/sophisticatedstorage-1.21.1-1.5.80.1999.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sophisticatedstorage-1.21.1-1.5.80.1999.jar",
+      "sha256": "8cde8f4afac398b046a1d25dcafeaec18dba8881d1562551a5627aeb28a3d969",
+      "size": 1825789
+    },
+    {
+      "path": "mods/sophisticatedstoragecreateintegration-1.21.1-0.1.20.192.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sophisticatedstoragecreateintegration-1.21.1-0.1.20.192.jar",
+      "sha256": "f8f93801fa4e2185cb4823dfd00b5891ed435c46b211a00666e914f4eb5cb0af",
+      "size": 134040
+    },
+    {
+      "path": "mods/sophisticatedstorageinmotion-1.21.1-0.10.33.324.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sophisticatedstorageinmotion-1.21.1-0.10.33.324.jar",
+      "sha256": "4162a128bced3ff9455a4926627b9d2d80029ddd710dfec6659f793322632290",
+      "size": 409586
+    },
+    {
+      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "sha256": "65372ad64422a20f03ad6e39aabaa827c191abbe9be5c35631acc3a8105fe177",
+      "size": 202454
+    },
+    {
+      "path": "mods/spark-1.10.124-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/spark-1.10.124-neoforge.jar",
+      "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+      "size": 3642581
+    },
+    {
+      "path": "mods/spiffyhud_neoforge_3.1.2_MC_1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/spiffyhud_neoforge_3.1.2_MC_1.21.1.jar",
+      "sha256": "a2bb0b1995153d35af209f5351d29026edfad78dd4b1de7a9fdd193ba96c1519",
+      "size": 651035
+    },
+    {
+      "path": "mods/starterkit-1.21.1-8.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/starterkit-1.21.1-8.1.jar",
+      "sha256": "1a6ff64609995f9310ad83ccd0c86e8bed328a8e06bb78479421a35b49457d54",
+      "size": 273623
+    },
+    {
+      "path": "mods/storagedelight-26.07.01a-1.21-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/storagedelight-26.07.01a-1.21-neoforge.jar",
+      "sha256": "ea43e971afe557eaeadcc26536cf58664507e43a2c9086e7f57170eb4b5cda0c",
+      "size": 841065
+    },
+    {
+      "path": "mods/structureessentials-1.21.1-5.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/structureessentials-1.21.1-5.0.jar",
+      "sha256": "7ecb6c9d04e20a6803ba6e51dd226eaa289ba2c2c095248f3645222a8bfc1c8d",
+      "size": 60833
+    },
+    {
+      "path": "mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "sha256": "d2ba7b839a2268e4e223457e813d11aa2476c3bf708a7bba691d8fc851778a4b",
+      "size": 207514
+    },
+    {
+      "path": "mods/supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+      "sha256": "d22b6dfea6922cb534adb9f8c5d43e4a3c27c864e512951df801cb1435a4d4d8",
+      "size": 558371
+    },
+    {
+      "path": "mods/supplementaries-neoforge-1.21.1-3.8.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/supplementaries-neoforge-1.21.1-3.8.2.jar",
+      "sha256": "5c23a3b033b930f9c1da07bf5fb1c9663327d5e9361a8c9eccec3f2171986407",
+      "size": 13438728
+    },
+    {
+      "path": "mods/suppsquared-neoforge-1.21-1.2.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/suppsquared-neoforge-1.21-1.2.18.jar",
+      "sha256": "8fb1cea0a6d7c947b3d2b35713b9963f41b9b3adfbe4d51d80a4b4833df76b42",
+      "size": 752062
+    },
+    {
+      "path": "mods/tfbr-1.21.1-4.2.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/tfbr-1.21.1-4.2.2.jar",
+      "sha256": "fb18c4ca5346176dcb6d2785f30265630a1c696fca2ccab84c42c81c6d29a6db",
+      "size": 45647
+    },
+    {
+      "path": "mods/tfmg-1.2.3-arcadia-fix.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/tfmg-1.2.3-arcadia-fix.jar",
+      "sha256": "cddb4c3c8a2ec2b50f9d307bab08d8862e6606513af05ad15594c2f89ae5cc15",
+      "size": 5050799
+    },
+    {
+      "path": "mods/tfthreadsafetyaddon-0.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/tfthreadsafetyaddon-0.1.3.jar",
+      "sha256": "d018633cf4076918bdfc605dd0438b3026ee68cf4d862a55e248bfa76d4e189a",
+      "size": 18722
+    },
+    {
+      "path": "mods/titanium-1.21-4.0.43.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/titanium-1.21-4.0.43.jar",
+      "sha256": "34c58645cc1e624ec976f6fd711b7d69ddea76de495354a19a594c1bc92da6b0",
+      "size": 605765
+    },
+    {
+      "path": "mods/toofast-1.21.0-0.4.3.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/toofast-1.21.0-0.4.3.6.jar",
+      "sha256": "54852c9d395b4dc870d1c8a587e4fade9fb05474540ae4d3dd196663dd6a6114",
+      "size": 3372
+    },
+    {
+      "path": "mods/torchmaster-neoforge-1.21.1-21.1.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/torchmaster-neoforge-1.21.1-21.1.9.jar",
+      "sha256": "db9a2fa385757656797a5a14ffad1777fbe596e2e443f1deba5f7534706eb806",
+      "size": 130605
+    },
+    {
+      "path": "mods/tpa-neoforge-1.21.1-2.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/tpa-neoforge-1.21.1-2.1.0.jar",
+      "sha256": "5d63f89918fe8ef66042ccd5cf5590af9d00cec0fd7158893d78329ce9e0ff11",
+      "size": 40624
+    },
+    {
+      "path": "mods/trade-cycling-neoforge-1.21.1-1.0.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/trade-cycling-neoforge-1.21.1-1.0.18.jar",
+      "sha256": "88a5ae756ec7e942f80c53fb85cd2d1c5b125491ca8efffac6ec04635c8aabcb",
+      "size": 85733
+    },
+    {
+      "path": "mods/trading_floor-3.0.16.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/trading_floor-3.0.16.jar",
+      "sha256": "f0aacddb1f8f191f13b79c603e52bd49a6d1cb918078d8a3bdcb2621c88b8d40",
+      "size": 214343
+    },
+    {
+      "path": "mods/trailandtales_delight-0.4-arcadia-fix.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/trailandtales_delight-0.4-arcadia-fix.jar",
+      "sha256": "eabdc12ca781cd3d96d086dbf58f0e7c60052148dee0a3321bc5b99168a90d07",
+      "size": 181864
+    },
+    {
+      "path": "mods/trashcans-1.0.18c-neoforge-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/trashcans-1.0.18c-neoforge-mc1.21.jar",
+      "sha256": "5d05b498f7c6a6a00deda3b4f66206a5269b69f9c031b1faf5a5e75c0f2b449a",
+      "size": 159808
+    },
+    {
+      "path": "mods/trashslot-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/trashslot-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "3289b5c84a79e63d83d4ce05d8e3e15b622b2e286e0770b86f00807974a77695",
+      "size": 77535
+    },
+    {
+      "path": "mods/trenzalore-neo-6.1.1+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/trenzalore-neo-6.1.1%2Bmc1.21.1.jar",
+      "sha256": "ea7212433480a2bb125091a15afa1617761787c09028032ebad436322f340e18",
+      "size": 25146
+    },
+    {
+      "path": "mods/twilight_forest_final_boss-2.1.0+4.7.3196+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/twilight_forest_final_boss-2.1.0%2B4.7.3196%2B1.21.1.jar",
+      "sha256": "90fc522fa8c02cb73e34c247f9b7247bb9794cae87d93667df81cb1c6b7964b4",
+      "size": 3364135
+    },
+    {
+      "path": "mods/twilightdelight-3.2.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/twilightdelight-3.2.2.jar",
+      "sha256": "511893674e5cf13fd7702adf6b4fbb326fe3cfd61641753ce0d81c4820ea181d",
+      "size": 1340378
+    },
+    {
+      "path": "mods/twilightforest-1.21.1-4.8.3345-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/twilightforest-1.21.1-4.8.3345-universal.jar",
+      "sha256": "493da16d10210f9f53a3c33b3d8fcb4ae9b14016ee420d753c894562bd9aba35",
+      "size": 27154121
+    },
+    {
+      "path": "mods/txnilib-neoforge-1.0.24-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/txnilib-neoforge-1.0.24-1.21.1.jar",
+      "sha256": "411e811a6a53a63c2716dbf71cd1167e3a98d000b884458759d6192720be3e18",
+      "size": 6276522
+    },
+    {
+      "path": "mods/underground_village-neoforge-1.21.1-2.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/underground_village-neoforge-1.21.1-2.0.jar",
+      "sha256": "d4272c36d3cd913d0aed4c98a152dd7e1c2174986441bc097056996b3f769c1b",
+      "size": 373054
+    },
+    {
+      "path": "mods/voicechat-neoforge-1.21.1-2.6.21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/voicechat-neoforge-1.21.1-2.6.21.jar",
+      "sha256": "901c4917960ce975cecc9a39c15d32c22beabc23ed3c36f0ce75df5a6cdd9366",
+      "size": 4913870
+    },
+    {
+      "path": "mods/voidtotem-neoforge-1.21.1-4.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/voidtotem-neoforge-1.21.1-4.0.0.jar",
+      "sha256": "6093acaf9e98481853e193f55769129f276dc3ce0e67ffd9443e902f60cf3404",
+      "size": 66033
+    },
+    {
+      "path": "mods/waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar",
+      "sha256": "bd118e6b3a7740dc14b21ddb9ba771acf152b4fd9e098b99aab72185fc3b1108",
+      "size": 256825
+    },
+    {
+      "path": "mods/watermedia-2.1.37.jar.disabled",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/watermedia-2.1.37.jar.disabled",
+      "sha256": "cdd8e1b50e4dee0892c5ed02724cea6b1a74d2b718c7e974c9cfc0efa8c10389",
+      "size": 37046674
+    },
+    {
+      "path": "mods/watermedia_binaries-3.0.0-rc.4.jar.disabled",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/watermedia_binaries-3.0.0-rc.4.jar.disabled",
+      "sha256": "cc2c07902b6c722f1ae5c54b65febd471efc576460d7e0a3b63a54a4907b97c4",
+      "size": 143710524
+    },
+    {
+      "path": "mods/watermedia_youtube_plugin-2.1.2.jar.disabled",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/watermedia_youtube_plugin-2.1.2.jar.disabled",
+      "sha256": "95c2841103b4d1e0c222f29b49d9500c0d5306772aa18c6eb11925be6ff7507e",
+      "size": 3830072
+    },
+    {
+      "path": "mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
+      "sha256": "3568da15d2687137b59aa2361c8fa0259d2a4774978fb3658c9c2cce9923a2d2",
+      "size": 78233
+    },
+    {
+      "path": "mods/waystones-neoforge-1.21.1-21.1.37.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/waystones-neoforge-1.21.1-21.1.37.jar",
+      "sha256": "f7864120e9474519140beb6f136314d0a3d9a5e8ab45b5951359e22049d0a14b",
+      "size": 1201931
+    },
+    {
+      "path": "mods/worldedit-hang-fix-v1.0.5-mc1.20.6-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/worldedit-hang-fix-v1.0.5-mc1.20.6-neoforge.jar",
+      "sha256": "a80e12a181752a0ee75b2fd2887c3979906db81510eb0437099a7e1d2f103139",
+      "size": 39545
+    },
+    {
+      "path": "mods/worldedit-mod-7.3.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/worldedit-mod-7.3.8.jar",
+      "sha256": "5e7752c97876d87411e3760bcc573cc431f43c453722e6959fa7fe54db1b01ca",
+      "size": 6222854
+    },
+    {
+      "path": "mods/worldedit_items-2.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/worldedit_items-2.0-neoforge-1.21.1.jar",
+      "sha256": "324a437da096073c099e79d97e17f98ab44ef90ea8a3837a19f5761feadf30c1",
+      "size": 14448
+    },
+    {
+      "path": "mods/xptome-1.21.1-2.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack-files/mods/xptome-1.21.1-2.4.jar",
+      "sha256": "9cc3fb2352f7024faacd081f4efe437bdb3e3af09ea4f2c0b2f8ca845de1125e",
+      "size": 28123
+    }
+  ]
 }
