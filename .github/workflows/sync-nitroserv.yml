@@ -40,8 +40,22 @@ jobs:
           mkdir -p server-pack-files/kubejs
           REMOTE_KUBEJS="${SERVER_ROOT%/}/kubejs"
           echo "Synchronisation client KubeJS depuis $REMOTE_KUBEJS ..."
-          timeout 1740s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete --exclude-glob 'server_scripts/**' --exclude-glob 'config/**' --exclude-glob 'logs/**' \"$REMOTE_KUBEJS\" server-pack-files/kubejs; bye"
-          test -d server-pack-files/kubejs/startup_scripts || { echo "::error::kubejs/startup_scripts absent; Arcadia client registry cannot be reproduced"; exit 1; }
+          # Only sync folders that can affect the client. Avoid mirroring the
+          # huge server-side KubeJS data/recipes tree.
+          rm -rf server-pack-files/kubejs
+          mkdir -p server-pack-files/kubejs
+          for DIR in startup_scripts client_scripts assets; do
+            mkdir -p "server-pack-files/kubejs/$DIR"
+            echo "Sync KubeJS/$DIR ..."
+            timeout 600s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --parallel=8 --verbose --delete \"$REMOTE_KUBEJS/$DIR\" \"server-pack-files/kubejs/$DIR\"; bye" || {
+              if [ "$DIR" = "startup_scripts" ]; then
+                echo "::error::Impossible de synchroniser kubejs/startup_scripts"
+                exit 1
+              fi
+              echo "::warning::Dossier KubeJS optionnel absent ou inaccessible: $DIR"
+            }
+          done
+          test -n "$(find server-pack-files/kubejs/startup_scripts -type f -print -quit)" || { echo "::error::kubejs/startup_scripts vide; Arcadia client registry cannot be reproduced"; exit 1; }
 
       - name: Prepare client pack
         run: |
