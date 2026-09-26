@@ -4,7 +4,7 @@
   "minimumLauncherVersion": "0.4.3",
   "updateAvailable": true,
   "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.5.3/Valhalla-Setup.exe",
-  "sha256": "6335762fb0fd645effbf65f5545e079ed71fa2162e93dba3e1d675c76fc926b9",
+  "sha256": "d02db2695edb4b0885022c72a1f776b396b069fa802e8e53cc3153529bb5cca2",
   "server": {
     "address": "109.239.152.82",
     "port": 26065
