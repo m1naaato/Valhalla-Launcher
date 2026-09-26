@@ -1,0 +1,22 @@
+{
+  "channel": "stable",
+  "launcherVersion": "0.4.2",
+  "minimumLauncherVersion": "0.4.2",
+  "updateAvailable": false,
+  "releaseUrl": "",
+  "sha256": "",
+  "server": {
+    "address": "109.239.152.82",
+    "port": 26065
+  },
+  "minecraft": {
+    "version": "26.3"
+  },
+  "modpack": {
+    "type": "vanilla",
+    "name": "Vanilla",
+    "version": "26.3",
+    "url": ""
+  },
+  "message": "Valhalla est à jour."
+}
