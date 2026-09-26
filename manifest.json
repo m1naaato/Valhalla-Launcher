@@ -1,10 +1,10 @@
 {
   "channel": "stable",
-  "launcherVersion": "0.4.4",
+  "launcherVersion": "0.4.6",
   "minimumLauncherVersion": "0.4.3",
   "updateAvailable": true,
-  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.4.4/Valhalla-Setup.exe",
-  "sha256": "ef8f107a9f93b31e320dc192b805234906162ed2004378cef27ee22008bbed20",
+  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.4.6/Valhalla-Setup.exe",
+  "sha256": "440d60be887a7c74e286903ff62205ae2633ec3411b408dd5c74d041132c3be5",
   "server": {
     "address": "109.239.152.82",
     "port": 26065
@@ -18,5 +18,5 @@
     "version": "26.3",
     "url": ""
   },
-  "message": "Valhalla Launcher 0.4.4 est disponible : nouveau design chaleureux et réglage de la mémoire avec curseur."
+  "message": "Valhalla Launcher 0.4.6 est disponible."
 }
