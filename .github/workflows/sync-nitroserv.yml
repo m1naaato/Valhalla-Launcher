@@ -24,6 +24,25 @@ jobs:
           mkdir -p server-pack-files/mods
           echo "Connexion SFTP à $SFTP_HOST:${SFTP_PORT:-22}..."
           timeout 1740s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete \"${SFTP_MODS_PATH:-/mods}\" server-pack-files/mods; bye"
+      - name: Sync KubeJS client data
+        timeout-minutes: 15
+        env:
+          SFTP_HOST: ${{ secrets.NITRO_SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.NITRO_SFTP_PORT }}
+          SFTP_USER: ${{ secrets.NITRO_SFTP_USER }}
+          SFTP_PASSWORD: ${{ secrets.NITRO_SFTP_PASSWORD }}
+          SFTP_MODS_PATH: ${{ secrets.NITRO_SFTP_MODS_PATH }}
+        run: |
+          # Arcadia registers custom items/sounds through KubeJS. Those startup
+          # scripts/assets must exist on the client before registry sync.
+          SERVER_ROOT="$(dirname "${SFTP_MODS_PATH:-/mods}")"
+          [ "$SERVER_ROOT" = "." ] && SERVER_ROOT="/"
+          mkdir -p server-pack-files/kubejs
+          REMOTE_KUBEJS="${SERVER_ROOT%/}/kubejs"
+          echo "Synchronisation client KubeJS depuis $REMOTE_KUBEJS ..."
+          timeout 840s lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 15; set net:max-retries 2; set net:reconnect-interval-base 3; mirror --verbose --delete --exclude-glob 'server_scripts/**' --exclude-glob 'config/**' --exclude-glob 'logs/**' \"$REMOTE_KUBEJS\" server-pack-files/kubejs; bye"
+          test -d server-pack-files/kubejs/startup_scripts || { echo "::error::kubejs/startup_scripts absent; Arcadia client registry cannot be reproduced"; exit 1; }
+
       - name: Prepare client pack
         run: |
           # WaterMedia is disabled on the dedicated server but required by
@@ -59,7 +78,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add server-pack.json
           git add server-pack-files/mods -- ":!server-pack-files/mods/*.disabled"
-          git add -u server-pack-files/mods
+          git add server-pack-files/kubejs
+          git add -u server-pack-files/mods server-pack-files/kubejs
           git diff --cached --quiet && exit 0
           git commit -m "Sync NitroServ server pack"
           git push
