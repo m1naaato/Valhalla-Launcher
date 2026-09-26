@@ -1,0 +1,7 @@
+{
+  "name": "Valhalla Server Pack",
+  "version": "1.0.0",
+  "minecraftVersion": "26.3",
+  "loader": "Vanilla",
+  "files": []
+}
