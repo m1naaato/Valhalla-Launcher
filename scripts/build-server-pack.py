@@ -8,5 +8,7 @@ for p in sorted(root.rglob("*")):
         with p.open("rb") as f:
             sha=hashlib.sha256(f.read()).hexdigest()
         files.append({"path":rel,"url":base+urllib.parse.quote(rel),"sha256":sha,"size":p.stat().st_size})
-manifest={"name":"Valhalla Server Pack","version":"auto","minecraftVersion":"1.21.1","loader":"NeoForge","files":files}
+if not any(item["path"].startswith("mods/") and item["path"].endswith(".jar") for item in files):
+    raise SystemExit("Aucun mod client trouvé : publication du pack annulée.")
+manifest={"name":"Dungeons, Dragons and Space Shuttles (serveur Valhalla)","version":"auto","minecraftVersion":"1.12.2","loader":"Forge","files":files}
 pathlib.Path("server-pack.json").write_text(json.dumps(manifest,indent=2),encoding="utf-8")
