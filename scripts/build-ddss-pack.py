@@ -10,6 +10,7 @@ allowed = {
     "scripts": {".zs"},
     "config/betterquesting": {".json", ".cfg"},
     "config/artisanworktables": {".json", ".cfg"},
+    "config/modularmachinery": {".json", ".cfg"},
     "config": {".cfg"},
 }
 files = []
@@ -21,6 +22,13 @@ for directory, extensions in allowed.items():
         if not path.is_file() or path.suffix.lower() not in extensions:
             continue
         relative = path.relative_to(root).as_posix()
+        if directory == "config/modularmachinery" and relative not in {
+            "config/modularmachinery/machinery/advanced_alloysmelter.json",
+            "config/modularmachinery/machinery/master_assembler.json",
+            "config/modularmachinery/machinery/variables/casings.var.json",
+            "config/modularmachinery/modularmachinery.cfg",
+        }:
+            continue
         if directory == "config" and relative not in {"config/cyclicmagic.cfg", "config/natura.cfg"}:
             continue
         size = path.stat().st_size
