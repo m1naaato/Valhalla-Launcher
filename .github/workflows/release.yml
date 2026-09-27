@@ -28,7 +28,7 @@ jobs:
         id: version
         shell: pwsh
         run: |
-          if ("${{ github.event_name }}" -eq "workflow_dispatch") { $v = "${{ inputs.version }}" } elseif ("${{ github.ref_type }}" -eq "tag") { $v = "${{ github.ref_name }}".TrimStart("v") } else { $v = "0.6.0" }
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") { $v = "${{ inputs.version }}" } elseif ("${{ github.ref_type }}" -eq "tag") { $v = "${{ github.ref_name }}".TrimStart("v") } else { $v = "0.7.0" }
           "version=$v" >> $env:GITHUB_OUTPUT
           "tag=v$v" >> $env:GITHUB_OUTPUT
       - name: Vérifier le pack DDSS publié
