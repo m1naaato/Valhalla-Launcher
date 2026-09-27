@@ -3195,6 +3195,18 @@
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/artisanworktables/module.Worktables.cfg",
       "sha256": "065a34e4cbffe198eaeb68b75035f2cca46eb2c738888be62077b4926f9ffa0b",
       "size": 15301
+    },
+    {
+      "path": "config/cyclicmagic.cfg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/cyclicmagic.cfg",
+      "sha256": "e85bf00d9b3252fe99f269d3294b82ec9a659268b9c77a6605e39d92aebe56ad",
+      "size": 68870
+    },
+    {
+      "path": "config/natura.cfg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/natura.cfg",
+      "sha256": "521f54c0fccdce966425a767d678c8c99144f164ed619e4e3876a0b5609b7ebc",
+      "size": 4357
     }
   ]
 }
