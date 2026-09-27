@@ -1,22 +1,22 @@
 {
   "channel": "stable",
-  "launcherVersion": "0.5.9",
+  "launcherVersion": "0.6.0",
   "minimumLauncherVersion": "0.4.3",
   "updateAvailable": true,
-  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.5.9/Valhalla-Setup.exe",
-  "sha256": "a99e3a6581868b9f9bf977f945a6738394444f234e802aed239934f1542381e4",
+  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.6.0/Valhalla-Setup.exe",
+  "sha256": "6213168719095771e708f62893bf26f37b80da2203134be826cc05c89eb1d80b",
   "server": {
     "address": "109.239.152.82",
     "port": 26065
   },
   "minecraft": {
-    "version": "26.3"
+    "version": "1.12.2"
   },
   "modpack": {
-    "type": "vanilla",
-    "name": "Vanilla",
-    "version": "26.3",
-    "url": ""
+    "type": "Forge",
+    "name": "Dungeons, Dragons and Space Shuttles",
+    "version": "DD&SS Valhalla",
+    "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-server-pack.json"
   },
-  "message": "Valhalla Launcher 0.5.9 est disponible."
+  "message": "Valhalla Launcher 0.6.0 est disponible."
 }
