@@ -9,6 +9,7 @@ allowed = {
     "mods": {".jar"},
     "scripts": {".zs"},
     "config/betterquesting": {".json", ".cfg"},
+    "config/artisanworktables": {".json", ".cfg"},
 }
 files = []
 for directory, extensions in allowed.items():
