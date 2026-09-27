@@ -525,8 +525,6 @@ public class LauncherConfig
     public string Loader { get; set; } = "Vanilla";
     public string PackVersion { get; set; } = "1.0.0";
     public string Server { get; set; } = "109.239.152.82:26065";
-    public string PrismInstance { get; set; } = "Valhalla-Vanilla-26.3";
-    public string InstanceArchive { get; set; } = "Valhalla-Vanilla-26.3.zip";
     public string UpdateManifestUrl { get; set; } = "";
     public string ModpackManifestUrl { get; set; } = "";
 }
