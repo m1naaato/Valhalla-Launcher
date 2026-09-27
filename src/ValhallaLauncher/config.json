@@ -1,1 +1,11 @@
-{"ModpackName":"VALHALLA NEOFORGE","MinecraftVersion":"1.21.1","Loader":"NeoForge","PackVersion":"1.0.0","Server":"109.239.152.82:26065","PrismInstance":"Valhalla-NeoForge-1.21.1","InstanceArchive":"","UpdateManifestUrl":"https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/manifest.json","ModpackManifestUrl":"https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/server-pack.json"}
+{
+  "ModpackName": "Dungeons, Dragons and Space Shuttles",
+  "MinecraftVersion": "1.12.2",
+  "Loader": "Forge",
+  "PackVersion": "DD&SS serveur Valhalla",
+  "Server": "109.239.152.82:26065",
+  "PrismInstance": "DDSS",
+  "InstanceArchive": "",
+  "UpdateManifestUrl": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/manifest.json",
+  "ModpackManifestUrl": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-server-pack.json"
+}
