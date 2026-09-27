@@ -1,0 +1,50 @@
+name: Sync DDSS client pack
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install SFTP client
+        run: sudo apt-get update && sudo apt-get install -y lftp
+      - name: Mirror approved client directories
+        timeout-minutes: 45
+        shell: bash
+        env:
+          SFTP_HOST: ${{ secrets.NITRO_SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.NITRO_SFTP_PORT }}
+          SFTP_USER: ${{ secrets.NITRO_SFTP_USER }}
+          SFTP_PASSWORD: ${{ secrets.NITRO_SFTP_PASSWORD }}
+          SFTP_MODS_PATH: ${{ secrets.NITRO_SFTP_MODS_PATH }}
+        run: |
+          set -euo pipefail
+          : "${SFTP_HOST:?Missing host}"
+          : "${SFTP_USER:?Missing user}"
+          : "${SFTP_PASSWORD:?Missing password}"
+          remote_mods="${SFTP_MODS_PATH:-/mods}"
+          remote_root="$(dirname "$remote_mods")"
+          [ "$remote_root" != "." ] || remote_root="/"
+          mkdir -p ddss-pack-files/mods
+          lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; mirror --delete --parallel=6 \"$remote_mods\" ddss-pack-files/mods; bye"
+          for dir in scripts config/betterquesting; do
+            mkdir -p "ddss-pack-files/$dir"
+            lftp -u "$SFTP_USER","$SFTP_PASSWORD" -p "${SFTP_PORT:-22}" "sftp://$SFTP_HOST" -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; mirror --delete --parallel=6 \"${remote_root%/}/$dir\" \"ddss-pack-files/$dir\"; bye" || echo "::warning::Optional DDSS client folder not found: $dir"
+          done
+          find ddss-pack-files/mods -type f ! -name '*.jar' -delete
+          find ddss-pack-files/scripts -type f ! -name '*.zs' -delete
+          find ddss-pack-files/config/betterquesting -type f ! -name '*.json' ! -name '*.cfg' -delete
+      - name: Validate and generate manifest
+        run: python3 scripts/build-ddss-pack.py
+      - name: Publish DDSS assets
+        run: |
+          git config user.name "Valhalla Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add ddss-server-pack.json ddss-pack-files
+          git diff --cached --quiet && exit 0
+          git commit -m "Sync DDSS client pack from NitroServ"
+          git push
