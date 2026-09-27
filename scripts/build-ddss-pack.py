@@ -10,6 +10,7 @@ allowed = {
     "scripts": {".zs"},
     "config/betterquesting": {".json", ".cfg"},
     "config/artisanworktables": {".json", ".cfg"},
+    "config": {".cfg"},
 }
 files = []
 for directory, extensions in allowed.items():
@@ -20,6 +21,8 @@ for directory, extensions in allowed.items():
         if not path.is_file() or path.suffix.lower() not in extensions:
             continue
         relative = path.relative_to(root).as_posix()
+        if directory == "config" and relative not in {"config/cyclicmagic.cfg", "config/natura.cfg"}:
+            continue
         size = path.stat().st_size
         if size > 95 * 1024 * 1024:
             raise SystemExit(f"File too large for public GitHub: {relative}")
