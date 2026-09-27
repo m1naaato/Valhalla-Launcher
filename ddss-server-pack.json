@@ -3171,6 +3171,30 @@
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/betterquesting/questbook.cfg",
       "sha256": "3698c91ba0d3ad6697563c75ced0b2f00a88f49ee50af022506d0806a003ed7c",
       "size": 711
+    },
+    {
+      "path": "config/artisanworktables/module.Toolbox.cfg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/artisanworktables/module.Toolbox.cfg",
+      "sha256": "25220604872ff669223a4a433ac48e23720acba4637d08de45e190553e40585f",
+      "size": 1029
+    },
+    {
+      "path": "config/artisanworktables/module.Tools.Materials.Custom.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/artisanworktables/module.Tools.Materials.Custom.json",
+      "sha256": "140106267e481168656eda1d8fe40e3b1cf311165adfa17e63cf6466db4bcf2b",
+      "size": 6575
+    },
+    {
+      "path": "config/artisanworktables/module.Tools.cfg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/artisanworktables/module.Tools.cfg",
+      "sha256": "750993fa0b3c76f59ab3ffeedeb90f17e049778a8fd41e0dcabe8cfb4ebc7cb9",
+      "size": 2536
+    },
+    {
+      "path": "config/artisanworktables/module.Worktables.cfg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/artisanworktables/module.Worktables.cfg",
+      "sha256": "065a34e4cbffe198eaeb68b75035f2cca46eb2c738888be62077b4926f9ffa0b",
+      "size": 15301
     }
   ]
 }
