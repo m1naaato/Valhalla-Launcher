@@ -3,6 +3,8 @@ name: Build and publish Valhalla
 on:
   push:
     tags: ["v*"]
+    branches: [main]
+    paths: [".github/workflows/release.yml"]
   workflow_dispatch:
     inputs:
       version:
@@ -26,9 +28,15 @@ jobs:
         id: version
         shell: pwsh
         run: |
-          if ("${{ github.event_name }}" -eq "workflow_dispatch") { $v = "${{ inputs.version }}" } else { $v = "${{ github.ref_name }}".TrimStart("v") }
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") { $v = "${{ inputs.version }}" } elseif ("${{ github.ref_type }}" -eq "tag") { $v = "${{ github.ref_name }}".TrimStart("v") } else { $v = "0.6.0" }
           "version=$v" >> $env:GITHUB_OUTPUT
           "tag=v$v" >> $env:GITHUB_OUTPUT
+      - name: Vérifier le pack DDSS publié
+        shell: pwsh
+        run: |
+          if (!(Test-Path ddss-server-pack.json)) { throw "Manifest DDSS absent" }
+          $pack = Get-Content ddss-server-pack.json -Raw | ConvertFrom-Json
+          if ($pack.minecraftVersion -ne "1.12.2" -or $pack.loader -ne "Forge" -or $pack.files.Count -lt 100) { throw "Pack DDSS invalide" }
       - name: Installer .NET 8
         uses: actions/setup-dotnet@v4
         with:
@@ -78,6 +86,11 @@ jobs:
           $sha = "${{ steps.hash.outputs.sha256 }}"
           $url = "https://github.com/${{ github.repository }}/releases/download/$tag/Valhalla-Setup.exe"
           $m = Get-Content manifest.json -Raw | ConvertFrom-Json
+          $m.minecraft.version = "1.12.2"
+          $m.modpack.type = "Forge"
+          $m.modpack.name = "Dungeons, Dragons and Space Shuttles"
+          $m.modpack.version = "DD&SS Valhalla"
+          $m.modpack.url = "https://raw.githubusercontent.com/${{ github.repository }}/main/ddss-server-pack.json"
           $m.launcherVersion = $version
           $m.updateAvailable = $true
           $m.releaseUrl = $url
