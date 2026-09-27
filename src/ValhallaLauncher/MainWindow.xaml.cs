@@ -222,7 +222,7 @@ public partial class MainWindow : Window
             throw new InvalidOperationException("Java 8 n'a pas pu être installé.");
         StatusText.Text = "Installation de Forge 1.12.2...";
         var forge = new ForgeInstaller(launcher);
-        forgeVersion = await forge.Install("1.12.2", new ForgeInstallOptions
+        forgeVersion = await forge.Install("1.12.2", "14.23.5.2859", new ForgeInstallOptions
         {
             JavaPath = javaPath,
             FileProgress = progress
