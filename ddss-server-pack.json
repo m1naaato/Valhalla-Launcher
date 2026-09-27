@@ -1,0 +1,3176 @@
+{
+  "name": "DD&SS Valhalla",
+  "version": "server",
+  "minecraftVersion": "1.12.2",
+  "loader": "Forge",
+  "files": [
+    {
+      "path": "mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+      "sha256": "54c063e72abb6af999d80b94a2f1c9593c6ef0bb7769f3410d2a49f47c1ba3b0",
+      "size": 55622
+    },
+    {
+      "path": "mods/AE2WTLib-1.12.2-1.0.34.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/AE2WTLib-1.12.2-1.0.34.jar",
+      "sha256": "6d0ec545bf94e6142b4140f910aae4114b1f92298e820c12fa91af35a3c90d60",
+      "size": 243622
+    },
+    {
+      "path": "mods/ActuallyAdditions-1.12.2-r151-2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ActuallyAdditions-1.12.2-r151-2.jar",
+      "sha256": "8b41655cbd6f6fe4e734cccaa48159420540d2a83e8595d51204de2f52696ef6",
+      "size": 2703860
+    },
+    {
+      "path": "mods/ActuallyBaubles-1.12-1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ActuallyBaubles-1.12-1.1.jar",
+      "sha256": "69817c09c8f0252098142383036062ca2e91d05bd1e422e3ae6682e8423e4bc1",
+      "size": 11604
+    },
+    {
+      "path": "mods/AkashicTome-1.2-12.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/AkashicTome-1.2-12.jar",
+      "sha256": "4edda1cb9a1eb9240b7c9087dfc0347b0f75c29f7239299991b27324524b167f",
+      "size": 44663
+    },
+    {
+      "path": "mods/AppleCore-mc1.12.2-3.4.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/AppleCore-mc1.12.2-3.4.0.jar",
+      "sha256": "9e4980728afb5941bdd67c435d2fddf260d88685563343f32d009bae01b64962",
+      "size": 89615
+    },
+    {
+      "path": "mods/AppleSkin-mc1.12-1.0.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/AppleSkin-mc1.12-1.0.14.jar",
+      "sha256": "4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e",
+      "size": 33683
+    },
+    {
+      "path": "mods/Aroma1997Core-1.12.2-2.0.0.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Aroma1997Core-1.12.2-2.0.0.2.jar",
+      "sha256": "75cc65a0b352d8d44e30fd20c6a7811c9bc42ca2ddca75f79a955675960b58a8",
+      "size": 398634
+    },
+    {
+      "path": "mods/AromaBackup-1.12.2-2.1.1.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/AromaBackup-1.12.2-2.1.1.4.jar",
+      "sha256": "9f9f0c397617d82447876ff7966701db67a96859c0fb60f055d1d66c7864cae8",
+      "size": 139446
+    },
+    {
+      "path": "mods/AutoRegLib-1.3-32.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/AutoRegLib-1.3-32.jar",
+      "sha256": "d8610a94da8f30815db4612b3291ecdcfd8204eaf1a4db8c5d0663c7b1191d91",
+      "size": 108306
+    },
+    {
+      "path": "mods/Avaritia-1.12.2-3.3.0.33-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Avaritia-1.12.2-3.3.0.33-universal.jar",
+      "sha256": "4c20f6744cc01c9ef59314454d68c421754e344befbc44a0b7b5d5d1d3f17bfb",
+      "size": 972581
+    },
+    {
+      "path": "mods/Baubles-1.12-1.5.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Baubles-1.12-1.5.2.jar",
+      "sha256": "b32010b2f2778aa1188585e7ead91ad46d4cb2c715f9c778a61848ba7fe51f8d",
+      "size": 108450
+    },
+    {
+      "path": "mods/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BetterBuildersWands-1.12-0.11.1.245%2B69d0d70.jar",
+      "sha256": "f10e9db9cee878032dd674068bc12e6b871d88b83360e7d6ff207023dea7beed",
+      "size": 75709
+    },
+    {
+      "path": "mods/BetterFps-1.4.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BetterFps-1.4.8.jar",
+      "sha256": "93f2496bded8f622d31d7b4b634766166c8d52dfca6e21cd9f46c445a468a381",
+      "size": 155196
+    },
+    {
+      "path": "mods/BetterQuesting-3.5.323.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BetterQuesting-3.5.323.jar",
+      "sha256": "e815133114e874781b9341159c334cedc8e2aec2b19e1ff2238ff506fdd9abe9",
+      "size": 1430501
+    },
+    {
+      "path": "mods/BiblioCraft[v2.4.5][MC1.12.2].jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BiblioCraft%5Bv2.4.5%5D%5BMC1.12.2%5D.jar",
+      "sha256": "b3aab967cf9a2fcaf1330b5a5997f8d31e7a73884eac7451f1f31b2fa1394add",
+      "size": 5122856
+    },
+    {
+      "path": "mods/BloodArsenal-1.12.2-2.2.1-29.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BloodArsenal-1.12.2-2.2.1-29.jar",
+      "sha256": "463eb0492b72e181f332fdb11ada37f968fb31a3aefb58c5c2c90308e06b3158",
+      "size": 665308
+    },
+    {
+      "path": "mods/BloodMagic-1.12.2-2.4.3-105.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BloodMagic-1.12.2-2.4.3-105.jar",
+      "sha256": "ef187aea109446bdb7b35e06958d4c6d22f5f7ceb4e5bcaeab16f3ad29fe16a5",
+      "size": 7208594
+    },
+    {
+      "path": "mods/Bloodmoon-MC1.12.2-1.5.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Bloodmoon-MC1.12.2-1.5.3.jar",
+      "sha256": "1d6082293067e1a1af002c65527a41df3919f8125eaa25a9c7c9d16ba25c4d06",
+      "size": 47505
+    },
+    {
+      "path": "mods/Bookshelf-1.12.2-2.3.590.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Bookshelf-1.12.2-2.3.590.jar",
+      "sha256": "043afbddfd567e753a893f5a8f0e052db7c45209a08d09d9dcf32cadca764109",
+      "size": 266636
+    },
+    {
+      "path": "mods/Botania r1.10-363.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Botania%20r1.10-363.jar",
+      "sha256": "e31c3aebdf631ebd68032d39cb02558db35841a55d568165efce7fdad64e9cd4",
+      "size": 13814617
+    },
+    {
+      "path": "mods/BotanicAdditions-1.12.2-12.2.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BotanicAdditions-1.12.2-12.2.6.jar",
+      "sha256": "c82632696b6deabfe2e18d20c4786e66f556a69e97eb561347327d62df87a7a3",
+      "size": 199731
+    },
+    {
+      "path": "mods/BrandonsCore-1.12.2-2.4.18.210-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/BrandonsCore-1.12.2-2.4.18.210-universal.jar",
+      "sha256": "12b4eb8c9416141595a7d7785c2b448996bc2951b6e117798a82046a68d4afe1",
+      "size": 825615
+    },
+    {
+      "path": "mods/CTM-MC1.12.2-1.0.2.31.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CTM-MC1.12.2-1.0.2.31.jar",
+      "sha256": "433f441dc9c0aa75a4168df832900720ddadac1f22cc3bba4e4f25ca789b268b",
+      "size": 199045
+    },
+    {
+      "path": "mods/Ceramics-1.12-1.3.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Ceramics-1.12-1.3.7.jar",
+      "sha256": "a8fb9f36d8efd5f8d21ed8d84cb8dfacefc3d92f06f4f459b0a618b830c8ee2b",
+      "size": 400538
+    },
+    {
+      "path": "mods/Chameleon-1.12-4.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Chameleon-1.12-4.1.3.jar",
+      "sha256": "238416f801acda67b90fba9e0e572dbd6e7631b7e64c3eb3d6226f45ae536c87",
+      "size": 96859
+    },
+    {
+      "path": "mods/ChestTransporter-1.12.2-2.8.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ChestTransporter-1.12.2-2.8.8.jar",
+      "sha256": "ea8ba7acdfaf7102cad7e3638bffa247bd5cfb634de4c355d47d33a8d2c724a1",
+      "size": 314060
+    },
+    {
+      "path": "mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar",
+      "sha256": "62c3224d41e24b9ac04661e3d5240bf50b85349e43fd25e30bb2078c152d212f",
+      "size": 134367
+    },
+    {
+      "path": "mods/Chisel-MC1.12.2-1.0.2.45.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Chisel-MC1.12.2-1.0.2.45.jar",
+      "sha256": "64c62f20a89939db2c03d47737c7bd371d8bd8c10ae42e2e8c63432ae89db2c7",
+      "size": 4755282
+    },
+    {
+      "path": "mods/Chunk Pregenerator V1.12-2.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Chunk%20Pregenerator%20V1.12-2.3.jar",
+      "sha256": "7519711176ec60537e22d200941efd2a0801e4f5be8e65d23c69cb82bfe136f3",
+      "size": 514799
+    },
+    {
+      "path": "mods/Clumps-3.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Clumps-3.1.2.jar",
+      "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4",
+      "size": 13792
+    },
+    {
+      "path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "sha256": "e07b0c48def9ce8cfaa4cf7a7c656bf7f7d6815f74fbcc2957dd43efa78486a9",
+      "size": 848187
+    },
+    {
+      "path": "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "sha256": "f10cd57075690ecbe52094f8af0d2a5af12f89c82b7c6eb73d3d090d74206ea0",
+      "size": 505987
+    },
+    {
+      "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "sha256": "5f8499f7ee2590e45110bbf296b2bf101aec15897e28d5e9759cf8f2387d8a74",
+      "size": 704330
+    },
+    {
+      "path": "mods/CommonCapabilities-1.12.2-2.4.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CommonCapabilities-1.12.2-2.4.7.jar",
+      "sha256": "2ce5101b858cbf743e78683921a5be430f802c2e78cd89fab69cfdf7e5191a61",
+      "size": 361322
+    },
+    {
+      "path": "mods/CompactDrawers-1.12.2-1.0.5.125.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CompactDrawers-1.12.2-1.0.5.125.jar",
+      "sha256": "7d46e9b922e9433bb961efcd9b3f7bd5bc32314c55a7c4fe9192d699c4115533",
+      "size": 60646
+    },
+    {
+      "path": "mods/ContentTweaker-1.12.2-4.9.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ContentTweaker-1.12.2-4.9.1.jar",
+      "sha256": "f8b1919ac7f4e191d2c81ccba28d0a01fc5523b8aa905e0df7230e0ff8293e5a",
+      "size": 274895
+    },
+    {
+      "path": "mods/CosmeticArmorReworked-1.12.2-v5a.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CosmeticArmorReworked-1.12.2-v5a.jar",
+      "sha256": "a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8",
+      "size": 72111
+    },
+    {
+      "path": "mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+      "sha256": "3b611b599c2de6de4fded0cc65abb77f40e90cc5f4801d04c0bcdbb1af06e0d0",
+      "size": 90465
+    },
+    {
+      "path": "mods/CraftTweaker2-1.12-4.1.20.574.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CraftTweaker2-1.12-4.1.20.574.jar",
+      "sha256": "c832d6e31a7e4f99f8236469f45dcbcda531ed533312745cd2025c2b7f3781e1",
+      "size": 1431822
+    },
+    {
+      "path": "mods/CreativeCore_v1.10.16_mc1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CreativeCore_v1.10.16_mc1.12.2.jar",
+      "sha256": "180d6749defd33e95fb57e0b5a31c50181ea17c9bec02f267dd94ef12b1dd252",
+      "size": 1090904
+    },
+    {
+      "path": "mods/Cucumber-1.12.2-1.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Cucumber-1.12.2-1.1.3.jar",
+      "sha256": "0475ba0f0964c4a56afd1c2765b7063849ca2b77a91d80d7f612fb15354c27e5",
+      "size": 126699
+    },
+    {
+      "path": "mods/CustomStartingGear-1.12-1.2.0.9-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CustomStartingGear-1.12-1.2.0.9-universal.jar",
+      "sha256": "66a567a85dcb3f1e26b4dd6b0e3327d64992d88648e0272846a5b27073666fe7",
+      "size": 23171
+    },
+    {
+      "path": "mods/Cyclic-1.12.2-1.20.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Cyclic-1.12.2-1.20.3.jar",
+      "sha256": "408684774a20d9396ecd0beb5ec38dba69373b73fd5a92b64d1c9605932563f6",
+      "size": 3992727
+    },
+    {
+      "path": "mods/CyclopsCore-1.12.2-1.6.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/CyclopsCore-1.12.2-1.6.6.jar",
+      "sha256": "67f946b297f50bc53cda8c93fb1d0a4694138253933e1217008043e4fdf8bbe8",
+      "size": 1061041
+    },
+    {
+      "path": "mods/DankNull-1.12.2-1.7.101.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/DankNull-1.12.2-1.7.101.jar",
+      "sha256": "2f27a2163d2e15e70ea37394381afb953864a61b653edb7453bcc14b971120e2",
+      "size": 327386
+    },
+    {
+      "path": "mods/DarkUtils-1.12.2-1.8.230.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/DarkUtils-1.12.2-1.8.230.jar",
+      "sha256": "62ef749c6c4acd3b057a9d13e46626910fe4a4b877603d50c82af58a73485d33",
+      "size": 426515
+    },
+    {
+      "path": "mods/DoomlikeDungeons-1.13.2-MC1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/DoomlikeDungeons-1.13.2-MC1.12.2.jar",
+      "sha256": "0fe67a447f1bb402f0e75d17bc2fd280c7d5552a2e7ac0296f1396287208ae54",
+      "size": 702996
+    },
+    {
+      "path": "mods/Draconic-Evolution-1.12.2-2.3.25.351-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Draconic-Evolution-1.12.2-2.3.25.351-universal.jar",
+      "sha256": "9446eee9dd1e99b12973a749f0149259f0613a389719d965ecff456f516d9a26",
+      "size": 5705834
+    },
+    {
+      "path": "mods/DungeonTactics-1.12.2-0.16.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/DungeonTactics-1.12.2-0.16.1.jar",
+      "sha256": "354ebd128f74ab3a2ddaddfcacf669516e1ce8ee45883bb700a287097b32a439",
+      "size": 2469068
+    },
+    {
+      "path": "mods/EnchantingTable-1.12-1.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/EnchantingTable-1.12-1.1.3.jar",
+      "sha256": "d9868856e912d90401bfb0a45ba10b55ced8d99880bb4999daa7ab7c66bc2d7b",
+      "size": 37704
+    },
+    {
+      "path": "mods/EnderStorage-1.12.2-2.4.6.137-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/EnderStorage-1.12.2-2.4.6.137-universal.jar",
+      "sha256": "06e2357019f4e0836bfb9202af013adc125252f610b198a7a547d4596d2934c0",
+      "size": 223250
+    },
+    {
+      "path": "mods/EvilCraft-1.12.2-0.10.78.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/EvilCraft-1.12.2-0.10.78.jar",
+      "sha256": "1d9407d7834bdba70da3fed44f5ba744958781a823bb220aa7d555c6db7d33be",
+      "size": 2957006
+    },
+    {
+      "path": "mods/Exchangers-1.12.2-2.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Exchangers-1.12.2-2.9.jar",
+      "sha256": "1611a3d2f9b117e859f49ac0d48abc0729b8e2b6cc31179764bf56fcd3918f80",
+      "size": 316028
+    },
+    {
+      "path": "mods/ExtendedCrafting-1.12.2-1.5.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ExtendedCrafting-1.12.2-1.5.6.jar",
+      "sha256": "b3caad740f08c8cba8c9761213085e5899d89882fe1ff8b3cdb23d4307206a3f",
+      "size": 446452
+    },
+    {
+      "path": "mods/ExtraCells-1.12.2-2.6.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ExtraCells-1.12.2-2.6.5.jar",
+      "sha256": "ba42a848e0fe45ec152341c0245bf9c14b8018c24c673ac0cfe6fbeaa8985fbf",
+      "size": 2520745
+    },
+    {
+      "path": "mods/ExtraPlanets-1.12.2-0.6.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ExtraPlanets-1.12.2-0.6.3.jar",
+      "sha256": "58c6e12bfbcbe9a9532946597d0d0683a8df8ee0af013cf11cadba88fb1c174b",
+      "size": 8549652
+    },
+    {
+      "path": "mods/ExtremeReactors-1.12.2-0.4.5.67.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ExtremeReactors-1.12.2-0.4.5.67.jar",
+      "sha256": "946861f89e75a68e45e3117e9488498eb14db1143872c226f442706be523a890",
+      "size": 1110113
+    },
+    {
+      "path": "mods/FTBLib-5.4.7.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/FTBLib-5.4.7.2.jar",
+      "sha256": "623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac",
+      "size": 934370
+    },
+    {
+      "path": "mods/FTBUtilities-5.4.1.130.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/FTBUtilities-5.4.1.130.jar",
+      "sha256": "04f340c86df1165e9b5b0356760580aaeaedb7d64fea35c8c12baa2460090844",
+      "size": 425249
+    },
+    {
+      "path": "mods/FastLeafDecay-v14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/FastLeafDecay-v14.jar",
+      "sha256": "6da4ff366330253e2fb4f6849ae0c81e4ddc9f6bd5814460ad9ecb63e9f65119",
+      "size": 5200
+    },
+    {
+      "path": "mods/FastWorkbench-1.12.2-1.7.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/FastWorkbench-1.12.2-1.7.3.jar",
+      "sha256": "0a8e4f341a80263e58f348fc980a813de1d22ec455d2606486e8e03e8c9e5d16",
+      "size": 26515
+    },
+    {
+      "path": "mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+      "sha256": "25718bd80799a608c45299d13d86e5d67248f07a3c00657c690948b1821835ce",
+      "size": 1304958
+    },
+    {
+      "path": "mods/Forgelin-1.8.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Forgelin-1.8.4.jar",
+      "sha256": "ccfcad80ef73ab815875a91979128ed58c262c479c7c0e5da65b225954bee197",
+      "size": 6278399
+    },
+    {
+      "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.237.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Galacticraft-Planets-1.12.2-4.0.2.237.jar",
+      "sha256": "ce821e6f310afd8a2cd776a48ca53e68c666c0cf1bca991ca572852958683e57",
+      "size": 4097186
+    },
+    {
+      "path": "mods/GalacticraftCore-1.12.2-4.0.2.237.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/GalacticraftCore-1.12.2-4.0.2.237.jar",
+      "sha256": "1d5b42e4f0f8bd0b544f76c389caaf0eec24e464a929a29b4e3846cbde59fa8f",
+      "size": 10419944
+    },
+    {
+      "path": "mods/GalacticraftTweaker-1.12.2-1.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/GalacticraftTweaker-1.12.2-1.0.3.jar",
+      "sha256": "21608e790f3c9e625531da42264a2dae763b5868c2234fba42b8155056fe7f06",
+      "size": 18481
+    },
+    {
+      "path": "mods/GiacomosFishingNet-1.12.2-1.6.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/GiacomosFishingNet-1.12.2-1.6.1.jar",
+      "sha256": "f9005b1fbe4bcaef141cc72c8d43821437b57fd810b3471bacda3bd2bd49dea0",
+      "size": 172355
+    },
+    {
+      "path": "mods/Guide-API-1.12-2.1.8-63.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Guide-API-1.12-2.1.8-63.jar",
+      "sha256": "e201712ef8fadc6c4b6380939751e92fe32cad2ba2dcb717e1acb3b07e0c2125",
+      "size": 169528
+    },
+    {
+      "path": "mods/Guidebook-1.12.2-2.9.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Guidebook-1.12.2-2.9.5.jar",
+      "sha256": "56d68b9a125c6285633d70a221cb2a8badd0590c753ea5aadc55e674bf789c6c",
+      "size": 258905
+    },
+    {
+      "path": "mods/GunpowderLib-1.12.2-1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/GunpowderLib-1.12.2-1.0.jar",
+      "sha256": "45697e5f301f1bea60b57cca37a8940626bee8830d802eb70580de1e1eecc3f3",
+      "size": 24639
+    },
+    {
+      "path": "mods/HammerLib-1.12.2-2.0.6.19.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/HammerLib-1.12.2-2.0.6.19.jar",
+      "sha256": "76cc1d3134bfc8ca896d8dca8d3c000d846c82d4271ed855d87230d63d400096",
+      "size": 2429052
+    },
+    {
+      "path": "mods/HelpFixer-1.12.1-1.5.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/HelpFixer-1.12.1-1.5.18.jar",
+      "sha256": "a3cc25bd00e3d63724f667f569889001be461eb8f383c03b931104ec42833cd5",
+      "size": 6778
+    },
+    {
+      "path": "mods/HungerOverhaul-1.12.2-1.3.3.jenkins148.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/HungerOverhaul-1.12.2-1.3.3.jenkins148.jar",
+      "sha256": "994c18ef5544b02bf5e998b5b3b1db3d952ccb1024a3adc6d029347d6f8d3a1c",
+      "size": 135518
+    },
+    {
+      "path": "mods/HuntingDimension-1.12.2-1.0.42.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/HuntingDimension-1.12.2-1.0.42.jar",
+      "sha256": "fa3b8172306aead98888c7aeb3aa091e339f29418ef16de4153aeb0193a5b4e3",
+      "size": 88822
+    },
+    {
+      "path": "mods/ImmersiveEngineering-0.12-98.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ImmersiveEngineering-0.12-98.jar",
+      "sha256": "1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58",
+      "size": 6360959
+    },
+    {
+      "path": "mods/InfernalMobs-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/InfernalMobs-1.12.2.jar",
+      "sha256": "5d91f665e36fe54129303b96a33867dd658a306ab98e0c5fa8175fc892a476a1",
+      "size": 183579
+    },
+    {
+      "path": "mods/IntegratedDynamics-1.12.2-1.1.7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/IntegratedDynamics-1.12.2-1.1.7.jar",
+      "sha256": "3352fd50fb4b9ccb75439547539f523bb59428efadf5b8b4d57952963e6ec1af",
+      "size": 3047753
+    },
+    {
+      "path": "mods/IntegratedTunnels-1.12.2-1.6.12.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/IntegratedTunnels-1.12.2-1.6.12.jar",
+      "sha256": "c5554f0c3d926a164e56961219c594baaae9e873f076582a38e2b92548541ae6",
+      "size": 497467
+    },
+    {
+      "path": "mods/IntegrationForegoing-1.12.2-1.10.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/IntegrationForegoing-1.12.2-1.10.jar",
+      "sha256": "10c312d03788bce06cbd86217dfe129c6dabb2e86290d4458a8d2140b177b394",
+      "size": 181197
+    },
+    {
+      "path": "mods/JRFTL[1.12.2]-1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/JRFTL%5B1.12.2%5D-1.1.jar",
+      "sha256": "9292ed03a9ecda60fc540d4df1dc7df282d0e446b173b6b0dee97f6bf24db6ec",
+      "size": 10376
+    },
+    {
+      "path": "mods/JustEnoughCalculation-1.12.2-3.2.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/JustEnoughCalculation-1.12.2-3.2.3.jar",
+      "sha256": "732baeb51b09989836455193c77b6b71d3076ee21be5690cb925488ee8a07c1e",
+      "size": 297982
+    },
+    {
+      "path": "mods/JustEnoughEnergistics-1.12.2-1.0.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/JustEnoughEnergistics-1.12.2-1.0.8.jar",
+      "sha256": "fa2f6fdfd3a43dee11b250ea079158b1cc5760c3dbdc2b031bd7cc2804f92f92",
+      "size": 22714
+    },
+    {
+      "path": "mods/LagGoggles-1.12.2-5.8-132.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/LagGoggles-1.12.2-5.8-132.jar",
+      "sha256": "8f823b34d6136037a6c90419ce2ba654d72d61ab647e464238e9d42870070e01",
+      "size": 182688
+    },
+    {
+      "path": "mods/LargeFluidTank-12.5.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/LargeFluidTank-12.5.2.jar",
+      "sha256": "7ba6129198352c54f5c80be0df586fae08eabdc4ee016bf48e08bc5d46d35124",
+      "size": 366954
+    },
+    {
+      "path": "mods/LibEx-1.12.2-1.0.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/LibEx-1.12.2-1.0.8.jar",
+      "sha256": "4780b369b569952610ac2e405fc3764586d7a6610c560d0d76d4db97ffda224c",
+      "size": 154500
+    },
+    {
+      "path": "mods/LittleTiles_v1.5.0-pre199_34_mc1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/LittleTiles_v1.5.0-pre199_34_mc1.12.2.jar",
+      "sha256": "e95a3fbffe90d90ddbf0161a18112a7b463b194ee78b5a47e82facc3acc9a2e8",
+      "size": 1655470
+    },
+    {
+      "path": "mods/LootBags-1.12.2-2.5.8.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/LootBags-1.12.2-2.5.8.5.jar",
+      "sha256": "85049ae5169487ac4a7a36921c7e2b7ab3e5ba3455237df3561dbf6014a19582",
+      "size": 279242
+    },
+    {
+      "path": "mods/LootTweaker-0.1.7+MC1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/LootTweaker-0.1.7%2BMC1.12.2.jar",
+      "sha256": "d2dd626156d82bd56fcfee3803fe9e0f0c7a2b6360b4180163cb35903b411a81",
+      "size": 79179
+    },
+    {
+      "path": "mods/MJRLegendsLib-1.12.2-1.1.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MJRLegendsLib-1.12.2-1.1.9.jar",
+      "sha256": "6d452980088f6fc353812b5d502540338d1a7f6877dda66ab7c7f04bb5dc082c",
+      "size": 116744
+    },
+    {
+      "path": "mods/MTLib-3.0.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MTLib-3.0.6.jar",
+      "sha256": "298fc0109614f567db4759a9709436924aa2ed20c55a8370a139f0af1ad9f109",
+      "size": 30002
+    },
+    {
+      "path": "mods/MagicBees-1.12.2-3.2.25.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MagicBees-1.12.2-3.2.25.jar",
+      "sha256": "2c780e8e7b22a374c069e3a20674fac9382fe0ef1100555197ff23eb9ab12d9e",
+      "size": 1109460
+    },
+    {
+      "path": "mods/Mantle-1.12-1.3.3.55.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Mantle-1.12-1.3.3.55.jar",
+      "sha256": "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65",
+      "size": 843486
+    },
+    {
+      "path": "mods/Mekanism-1.12.2-9.7.9.380.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Mekanism-1.12.2-9.7.9.380.jar",
+      "sha256": "1e54b43fb64784728d74c48c0bdacac9ab30d68808101d8c275bb4dfd85abfad",
+      "size": 7935575
+    },
+    {
+      "path": "mods/MekanismGenerators-1.12.2-9.7.9.380.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MekanismGenerators-1.12.2-9.7.9.380.jar",
+      "sha256": "32737e45f5ea4ea135d260db6c37d738eff9177524e8f19bf6c533052cb9e2b5",
+      "size": 343776
+    },
+    {
+      "path": "mods/MekanismTools-1.12.2-9.7.9.380.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MekanismTools-1.12.2-9.7.9.380.jar",
+      "sha256": "accf1f6b8369766556176904392f2af83eed30db8a72603b9e3e23beb355407f",
+      "size": 162121
+    },
+    {
+      "path": "mods/MicdoodleCore-1.12.2-4.0.2.237.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MicdoodleCore-1.12.2-4.0.2.237.jar",
+      "sha256": "f1f70c2d614f9ff65ca5c3582b0c9cd2220589d6ec06dd40e49cb7c57c2a9d21",
+      "size": 53300
+    },
+    {
+      "path": "mods/MobsPropertiesRandomness-2.3.3-mc1.12.x.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MobsPropertiesRandomness-2.3.3-mc1.12.x.jar",
+      "sha256": "44fd4f65356bcc0f3f87429789b29f1c50a7927433d4fb04dcd08c22b081e6a1",
+      "size": 66615
+    },
+    {
+      "path": "mods/Morpheus-1.12.2-3.5.106.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Morpheus-1.12.2-3.5.106.jar",
+      "sha256": "1904c32a8e0077e005bfefe005c26834c2df09881bc075a7deadce8da97fb457",
+      "size": 21508
+    },
+    {
+      "path": "mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+      "sha256": "82652f00e513c61c99a791abf2cbc10fdfb0e3a79e4eb02b305cccbc2d2f0087",
+      "size": 803400
+    },
+    {
+      "path": "mods/MysticalAgradditions-1.12.2-1.3.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MysticalAgradditions-1.12.2-1.3.2.jar",
+      "sha256": "58094bdace050ce943bc4b14033abc63e91e705233fc24c2d7f8d786c714884f",
+      "size": 134055
+    },
+    {
+      "path": "mods/MysticalAgriculture-1.12.2-1.7.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/MysticalAgriculture-1.12.2-1.7.5.jar",
+      "sha256": "e84a70bbcb5dc559d28c7bc65f1ef1af512485097ad89c6748249b173019975c",
+      "size": 1536124
+    },
+    {
+      "path": "mods/NaturesCompass-1.12.2-1.5.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/NaturesCompass-1.12.2-1.5.1.jar",
+      "sha256": "55b8c0f0a440bfe3570f44bbc8a2d269ec8167d186e6f9577ee978bda071577d",
+      "size": 180209
+    },
+    {
+      "path": "mods/NetherEx-1.12.2-2.0.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/NetherEx-1.12.2-2.0.8.jar",
+      "sha256": "4d1dfce0746a2ba9e8178785ad70c4cb0cd8e69da3f5d79e00c7a11f4f780a22",
+      "size": 2558919
+    },
+    {
+      "path": "mods/NotEnoughIDs-1.5.4.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/NotEnoughIDs-1.5.4.4.jar",
+      "sha256": "f042f90c5623a1f2bbcc1d0bd93cfca40109b9c0659399e1f48aa8ce37b75622",
+      "size": 31782
+    },
+    {
+      "path": "mods/NuclearCraft-2.18w-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/NuclearCraft-2.18w-1.12.2.jar",
+      "sha256": "042dabbcaf9a84fe76f21fc3ceede14a3c6a41cc394d37aa9010b4a5444774c9",
+      "size": 6908570
+    },
+    {
+      "path": "mods/OnlinePicFrame_v1.4.40_mc1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/OnlinePicFrame_v1.4.40_mc1.12.2.jar",
+      "sha256": "9ed85681a4d7a7f89fc1c00ef9f87b38c3e029c0054c03c5709b51bf2034dc5d",
+      "size": 78141
+    },
+    {
+      "path": "mods/OpenBlocks-1.12.2-1.8.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/OpenBlocks-1.12.2-1.8.1.jar",
+      "sha256": "fbf81a96f87c609feb0d03933398fdf4bd8b24bc18119f4642e42b30580950fc",
+      "size": 3217616
+    },
+    {
+      "path": "mods/OpenComputers-MC1.12.2-1.7.5.192.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/OpenComputers-MC1.12.2-1.7.5.192.jar",
+      "sha256": "212a09fdb4bb528e5cb2abe6681f64f3f95886ae6ef0c7b2c7e7ecd5d4cac127",
+      "size": 15643758
+    },
+    {
+      "path": "mods/OpenModsLib-1.12.2-0.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/OpenModsLib-1.12.2-0.12.2.jar",
+      "sha256": "47a2428297213cb3f6b3b75fe1604b002e1f5e4412a2ce77c362bf598e15a877",
+      "size": 2639587
+    },
+    {
+      "path": "mods/Overloaded-1.12.2-0.0.59.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Overloaded-1.12.2-0.0.59.jar",
+      "sha256": "a998b6e223cf79ceaf89b08d610816ef1e8b1226a9eb8a57368e81adacb8c49c",
+      "size": 12729930
+    },
+    {
+      "path": "mods/PackagedAuto-1.12.2-1.0.3.14.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/PackagedAuto-1.12.2-1.0.3.14.jar",
+      "sha256": "d1d7af0847663d7c9313ce57f6fa1714a826ba616cceb31bc99d74d5f9316c4e",
+      "size": 217291
+    },
+    {
+      "path": "mods/PackagedExCrafting-1.12.2-1.0.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/PackagedExCrafting-1.12.2-1.0.1.2.jar",
+      "sha256": "93db9a80188f759c86b5f23e1a3648a6b99c20320a356e91e0de91adc144e09b",
+      "size": 186045
+    },
+    {
+      "path": "mods/Pam's HarvestCraft 1.12.2zb.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Pam%27s%20HarvestCraft%201.12.2zb.jar",
+      "sha256": "2ad9a266b1179296b4ca1906c961e1f937764e007ed691e4249be6e0506271ed",
+      "size": 4738662
+    },
+    {
+      "path": "mods/Patchouli-1.0-21.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Patchouli-1.0-21.jar",
+      "sha256": "5206b27d87a819f679b3bc749a542afa94d0a084f87d1071924bf78094570442",
+      "size": 470042
+    },
+    {
+      "path": "mods/PickleTweaks-1.12.2-2.1.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/PickleTweaks-1.12.2-2.1.3.jar",
+      "sha256": "ca89ee327a18cec9b392cec597b6053334d7e23d094faaeaa8589afba53900ae",
+      "size": 252072
+    },
+    {
+      "path": "mods/Placebo-1.12.2-1.6.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Placebo-1.12.2-1.6.0.jar",
+      "sha256": "c2110db8b8abec23d9e2e9c4a89be010f6fe1150d52595397179c8804d942ee3",
+      "size": 76902
+    },
+    {
+      "path": "mods/ProgressiveBosses-1.5.4-mc1.12.x.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProgressiveBosses-1.5.4-mc1.12.x.jar",
+      "sha256": "b4ac5007e0cf0757dc52aefde0fb25a6f54785609535495a2c6c8cc0963e81d4",
+      "size": 69818
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-Base.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-Base.jar",
+      "sha256": "8345e86d84cc38e8017fef9b20b1160b4a988637e14b8bcb5b817747d8e63570",
+      "size": 2036136
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-compat.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-compat.jar",
+      "sha256": "02c2f75cc0c6630195072bd2cd5878fb60cc0b6780d4fd6a3b0f7b1f3f8ea394",
+      "size": 67384
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-fabrication.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-fabrication.jar",
+      "sha256": "6f74f0cc3223636bae0c2a6f61dabdf377df2e4bd73db62f12e9c2356492ae9c",
+      "size": 1894139
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-integration.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-integration.jar",
+      "sha256": "659623f496dd457dd689c69dbd7a593453f65f78662a4af8dc624bfff33ee2eb",
+      "size": 3923751
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-lighting.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-lighting.jar",
+      "sha256": "65d3a196ff8ca2a1caf119e28ebfb37d0157730d97c9acc0c7e2601f5edbe244",
+      "size": 724477
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-mechanical.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-mechanical.jar",
+      "sha256": "3e2f19faf3f9f19d5835a7e368d2bf855ca3d1ee82575a48182b3746d214cad8",
+      "size": 2596509
+    },
+    {
+      "path": "mods/ProjectRed-1.12.2-4.9.4.120-world.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ProjectRed-1.12.2-4.9.4.120-world.jar",
+      "sha256": "6b763b939c4a8517ac7fbb2a3cc7267d67e25823b60cf4231443eca3bb681c2e",
+      "size": 501169
+    },
+    {
+      "path": "mods/Quark-r1.6-179.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Quark-r1.6-179.jar",
+      "sha256": "b72490ac2de814df2fd764afd6071e4e8731281ef68b3862f282c5233224259d",
+      "size": 3877577
+    },
+    {
+      "path": "mods/RebornCore-1.12.2-3.16.0.469-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/RebornCore-1.12.2-3.16.0.469-universal.jar",
+      "sha256": "fbe8b48dc99e13ea599a67c77f01de0cf59996b5f639b0e0476ff6baf1b155e4",
+      "size": 1936717
+    },
+    {
+      "path": "mods/RebornStorage-1.12.2-3.3.4.85.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/RebornStorage-1.12.2-3.3.4.85.jar",
+      "sha256": "99a10ade75837afdb17aaad5808b730ce224db41f79c37e8cbcb992297ac187b",
+      "size": 80180
+    },
+    {
+      "path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "sha256": "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280",
+      "size": 31802
+    },
+    {
+      "path": "mods/Rex's-Additional-Structures-1.12.x-(v.2.3.1).jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Rex%27s-Additional-Structures-1.12.x-%28v.2.3.1%29.jar",
+      "sha256": "8580cef43e32f2934ca96aebe77086f20be93a57d4eeb701d295ceb6adf733d9",
+      "size": 818178
+    },
+    {
+      "path": "mods/RoguelikeDungeons-1.12.2-1.8.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/RoguelikeDungeons-1.12.2-1.8.0.jar",
+      "sha256": "0668c6dd53adfb837e2cb9e2650b9925fe250063f12bcd159d9f80093d4fef20",
+      "size": 701215
+    },
+    {
+      "path": "mods/Ruins-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Ruins-1.12.2.jar",
+      "sha256": "c9d4c4761f88e9e2e453778fd48d33288b48e07846e1fc578a5eea56ba0b888c",
+      "size": 244703
+    },
+    {
+      "path": "mods/SGCraft-2.0.4-bugfix-1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/SGCraft-2.0.4-bugfix-1.jar",
+      "sha256": "6c30ff0aed03e0c2bcae9ae87e2dc66ba3dbb4132dcad201016403ac31170134",
+      "size": 7920273
+    },
+    {
+      "path": "mods/SimplyJetpacks2-1.12.2-2.2.11.64.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/SimplyJetpacks2-1.12.2-2.2.11.64.jar",
+      "sha256": "aa0f1079446dc39215ca649b5763ba14325dc20daf34b8181c670664bfb42b11",
+      "size": 664377
+    },
+    {
+      "path": "mods/Sledgehammer-1.12.2-0.7-2.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Sledgehammer-1.12.2-0.7-2.0.1.jar",
+      "sha256": "7047549d85e5dff911f39bd4634c833733f1e7a2d3e183e61e529dc5e40dc4f6",
+      "size": 2067002
+    },
+    {
+      "path": "mods/SolarFluxReborn_1.12.2-12.3.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/SolarFluxReborn_1.12.2-12.3.8.jar",
+      "sha256": "529a98fb2e188a5504f3ccd4b8f2f2faeef420a24abc9e0ad492c683cfd5fe00",
+      "size": 706049
+    },
+    {
+      "path": "mods/SpiceOfLife-mc1.12-1.3.12.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/SpiceOfLife-mc1.12-1.3.12.jar",
+      "sha256": "4c4453218b60f03094e7b34b100ff0314f8fe6c2d517c0d1bf3136e8da64b973",
+      "size": 207687
+    },
+    {
+      "path": "mods/StandardExpansion-3.4.173.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/StandardExpansion-3.4.173.jar",
+      "sha256": "405211aef15d442f857f92c4f755f051396283d6e6fc2de818f4f693091e89f9",
+      "size": 460454
+    },
+    {
+      "path": "mods/StevesCarts-1.12.2-2.4.32.137.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/StevesCarts-1.12.2-2.4.32.137.jar",
+      "sha256": "df8b6999b59cacd90a94fa1eff5da0cdf0b5d3a3c72c0a9e6b50c12836950de9",
+      "size": 2475522
+    },
+    {
+      "path": "mods/StorageDrawers-1.12.2-5.4.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/StorageDrawers-1.12.2-5.4.2.jar",
+      "sha256": "563f40aad42d43612b799b5fdf89b00e379e6c64eeb8b01cb0c68c66635c6df5",
+      "size": 605947
+    },
+    {
+      "path": "mods/StorageDrawersExtras-1.12-3.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/StorageDrawersExtras-1.12-3.1.0.jar",
+      "sha256": "ae7a151efb5db147d86a82ceb1b84f0cc1e31331e5c11f549c68d6d89b57abff",
+      "size": 402870
+    },
+    {
+      "path": "mods/StorageTech R6.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/StorageTech%20R6.0.jar",
+      "sha256": "b9bc5862831b8a65667a530229df7c64069545aea09f983896d4040ec12b1c04",
+      "size": 175636
+    },
+    {
+      "path": "mods/TConstruct-1.12.2-2.13.0.183.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/TConstruct-1.12.2-2.13.0.183.jar",
+      "sha256": "707107f746ffc9d2bf35912953ae1ce780f7b7c4b7cf86b4821a1a151bcf9f6f",
+      "size": 4023372
+    },
+    {
+      "path": "mods/TechReborn-1.12.2-2.24.1.1017-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/TechReborn-1.12.2-2.24.1.1017-universal.jar",
+      "sha256": "fc1f7d353097a37b71fa11afe692b4d2004c30399eb7f7db5ca1479f83c47d25",
+      "size": 2516791
+    },
+    {
+      "path": "mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+      "sha256": "d26cae12decefd72dd02d959ece758ee8261f090b4cc8fdd24b870ed148b5a24",
+      "size": 98845
+    },
+    {
+      "path": "mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "sha256": "ce3f08c8a0f36ba02fceafa47f25e80c7130727bd8e11206b37a4454d51da3b0",
+      "size": 728082
+    },
+    {
+      "path": "mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+      "sha256": "f1cc8aeefcda2c00235bfb5ee7f76d731325aa324e90e84d7d232d88c1e6f472",
+      "size": 2345139
+    },
+    {
+      "path": "mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "sha256": "5052f3e308b3ecb6620d26c5ab0cc15c0373732086337483a19fd4447e540ab0",
+      "size": 2219736
+    },
+    {
+      "path": "mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+      "sha256": "5c72f0db4476dab72c5c9cb68e9ef21ddb45f7b4cbedf4673d069f7d194b9886",
+      "size": 182379
+    },
+    {
+      "path": "mods/TickCentral-2.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/TickCentral-2.6.jar",
+      "sha256": "c6191dfd7a8e5faf0daa9664e36e8671addba60e53825305a6fad8377d93b39d",
+      "size": 52840
+    },
+    {
+      "path": "mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "sha256": "87e2702152d795efd8548b3a1ec9471469d7c705db1ec199a465807720ddcdcd",
+      "size": 95850
+    },
+    {
+      "path": "mods/Traverse-1.12.2-1.6.0-69.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/Traverse-1.12.2-1.6.0-69.jar",
+      "sha256": "be89ff855b55d10469779660089cbb13f1f438a9a934724ebffa49982f269414",
+      "size": 270133
+    },
+    {
+      "path": "mods/UndergroundBiomesConstructs-1.12-1.3.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/UndergroundBiomesConstructs-1.12-1.3.8.jar",
+      "sha256": "fbe54dd58692de62d574ad630663c0006085f07e91c6b6567c843aa550a8a739",
+      "size": 1323454
+    },
+    {
+      "path": "mods/UniDict-1.12.2-2.9.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/UniDict-1.12.2-2.9.2.jar",
+      "sha256": "3e797717ce27d7e4254b2ef45d89e27ff290d150fe9a3fbf9adef539171bff7f",
+      "size": 192476
+    },
+    {
+      "path": "mods/VanillaFix-1.0.10-99.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/VanillaFix-1.0.10-99.jar",
+      "sha256": "75d2a521092b020888c487479d841a09951f35ed19db09a7d28aed6e29155860",
+      "size": 1117860
+    },
+    {
+      "path": "mods/ViesCraft-1.12.2-5.9.16.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ViesCraft-1.12.2-5.9.16.jar",
+      "sha256": "7ea8ddc2ef85a695af4fb1a44a8d124fdbfb5e52095a0677c0f06a005229636c",
+      "size": 17112492
+    },
+    {
+      "path": "mods/WanionLib-1.12.2-2.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/WanionLib-1.12.2-2.4.jar",
+      "sha256": "d2ec7225d3b29d89e9b1f63d169c4fabfdcb97319d79ab012a14a9a6b94b6aa7",
+      "size": 134537
+    },
+    {
+      "path": "mods/WirelessCraftingTerminal-1.12.2-3.12.97.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/WirelessCraftingTerminal-1.12.2-3.12.97.jar",
+      "sha256": "69e5b82f33925169e33456a5f6b3202917c06fc34f1f32f71cf553b0733f0114",
+      "size": 242030
+    },
+    {
+      "path": "mods/alchemistry-1.12.2-41.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/alchemistry-1.12.2-41.jar",
+      "sha256": "8beda7f888bdedc15e61ebfbc187576f3b6e7e6831e79a45fe2df1357f3d676b",
+      "size": 1324740
+    },
+    {
+      "path": "mods/alib-1.0.12.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/alib-1.0.12.jar",
+      "sha256": "e8d9af35ae9e77c5a7e7722f10710a4e0ac7e5cda82a62c7ae3350ffe2059136",
+      "size": 75827
+    },
+    {
+      "path": "mods/animania-1.12.2-1.6.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/animania-1.12.2-1.6.2.jar",
+      "sha256": "50a06c9cf3edcb4866635c36c87f867c0a6fc3859e6f1020e117b810f14887c9",
+      "size": 8953456
+    },
+    {
+      "path": "mods/appliedenergistics2-rv6-stable-7.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/appliedenergistics2-rv6-stable-7.jar",
+      "sha256": "e7f7fbf6caaf6206dbd958fb8f9185f874a405289e62ae3e97209b455a89fb1a",
+      "size": 4062630
+    },
+    {
+      "path": "mods/architecturecraft-1.12-3.98.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/architecturecraft-1.12-3.98.jar",
+      "sha256": "36c179868eb79b1a10f09f0e1aa1c646468d87f65a9e71aa5ccdd7611d350da1",
+      "size": 921733
+    },
+    {
+      "path": "mods/artisanautomation-1.12.2-1.0.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/artisanautomation-1.12.2-1.0.6.jar",
+      "sha256": "79acdd8793f59e2f342d76c9a40c5263a4867b36b39f0026d6357afa0f10724a",
+      "size": 203443
+    },
+    {
+      "path": "mods/artisanintegrations-1.12.2-1.2.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/artisanintegrations-1.12.2-1.2.2.jar",
+      "sha256": "d802d9916842b9b0faf12c30535e91e9755d282039fba4784d7d69c79765c36b",
+      "size": 65502
+    },
+    {
+      "path": "mods/artisanworktables-1.12.2-1.23.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/artisanworktables-1.12.2-1.23.6.jar",
+      "sha256": "f732d7586157734a4438a3959431b3701666f32e7ec8c4794eaade143b7792c5",
+      "size": 1149892
+    },
+    {
+      "path": "mods/astralsorcery-1.12.2-1.10.25.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/astralsorcery-1.12.2-1.10.25.jar",
+      "sha256": "0ac15d250639ca49484c020dba18a0a8d38140506a3457a4d5d0b26a08519149",
+      "size": 25027271
+    },
+    {
+      "path": "mods/athenaeum-1.12.2-1.19.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/athenaeum-1.12.2-1.19.1.jar",
+      "sha256": "da31851fe94b5c3b3c8b79ae4c32446a4435a45a882d0a5cdcc39fc7f868e47f",
+      "size": 329342
+    },
+    {
+      "path": "mods/base-1.12.2-3.13.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/base-1.12.2-3.13.0.jar",
+      "sha256": "8505982eb3204997dc965d1a6e22a6d0bc5df04de45d8ea6eb2b154426a9f591",
+      "size": 685028
+    },
+    {
+      "path": "mods/bdlib-1.14.3.12-mc1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/bdlib-1.14.3.12-mc1.12.2.jar",
+      "sha256": "af43cc43c4f7775fbbaa50d63cf1f933911b768ca5e10378a106fdfc0dfe76ef",
+      "size": 1962731
+    },
+    {
+      "path": "mods/binnie-mods-1.12.2-2.5.1.203.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/binnie-mods-1.12.2-2.5.1.203.jar",
+      "sha256": "2ead1181ab49131241862d98a78d72f4b171f102d2774c730b0f67677fcfd03f",
+      "size": 5857998
+    },
+    {
+      "path": "mods/blockcraftery-1.12.2-1.3.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/blockcraftery-1.12.2-1.3.1.jar",
+      "sha256": "2b64a900a30d12c55c48f295097327eab5547fa3e7dccdce0f929ecdee25d038",
+      "size": 105052
+    },
+    {
+      "path": "mods/bonsaitrees-1.1.4-b170.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/bonsaitrees-1.1.4-b170.jar",
+      "sha256": "c56c407c3e157f2e2d831d415938b0393d7d11aa5248bdbe584847d98b9d2a30",
+      "size": 658780
+    },
+    {
+      "path": "mods/bqforestry-2.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/bqforestry-2.0.0.jar",
+      "sha256": "c4c5468b7936f0066aca5e1bf516e6c6e7f0eb0ca242a300eccd15a81132a1b2",
+      "size": 267098
+    },
+    {
+      "path": "mods/capabilityadapter-1.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/capabilityadapter-1.1.0.jar",
+      "sha256": "99c4f72fe8feb66b12b0b6ea1dce4b89d515d3ba02a60ea1c1b0f8a9dcdd9028",
+      "size": 80715
+    },
+    {
+      "path": "mods/careerbees-0.4.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/careerbees-0.4.0.jar",
+      "sha256": "3380589ccd30d76ff2f42b9d87d8544945fadc2a311f69b539d359fec9092db4",
+      "size": 676344
+    },
+    {
+      "path": "mods/chiselsandbits-14.33.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/chiselsandbits-14.33.jar",
+      "sha256": "0b086aced1beca90ed5bb25fe6951a4d191d9b49f221af1074d1f9ff4f364b74",
+      "size": 737407
+    },
+    {
+      "path": "mods/compactmachines3-1.12.2-3.0.18-b278.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/compactmachines3-1.12.2-3.0.18-b278.jar",
+      "sha256": "61d9bb9eb409f3a3e0ded5870aa6cbb101cedc81f5fbb1ab6bfcd65b3ff51de1",
+      "size": 730062
+    },
+    {
+      "path": "mods/cookiecore-1.12-2.0.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/cookiecore-1.12-2.0.0.jar",
+      "sha256": "4d7c589346e67346f6840b712b7aa9ded58bba86aab7cfd8bf5c9efe1ac0ace3",
+      "size": 16469
+    },
+    {
+      "path": "mods/ddssutils-1.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ddssutils-1.1.2.jar",
+      "sha256": "b81b263cee0509775bb1d704e061fe35711a87dfe7ee2dc1da931df086b048c3",
+      "size": 68695
+    },
+    {
+      "path": "mods/environmentaltech-1.12.2-2.0.20.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/environmentaltech-1.12.2-2.0.20.1.jar",
+      "sha256": "3331ac0d0f9093433b65ca7b18a8f2bca57bc45fef2d444267e7d7fc6b7bb3a1",
+      "size": 1001848
+    },
+    {
+      "path": "mods/extraalchemy-forge-1.12-build11-0.5.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/extraalchemy-forge-1.12-build11-0.5.4.jar",
+      "sha256": "0efe758cdb57fa1f7cceb1dc29c87cedffc0339f5f9efe13e14cbbda2e93c5fc",
+      "size": 238627
+    },
+    {
+      "path": "mods/extrautils2-1.12-1.9.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/extrautils2-1.12-1.9.9.jar",
+      "sha256": "6c1809eb2222604ebf3c051e1c7834b84049013b537633c2e5a1b0077ef9a940",
+      "size": 3226408
+    },
+    {
+      "path": "mods/foamfix-0.10.10-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/foamfix-0.10.10-1.12.2.jar",
+      "sha256": "9429d2680f38bc1e3e2c87c98e95d4896241f5ee0f2e627d15610c68c473a2e8",
+      "size": 201683
+    },
+    {
+      "path": "mods/forestry_1.12.2-5.8.2.422.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/forestry_1.12.2-5.8.2.422.jar",
+      "sha256": "d466a5d574a5a3311b6c8572edcf72ce87881fb6296dce1d2d07d1649abc5205",
+      "size": 5298295
+    },
+    {
+      "path": "mods/furniture-6.3.1-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/furniture-6.3.1-1.12.2.jar",
+      "sha256": "1a35017a806ff1ae1ae35b377aca2919d41e80e1221fd5b8c3f9b7017eb3d760",
+      "size": 2435626
+    },
+    {
+      "path": "mods/gendustry-1.6.5.8-mc1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/gendustry-1.6.5.8-mc1.12.2.jar",
+      "sha256": "21952b5b2f4a89a3b80029042ec7b07d99835e56683d2c17e130a1144922b38d",
+      "size": 1856305
+    },
+    {
+      "path": "mods/gendustryjei-1.0.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/gendustryjei-1.0.2.jar",
+      "sha256": "5e56b6e1eab94eb92740437fc9906756ec6a3a1b3f4d4b2c4caee833b6ca7ae0",
+      "size": 67472
+    },
+    {
+      "path": "mods/hooked-1.0.3.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/hooked-1.0.3.jar",
+      "sha256": "73e0a8cfd842e9ac95cd78f89f752eaac4042d6a4eabcb5f482e963fefcc30f7",
+      "size": 161626
+    },
+    {
+      "path": "mods/iceandfire-1.9.1-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/iceandfire-1.9.1-1.12.2.jar",
+      "sha256": "5f52931991f8f7d8dd7f52952dff0f93baea6dad9031f25ce8f864771b362257",
+      "size": 20467820
+    },
+    {
+      "path": "mods/industrialforegoing-1.12.2-1.12.13-237.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/industrialforegoing-1.12.2-1.12.13-237.jar",
+      "sha256": "8b6e1aa820d7d02571aeae818b4ab9aa2d78e0d3b277d7be6df53e3153ae9ea7",
+      "size": 1603134
+    },
+    {
+      "path": "mods/ironchest-1.12.2-7.0.72.847.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ironchest-1.12.2-7.0.72.847.jar",
+      "sha256": "29d3a4115d67b83eb542b618eb64db40db23a7f009a0f4dc9a396101d6f8491f",
+      "size": 956692
+    },
+    {
+      "path": "mods/jei_1.12.2-4.15.0.297.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/jei_1.12.2-4.15.0.297.jar",
+      "sha256": "7ad20fe2b4d608dac2bc0e816fb1b7e7bdfe4a2b3d88cf11f0772d41965dce56",
+      "size": 653150
+    },
+    {
+      "path": "mods/librarianlib-1.12.2-4.20-release.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/librarianlib-1.12.2-4.20-release.jar",
+      "sha256": "0b1d2a662da7112470d2aa559ffd288ed9f6936c3f7742d8c220ebc498e732a1",
+      "size": 40706851
+    },
+    {
+      "path": "mods/littleopener-1.0.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/littleopener-1.0.1.jar",
+      "sha256": "93e0f3194569f52040563f0d59b0f10655307a1f4e2967220c9fed013ad792db",
+      "size": 57871
+    },
+    {
+      "path": "mods/llibrary-1.7.19-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/llibrary-1.7.19-1.12.2.jar",
+      "sha256": "a374b2cede8fab4585d55e4b11c726f19fd78c03eaf17994e7a501bd47ebeb30",
+      "size": 884837
+    },
+    {
+      "path": "mods/malisiscore-1.12.2-6.5.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/malisiscore-1.12.2-6.5.1.jar",
+      "sha256": "7dfc575fe73e4b38d25fca925e8248d12956b63cb874d38a66e224d7bc794226",
+      "size": 1939783
+    },
+    {
+      "path": "mods/malisisdoors-1.12.2-7.3.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/malisisdoors-1.12.2-7.3.0.jar",
+      "sha256": "d2f453fde73d40cfcde685f5c87c0d11dcc8e8ef31f38439e76a3e7c53809e99",
+      "size": 1741669
+    },
+    {
+      "path": "mods/mcjtylib-1.12-3.5.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/mcjtylib-1.12-3.5.4.jar",
+      "sha256": "af7d2b3c421329e7b97202302a072867e7c9bd73c5b8fab9bdb3a76fbfe474e3",
+      "size": 544856
+    },
+    {
+      "path": "mods/mekores-2.0.13.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/mekores-2.0.13.jar",
+      "sha256": "86300e6595d54d79d0a9c975e866804e7d8f2ebb1dbfec98dc0630cb7a28033e",
+      "size": 80140
+    },
+    {
+      "path": "mods/memory_repo/TechReborn/TechReborn-ModCompatibility-1.12.2/1.1.0.6/TechReborn-ModCompatibility-1.12.2-1.1.0.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/TechReborn/TechReborn-ModCompatibility-1.12.2/1.1.0.6/TechReborn-ModCompatibility-1.12.2-1.1.0.6.jar",
+      "sha256": "6381725a51e5c342a7b241f24853fe17762f15c452923beb1197acf593caaffe",
+      "size": 88135
+    },
+    {
+      "path": "mods/memory_repo/TechReborn/TechReborn-ModCompatibility-1.12.2/1.1.0.9/TechReborn-ModCompatibility-1.12.2-1.1.0.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/TechReborn/TechReborn-ModCompatibility-1.12.2/1.1.0.9/TechReborn-ModCompatibility-1.12.2-1.1.0.9.jar",
+      "sha256": "f8981dc6a8a125dee4f81f0e88ec5c861839cd5fa2b74b2913823ce92bd7c7ba",
+      "size": 91686
+    },
+    {
+      "path": "mods/memory_repo/TechReborn/TechReborn-ModCompatibility-1.12.2/1.2.0.52/TechReborn-ModCompatibility-1.12.2-1.2.0.52.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/TechReborn/TechReborn-ModCompatibility-1.12.2/1.2.0.52/TechReborn-ModCompatibility-1.12.2-1.2.0.52.jar",
+      "sha256": "65e2e5d08003dbd3ae443bc830fe1466658a2d5989f4deaec7eeb2f2629b1f30",
+      "size": 114486
+    },
+    {
+      "path": "mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar",
+      "sha256": "a36f7fe0b2971df39bc7f14df3e5fb13695025a60d32b865e8f5c06659d552c2",
+      "size": 5971
+    },
+    {
+      "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.10-1.12.2/llibrary-core-1.0.10-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.10-1.12.2/llibrary-core-1.0.10-1.12.2.jar",
+      "sha256": "0cb0326207c4b25cc3b4b0ffe278cbc2ce0db8e39fd47c80a8f3308cc4c2552f",
+      "size": 444172
+    },
+    {
+      "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar",
+      "sha256": "981fb876fc665c7fa228ae9673ddbbd2355bbf320b6a7ead53987d35ef145e9c",
+      "size": 446755
+    },
+    {
+      "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.6-1.12.2/llibrary-core-1.0.6-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.6-1.12.2/llibrary-core-1.0.6-1.12.2.jar",
+      "sha256": "b490abe9a644dd9e8bd35e5ee2b2a9b3724072f6a17dad8ea1561f0c6921f6ea",
+      "size": 438000
+    },
+    {
+      "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.8-1.12.2/llibrary-core-1.0.8-1.12.2.jar",
+      "sha256": "f768be38a9045b2a5c34afbcb0dc154cec6e641c0da3a931f7b6d90d07a4cea0",
+      "size": 438404
+    },
+    {
+      "path": "mods/minerva-library-1.0.13.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/minerva-library-1.0.13.jar",
+      "sha256": "5cefe544f186f970ef4eaa72897a036cbb0be5aa7366ea6ea8e8a74352edf701",
+      "size": 133294
+    },
+    {
+      "path": "mods/modtweaker-4.0.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/modtweaker-4.0.18.jar",
+      "sha256": "99bf2e334138dd1f91395f32180190cdabd47e7ce4a9b288f0c5b11c0875cda2",
+      "size": 488016
+    },
+    {
+      "path": "mods/modularmachinery-1.12.2-1.11.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/modularmachinery-1.12.2-1.11.1.jar",
+      "sha256": "bfee09b2825d7e205a025818b2ee77264b6e92b9d1657b2b7d56941f387d8846",
+      "size": 684030
+    },
+    {
+      "path": "mods/morelibs-1.12.2-1.2.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/morelibs-1.12.2-1.2.2.jar",
+      "sha256": "17dfb6558732f7761cb9584349de80f88ea7c4a4ffd06ce6842b54bd6a2a64cc",
+      "size": 51380
+    },
+    {
+      "path": "mods/moreplates-1.12.2-5.5.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/moreplates-1.12.2-5.5.2.jar",
+      "sha256": "e6e5f35869a1267f47341279e844665e0338435f6b6a9ee5bb130afa6bb80aee",
+      "size": 301542
+    },
+    {
+      "path": "mods/mowziesmobs-1.5.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/mowziesmobs-1.5.6.jar",
+      "sha256": "7a28d549c28408fb64075a70cc49e79ac68af004fc8d071f92932295a3a100ab",
+      "size": 4818963
+    },
+    {
+      "path": "mods/multimob-1.0.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/multimob-1.0.5.jar",
+      "sha256": "5d7506166a49d4e9d5a5dce57aeab5f56be739ee7bb7ea3946bac84ae63bc91e",
+      "size": 183875
+    },
+    {
+      "path": "mods/mysticallib-1.12.2-1.7.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/mysticallib-1.12.2-1.7.0.jar",
+      "sha256": "f31e315807982404c6539779ad6ad825246310022d8313b7990a36f2293638d6",
+      "size": 423994
+    },
+    {
+      "path": "mods/natura-1.12.2-4.3.2.69.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/natura-1.12.2-4.3.2.69.jar",
+      "sha256": "7663b57daf6ca0b36fbc8dd8ed06dc64447648237579b0c08910e15434ce36b2",
+      "size": 1142687
+    },
+    {
+      "path": "mods/omlib-1.12.2-3.1.4-249.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/omlib-1.12.2-3.1.4-249.jar",
+      "sha256": "9958d638d5cdd707e9438bf7ce90d2ecc69065fb4b22e4e358215a91971185f9",
+      "size": 213641
+    },
+    {
+      "path": "mods/ompd-1.12.2-3.1.0-61.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/ompd-1.12.2-3.1.0-61.jar",
+      "sha256": "c4a6c79eb5efd062df29262d68f203a960fab79c2b1bc88a299ac79fd3ecfd53",
+      "size": 104301
+    },
+    {
+      "path": "mods/openmodularturrets-1.12.2-3.1.11-372.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/openmodularturrets-1.12.2-3.1.11-372.jar",
+      "sha256": "229427108aed8218c3cd19f47318d8a4cedb49338e068a2348150cb5a631e838",
+      "size": 966860
+    },
+    {
+      "path": "mods/p455w0rdslib-1.12.2-2.3.161.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/p455w0rdslib-1.12.2-2.3.161.jar",
+      "sha256": "e5844c044d9f2ce2f23eef84d95eea8cc1f2c5581874bd01410e7d103b90a424",
+      "size": 328793
+    },
+    {
+      "path": "mods/pamscookables-1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/pamscookables-1.1.jar",
+      "sha256": "5c725fcfea524e6cf1036fadf2036f0a05c77103c9b9f4567e9bfe81b93c0738",
+      "size": 4957
+    },
+    {
+      "path": "mods/plustic-8.0.1.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/plustic-8.0.1.0.jar",
+      "sha256": "06d69798f30162350ef631146380d0c80ef9a5aa51228c8e6e19b3ee798c5f1a",
+      "size": 546262
+    },
+    {
+      "path": "mods/pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar",
+      "sha256": "60f89392326325db7228dc96c3ef6285bcd475f7a067755488be2bf6acbdb78a",
+      "size": 9534851
+    },
+    {
+      "path": "mods/primitivemobs-1.2.3a.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/primitivemobs-1.2.3a.jar",
+      "sha256": "ef8c0625e566abe714796a15d108680f48919387abda6386d58ea42ca9c9f673",
+      "size": 859957
+    },
+    {
+      "path": "mods/questbook-3.1.1-1.12.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/questbook-3.1.1-1.12.jar",
+      "sha256": "294fa190ff641bacb2b157a99c4714c3d2dfbc7dbd9f615cdbdd31a25afbe016",
+      "size": 20203
+    },
+    {
+      "path": "mods/randompatches-1.12.2-1.22.1.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/randompatches-1.12.2-1.22.1.1.jar",
+      "sha256": "16eee373cb4f4c79a1b25a380e601f0e3c8be653006c4d9defd60badc2d8f1cc",
+      "size": 293018
+    },
+    {
+      "path": "mods/refined_avaritia-1.12.2-2.6.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/refined_avaritia-1.12.2-2.6.jar",
+      "sha256": "5e9eec79a2b5af7ab3f41b55a566d48f3fbfc84b658e9b238f2820553c9aef9f",
+      "size": 98535
+    },
+    {
+      "path": "mods/refinedstorage-1.6.16.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/refinedstorage-1.6.16.jar",
+      "sha256": "ebdf868db673b2a22233e5e08e7c14ad937b10e2997c4c28a4511ffdd2544f8d",
+      "size": 1912377
+    },
+    {
+      "path": "mods/refinedstorageaddons-0.4.5.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/refinedstorageaddons-0.4.5.jar",
+      "sha256": "5af385ab60ffa2ab5fdfb8f20d4fc0c70bc6c000439edaa023e7c431fd1d76cf",
+      "size": 26804
+    },
+    {
+      "path": "mods/rftools-1.12-7.73.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rftools-1.12-7.73.jar",
+      "sha256": "558c38d0f7852d17a03aef81e4bd6cc2f28e60db8a8749c710c9ee829f2de0a4",
+      "size": 2895803
+    },
+    {
+      "path": "mods/rftoolsctrl-1.12-2.0.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rftoolsctrl-1.12-2.0.2.jar",
+      "sha256": "77a4c5f23f73cb4597ea6ee97e6ff5dd0a5eb94d1f25bfd031516b335dc92efe",
+      "size": 600728
+    },
+    {
+      "path": "mods/rftoolsdim-1.12-5.71.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rftoolsdim-1.12-5.71.jar",
+      "sha256": "ac731cd6b991c6da850499a83585ca34c971e2de8106515d1ee5830995110820",
+      "size": 1682421
+    },
+    {
+      "path": "mods/rftoolspower-1.12-1.2.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rftoolspower-1.12-1.2.0.jar",
+      "sha256": "bf678ca007953e8d5aee96f29aeefd88120485a988a05b7ec6d37663bb824891",
+      "size": 148083
+    },
+    {
+      "path": "mods/rockhounding_chemistry-1.12.2-3.52.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rockhounding_chemistry-1.12.2-3.52.jar",
+      "sha256": "045f3e3d2f753e533f3861b30897d48ad2f5977b05383b7ea9581df17ed3dcea",
+      "size": 3745170
+    },
+    {
+      "path": "mods/rockhounding_core-1.12.2-3.22.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rockhounding_core-1.12.2-3.22.jar",
+      "sha256": "448e32c8a520c333f2cf0d2c73d84e70b14248e9d78ce5545060013d337b4ad8",
+      "size": 134240
+    },
+    {
+      "path": "mods/roughmobs2-1.12.2_2.0.15.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/roughmobs2-1.12.2_2.0.15.jar",
+      "sha256": "867ea900dc621db3c3c1fd429560e8e363970f7e0e6386116d805ed03fb0e596",
+      "size": 114906
+    },
+    {
+      "path": "mods/rustic-1.1.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/rustic-1.1.2.jar",
+      "sha256": "276fcec6e67a422963070da0c5f7f1bdc75d86a4c1bdf32c960d4193700858a4",
+      "size": 1358969
+    },
+    {
+      "path": "mods/simplybackpacks-1.4.9.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/simplybackpacks-1.4.9.jar",
+      "sha256": "1c0e8cac846875a0f5f4a9e5ade6a302c12a643bac89b667815901eda1a38ca9",
+      "size": 129190
+    },
+    {
+      "path": "mods/solcarrot-1.12.2-1.8.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/solcarrot-1.12.2-1.8.4.jar",
+      "sha256": "02ba2338e4fcb225aa6bd6a29ceba81eb15966b749b49c0e3adc85d8ce77fabc",
+      "size": 641217
+    },
+    {
+      "path": "mods/specialai-1.1.0_for_mc1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/specialai-1.1.0_for_mc1.12.2.jar",
+      "sha256": "1915e47feddcca746d66f921d9675855325c26565f6c9d7e6fc7fe5a2d991c1b",
+      "size": 161671
+    },
+    {
+      "path": "mods/storagecabinet-1.2.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/storagecabinet-1.2.0.jar",
+      "sha256": "332f28166d0ddac8c6ee745b28770f200e391cf79d8c1f03656d3df763ef36c8",
+      "size": 32409
+    },
+    {
+      "path": "mods/taiga-1.12.2-1.3.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/taiga-1.12.2-1.3.4.jar",
+      "sha256": "ffd53989e9953d6b90ae075d2e5f0f99ffbdf54d067ebaca8207af8a908fd46c",
+      "size": 1529108
+    },
+    {
+      "path": "mods/tesla-core-lib-1.12.2-1.0.17.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/tesla-core-lib-1.12.2-1.0.17.jar",
+      "sha256": "caf6ec0c4c53862cb0806af027f0153ac18f88f692434f620fbe1d135bda1c63",
+      "size": 1138988
+    },
+    {
+      "path": "mods/theoneprobe-1.12-1.4.28.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/theoneprobe-1.12-1.4.28.jar",
+      "sha256": "f3e5048dbe58f37f98f8130886ede880ac5b3333ee73cae2381c337e500c4bd1",
+      "size": 301893
+    },
+    {
+      "path": "mods/tombstone-4.0.0-1.12.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/tombstone-4.0.0-1.12.2.jar",
+      "sha256": "7ba6b180d8fc3173f817d38b9ff687510824aa8d719e77cfba4b7a78f0a82797",
+      "size": 1083020
+    },
+    {
+      "path": "mods/topaddons-1.12.2-1.13.0.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/topaddons-1.12.2-1.13.0.jar",
+      "sha256": "d29f313101f814caa15c589ad1352579922ac588fc11500af2fabeeefbcc70a2",
+      "size": 243603
+    },
+    {
+      "path": "mods/torchmaster_1.12.2-1.8.1.82.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/torchmaster_1.12.2-1.8.1.82.jar",
+      "sha256": "dd7a91d218ed747360654c95f550372e28d351e8016b985245a3a5a7fd94638d",
+      "size": 167205
+    },
+    {
+      "path": "mods/tweakersconstruct-1.12.2-1.5.4.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/tweakersconstruct-1.12.2-1.5.4.jar",
+      "sha256": "0fcd829759cf9f8e70e5a647d16482f15801437620383ab866b8286bcb8a038d",
+      "size": 32895
+    },
+    {
+      "path": "mods/twilightforest-1.12.2-3.10.1013-universal.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/twilightforest-1.12.2-3.10.1013-universal.jar",
+      "sha256": "9e8384b2b857ef7afe7f734b83366fb378cb65f7bb12876894ad35e8c0a47035",
+      "size": 28721750
+    },
+    {
+      "path": "mods/u_team_core-1.12.2-2.2.5.147.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/u_team_core-1.12.2-2.2.5.147.jar",
+      "sha256": "22d74d8afd2d5b583cfd0ab6e70bf8f756a4839d1247d480611a7f5b70515009",
+      "size": 320974
+    },
+    {
+      "path": "mods/useful_railroads-1.12.2-1.1.2.18.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/useful_railroads-1.12.2-1.1.2.18.jar",
+      "sha256": "1b1c0e8398a20ade79cf8a005f3575784c76cf8e3d03cec64cd5b3050f1b4aa4",
+      "size": 97958
+    },
+    {
+      "path": "mods/valkyrielib-1.12.2-2.0.20.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/valkyrielib-1.12.2-2.0.20.1.jar",
+      "sha256": "24a72428d22c04040e8a60899a395283ca8512f39bfb0cec62ecf9109bf891e0",
+      "size": 733580
+    },
+    {
+      "path": "mods/vulcanite-1.5.2-mc1.12.x.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/vulcanite-1.5.2-mc1.12.x.jar",
+      "sha256": "13b0342c2a7509f24aa737050caa83c5a37d9c0a7ad7c9b7c2154e2284405cc1",
+      "size": 95894
+    },
+    {
+      "path": "mods/worleycaves-1.5.1.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/worleycaves-1.5.1.jar",
+      "sha256": "351dc3540ee4ad2168f8b80cbb5e25aac04f68343339eb7a04b5cf7fc953505a",
+      "size": 60903
+    },
+    {
+      "path": "mods/xnet-1.12-1.8.2.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/xnet-1.12-1.8.2.jar",
+      "sha256": "37b39fb2e10bf3a991952317d68cf137c7470060197ce74a5826699fac0326fc",
+      "size": 496307
+    },
+    {
+      "path": "mods/zerocore-1.12.2-0.1.2.8.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/zerocore-1.12.2-0.1.2.8.jar",
+      "sha256": "99ca0107097641349055713e3505b434c4115e55a82d427975d6b2528500310b",
+      "size": 228623
+    },
+    {
+      "path": "mods/zoesteria-1.4.10-public-alpha-ddss.jar",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/mods/zoesteria-1.4.10-public-alpha-ddss.jar",
+      "sha256": "48e38ca542c64374af3eae741d2d549a35b08948d3d1f4a43dd46a5f9cf09033",
+      "size": 816481
+    },
+    {
+      "path": "scripts/Bees/BeeCombs and machines.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Bees/BeeCombs%20and%20machines.zs",
+      "sha256": "6fc8723b2940d2b475e9b2b2af8733b108cd7f24b1d903696e818af672d5a292",
+      "size": 58975
+    },
+    {
+      "path": "scripts/Biofuel, Ethanol with Pams/03_pams_harvestcraft_mekanism_crusher.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Biofuel%2C%20Ethanol%20with%20Pams/03_pams_harvestcraft_mekanism_crusher.zs",
+      "sha256": "96223a4f171ee9c14cf8cc21c45fbe1d971a8c08b3bdc9c441b223e7692c540f",
+      "size": 16863
+    },
+    {
+      "path": "scripts/Biofuel, Ethanol with Pams/04_pams_hc_ie_fermenter.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Biofuel%2C%20Ethanol%20with%20Pams/04_pams_hc_ie_fermenter.zs",
+      "sha256": "32cd53ffd99338ee471847627956a188d8c96c7ea084f4d2cdf84cad135c9a55",
+      "size": 22594
+    },
+    {
+      "path": "scripts/Biofuel, Ethanol with Pams/05_rustic_mekanism_crusher.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Biofuel%2C%20Ethanol%20with%20Pams/05_rustic_mekanism_crusher.zs",
+      "sha256": "21b824b80cb4a8c1e072b4232a202776dc7ffd3ef9ca7ff26d0e7a106b9d9c09",
+      "size": 1250
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/AE2 + Extra Cells.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/AE2%20%2B%20Extra%20Cells.zs",
+      "sha256": "29bc6522318e096b1d258b88e6ec89a58b41c0d5808eb7f15c43e644d924024c",
+      "size": 19131
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Actually Additions.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Actually%20Additions.zs",
+      "sha256": "61cd361e1eeaf5a5e7685ec5233e6eea60ac7fc913726dd2ecf637332af93aa6",
+      "size": 7155
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Astral Sorcery.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Astral%20Sorcery.zs",
+      "sha256": "b964c8aff00e789471865ac0aa4e5f1a5ad2cdf834eaab443ed2b4578d2820a5",
+      "size": 3442
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Cables _Thermal Dynamic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Cables%20_Thermal%20Dynamic.zs",
+      "sha256": "ee187c1e235038d686c1c47b9e33736bf749f6d387bf7c89d7d40da5b40275bf",
+      "size": 30308
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Cables_Integrated Dynamics.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Cables_Integrated%20Dynamics.zs",
+      "sha256": "004797217eb42201f7a245d8672bd86c4d6d259fc9e5bf4315fae4f30a0d0c76",
+      "size": 3477
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Circuits.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Circuits.zs",
+      "sha256": "92ada544e23c4f4737d2d28a92332accb484a48858409ec9730fba95a98c6640",
+      "size": 11037
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Extrautils2.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Extrautils2.zs",
+      "sha256": "6b0f35e3e8bff91ef03358e43c8911fb6d0fd3a8bda48229d39d2f38476ec0a1",
+      "size": 4617
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Food.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Food.zs",
+      "sha256": "46b4ed73915a16fd6571dbcc60a60f520b8b457af7989141ea3692113847d668",
+      "size": 12950
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Forestry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Forestry.zs",
+      "sha256": "88138576d52f53efc77aa5cad05ec82a4b849311c12d287c1fd69865c81ce453",
+      "size": 1605
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Galacticraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Galacticraft.zs",
+      "sha256": "763f104d09ecd1b3b13df41b693ec65d6f312c7b9f13bc34247e690b76fe20d2",
+      "size": 2154
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Gendustry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Gendustry.zs",
+      "sha256": "547c6e0d7c5d0ddd54a8139dce6943000a420f98d1e5d134354ea0d049ca6398",
+      "size": 861
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Immersive Engineering.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Immersive%20Engineering.zs",
+      "sha256": "8f3a83bbbd363841ba484fb20b61b59b133069bbb17cb58751fb8dd6357e315f",
+      "size": 2586
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Industrial foregoing.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Industrial%20foregoing.zs",
+      "sha256": "8f1c688ad400dd9a6c8082d30f868d227f3bf87e482c32cb43d9643283343a4c",
+      "size": 11130
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Mekanism.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Mekanism.zs",
+      "sha256": "bd1f45b2f06715fc006870cc0c8a60484b4baaf97008669542b4808fe70aa2a3",
+      "size": 19187
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Nuclearcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Nuclearcraft.zs",
+      "sha256": "d6a84b15d7391d58b35b25655333ad9925b6683aa5a09b457ba1144b8208979b",
+      "size": 1764
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Open Computers.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Open%20Computers.zs",
+      "sha256": "a3eb0983d38391077bc4ebd959cbc26ca23e961f69f1e7bbd2980b7a35dbd36c",
+      "size": 5640
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Pneumatic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Pneumatic.zs",
+      "sha256": "d89728f1be9d9f2bd08e481a02a5dfad7176437fb39a1422deeeabef358fda13",
+      "size": 426
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Project Red.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Project%20Red.zs",
+      "sha256": "49a7cfbe8ded40767180ed6ba627d3c6060feef2d5fa4ca50db81852de81eb6a",
+      "size": 3549
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/RF Tools.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/RF%20Tools.zs",
+      "sha256": "1ade3dad435b19f0df598d19857895c00e01c63907cd1d6fb45a5c78cbbaca98",
+      "size": 562
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Refined Storage.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Refined%20Storage.zs",
+      "sha256": "c6b8a56402bbff09c2a98380162d1da32da1cbfc30cee199f2f41167c0e4b4a9",
+      "size": 14893
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Rockhound.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Rockhound.zs",
+      "sha256": "1575ae35df02a3a9293da9f670e8130474a9bc759b22e11105d91a1fdf9ca917",
+      "size": 1868
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Solar Flux Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Solar%20Flux%20Reborn.zs",
+      "sha256": "9ee5b03d8061e40bb6572ed21b8505db21a9b2def2cd03bb97d18b16b9940eaf",
+      "size": 5996
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Steves Carts.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Steves%20Carts.zs",
+      "sha256": "feb447af4540930658e226f7bd09d8e71191c8df1e4a882b31a934fa5415edb9",
+      "size": 1258
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Storage Drawer.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Storage%20Drawer.zs",
+      "sha256": "4e7fdf89dce079244b5376a000ebbe4ed22223f85a4615a5d12655fd44fa277a",
+      "size": 4656
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Tech Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Tech%20Reborn.zs",
+      "sha256": "d826c622ae33d87149da97d1bd51e4e567d04d734df0c843003bc68a7f1903c2",
+      "size": 7731
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Thermal Expansion stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Thermal%20Expansion%20stuff.zs",
+      "sha256": "01783dc187855347a1c24c0432243717bf51b631caafa511fa7ed0ded35e534c",
+      "size": 32873
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Thermal Foundation stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Thermal%20Foundation%20stuff.zs",
+      "sha256": "dc1badd1b981fa1d320fe6b63006417e435e48e4084a91948d29eb4a31ac98c2",
+      "size": 2958
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Vanilla Stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Vanilla%20Stuff.zs",
+      "sha256": "eeb00d0c250d40d1d62a2690f31267e6719fa271320f66f09c921eef8c5b5ac9",
+      "size": 1996
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Xnet.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Xnet.zs",
+      "sha256": "5cde5d0ff2e4ce1e8330e36541c5d03338135a8bde00ea24b4b88494416dd6f2",
+      "size": 2497
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Access Cards, upgrades.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Access%20Cards%2C%20upgrades.zs",
+      "sha256": "0396bf47642994ee513a3045efaf3d8793d7f43314b455e51f880347915db358",
+      "size": 4395
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Dusts, Ingots, Plates.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Dusts%2C%20Ingots%2C%20Plates.zs",
+      "sha256": "f321f889f318e6746e2213b7d9a27604f9ee46c2fbbf70d243c035c3024dfdd0",
+      "size": 4069
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Elements.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Elements.zs",
+      "sha256": "e42004eb512ebafb88c53bc7ad9ee007e44c7fe08dbba58e5ed0fb8d51ab5c74",
+      "size": 1933
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Fluids.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Fluids.zs",
+      "sha256": "86952fdccf98106879015055be0a4a0e2c9d3e39fdc6151f9e4282715a18a83a",
+      "size": 3381
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Food.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Food.zs",
+      "sha256": "2feaabfde6f87f4d94a3c7c53612338d1cbfe5e3a5ff65ded55ff5639c90260e",
+      "size": 963
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Kitchen Utils.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Kitchen%20Utils.zs",
+      "sha256": "ad9065ad82eedfc3c56a1188c13ae5ca361f75a32b065e8ad5141708e45945f5",
+      "size": 2395
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Material Crafting.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Material%20Crafting.zs",
+      "sha256": "5998cb4ea3186dd2fe68536e3c9b660c804ff6c3f75d9d640af5aeed9b22d976",
+      "size": 37186
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Misc.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Misc.zs",
+      "sha256": "3f31b897541cf10de860b8871d1b324f4bbf7a3b59e1c8ac8beaecf368f54509",
+      "size": 1692
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Blocks whitout BW.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Blocks%20whitout%20BW.zs",
+      "sha256": "48ae5486461356dab41d8c3d6411179f2ce793ed04dd6e9a1c0f827810672811",
+      "size": 4395
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Dusts.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Dusts.zs",
+      "sha256": "207a3b4b55309eb1d3c4adc717de3ebd469f4979afcc3be66ce586af64d03f04",
+      "size": 16996
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Factorizer.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Factorizer.zs",
+      "sha256": "366a85c09df89e5a3977578f8003942d4df305b923799dd6fdb3ff1cb7e87249",
+      "size": 2519
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Ingots.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Ingots.zs",
+      "sha256": "cd482cb1370183ab6bf85dcf6c90e8d180c91198a838b6dd5efba0e0898b3ea2",
+      "size": 988
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Plates.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Plates.zs",
+      "sha256": "3807ee6d787d10c6b9b7ef634d6e336467e0dafee8ff7ee91de4330361c3821a",
+      "size": 34364
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Rods, Gear.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Rods%2C%20Gear.zs",
+      "sha256": "121d68baf7295b29079ba7bb9c3179f8cec818b2c6be6923522cc007a2fd53d7",
+      "size": 2810
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/AE2 Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/AE2%20Slabs.zs",
+      "sha256": "1345c88d513e3071eeb9f55b21c6d24bc6c43b9d9b697f65f0e059528e5e3119",
+      "size": 3944
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/Actually Additions Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/Actually%20Additions%20Slabs.zs",
+      "sha256": "a7d0f753bcc8e18e098254e34df3d98c2091256538cb78e49c7707ad38afb860",
+      "size": 2527
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/Immersive Engineering.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/Immersive%20Engineering.zs",
+      "sha256": "38d118ab1e03db5886c27b44a0150a02b5a77cbb41bcd4a9fa4a5a4c2399cc6d",
+      "size": 1462
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/Natura Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/Natura%20Slabs.zs",
+      "sha256": "c4014105b7183ac0845ebb1008bf7ac07239130d3a9bfffabef0667b43be1eb2",
+      "size": 6567
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/Rustic Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/Rustic%20Slabs.zs",
+      "sha256": "979d4430ba9b3f0f060c0881e86253118227383079e21a35dd1af39b7a383c7b",
+      "size": 1626
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/Traverse Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/Traverse%20Slabs.zs",
+      "sha256": "e1223f4298640fa845b896dbab9320f2a5ee2b988068325f844e64358bce60d0",
+      "size": 1671
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/UGB Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/UGB%20Slabs.zs",
+      "sha256": "1062824f80110142260cde1125a067652bd15fdfa3f9982d3e38209fa35c3301",
+      "size": 28718
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/Vanilla Slabs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Slabs/Vanilla%20Slabs.zs",
+      "sha256": "160e4b4ad09274fee060de0853066bf67e8951509ec2e43fb620a61861e0c007",
+      "size": 5962
+    },
+    {
+      "path": "scripts/Furnace.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Furnace.zs",
+      "sha256": "d610867c1649f901091feb5d737427fd5fd0451d2b4c1a29da83d7d8cc1b5ffe",
+      "size": 17509
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Astralsorcery Chests.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Astralsorcery%20Chests.zs",
+      "sha256": "12217be05c45fc0eaa406b3ad95ce2b8e7c3b0f17ea24522d93416695b8c31a1",
+      "size": 6485
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Entitys.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Entitys.zs",
+      "sha256": "0019abe26e351aefecf92ea8ba923ce1bc4c3bf97fe8cc229c08ab87539a306a",
+      "size": 9633
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Ice and Fire Chests.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Ice%20and%20Fire%20Chests.zs",
+      "sha256": "e386298515f4349055634bc3ba83a2a9d1c11dc3e17f3a5c5f62bc01879c3046",
+      "size": 56896
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Immersive Crates.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Immersive%20Crates.zs",
+      "sha256": "da8c5fffaeae4942abd7bd6b039c751c914c837fa8f552007e340e6f9f43fd04",
+      "size": 4706
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Quark Pirate Ships.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Quark%20Pirate%20Ships.zs",
+      "sha256": "88cb64465396d4c4c96a5332e341c2324e47491eab4968b596e120ccdd851c22",
+      "size": 7637
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Vanilla Bonus Chest.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Vanilla%20Bonus%20Chest.zs",
+      "sha256": "5546b2958e7082b088c212f4f66ea898d271dd146d3fa37ace41cf0226c55687",
+      "size": 6293
+    },
+    {
+      "path": "scripts/Loot Tables/Loot VanillaChests.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20VanillaChests.zs",
+      "sha256": "d515ab89b953e43b323e3e27a3e721329fa4257e2339222257a40e5e6d96080d",
+      "size": 102688
+    },
+    {
+      "path": "scripts/Magic Chemistry/Alchemistry Elements.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Magic%20Chemistry/Alchemistry%20Elements.zs",
+      "sha256": "2728d0a3ad5d2811c0fb468970d1a505c3bb13d1a13d6d3b61facad758a03d68",
+      "size": 2456
+    },
+    {
+      "path": "scripts/Magic Chemistry/Carpenter & Lab Combiner.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Magic%20Chemistry/Carpenter%20%26%20Lab%20Combiner.zs",
+      "sha256": "8509731124fa6664f90f3943083eb4e9e63fd1ea4a228a3d54466fd882239a7e",
+      "size": 8163
+    },
+    {
+      "path": "scripts/Magic Chemistry/Magic Dust and Elements.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Magic%20Chemistry/Magic%20Dust%20and%20Elements.zs",
+      "sha256": "590139c5b53b6bdb574f207e543bf2e5974f14cfe940774d6c01781daa3fa005",
+      "size": 6853
+    },
+    {
+      "path": "scripts/Modular Machinery/Advanced Alloy Factory - 2.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Advanced%20Alloy%20Factory%20-%202.zs",
+      "sha256": "317696f9fded0d67084f6972b68e13bdeb5dbf2d6e18e7f477f369c1c353d22e",
+      "size": 6175
+    },
+    {
+      "path": "scripts/Modular Machinery/Advanced Alloy Factory.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Advanced%20Alloy%20Factory.zs",
+      "sha256": "716be852aa245d73116270ba2d86315a3419b50ed4a0b27f273168990507ebc9",
+      "size": 99360
+    },
+    {
+      "path": "scripts/Modular Machinery/Master Assembler 2k20.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Master%20Assembler%202k20.zs",
+      "sha256": "137ec53c66cd548a85468858eb63af3d73442958da577c6595ec80b5962ac672",
+      "size": 46366
+    },
+    {
+      "path": "scripts/Modular Machinery/Modular Machinery.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Modular%20Machinery.zs",
+      "sha256": "f87b1c4e7feb663b5e0adce22d5e8d0a5cb705df2fd298684292b617d225b4f0",
+      "size": 9952
+    },
+    {
+      "path": "scripts/Recipes/AE2.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/AE2.zs",
+      "sha256": "02b0543d60e6982f6f0bbc323d6f9f59fa14677dd6b4e46e38b2f69d393d312b",
+      "size": 32747
+    },
+    {
+      "path": "scripts/Recipes/Actuallay Additions.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Actuallay%20Additions.zs",
+      "sha256": "90cc5276e4525e6b9d2d9916203513968f0625149bc3f13b19f45343fdfb4a61",
+      "size": 50340
+    },
+    {
+      "path": "scripts/Recipes/Alchemystri.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Alchemystri.zs",
+      "sha256": "ba3561868f0c74cdbf3058848eb14aba0f7e956ec6cc62d7b4e9d175a89a83a4",
+      "size": 13898
+    },
+    {
+      "path": "scripts/Recipes/Animania.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Animania.zs",
+      "sha256": "745d69c0e4ef7a754a032d1fc3ad57a4a2066bb6ebd68f558c9d8073df0474fb",
+      "size": 1237
+    },
+    {
+      "path": "scripts/Recipes/Architecture Craft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Architecture%20Craft.zs",
+      "sha256": "eba4204098f436663398775aec137e518a07eecf3341eccca8501c0e8ebfcf25",
+      "size": 684
+    },
+    {
+      "path": "scripts/Recipes/Astral Sorcery.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Astral%20Sorcery.zs",
+      "sha256": "1a56a687ce2bf4231c164e48707719953f596cd285432dfe688824e4b632b404",
+      "size": 9319
+    },
+    {
+      "path": "scripts/Recipes/Avaritia.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Avaritia.zs",
+      "sha256": "ac73459ee0c1d3c0e8c463ad5db47913ad9f02ea6d0d84df0ca065c416af01de",
+      "size": 13167
+    },
+    {
+      "path": "scripts/Recipes/Bibliocraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Bibliocraft.zs",
+      "sha256": "60ac5c8ad436438b9b2b049478306759200b43a8ac6a92d3add63be0af669a64",
+      "size": 1300
+    },
+    {
+      "path": "scripts/Recipes/Binnis Mod.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Binnis%20Mod.zs",
+      "sha256": "93809945e072c7306f19c7078c185ccf2a6fa9f9d14e125d4ceea0802739b897",
+      "size": 1258
+    },
+    {
+      "path": "scripts/Recipes/Blood Magic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Blood%20Magic.zs",
+      "sha256": "0f5ac1eda2b9b5ca4f073126b9d583b71fad1b2dd8e0f481134a4d734e4c552f",
+      "size": 21402
+    },
+    {
+      "path": "scripts/Recipes/Bonsai pots.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Bonsai%20pots.zs",
+      "sha256": "42bea91cc998ef97c15f7ba717b8dcbec4769e969836b26e7361ca1d143985ad",
+      "size": 119
+    },
+    {
+      "path": "scripts/Recipes/Botania.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Botania.zs",
+      "sha256": "6c7d4b23c661928f67b2f3e6fd767d1288892cbb52a9f2072a4321a84e918ae2",
+      "size": 33838
+    },
+    {
+      "path": "scripts/Recipes/Botanic Additions.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Botanic%20Additions.zs",
+      "sha256": "5df200d29079bd2576ac3add7038988a77a63a4d30de5b2d8107dc3cc10caa80",
+      "size": 5697
+    },
+    {
+      "path": "scripts/Recipes/Builders Wand.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Builders%20Wand.zs",
+      "sha256": "03ff9ac602b4697d6683ed364c3b4959067418fe202d494b1a70bfd310369926",
+      "size": 2533
+    },
+    {
+      "path": "scripts/Recipes/Chest Transporter.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Chest%20Transporter.zs",
+      "sha256": "c7a22ccf3788d21813795525bce905b164c5f6d1d09ce99744d72ec293db817a",
+      "size": 5011
+    },
+    {
+      "path": "scripts/Recipes/Chisel and Bits.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Chisel%20and%20Bits.zs",
+      "sha256": "ab866c62ad27d18557e4b5fff2c653c4be134da7855a3960b83c7b61519fc071",
+      "size": 2844
+    },
+    {
+      "path": "scripts/Recipes/Chisel.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Chisel.zs",
+      "sha256": "68169bc70b868d2be48499d66f330334595db62b78c8af44aca9d3d1b9cdecf0",
+      "size": 12214
+    },
+    {
+      "path": "scripts/Recipes/Chunkloaders.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Chunkloaders.zs",
+      "sha256": "82439d4daaf8237dacea9ab6ca422c5374bc6d5fd62c184aea673240be5b8f6d",
+      "size": 3961
+    },
+    {
+      "path": "scripts/Recipes/Coins.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Coins.zs",
+      "sha256": "c5439f3713246d0ea021bef5434a72a864bd4b7544f7b67fa31b5a743b37c101",
+      "size": 2489
+    },
+    {
+      "path": "scripts/Recipes/Cyclic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Cyclic.zs",
+      "sha256": "0769f605a95aa40f29b0f72f7f821e226759553c7126c57b04780274942c59ba",
+      "size": 27284
+    },
+    {
+      "path": "scripts/Recipes/Dank Null.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Dank%20Null.zs",
+      "sha256": "1b32be3ee2389abd5cc2681786282b80817927051617592b0e5aa4b8d1aaea3f",
+      "size": 2309
+    },
+    {
+      "path": "scripts/Recipes/Draconic Evolution.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Draconic%20Evolution.zs",
+      "sha256": "1a19754ca9537fbbde7a8c936d773f9dc686c55049434a3926b0a09876f18850",
+      "size": 17497
+    },
+    {
+      "path": "scripts/Recipes/Dungeon Tactics.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Dungeon%20Tactics.zs",
+      "sha256": "4b17a1cb1dc6494beaab3708d0287c87c7cfbafa6ba42bc8bac7e412b0d9b7ca",
+      "size": 17837
+    },
+    {
+      "path": "scripts/Recipes/Enviromentaltech.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Enviromentaltech.zs",
+      "sha256": "87e1ed49a2ac13da2b34edfae8e61328b1ec7004dfe278ed9c7cba81593f90ba",
+      "size": 50561
+    },
+    {
+      "path": "scripts/Recipes/Evil Craft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Evil%20Craft.zs",
+      "sha256": "914454284bed36e649bdf091c6a11ddc0d95e6691a32bb349916508fa59eca74",
+      "size": 14044
+    },
+    {
+      "path": "scripts/Recipes/Exchangers.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Exchangers.zs",
+      "sha256": "51f27127b2f74f632635211cb4581f7dd7712c0813cd2ca9d8b1ec6cba559d9e",
+      "size": 15972
+    },
+    {
+      "path": "scripts/Recipes/Extended Crafting.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Extended%20Crafting.zs",
+      "sha256": "fe51cd9fd816910ef59d8ffba7cdb45595a481bc921ca6d4e2a1fc00627010d2",
+      "size": 5424
+    },
+    {
+      "path": "scripts/Recipes/Extra Alchemy.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Extra%20Alchemy.zs",
+      "sha256": "0ce63e504ab8682fe9bd7aa12a19e3bf320c4f17360a3a5bb9a83233b3511a1c",
+      "size": 750
+    },
+    {
+      "path": "scripts/Recipes/Extra Planets.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Extra%20Planets.zs",
+      "sha256": "51145ed5beefd08cf9b5636d18808019dfdc9a4dc017affde20f6ee5ee209eb7",
+      "size": 17781
+    },
+    {
+      "path": "scripts/Recipes/Extra Utilties.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Extra%20Utilties.zs",
+      "sha256": "aea9377fe640376d1b6375c42aeab466a2ee4a4dad1331bb5d8eb094777d7ac7",
+      "size": 43006
+    },
+    {
+      "path": "scripts/Recipes/Extreme Content.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Extreme%20Content.zs",
+      "sha256": "bd1bcac1de4b28056db845b018c42d900386e7cd24ddeaa0f2d4ff541fc78a83",
+      "size": 29973
+    },
+    {
+      "path": "scripts/Recipes/Extreme Reactors.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Extreme%20Reactors.zs",
+      "sha256": "1724bc443486e57ef9e66b2c6b23832f58ee51af2cfd40b286d6137386b8d486",
+      "size": 7585
+    },
+    {
+      "path": "scripts/Recipes/Forestry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Forestry.zs",
+      "sha256": "feed0c1e8f101826090480ec58558d607823f5fbeef419c2d0a12fbbcfc5a116",
+      "size": 33492
+    },
+    {
+      "path": "scripts/Recipes/Galacticraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Galacticraft.zs",
+      "sha256": "83fe6302b891c7b75e4d08cd90e61f1e28d6115bf04c8a9213a694a005927a63",
+      "size": 94892
+    },
+    {
+      "path": "scripts/Recipes/Gendustry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Gendustry.zs",
+      "sha256": "251a54871182c368fdb2da5f41629791870e7af6d7664fb6b97a3def65505ccb",
+      "size": 10202
+    },
+    {
+      "path": "scripts/Recipes/Hooked.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Hooked.zs",
+      "sha256": "b4b6e9a4999218ff752be551ea3bd2f0d5221244f18f0aec5ef161cdeb3be1b5",
+      "size": 3585
+    },
+    {
+      "path": "scripts/Recipes/Hunting Dimension.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Hunting%20Dimension.zs",
+      "sha256": "e6c767aaabb678ed4d3fb4f5c9193c55abf9739f641095705e94f198f08010f9",
+      "size": 8
+    },
+    {
+      "path": "scripts/Recipes/Ice and Fire.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Ice%20and%20Fire.zs",
+      "sha256": "5e73a56e8f7fd0b756594dc089b02e9c4b00508e362166d6da18e48e0a2719dc",
+      "size": 81503
+    },
+    {
+      "path": "scripts/Recipes/Immersive Engeneering.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Immersive%20Engeneering.zs",
+      "sha256": "65689f26b630478968bed87b2cc20ad17b6c7935170897a572e76b1f9f1ecafa",
+      "size": 27826
+    },
+    {
+      "path": "scripts/Recipes/Industrial Foregoing.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Industrial%20Foregoing.zs",
+      "sha256": "aecdeb92b1e9394e8f7ab16e1bb4c75eb7a03b7a461d7916787efaa9fcdb6f29",
+      "size": 47041
+    },
+    {
+      "path": "scripts/Recipes/Integrated Dynamics.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Integrated%20Dynamics.zs",
+      "sha256": "271cdc64c60d79ed08353b68c22377a3e9d605dfe8b2918d027a2b227f25380c",
+      "size": 11562
+    },
+    {
+      "path": "scripts/Recipes/Iron Chests.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Iron%20Chests.zs",
+      "sha256": "9bbdef87c9bfc249027548b9e09bcf258fea9a1e942a4ea0af0c95e8b3dd37b0",
+      "size": 7820
+    },
+    {
+      "path": "scripts/Recipes/JEI.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/JEI.zs",
+      "sha256": "388c54d454023fc1b547de695dd7b476213fbfc1aba2a176480906abd23648cc",
+      "size": 4453
+    },
+    {
+      "path": "scripts/Recipes/Loot Bags.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Loot%20Bags.zs",
+      "sha256": "dcd34ed736bd25a32aec6eb9906c7dd360f79f830d30a491a851e07b9df1e39d",
+      "size": 2676
+    },
+    {
+      "path": "scripts/Recipes/Magic Bees.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Magic%20Bees.zs",
+      "sha256": "f295283d78bc6bbe3a8dd98f7039aeaa1bf96c4a1db8a2a1cb9dc57e42e1d37b",
+      "size": 719
+    },
+    {
+      "path": "scripts/Recipes/Mekanism.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Mekanism.zs",
+      "sha256": "a6294c09b140070b1191223b804abd8253cd388229b76af7d8dbb84f78f5bff7",
+      "size": 81061
+    },
+    {
+      "path": "scripts/Recipes/Minecraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Minecraft.zs",
+      "sha256": "476db6352ee3a36655b53552766e9a734be1af707650ffc234cf6b5c7b2269ef",
+      "size": 78837
+    },
+    {
+      "path": "scripts/Recipes/Misc Recipes.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Misc%20Recipes.zs",
+      "sha256": "2d33b421d3340034e27afc460f0112312145b26061db7329e0f2e8bc03c6094a",
+      "size": 47164
+    },
+    {
+      "path": "scripts/Recipes/Mob Spawner.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Mob%20Spawner.zs",
+      "sha256": "db95ae666414083f54cb66bca76ed1f1b17ba65e4a4ce00967e1f980d15ca775",
+      "size": 13739
+    },
+    {
+      "path": "scripts/Recipes/Mowzies Mobs.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Mowzies%20Mobs.zs",
+      "sha256": "37d546872e33ac8f41e1427fb3d91eb7c6153e0f42f001fc13b5b7cc02d5dd1d",
+      "size": 2416
+    },
+    {
+      "path": "scripts/Recipes/Mr. Crayfish.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Mr.%20Crayfish.zs",
+      "sha256": "db355cdd2a2fddfb131035b9d355c3d591cdfacce4ab20f936fada20d55e3606",
+      "size": 9010
+    },
+    {
+      "path": "scripts/Recipes/Mystical Agriculture.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Mystical%20Agriculture.zs",
+      "sha256": "9b49ffe50233c37fd29bacf88988bf527aa76b7af84bca519ba4c1c3bd8ee555",
+      "size": 99789
+    },
+    {
+      "path": "scripts/Recipes/Natura.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Natura.zs",
+      "sha256": "513c11b8524efa5f3b888a3e4d3035f97dd6c5cee3f9686a53e87ef6307b0e54",
+      "size": 3518
+    },
+    {
+      "path": "scripts/Recipes/NetherEx.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/NetherEx.zs",
+      "sha256": "f563e6b759c749ce2083dc6c813b056d24365897d3c95b48da4d8069a4c275f0",
+      "size": 2313
+    },
+    {
+      "path": "scripts/Recipes/Nuclearcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Nuclearcraft.zs",
+      "sha256": "4a3f27cb1a6606ddbd55bc84963f81922009ecf445adc23153a953bbbbf51f53",
+      "size": 45403
+    },
+    {
+      "path": "scripts/Recipes/Open Blocks.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Open%20Blocks.zs",
+      "sha256": "3eda1a0fe50a9f3cf8c33b8c8f61b213ccad52930ad03aed7656622c40c0be8e",
+      "size": 8190
+    },
+    {
+      "path": "scripts/Recipes/Open Computers.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Open%20Computers.zs",
+      "sha256": "11092e0a5e3ed8c434ba5a36b5960d972a691acc94650ce1b06e78243689d46a",
+      "size": 14001
+    },
+    {
+      "path": "scripts/Recipes/OpenModularTurrets&Defense.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/OpenModularTurrets%26Defense.zs",
+      "sha256": "2d3c6b0d34a90ca879df7719a2641fdd289bf81f4e970db0652aaf96d024fa3d",
+      "size": 12292
+    },
+    {
+      "path": "scripts/Recipes/Overloaded.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Overloaded.zs",
+      "sha256": "a0b84381d879f7e9d08eaf9729d6d66db3264419854928378b753289602f7f5e",
+      "size": 9713
+    },
+    {
+      "path": "scripts/Recipes/Pneumaticcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Pneumaticcraft.zs",
+      "sha256": "9281481cfe33a811d0f8b7afabb068b42f8431f029a72ab83aa1208e40b8e1e2",
+      "size": 19501
+    },
+    {
+      "path": "scripts/Recipes/Project Red.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Project%20Red.zs",
+      "sha256": "54af7d6277009496dcb044758ee2ca3d7a78cd954d8257e7be44ba63041a0729",
+      "size": 20272
+    },
+    {
+      "path": "scripts/Recipes/RFTools.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/RFTools.zs",
+      "sha256": "c17adfd7960c26e5d63dadbfafef653e96c5e5018d8a9084430f94eca9822fae",
+      "size": 50245
+    },
+    {
+      "path": "scripts/Recipes/Refined Storage.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Refined%20Storage.zs",
+      "sha256": "da4cc96b6b561c94910ec0c765b5afcebb6278339299215127bd59cf23b5268e",
+      "size": 27311
+    },
+    {
+      "path": "scripts/Recipes/Rockets.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Rockets.zs",
+      "sha256": "4de84f33297a0ff59c706234227088bcbe3af22e7c561f5ded504307f968d9a1",
+      "size": 24006
+    },
+    {
+      "path": "scripts/Recipes/Rockhounding Chemistry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Rockhounding%20Chemistry.zs",
+      "sha256": "e39218ac2328a74a913cd9ab7688f9d06bcbb6d7217b034fb7da94fe93ba5631",
+      "size": 28746
+    },
+    {
+      "path": "scripts/Recipes/Rustic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Rustic.zs",
+      "sha256": "11db758f92cb115dff4ecfed7e959d6a19a3bf5da88f02b9497cc12332daffba",
+      "size": 5584
+    },
+    {
+      "path": "scripts/Recipes/SGCraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/SGCraft.zs",
+      "sha256": "662232576d86551e30309960a875ec1b0237cbf012056baf9763114eb8d83b3d",
+      "size": 8764
+    },
+    {
+      "path": "scripts/Recipes/Seed Sifting.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Seed%20Sifting.zs",
+      "sha256": "4ff17d88b4e05c2fdf35be4b574e37e15bd996002b77644b8c3ca7f0a2cf1dc4",
+      "size": 7923
+    },
+    {
+      "path": "scripts/Recipes/Simply Jetpacks.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Simply%20Jetpacks.zs",
+      "sha256": "995c1590dde443d9de7d551b245a643ea188d7bda997e915fe962b1361a85c0d",
+      "size": 14329
+    },
+    {
+      "path": "scripts/Recipes/Solar Flux Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Solar%20Flux%20Reborn.zs",
+      "sha256": "45867285751930af44820e013dc5c56fa2c412e409fb60e99868893c1c5e9191",
+      "size": 12293
+    },
+    {
+      "path": "scripts/Recipes/Steves Carts.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Steves%20Carts.zs",
+      "sha256": "c178249ba8a20e224fe0072eaf12ca621c0cf297b32a1002a543f8a294c4c817",
+      "size": 7603
+    },
+    {
+      "path": "scripts/Recipes/Storage Drawer.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Storage%20Drawer.zs",
+      "sha256": "d4d2b5292f1776e23ac80c4444f94c50968c47bb1679d0160052a0d589690754",
+      "size": 11230
+    },
+    {
+      "path": "scripts/Recipes/Storage Tech.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Storage%20Tech.zs",
+      "sha256": "a572de1906794ab0e389e2d4aa59a0cee3412a3cbfd959cf19ab227ba321761f",
+      "size": 1992
+    },
+    {
+      "path": "scripts/Recipes/TAIGA.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/TAIGA.zs",
+      "sha256": "457297f6674884e8ad039eab7f3d5048e3f838b95c1ff032e9d753a260879794",
+      "size": 8847
+    },
+    {
+      "path": "scripts/Recipes/TechReborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/TechReborn.zs",
+      "sha256": "e3176331a743023cd4cd2782c94fce0a8c63a4ad58f5d59eaa9f88ad6247b8e8",
+      "size": 75350
+    },
+    {
+      "path": "scripts/Recipes/Thermal Expansion.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Thermal%20Expansion.zs",
+      "sha256": "e48984d474400c45927603938e46ee2408c39e4d487621eccb8bef0d3a3f0072",
+      "size": 58156
+    },
+    {
+      "path": "scripts/Recipes/Tinker Time.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Tinker%20Time.zs",
+      "sha256": "5de7289193fe75d1b29e46f8613942f4498f31165434688c941cba81da3e8759",
+      "size": 54344
+    },
+    {
+      "path": "scripts/Recipes/Twilight Forest.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Twilight%20Forest.zs",
+      "sha256": "4baad92b952b34ecdd8602dd45a23da9180dc6064001a68fce9e24586231d260",
+      "size": 4209
+    },
+    {
+      "path": "scripts/Recipes/Underground Biomes.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Underground%20Biomes.zs",
+      "sha256": "4343b10c9daac22ccb498e94e7890b35e3471c2c1146df752d6b2c06d6bcb37e",
+      "size": 11458
+    },
+    {
+      "path": "scripts/Recipes/Xnet.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Xnet.zs",
+      "sha256": "7a51b80d428f1680c3a21c519ffb4486eefe7a8a98da4c783fd5ba845592fe3d",
+      "size": 3106
+    },
+    {
+      "path": "scripts/Recipes/Zoestiria.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/Zoestiria.zs",
+      "sha256": "6fda09cf41f06814688e8a62ca82982f99391195d5cd705478e472b9154260f1",
+      "size": 1764
+    },
+    {
+      "path": "scripts/Recipes/usefull_Backpacks.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recipes/usefull_Backpacks.zs",
+      "sha256": "3d604ba924ae333397f182914cd72ac183e463989b60ae5b9b70382b7ec8c8fa",
+      "size": 2909
+    },
+    {
+      "path": "scripts/Recycling/Drawer Upgrades.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recycling/Drawer%20Upgrades.zs",
+      "sha256": "a64304f44f5ae2214cd2117ca1c67578530945086a4e8266a08d6e35e9adb4c1",
+      "size": 1994
+    },
+    {
+      "path": "scripts/Recycling/Solar Panels.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Recycling/Solar%20Panels.zs",
+      "sha256": "44bbe5fc5f00852c5e0a972cddab129acd7716406b124d6ee52153b19905d835",
+      "size": 1462
+    },
+    {
+      "path": "scripts/Tools & Armor whitout BW/Saws.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Tools%20%26%20Armor%20whitout%20BW/Saws.zs",
+      "sha256": "996cd42e78d0624c152b91474e0c0dba751e3d8a8e8ca6cf3d862d126756737a",
+      "size": 3140
+    },
+    {
+      "path": "scripts/Tools & Armor whitout BW/Tool & Armors.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Tools%20%26%20Armor%20whitout%20BW/Tool%20%26%20Armors.zs",
+      "sha256": "3aa9cd6ff35f312896cac388c038a5cb9c84b45a9530296af370238eb039db88",
+      "size": 16267
+    },
+    {
+      "path": "scripts/Unifier of Doom.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Unifier%20of%20Doom.zs",
+      "sha256": "ce9b6322ecf93b598d0c85b088b036d253482a1e8a0fb39bb6a0810c77645336",
+      "size": 13596
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/00BW - tinkersConstruct.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/00BW%20-%20tinkersConstruct.zs",
+      "sha256": "e2feed041472e028a539641b7d1f88d9d97e3a3aaccd9d79336d027dec13c192",
+      "size": 5636
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/01BW - Utils.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/01BW%20-%20Utils.zs",
+      "sha256": "b9762313ed59109b91263c7f280886e8e6469d135724459bfeb732f459b1306a",
+      "size": 41843
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/02BW - Contenttweaker.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/02BW%20-%20Contenttweaker.zs",
+      "sha256": "8bc9bc5dea27c8d3d97ce0fe9c10de8c18adfbdbc8dc0a25cb9b9ed6d35b00e5",
+      "size": 270
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/03BW - Methan Gas Processing Lines.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/03BW%20-%20Methan%20Gas%20Processing%20Lines.zs",
+      "sha256": "35f33e920507d99a881aa8d2307b073e3cdcd409717714790ed2cb9d8f8705e7",
+      "size": 1149
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/04BW - Dungeon Tactics Hammer.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/04BW%20-%20Dungeon%20Tactics%20Hammer.zs",
+      "sha256": "c159bd8531d76a95ed585edc0850f67e207f4ef819651441d442fb2ff82c6a01",
+      "size": 3409
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/05BW - Dungeon Tactics Battle-Axe.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/05BW%20-%20Dungeon%20Tactics%20Battle-Axe.zs",
+      "sha256": "63af5a87c6b97dbfa06ded259ed2ef057c018420ca51f6545a4ee3ecb9084ca0",
+      "size": 33489
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/06BW - Dungeon Tactics Cestus.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/06BW%20-%20Dungeon%20Tactics%20Cestus.zs",
+      "sha256": "9dc5c034a5c056428001fcebbdc848a2bb9e4d4227dbcf5fa53a1ab4cc778151",
+      "size": 31935
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/07BW - Dungeon Tactics Cutlass.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/07BW%20-%20Dungeon%20Tactics%20Cutlass.zs",
+      "sha256": "0197d03f6d4b896cff73b75b5673d541624b9e08fa53b0481cde53556a303cfa",
+      "size": 28742
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/08BW - Bloodmagic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/08BW%20-%20Bloodmagic.zs",
+      "sha256": "6dd5228e845fc7ab6612e0d27ff702843e327af69e5d5ff88d0eaa7e5ed25b20",
+      "size": 4350
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/09BW - Evilcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/09BW%20-%20Evilcraft.zs",
+      "sha256": "57478daf62a0e31ba027c6e8dcdccfa646ac7c1f68d89f2a3b6c577f4dc60e17",
+      "size": 4639
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/10BW - Blocks.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/10BW%20-%20Blocks.zs",
+      "sha256": "78b9e1e9f5638695e249ea875896eed1b6625f6afa9f9d10920a80ea0c017f05",
+      "size": 93270
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/11BW - Cyclic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/11BW%20-%20Cyclic.zs",
+      "sha256": "ea5979ab5de82c9832afca26628d92710bbeb3e71d1541d9c9415d6d0d418033",
+      "size": 2674
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Aluminium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Aluminium.zs",
+      "sha256": "03faf2d6727ac06476bf60a988529c326dbb27e221fa1e9e11beffc9a5aa7542",
+      "size": 2117
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Black Quartz.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Black%20Quartz.zs",
+      "sha256": "3cbf43bb996598c60d5d10828d3b78be131b74b55ac35f995a4c4d019876320f",
+      "size": 22028
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Botania.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Botania.zs",
+      "sha256": "3923b679e96462d3753bf451c73dbe4f2cb49f89fc066868c352300efa350152",
+      "size": 40239
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Bronze.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Bronze.zs",
+      "sha256": "2e43fc9251800e2ebc5b6b24646ef9c4079171d62b99df5b068f6f3e0fd946ec",
+      "size": 18268
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Constantan.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Constantan.zs",
+      "sha256": "a1729b8e267cbdaf1ef0c3f92ceff686eb0ef2f0c7ff5192f46b85dc4d9e71c3",
+      "size": 19492
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Diamatine.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Diamatine.zs",
+      "sha256": "5e0431aac501362a02ca3a56abb1537f9884b38514597433d25bc4011fb96d78",
+      "size": 20666
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Diamond.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Diamond.zs",
+      "sha256": "095216ef6c1617e1b2318cc9fb9bd45932211c51acae5376a05e677511d7510e",
+      "size": 17972
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Dragonsteel Fire.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Dragonsteel%20Fire.zs",
+      "sha256": "9cbcd79d8db69edce9a3bb800e0c0a07856b14ed52ffd16c73d4ce0f22f006d3",
+      "size": 20728
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Dragonsteel Ice.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Dragonsteel%20Ice.zs",
+      "sha256": "077141707d75388d3d32557a64699c392a927c3f8808425de0745ad5045701a6",
+      "size": 22852
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Electrum.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Electrum.zs",
+      "sha256": "9656a0a0978683b1db5cc7a44db4c253dce035041a2f761d7458ccced9ef7683",
+      "size": 18880
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Elementium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Elementium.zs",
+      "sha256": "33f91d3128a41059d1c535446fc3287a5105d1d94e275d74ebca7a23ff833bfe",
+      "size": 18872
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Emerald.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Emerald.zs",
+      "sha256": "db994b884526a84a9b087aeda2ea08517fbdbd4f1b70c703c41a633e813107cf",
+      "size": 18638
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Emerdic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Emerdic.zs",
+      "sha256": "87394578aa02a17bf676dbcfb28db433277c0742c13bffab3a5e877a35a00763",
+      "size": 21788
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Enori.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Enori.zs",
+      "sha256": "395d975ae77a73b0c8f73947538174bad5bc32752a4718b30116440459653af3",
+      "size": 21230
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Glowstone.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Glowstone.zs",
+      "sha256": "d3dd0bf29f2b25dd3adb692e06f63eff4a227512ab447c8d9bdef88a16f0c9d2",
+      "size": 21654
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Gold.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Gold.zs",
+      "sha256": "7f31adf561f1580205f138d686781082d0a2d70b34a84da4715275478f67d1a9",
+      "size": 16980
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Inferium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Inferium.zs",
+      "sha256": "3091fd39d7bb40825417d9fc9c809d94eec989ba81d5a89fc67f005f0f84f8ce",
+      "size": 20041
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Intermedium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Intermedium.zs",
+      "sha256": "f16b8f9029fbc7b724b25f1ba5d1a7f24d917a6edb8f23921114712a659d5b32",
+      "size": 20917
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Invar.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Invar.zs",
+      "sha256": "898a15929579cc72d7cf15953a65b598c3fb8aa19d5b39cf015d5fdbfc808c01",
+      "size": 17962
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Iron.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Iron.zs",
+      "sha256": "c88835ba5682b100418d2586e0d414960c565213cc9b9b64f7c17e3897e84fec",
+      "size": 18746
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Lapis.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Lapis.zs",
+      "sha256": "497c2fa1c26fefff37740f1591b05f3a46e040ad7b375b222499208c86668652",
+      "size": 20460
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Nickel.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Nickel.zs",
+      "sha256": "02f868fdde8601c5b384d2ca7ab61e9344e93540aed4db4921fb977fd793535c",
+      "size": 18268
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Obsidian.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Obsidian.zs",
+      "sha256": "5a725800eec415caf54f3a2a3eb865f3502f31e66513f64ea4da110139ce6162",
+      "size": 19130
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Osmium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Osmium.zs",
+      "sha256": "dfa87b09022671ef7b76b58b81979ebec144deb38b2107b2a12b50065b10c916",
+      "size": 19500
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Palis.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Palis.zs",
+      "sha256": "679531b5c2de58d7710802e0fbb2a9f0d9efd60e781e8a38aeea8e6ba41e735a",
+      "size": 21194
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Peridot.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Peridot.zs",
+      "sha256": "0adea96c5c42c219283edd9028e537cb518f02058e08f056856fc8d713bbed65",
+      "size": 18426
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Platinum.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Platinum.zs",
+      "sha256": "ba203f7512307533f948e409ae75203c1829a28feb9144b6e53857ba07549c9c",
+      "size": 18880
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Prudentium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Prudentium.zs",
+      "sha256": "26fedf0a720f3a3bebe21cb7f5f56e1b34db7b8e7fe6995fa64affdb686029e9",
+      "size": 20635
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Redstonia.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Redstonia.zs",
+      "sha256": "0cc6ab877f90185c4cd435b065ddc4178abfc31b5c4f8042729aa6e6f242d5c5",
+      "size": 21548
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Refined Obsidian.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Refined%20Obsidian.zs",
+      "sha256": "677b95225a82d8fbf7931830dadc53bb177da92a16765dc7de0fb371496fef6d",
+      "size": 22104
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Ruby.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Ruby.zs",
+      "sha256": "6abd4055e779739cfd26ed29b47748b50fbe15e545b72759a7a7c7e12e354921",
+      "size": 17508
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Sapphire.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Sapphire.zs",
+      "sha256": "9725bf1b12991d770e273fcc4cb2683e6142116bfed8557b150d502fe604c2a9",
+      "size": 18732
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Steel.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Steel.zs",
+      "sha256": "b62fa3416376063903fcad90d6ddcc6807140c9b63c8aefc2dde38408aff7516",
+      "size": 19521
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Superium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Superium.zs",
+      "sha256": "ff1ed118aeb1d113f8bdd1ad7c517180bb4390d66b246382ebb56d7716056865",
+      "size": 20071
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Supremium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Supremium.zs",
+      "sha256": "19e4daa237f4c2b091ec43edbc4ae1d0161e1ba293c97de29b594270f34649b4",
+      "size": 20030
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Thermal Hammers & Excavators.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Thermal%20Hammers%20%26%20Excavators.zs",
+      "sha256": "d00573a3e62b7bb1cb96c6a93d4293c60f9f9ef2ebcd6905e1cfee1ddee71e4e",
+      "size": 48760
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Vanadium.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Vanadium.zs",
+      "sha256": "fa5028dfbf3fdc71986dab248a11b6ea6f7bcba409690d03cb805537a8330983",
+      "size": 3136
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Void.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Void.zs",
+      "sha256": "277af67712c09b7d178023f8aff1b4ddc5693096290b8f204aacac91f7b8e3a2",
+      "size": 21044
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/BW - Vulcanite.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/BW%20-%20Vulcanite.zs",
+      "sha256": "4259aa393f4700a1ce3e275f9c20ca79401a0ad0894c00448392d6c8612f5c09",
+      "size": 18738
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Bloodmagic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Bloodmagic.zs",
+      "sha256": "1faf39df6016b8f09a3e52d845821422148ae9010145172f4d87a7421e68c729",
+      "size": 2251
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Draconic Evolution.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Draconic%20Evolution.zs",
+      "sha256": "50684c0271b3ebb80a14ee3a0598cdcad2c40bb8b69df805c63be74dcbd2b2be",
+      "size": 22309
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Extra planets.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Extra%20planets.zs",
+      "sha256": "dcc27634c3ead6f8372d1a86c38f1d1f128e10691373faccf2246cdeb5fffd92",
+      "size": 42475
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Galacticraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Galacticraft.zs",
+      "sha256": "be3dedb85d0e10a2461245a5831cf7acf8f6a83e64e82e4144eed19e479053ce",
+      "size": 5733
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Ironwood.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Ironwood.zs",
+      "sha256": "9ac19a6e7060b1542baf2659994999ea81855f0ddaa18569ffeb7d0b0a09bf2d",
+      "size": 18727
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Nagascale.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Nagascale.zs",
+      "sha256": "441bd3e854fbe12a396e62248c3a4d13fd3c022be420c3f671425f970a90e7fc",
+      "size": 6409
+    },
+    {
+      "path": "scripts/Workshops/Blacksmiths Workshop/Steelleaf.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Blacksmiths%20Workshop/Steelleaf.zs",
+      "sha256": "eb924b52a7e085d56743e73718c56aa3521672780214898a194183dfcbe06ea9",
+      "size": 18719
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/01EW - Circuits.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/01EW%20-%20Circuits.zs",
+      "sha256": "be51dcb7ef77ad735e528853477625e76ee40471862bdb7660086df361c51594",
+      "size": 10981
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - AE2 + Extra Cells.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20AE2%20%2B%20Extra%20Cells.zs",
+      "sha256": "834b014aae33364f8972df6d51427f8325e734231577f0023d4ec38702523c74",
+      "size": 11324
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Actually Additions.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Actually%20Additions.zs",
+      "sha256": "70c291477e57c9a1ca2651ebaf6c974c2d6ed8b612e4afe44459f5e99572f90c",
+      "size": 9144
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Cyclic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Cyclic.zs",
+      "sha256": "a2b4132764a6a1ebc7b329b1de75f422a2a90372a71837166613f051d15380f9",
+      "size": 3668
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Extra Utilitis.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Extra%20Utilitis.zs",
+      "sha256": "de6a3fc2f70de692dac4643846509e2d5a5744cc1e53f9009ae4f31214105a3a",
+      "size": 7534
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Forestry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Forestry.zs",
+      "sha256": "90cab8cea82b262a4ea9cc5dc5b76589afe4cde5380ab8b2d4a3269e3afcde2d",
+      "size": 1014
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Galacticraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Galacticraft.zs",
+      "sha256": "05210eaa9a87c292b35f8829f0c4cc361dbb9cd45067b13973a60510e8db746c",
+      "size": 3264
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Immersive Engineering.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Immersive%20Engineering.zs",
+      "sha256": "f36522e85250ec5e48e9af29f375d8e185a6299e7197f43cdf0b072ff09823b6",
+      "size": 4759
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Industrial Foregoing.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Industrial%20Foregoing.zs",
+      "sha256": "278b35180c293be18e3d53fd7c5f28aaa7a73c9ab73f68e9c14a4751fabbf1b7",
+      "size": 12335
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Integrated Dynamic, Tunnels.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Integrated%20Dynamic%2C%20Tunnels.zs",
+      "sha256": "fbe0327f96e11387fdeb6891f2b739e4e95f5119ea25bf4f55afd0d621e8c35c",
+      "size": 4125
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Mekanism.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Mekanism.zs",
+      "sha256": "655b07fb846e033910947644b96a4c1497a33b5abee1a0356d77c0c46541ff5b",
+      "size": 22212
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Nuclearcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Nuclearcraft.zs",
+      "sha256": "dc3290861cea5889c95469ea3e55b71f7d8e2fd64356cd8f3d0df26c3324bf92",
+      "size": 2314
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - OpenComputers.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20OpenComputers.zs",
+      "sha256": "88e8fd92b7434899c8e3c9ecf8c4b448937fd64a58cfa47099f0765f80c46c63",
+      "size": 6531
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Project Red.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Project%20Red.zs",
+      "sha256": "e357a1ed524084bb1c3e5d70b7f98ba409dae634352fd36a26776fa458c155d0",
+      "size": 5456
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Refined Storage.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Refined%20Storage.zs",
+      "sha256": "c68930ac22bdaca0ccb3309cd510cc6d71c545972da728c3eba59ed2b529a98e",
+      "size": 8958
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Rockhound.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Rockhound.zs",
+      "sha256": "21325e18be94886af7b1abfc66ce45135f8c26a0f16e035d12b2c25bc19e6434",
+      "size": 2189
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Solar Flux Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Solar%20Flux%20Reborn.zs",
+      "sha256": "df153986918c9a24add0f2d9b20ae6fb1f2403e8cc9793da47257e8e32819e70",
+      "size": 7106
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Tech Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Tech%20Reborn.zs",
+      "sha256": "eb4f77fdcf157d3ba8746a4874ae34c64a32b422a2d7a5a3651007711961e07e",
+      "size": 10643
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Thermal Dynamics.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Thermal%20Dynamics.zs",
+      "sha256": "e3b5bd56aacf0deeb2a5db2adfd362ad32e76129b842681d50845f6d73787e75",
+      "size": 31951
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Thermal Foundation,Expansion.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Thermal%20Foundation%2CExpansion.zs",
+      "sha256": "09ad2da27ad7d2e5ef0c9cdc8feada8a39d36427019d25b2335374f6873cd416",
+      "size": 38434
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Thermal Innovation.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Thermal%20Innovation.zs",
+      "sha256": "602f6d47ef9c5c29a28aad50fcc38fc5a67cf6300152ee1d076463eed016f7ec",
+      "size": 5830
+    },
+    {
+      "path": "scripts/Workshops/Engineers Workshop/EW - Xnet.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Engineers%20Workshop/EW%20-%20Xnet.zs",
+      "sha256": "0a17bb8abec736c38fa71f1fd4ab84b3652081bd3316bf75ccfafefc6294beaf",
+      "size": 1183
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - Actually Additions.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20Actually%20Additions.zs",
+      "sha256": "29f87751b5ceb1b55acdbaa4155a60c29926b707d97e4daa39121ba7f2628377",
+      "size": 2279
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - Botania.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20Botania.zs",
+      "sha256": "7c1151be62798f22b8007d553c68301e07e120fb406dce9e8aa2b8fa11c9c68b",
+      "size": 19537
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - Cyclic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20Cyclic.zs",
+      "sha256": "ed6a5212aa7db3219feb742ba1b690bccdd73ddad26e5c10bfc1eb352ba988c2",
+      "size": 2240
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - DT.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20DT.zs",
+      "sha256": "7be3e2b2bb2aa416617773010a1441dc9407f4558c62320350c21a7616d7141d",
+      "size": 3200
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - Dark Utils.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20Dark%20Utils.zs",
+      "sha256": "7954d24646c84f456101583db3f1deae69eeef0e8d34a9c005110cba4bcc0176",
+      "size": 5264
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - Evilcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20Evilcraft.zs",
+      "sha256": "398fea7b8b9e77b34ad4af74dd21d8d67515edef98960532199b0485e3847ea8",
+      "size": 4422
+    },
+    {
+      "path": "scripts/Workshops/Jewelers Workshop/JW - Extra Utilitis.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Jewelers%20Workshop/JW%20-%20Extra%20Utilitis.zs",
+      "sha256": "a42bdc6a7cc6f4ce883c431db3e9a61e049876e3cb364b6b8cb3dd128b6c668e",
+      "size": 7817
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/Automation Food.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/Automation%20Food.zs",
+      "sha256": "2f32c6393829f73cbdbefa32a62426166978d55115705a70ef1e6a6d5f1a8d0c",
+      "size": 18202
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/KW - Cooking&Olive_Oil Recipes 2.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/KW%20-%20Cooking%26Olive_Oil%20Recipes%202.zs",
+      "sha256": "b7cac84c8408637d4ebcfbb15e3c38b3946a32be867245ced5298af621666440",
+      "size": 38643
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/KW - Cooking&Olive_Oil Recipes.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/KW%20-%20Cooking%26Olive_Oil%20Recipes.zs",
+      "sha256": "94c597faeda6e6b8ce8962d574c0cba927b3a3b11e9d421fc309f8bd58a7f5a5",
+      "size": 94123
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/KW - Ingredients.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/KW%20-%20Ingredients.zs",
+      "sha256": "0d463df30052f20a0b94a71383fb5a4e148da8de38febea3fa49a93e313069f5",
+      "size": 46169
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/KW - Normal Food recipes 2.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/KW%20-%20Normal%20Food%20recipes%202.zs",
+      "sha256": "e0fe1ac7070ae23c58737a2c16fa2e31b18010e729e1c1a1b5cb7c63e0fd16e5",
+      "size": 31584
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/KW - Normal Food recipes.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/KW%20-%20Normal%20Food%20recipes.zs",
+      "sha256": "c535b94d212aeaced9799a1a8cc92db7f0c98f6545a9ea59baf8de2fef2ded2b",
+      "size": 89377
+    },
+    {
+      "path": "scripts/Workshops/Kitchen Workshop/Misc Food Balancing.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Kitchen%20Workshop/Misc%20Food%20Balancing.zs",
+      "sha256": "b647279555fddc0dab630742e221cb36d56c74c47f0c02f9a9df85c122e6bc4f",
+      "size": 25817
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Actually Additions.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Actually%20Additions.zs",
+      "sha256": "aa5960fae549cf697e4f6c9c434e92f541b8c5e43aad5cd39a4117cc1cd4ee9f",
+      "size": 1323
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Astral Sorcery.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Astral%20Sorcery.zs",
+      "sha256": "854b5d7792019b2efff6ccbd6f179b6991f12c8006695eb1ad2d8eb43831a1fd",
+      "size": 7716
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Bloodmagic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Bloodmagic.zs",
+      "sha256": "1e80f42c5a17e27d4fed336da13a70e09a579bfc865972a09d0ef5dcc737802a",
+      "size": 13471
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Botania.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Botania.zs",
+      "sha256": "7d2b9e632027b44077cfd255328758858938d0032e8537ce45aad793da82acff",
+      "size": 16511
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Cyclic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Cyclic.zs",
+      "sha256": "0b2552e164d36c6b5529773dec42d760fe8a2083bbf01d80959128f8fbf8463a",
+      "size": 14688
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Enviromental Tech.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Enviromental%20Tech.zs",
+      "sha256": "a0ab0659e48c39e5c3493b577d2b16c035c3b4018bd15ec8ae0ecafa338fdf77",
+      "size": 16916
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Evilcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Evilcraft.zs",
+      "sha256": "65c7b493dbd7bd9d33357527d2485cb07979ec495f184bf4c88c1a8507bf4197",
+      "size": 8220
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Extra Utilitis.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Extra%20Utilitis.zs",
+      "sha256": "73a66554f371791704861e6338fc4e97471f750a30c8db7e33fb4fbf58dbe308",
+      "size": 1352
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Ice & Fire.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Ice%20%26%20Fire.zs",
+      "sha256": "102f8f5ca60650be83961ef00b29bd63794ab4f92c2a453a7b96a5bc8b9e5fc4",
+      "size": 33236
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Macig Bees.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Macig%20Bees.zs",
+      "sha256": "fa70fb430abc1690c4e0afa69d64658adc5e56087d5ff7e38f6cf1f7ecaa142c",
+      "size": 1171
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW - Mystical Agricutlure.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-%20Mystical%20Agricutlure.zs",
+      "sha256": "b5f53e15a86388811342dd7fb8689a9d5832e8f99d94f5b43018e74d42049271",
+      "size": 9426
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW -Dark Utils.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-Dark%20Utils.zs",
+      "sha256": "fd7013de115a92cf6b6bc373c854d4a313bf6d83313d5d0478bbab4cf121e68e",
+      "size": 3116
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW -Open Blocks.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-Open%20Blocks.zs",
+      "sha256": "76728dbab4731d1ca30eec4160f4a2d525d5dafcfb9e1cc24297f80e4f5da570",
+      "size": 1310
+    },
+    {
+      "path": "scripts/Workshops/Magician Workshop/MW -Thermal Stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Magician%20Workshop/MW%20-Thermal%20Stuff.zs",
+      "sha256": "2c60d15161be73be9d8d41ad53e0c5d4efedff2341a91a86206c0a0b3f7bbc98",
+      "size": 1290
+    },
+    {
+      "path": "scripts/Workshops/Workshops MAIN.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Workshops/Workshops%20MAIN.zs",
+      "sha256": "a4da0f3db71da2395576895dae2773eb62e702ec4eda1a8b4922eb3933fe3970",
+      "size": 12296
+    },
+    {
+      "path": "scripts/recipes.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/recipes.zs",
+      "sha256": "eebe9d524eab4c31b62280a69b66a0aef1f61764fb365d4e01aeab35355511bd",
+      "size": 135
+    },
+    {
+      "path": "scripts/useless things.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/useless%20things.zs",
+      "sha256": "5b282a58b5deb7c7d8980bc7668cab6e9bc18f4a3323bd2f2059f1269dec893b",
+      "size": 271
+    },
+    {
+      "path": "config/betterquesting/DefaultQuests.json",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/betterquesting/DefaultQuests.json",
+      "sha256": "e52b67b3585b01684ad833bcebdbf9367d038e1e8077eb465d6ee5a6d70f0580",
+      "size": 4775777
+    },
+    {
+      "path": "config/betterquesting/questbook.cfg",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/config/betterquesting/questbook.cfg",
+      "sha256": "3698c91ba0d3ad6697563c75ced0b2f00a88f49ee50af022506d0806a003ed7c",
+      "size": 711
+    }
+  ]
+}
