@@ -2,7 +2,7 @@ name: Sync DDSS client pack
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/sync-ddss.yml']
+    paths: ['.github/workflows/sync-ddss.yml', 'scripts/build-ddss-pack.py']
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
