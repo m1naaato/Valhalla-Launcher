@@ -25,7 +25,7 @@ public partial class MainWindow : Window
     bool launching;
     bool uiReady;
     MSession? minecraftSession;
-    readonly JELoginHandler loginHandler = JELoginHandlerBuilder.BuildDefault();
+    readonly JELoginHandler loginHandler;
     string? forgeVersion;
     string UserCfg => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "settings.json");
     string GameRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "DDSS");
@@ -36,6 +36,9 @@ public partial class MainWindow : Window
         InitializeComponent();
         uiReady = true;
         LoadConfig();
+        Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla"));
+        loginHandler = new JELoginHandlerBuilder().WithAccountManager(
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "minecraft-accounts.json")).Build();
         LoadSettings();
         Refresh();
         Loaded += async (_, _) =>
