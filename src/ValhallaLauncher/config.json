@@ -4,8 +4,6 @@
   "Loader": "Forge",
   "PackVersion": "DD&SS serveur Valhalla",
   "Server": "109.239.152.82:26065",
-  "PrismInstance": "DDSS",
-  "InstanceArchive": "",
   "UpdateManifestUrl": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/manifest.json",
   "ModpackManifestUrl": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-server-pack.json"
 }
