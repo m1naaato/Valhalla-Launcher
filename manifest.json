@@ -1,10 +1,10 @@
 {
   "channel": "stable",
-  "launcherVersion": "0.6.0",
+  "launcherVersion": "0.7.0",
   "minimumLauncherVersion": "0.4.3",
   "updateAvailable": true,
-  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.6.0/Valhalla-Setup.exe",
-  "sha256": "6213168719095771e708f62893bf26f37b80da2203134be826cc05c89eb1d80b",
+  "releaseUrl": "https://github.com/m1naaato/Valhalla-Launcher/releases/download/v0.7.0/Valhalla-Setup.exe",
+  "sha256": "6c6dfd551c2e2a1e4e59a00389740b70559b909dc42f60cb94d9fd7a22496634",
   "server": {
     "address": "109.239.152.82",
     "port": 26065
@@ -18,5 +18,5 @@
     "version": "DD&SS Valhalla",
     "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-server-pack.json"
   },
-  "message": "Valhalla Launcher 0.6.0 est disponible."
+  "message": "Valhalla Launcher 0.7.0 est disponible."
 }
