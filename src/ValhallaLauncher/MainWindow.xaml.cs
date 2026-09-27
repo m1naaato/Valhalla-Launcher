@@ -20,6 +20,7 @@ public partial class MainWindow : Window
     readonly HttpClient http = new();
     LauncherConfig cfg = new();
     string? prismPath;
+    string? ddssInstance;
     bool launching;
     bool uiReady;
     const string MicrosoftClientId = "145aaa6c-af6a-43b9-915e-413dd1818b41";
@@ -40,6 +41,7 @@ public partial class MainWindow : Window
             .Build();
         ConfigureMicrosoftTokenCache();
         prismPath = FindPrism();
+        ddssInstance = FindDdssInstance();
         LoadSettings();
         Refresh();
         Loaded += async (_, _) =>
@@ -275,6 +277,23 @@ public partial class MainWindow : Window
         return c.FirstOrDefault(File.Exists);
     }
 
+    string? FindDdssInstance()
+    {
+        var root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances");
+        if (!Directory.Exists(root)) return null;
+        foreach (var dir in Directory.EnumerateDirectories(root))
+        {
+            var id = Path.GetFileName(dir);
+            var cfgPath = Path.Combine(dir, "instance.cfg");
+            var name = File.Exists(cfgPath) ? File.ReadAllText(cfgPath) : "";
+            if (id.Contains("DDSS", StringComparison.OrdinalIgnoreCase) ||
+                id.Contains("Dungeons", StringComparison.OrdinalIgnoreCase) ||
+                name.Contains("Dungeons, Dragons and Space Shuttles", StringComparison.OrdinalIgnoreCase) ||
+                name.Contains("DD&SS", StringComparison.OrdinalIgnoreCase)) return id;
+        }
+        return null;
+    }
+
     async void Prepare_Click(object s, RoutedEventArgs e)
     {
         prismPath = FindPrism();
@@ -289,12 +308,14 @@ public partial class MainWindow : Window
             return;
         }
 
-        InstallInstanceSilently();
+        ddssInstance = FindDdssInstance();
+        if (ddssInstance == null) { MessageBox.Show("Installe d’abord DD&SS dans Prism Launcher, puis clique de nouveau sur Installer.", "Valhalla - DD&SS"); return; }
         await CheckServerPack(true);
     }
 
     void InstallInstanceSilently()
     {
+        if (cfg.Loader.Equals("Forge", StringComparison.OrdinalIgnoreCase)) return;
         try
         {
             var root = InstanceRoot;
@@ -345,7 +366,14 @@ public partial class MainWindow : Window
             return;
         }
 
-        InstallInstanceSilently();
+        ddssInstance = FindDdssInstance();
+        if (ddssInstance == null)
+        {
+            MessageBox.Show("Installe DD&SS dans Prism Launcher avant de jouer.", "Valhalla - DD&SS");
+            PlayButton.IsEnabled = true;
+            launching = false;
+            return;
+        }
         if (!await CheckServerPack(true))
         {
             PlayButton.IsEnabled = true;
@@ -358,7 +386,7 @@ public partial class MainWindow : Window
         var direct = DirectConnectCheck.IsChecked == true ? $" --server \"{cfg.Server}\"" : "";
         try
         {
-            Process.Start(new ProcessStartInfo(prismPath, $"--launch \"{cfg.PrismInstance}\"{direct}")
+            Process.Start(new ProcessStartInfo(prismPath, $"--launch \"{ddssInstance}\"{direct}")
             {
                 UseShellExecute = false,
                 CreateNoWindow = true,
@@ -445,9 +473,9 @@ public partial class MainWindow : Window
             if (m == null) return;
             if (m.Server != null && !string.IsNullOrWhiteSpace(m.Server.Address))
                 cfg.Server = $"{m.Server.Address}:{m.Server.Port}";
-            if (m.Minecraft != null && !string.IsNullOrWhiteSpace(m.Minecraft.Version))
+            if (!cfg.Loader.Equals("Forge", StringComparison.OrdinalIgnoreCase) && m.Minecraft != null && !string.IsNullOrWhiteSpace(m.Minecraft.Version))
                 cfg.MinecraftVersion = m.Minecraft.Version;
-            if (m.Modpack != null)
+            if (m.Modpack != null && !cfg.Loader.Equals("Forge", StringComparison.OrdinalIgnoreCase))
             {
                 if (!string.IsNullOrWhiteSpace(m.Modpack.Name)) cfg.ModpackName = m.Modpack.Name;
                 if (!string.IsNullOrWhiteSpace(m.Modpack.Version)) cfg.PackVersion = m.Modpack.Version;
@@ -458,7 +486,7 @@ public partial class MainWindow : Window
         catch { }
     }
 
-    string InstanceRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances", cfg.PrismInstance);
+    string InstanceRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances", ddssInstance ?? cfg.PrismInstance);
 
     async Task<bool> CheckServerPack(bool repair)
     {
@@ -469,6 +497,10 @@ public partial class MainWindow : Window
             var json = await http.GetStringAsync(cfg.ModpackManifestUrl);
             var manifest = JsonSerializer.Deserialize<ServerPackManifest>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
             if (manifest == null) throw new InvalidDataException("Manifest invalide.");
+            if (manifest.MinecraftVersion != "1.12.2" || !manifest.Loader.Equals("Forge", StringComparison.OrdinalIgnoreCase))
+                throw new InvalidDataException("Le pack publié ne correspond pas à DD&SS 1.12.2 Forge.");
+            if (manifest.Files == null || manifest.Files.Count < 100)
+                throw new InvalidDataException("Le pack DD&SS est incomplet.");
             var missing = new List<ServerPackFile>();
             foreach (var file in manifest.Files ?? new())
             {
@@ -500,8 +532,14 @@ public partial class MainWindow : Window
                 Directory.CreateDirectory(Path.GetDirectoryName(local)!);
                 PackSyncText.Text = $"Téléchargement {++done}/{missing.Count} : {Path.GetFileName(file.Path)}";
                 var bytes = await http.GetByteArrayAsync(file.Url);
-                await File.WriteAllBytesAsync(local, bytes);
-                if (!await FileMatches(local, file)) throw new InvalidDataException($"Fichier invalide : {file.Path}");
+                var temporary = local + ".valhalla-download";
+                try
+                {
+                    await File.WriteAllBytesAsync(temporary, bytes);
+                    if (!await FileMatches(temporary, file)) throw new InvalidDataException($"Fichier invalide : {file.Path}");
+                    File.Move(temporary, local, true);
+                }
+                finally { if (File.Exists(temporary)) File.Delete(temporary); }
             }
             PackSyncText.Text = "Pack serveur installé et vérifié";
             PackSyncText.Foreground = System.Windows.Media.Brushes.LightGreen;
