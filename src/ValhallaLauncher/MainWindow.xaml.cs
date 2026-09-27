@@ -214,7 +214,7 @@ public partial class MainWindow : Window
         StatusText.Text = "Installation de Minecraft 1.12.2 et Java...";
         await launcher.InstallAsync("1.12.2");
         var vanilla = await launcher.GetVersionAsync("1.12.2");
-        var javaPath = await launcher.GetJavaPath(vanilla);
+        var javaPath = launcher.GetJavaPath(vanilla);
         if (string.IsNullOrWhiteSpace(javaPath))
             throw new InvalidOperationException("Java 8 n'a pas pu être installé.");
         StatusText.Text = "Installation de Forge 1.12.2...";
