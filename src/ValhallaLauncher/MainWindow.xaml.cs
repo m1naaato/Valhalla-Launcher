@@ -1,8 +1,11 @@
-using Microsoft.Identity.Client;
+using CmlLib.Core;
+using CmlLib.Core.Auth;
+using CmlLib.Core.Auth.Microsoft;
+using CmlLib.Core.Installer.Forge;
+using CmlLib.Core.ProcessBuilder;
 using System;
 using System.Diagnostics;
 using System.IO;
-using System.IO.Compression;
 using System.Linq;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -19,34 +22,28 @@ public partial class MainWindow : Window
 {
     readonly HttpClient http = new();
     LauncherConfig cfg = new();
-    string? prismPath;
-    string? ddssInstance;
     bool launching;
     bool uiReady;
-    const string MicrosoftClientId = "145aaa6c-af6a-43b9-915e-413dd1818b41";
-    IPublicClientApplication? microsoftAuth;
-    AuthenticationResult? microsoftSession;
-
+    MSession? minecraftSession;
+    readonly JELoginHandler loginHandler;
+    string? forgeVersion;
     string UserCfg => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "settings.json");
-    string TokenCacheFile => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "msal.cache");
+    string GameRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "DDSS");
+    MinecraftLauncher CreateGameLauncher() => new(new MinecraftPath(GameRoot));
 
     public MainWindow()
     {
         InitializeComponent();
         uiReady = true;
         LoadConfig();
-        microsoftAuth = PublicClientApplicationBuilder.Create(MicrosoftClientId)
-            .WithAuthority(AadAuthorityAudience.AzureAdAndPersonalMicrosoftAccount)
-            .WithRedirectUri("http://localhost")
-            .Build();
-        ConfigureMicrosoftTokenCache();
-        prismPath = FindPrism();
-        ddssInstance = FindDdssInstance();
+        Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla"));
+        loginHandler = new JELoginHandlerBuilder().WithAccountManager(
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Valhalla", "minecraft-accounts.json")).Build();
         LoadSettings();
         Refresh();
         Loaded += async (_, _) =>
         {
-            await RestoreMicrosoftSession();
+            await RestoreMinecraftSession();
             await LoadRemoteConfig();
             await RefreshServerStatus();
             await CheckServerPack(false);
@@ -54,44 +51,11 @@ public partial class MainWindow : Window
         };
     }
 
-    void ConfigureMicrosoftTokenCache()
+    async Task RestoreMinecraftSession()
     {
-        if (microsoftAuth == null) return;
-        microsoftAuth.UserTokenCache.SetBeforeAccess(args =>
-        {
-            try
-            {
-                if (!File.Exists(TokenCacheFile)) return;
-                var protectedBytes = File.ReadAllBytes(TokenCacheFile);
-                var bytes = ProtectedData.Unprotect(protectedBytes, null, DataProtectionScope.CurrentUser);
-                args.TokenCache.DeserializeMsalV3(bytes);
-            }
-            catch { }
-        });
-        microsoftAuth.UserTokenCache.SetAfterAccess(args =>
-        {
-            if (!args.HasStateChanged) return;
-            try
-            {
-                Directory.CreateDirectory(Path.GetDirectoryName(TokenCacheFile)!);
-                var bytes = args.TokenCache.SerializeMsalV3();
-                var protectedBytes = ProtectedData.Protect(bytes, null, DataProtectionScope.CurrentUser);
-                File.WriteAllBytes(TokenCacheFile, protectedBytes);
-            }
-            catch { }
-        });
-    }
-
-    async Task RestoreMicrosoftSession()
-    {
-        if (microsoftAuth == null) return;
         try
         {
-            var accounts = await microsoftAuth.GetAccountsAsync();
-            var account = accounts.FirstOrDefault();
-            if (account == null) return;
-            var scopes = new[] { "openid", "profile", "offline_access", "User.Read" };
-            microsoftSession = await microsoftAuth.AcquireTokenSilent(scopes, account).ExecuteAsync();
+            minecraftSession = await loginHandler.AuthenticateSilently();
             ShowMinecraftAccountConnected();
         }
         catch { }
@@ -99,12 +63,8 @@ public partial class MainWindow : Window
 
     void ShowMinecraftAccountConnected()
     {
-        if (microsoftSession == null) return;
-        var displayName = microsoftSession.ClaimsPrincipal?.Claims
-            .FirstOrDefault(x => x.Type == "name")?.Value;
-        if (string.IsNullOrWhiteSpace(displayName))
-            displayName = "Compte Minecraft";
-        AccountStateText.Text = displayName;
+        if (minecraftSession == null) return;
+        AccountStateText.Text = minecraftSession.Username;
         AccountActionButton.Content = "MINECRAFT CONNECTÉ";
         AccountActionButton.IsEnabled = false;
         DisconnectButton.IsEnabled = true;
@@ -124,36 +84,18 @@ public partial class MainWindow : Window
 
     async void Compte_Click(object s, RoutedEventArgs e)
     {
-        if (microsoftAuth == null) return;
         AccountActionButton.IsEnabled = false;
         try
         {
-            var scopes = new[] { "openid", "profile", "offline_access", "User.Read" };
-            try
-            {
-                var accounts = await microsoftAuth.GetAccountsAsync();
-                microsoftSession = await microsoftAuth.AcquireTokenSilent(scopes, accounts.FirstOrDefault()).ExecuteAsync();
-            }
-            catch (MsalUiRequiredException)
-            {
-                microsoftSession = await microsoftAuth.AcquireTokenInteractive(scopes)
-                    .WithUseEmbeddedWebView(false)
-                    .ExecuteAsync();
-            }
-
+            minecraftSession = await loginHandler.AuthenticateInteractively();
             ShowMinecraftAccountConnected();
             StatusText.Text = "✓ Compte Minecraft connecté";
-        }
-        catch (MsalException ex)
-        {
-            AccountActionButton.IsEnabled = true;
-            StatusText.Text = "Connexion Microsoft impossible";
-            MessageBox.Show(ex.Message, "Valhalla - Microsoft", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
         catch (Exception ex)
         {
             AccountActionButton.IsEnabled = true;
-            MessageBox.Show(ex.Message, "Valhalla - Microsoft", MessageBoxButton.OK, MessageBoxImage.Warning);
+            StatusText.Text = "Connexion Minecraft impossible";
+            MessageBox.Show(ex.Message, "Valhalla - Minecraft", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
     }
 
@@ -223,7 +165,7 @@ public partial class MainWindow : Window
         PackInfoText.Text = $"Minecraft {cfg.MinecraftVersion} • {cfg.Loader} • pack {cfg.PackVersion}";
         ServerStatusText.Text = string.IsNullOrWhiteSpace(cfg.Server) ? "NON CONFIGURÉ" : "Vérification...";
         ServerPlayersText.Text = "Joueurs : --/--";
-        StatusText.Text = prismPath == null ? "Configuration Minecraft requise" : "✓ Moteur Minecraft prêt";
+        StatusText.Text = "Valhalla prêt à installer DD&SS";
     }
 
     async Task RefreshServerStatus()
@@ -266,83 +208,41 @@ public partial class MainWindow : Window
         }
     }
 
-    string? FindPrism()
+    async Task<MinecraftLauncher> PrepareGameAsync()
     {
-        string[] c =
+        Directory.CreateDirectory(GameRoot);
+        var launcher = CreateGameLauncher();
+        var progress = new Progress<CmlLib.Core.Installers.InstallerProgressChangedEventArgs>(e =>
+            StatusText.Text = $"Minecraft : {e.Name} ({e.ProgressedTasks}/{e.TotalTasks})");
+        StatusText.Text = "Installation de Minecraft 1.12.2 et Java...";
+        await launcher.InstallAsync("1.12.2");
+        var vanilla = await launcher.GetVersionAsync("1.12.2");
+        var javaPath = launcher.GetJavaPath(vanilla);
+        if (string.IsNullOrWhiteSpace(javaPath))
+            throw new InvalidOperationException("Java 8 n'a pas pu être installé.");
+        StatusText.Text = "Installation de Forge 1.12.2...";
+        var forge = new ForgeInstaller(launcher);
+        forgeVersion = await forge.Install("1.12.2", "14.23.5.2859", new ForgeInstallOptions
         {
-            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Programs", "PrismLauncher", "prismlauncher.exe"),
-            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "PrismLauncher", "prismlauncher.exe"),
-            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "PrismLauncher", "prismlauncher.exe")
-        };
-        return c.FirstOrDefault(File.Exists);
-    }
-
-    string? FindDdssInstance()
-    {
-        var root = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances");
-        if (!Directory.Exists(root)) return null;
-        foreach (var dir in Directory.EnumerateDirectories(root))
-        {
-            var id = Path.GetFileName(dir);
-            var cfgPath = Path.Combine(dir, "instance.cfg");
-            var name = File.Exists(cfgPath) ? File.ReadAllText(cfgPath) : "";
-            if (id.Contains("DDSS", StringComparison.OrdinalIgnoreCase) ||
-                id.Contains("Dungeons", StringComparison.OrdinalIgnoreCase) ||
-                name.Contains("Dungeons, Dragons and Space Shuttles", StringComparison.OrdinalIgnoreCase) ||
-                name.Contains("DD&SS", StringComparison.OrdinalIgnoreCase)) return id;
-        }
-        return null;
+            JavaPath = javaPath,
+            FileProgress = progress
+        });
+        await launcher.InstallAsync(forgeVersion);
+        return launcher;
     }
 
     async void Prepare_Click(object s, RoutedEventArgs e)
     {
-        prismPath = FindPrism();
-        if (prismPath == null)
-        {
-            StatusText.Text = "Installation du moteur Minecraft requise.";
-            MessageBox.Show(
-                "Prism Launcher doit être installé une fois comme moteur Minecraft. Il restera utilisé en arrière-plan.",
-                "Valhalla - Préparation",
-                MessageBoxButton.OK,
-                MessageBoxImage.Information);
-            return;
-        }
-
-        ddssInstance = FindDdssInstance();
-        if (ddssInstance == null) { MessageBox.Show("Installe d’abord DD&SS dans Prism Launcher, puis clique de nouveau sur Installer.", "Valhalla - DD&SS"); return; }
-        await CheckServerPack(true);
-    }
-
-    void InstallInstanceSilently()
-    {
-        if (cfg.Loader.Equals("Forge", StringComparison.OrdinalIgnoreCase)) return;
         try
         {
-            var root = InstanceRoot;
-            Directory.CreateDirectory(root);
-            var instanceCfg = Path.Combine(root, "instance.cfg");
-            var mmcPack = Path.Combine(root, "mmc-pack.json");
-
-            File.WriteAllText(instanceCfg,
-                "InstanceType=OneSix\n" +
-                "name=Valhalla NeoForge 1.21.1\n" +
-                "iconKey=default\n" +
-                "JoinServerOnLaunch=false\n");
-
-            var pack = new
-            {
-                formatVersion = 1,
-                components = new object[]
-                {
-                    new { uid = "net.minecraft", version = "1.21.1", important = true },
-                    new { uid = "net.neoforged", version = "21.1.244", important = true }
-                }
-            };
-            File.WriteAllText(mmcPack, JsonSerializer.Serialize(pack, new JsonSerializerOptions { WriteIndented = true }));
+            if (!await CheckServerPack(true)) return;
+            await PrepareGameAsync();
+            StatusText.Text = "✓ DD&SS, Forge et Minecraft sont prêts";
         }
         catch (Exception ex)
         {
-            StatusText.Text = "Instance : " + ex.Message;
+            StatusText.Text = "Installation impossible";
+            MessageBox.Show(ex.Message, "Valhalla - Installation", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
     }
 
@@ -351,60 +251,40 @@ public partial class MainWindow : Window
         if (launching) return;
         launching = true;
         PlayButton.IsEnabled = false;
-
-        prismPath = FindPrism();
-        if (prismPath == null)
-        {
-            StatusText.Text = "⚠ Prism Launcher n'est pas installé";
-            MessageBox.Show(
-                "Installe Prism Launcher une fois, puis relance Valhalla.",
-                "Valhalla",
-                MessageBoxButton.OK,
-                MessageBoxImage.Warning);
-            PlayButton.IsEnabled = true;
-            launching = false;
-            return;
-        }
-
-        ddssInstance = FindDdssInstance();
-        if (ddssInstance == null)
-        {
-            MessageBox.Show("Installe DD&SS dans Prism Launcher avant de jouer.", "Valhalla - DD&SS");
-            PlayButton.IsEnabled = true;
-            launching = false;
-            return;
-        }
-        if (!await CheckServerPack(true))
-        {
-            PlayButton.IsEnabled = true;
-            launching = false;
-            return;
-        }
-        StatusText.Text = "Lancement de Minecraft…";
-        await Task.Delay(150);
-
-        var direct = DirectConnectCheck.IsChecked == true ? $" --server \"{cfg.Server}\"" : "";
         try
         {
-            Process.Start(new ProcessStartInfo(prismPath, $"--launch \"{ddssInstance}\"{direct}")
+            minecraftSession = await loginHandler.Authenticate();
+            ShowMinecraftAccountConnected();
+            if (!await CheckServerPack(true)) return;
+            var launcher = await PrepareGameAsync();
+            var options = new MLaunchOption
             {
-                UseShellExecute = false,
-                CreateNoWindow = true,
-                WindowStyle = ProcessWindowStyle.Hidden
-            });
+                Session = minecraftSession,
+                MaximumRamMb = (int)RamSlider.Value * 1024
+            };
+            if (DirectConnectCheck.IsChecked == true)
+            {
+                var parts = cfg.Server.Split(':', 2);
+                options.ServerIp = parts[0];
+                options.ServerPort = parts.Length > 1 && int.TryParse(parts[1], out var p) ? p : 25565;
+            }
+            StatusText.Text = "Lancement de DD&SS...";
+            var game = await launcher.BuildProcessAsync(forgeVersion!, options);
+            game.Start();
             StatusText.Text = "✓ Minecraft lancé";
             await Task.Delay(350);
             Application.Current.Shutdown();
-            return;
         }
         catch (Exception ex)
         {
-            StatusText.Text = "Erreur : " + ex.Message;
+            StatusText.Text = "Lancement impossible";
+            MessageBox.Show(ex.Message, "Valhalla - DD&SS", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
-
-        await Task.Delay(500);
-        PlayButton.IsEnabled = true;
-        launching = false;
+        finally
+        {
+            launching = false;
+            PlayButton.IsEnabled = true;
+        }
     }
 
     void HomeRamSlider_ValueChanged(object s, RoutedPropertyChangedEventArgs<double> e)
@@ -426,23 +306,13 @@ public partial class MainWindow : Window
 
     async void Disconnect_Click(object s, RoutedEventArgs e)
     {
-        try
-        {
-            if (microsoftAuth != null)
-            {
-                var accounts = await microsoftAuth.GetAccountsAsync();
-                foreach (var account in accounts)
-                    await microsoftAuth.RemoveAsync(account);
-            }
-        }
-        catch { }
-        microsoftSession = null;
-        try { if (File.Exists(TokenCacheFile)) File.Delete(TokenCacheFile); } catch { }
+        try { await loginHandler.Signout(); } catch { }
+        minecraftSession = null;
         AccountStateText.Text = "Minecraft non connecté";
         AccountActionButton.Content = "CONNEXION";
         AccountActionButton.IsEnabled = true;
         DisconnectButton.IsEnabled = false;
-        StatusText.Text = "✓ Déconnecté de Microsoft";
+        StatusText.Text = "✓ Déconnecté de Minecraft";
     }
 
     void RamSlider_ValueChanged(object s, RoutedPropertyChangedEventArgs<double> e)
@@ -486,7 +356,7 @@ public partial class MainWindow : Window
         catch { }
     }
 
-    string InstanceRoot => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PrismLauncher", "instances", ddssInstance ?? cfg.PrismInstance);
+
 
     async Task<bool> CheckServerPack(bool repair)
     {
@@ -505,9 +375,9 @@ public partial class MainWindow : Window
             foreach (var file in manifest.Files ?? new())
             {
                 var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
-                var gameRoot = Path.Combine(InstanceRoot, "minecraft");
+                var gameRoot = GameRoot;
                 var local = Path.GetFullPath(Path.Combine(gameRoot, relative));
-                var root = Path.GetFullPath(Path.Combine(InstanceRoot, "minecraft")) + Path.DirectorySeparatorChar;
+                var root = Path.GetFullPath(GameRoot) + Path.DirectorySeparatorChar;
                 if (!local.StartsWith(root, StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Chemin invalide.");
                 if (!File.Exists(local) || !await FileMatches(local, file)) missing.Add(file);
             }
@@ -522,13 +392,13 @@ public partial class MainWindow : Window
             PackSyncText.Foreground = System.Windows.Media.Brushes.Orange;
             PlayButton.IsEnabled = false;
             if (!repair) return false;
-            Directory.CreateDirectory(Path.Combine(InstanceRoot, "minecraft"));
+            Directory.CreateDirectory(GameRoot);
             int done = 0;
             foreach (var file in missing)
             {
                 if (string.IsNullOrWhiteSpace(file.Url)) throw new InvalidDataException($"URL absente : {file.Path}");
                 var relative = file.Path.Replace('/', Path.DirectorySeparatorChar).TrimStart(Path.DirectorySeparatorChar);
-                var local = Path.GetFullPath(Path.Combine(InstanceRoot, "minecraft", relative));
+                var local = Path.GetFullPath(Path.Combine(GameRoot, relative));
                 Directory.CreateDirectory(Path.GetDirectoryName(local)!);
                 PackSyncText.Text = $"Téléchargement {++done}/{missing.Count} : {Path.GetFileName(file.Path)}";
                 var bytes = await http.GetByteArrayAsync(file.Url);
@@ -658,8 +528,6 @@ public class LauncherConfig
     public string Loader { get; set; } = "Vanilla";
     public string PackVersion { get; set; } = "1.0.0";
     public string Server { get; set; } = "109.239.152.82:26065";
-    public string PrismInstance { get; set; } = "Valhalla-Vanilla-26.3";
-    public string InstanceArchive { get; set; } = "Valhalla-Vanilla-26.3.zip";
     public string UpdateManifestUrl { get; set; } = "";
     public string ModpackManifestUrl { get; set; } = "";
 }

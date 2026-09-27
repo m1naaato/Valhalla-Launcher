@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>ValhallaLauncher</AssemblyName><Version>0.4.6</Version></PropertyGroup><ItemGroup><Resource Include="background.png" />
     <Resource Include="launcher-ui.png" />
-    <Resource Include="Image ChatGPT 26 sept. 2026, 16_08_47.png" /><Content Include="config.json"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content><Content Include="Valhalla-Vanilla-26.3.zip"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content></ItemGroup><ItemGroup>
-  <PackageReference Include="Microsoft.Identity.Client" Version="4.77.1" />
-  <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+    <Resource Include="Image ChatGPT 26 sept. 2026, 16_08_47.png" /><Content Include="config.json"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content></ItemGroup><ItemGroup>
+  <PackageReference Include="CmlLib.Core" Version="4.0.6" />
+  <PackageReference Include="CmlLib.Core.Installer.Forge" Version="1.1.1" />
+  <PackageReference Include="CmlLib.Core.Auth.Microsoft" Version="3.3.1" />
 </ItemGroup>
 </Project>
