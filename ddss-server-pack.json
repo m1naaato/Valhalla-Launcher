@@ -1607,6 +1607,150 @@
       "size": 3477
     },
     {
+      "path": "scripts/Carpenter, Rolling Machine/Circuits.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Circuits.zs",
+      "sha256": "92ada544e23c4f4737d2d28a92332accb484a48858409ec9730fba95a98c6640",
+      "size": 11037
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Extrautils2.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Extrautils2.zs",
+      "sha256": "6b0f35e3e8bff91ef03358e43c8911fb6d0fd3a8bda48229d39d2f38476ec0a1",
+      "size": 4617
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Food.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Food.zs",
+      "sha256": "46b4ed73915a16fd6571dbcc60a60f520b8b457af7989141ea3692113847d668",
+      "size": 12950
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Forestry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Forestry.zs",
+      "sha256": "88138576d52f53efc77aa5cad05ec82a4b849311c12d287c1fd69865c81ce453",
+      "size": 1605
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Galacticraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Galacticraft.zs",
+      "sha256": "763f104d09ecd1b3b13df41b693ec65d6f312c7b9f13bc34247e690b76fe20d2",
+      "size": 2154
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Gendustry.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Gendustry.zs",
+      "sha256": "547c6e0d7c5d0ddd54a8139dce6943000a420f98d1e5d134354ea0d049ca6398",
+      "size": 861
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Immersive Engineering.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Immersive%20Engineering.zs",
+      "sha256": "8f3a83bbbd363841ba484fb20b61b59b133069bbb17cb58751fb8dd6357e315f",
+      "size": 2586
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Industrial foregoing.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Industrial%20foregoing.zs",
+      "sha256": "8f1c688ad400dd9a6c8082d30f868d227f3bf87e482c32cb43d9643283343a4c",
+      "size": 11130
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Mekanism.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Mekanism.zs",
+      "sha256": "bd1f45b2f06715fc006870cc0c8a60484b4baaf97008669542b4808fe70aa2a3",
+      "size": 19187
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Nuclearcraft.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Nuclearcraft.zs",
+      "sha256": "d6a84b15d7391d58b35b25655333ad9925b6683aa5a09b457ba1144b8208979b",
+      "size": 1764
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Open Computers.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Open%20Computers.zs",
+      "sha256": "a3eb0983d38391077bc4ebd959cbc26ca23e961f69f1e7bbd2980b7a35dbd36c",
+      "size": 5640
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Pneumatic.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Pneumatic.zs",
+      "sha256": "d89728f1be9d9f2bd08e481a02a5dfad7176437fb39a1422deeeabef358fda13",
+      "size": 426
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Project Red.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Project%20Red.zs",
+      "sha256": "49a7cfbe8ded40767180ed6ba627d3c6060feef2d5fa4ca50db81852de81eb6a",
+      "size": 3549
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/RF Tools.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/RF%20Tools.zs",
+      "sha256": "1ade3dad435b19f0df598d19857895c00e01c63907cd1d6fb45a5c78cbbaca98",
+      "size": 562
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Refined Storage.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Refined%20Storage.zs",
+      "sha256": "c6b8a56402bbff09c2a98380162d1da32da1cbfc30cee199f2f41167c0e4b4a9",
+      "size": 14893
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Rockhound.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Rockhound.zs",
+      "sha256": "1575ae35df02a3a9293da9f670e8130474a9bc759b22e11105d91a1fdf9ca917",
+      "size": 1868
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Solar Flux Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Solar%20Flux%20Reborn.zs",
+      "sha256": "9ee5b03d8061e40bb6572ed21b8505db21a9b2def2cd03bb97d18b16b9940eaf",
+      "size": 5996
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Steves Carts.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Steves%20Carts.zs",
+      "sha256": "feb447af4540930658e226f7bd09d8e71191c8df1e4a882b31a934fa5415edb9",
+      "size": 1258
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Storage Drawer.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Storage%20Drawer.zs",
+      "sha256": "4e7fdf89dce079244b5376a000ebbe4ed22223f85a4615a5d12655fd44fa277a",
+      "size": 4656
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Tech Reborn.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Tech%20Reborn.zs",
+      "sha256": "d826c622ae33d87149da97d1bd51e4e567d04d734df0c843003bc68a7f1903c2",
+      "size": 7731
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Thermal Expansion stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Thermal%20Expansion%20stuff.zs",
+      "sha256": "01783dc187855347a1c24c0432243717bf51b631caafa511fa7ed0ded35e534c",
+      "size": 32873
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Thermal Foundation stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Thermal%20Foundation%20stuff.zs",
+      "sha256": "dc1badd1b981fa1d320fe6b63006417e435e48e4084a91948d29eb4a31ac98c2",
+      "size": 2958
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Vanilla Stuff.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Vanilla%20Stuff.zs",
+      "sha256": "eeb00d0c250d40d1d62a2690f31267e6719fa271320f66f09c921eef8c5b5ac9",
+      "size": 1996
+    },
+    {
+      "path": "scripts/Carpenter, Rolling Machine/Xnet.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Carpenter%2C%20Rolling%20Machine/Xnet.zs",
+      "sha256": "5cde5d0ff2e4ce1e8330e36541c5d03338135a8bde00ea24b4b88494416dd6f2",
+      "size": 2497
+    },
+    {
       "path": "scripts/Contenttweaker/CT Access Cards, upgrades.zs",
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Access%20Cards%2C%20upgrades.zs",
       "sha256": "0396bf47642994ee513a3045efaf3d8793d7f43314b455e51f880347915db358",
@@ -1631,6 +1775,30 @@
       "size": 3381
     },
     {
+      "path": "scripts/Contenttweaker/CT Food.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Food.zs",
+      "sha256": "2feaabfde6f87f4d94a3c7c53612338d1cbfe5e3a5ff65ded55ff5639c90260e",
+      "size": 963
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Kitchen Utils.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Kitchen%20Utils.zs",
+      "sha256": "ad9065ad82eedfc3c56a1188c13ae5ca361f75a32b065e8ad5141708e45945f5",
+      "size": 2395
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Material Crafting.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Material%20Crafting.zs",
+      "sha256": "5998cb4ea3186dd2fe68536e3c9b660c804ff6c3f75d9d640af5aeed9b22d976",
+      "size": 37186
+    },
+    {
+      "path": "scripts/Contenttweaker/CT Misc.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Contenttweaker/CT%20Misc.zs",
+      "sha256": "3f31b897541cf10de860b8871d1b324f4bbf7a3b59e1c8ac8beaecf368f54509",
+      "size": 1692
+    },
+    {
       "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Blocks whitout BW.zs",
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Blocks%20whitout%20BW.zs",
       "sha256": "48ae5486461356dab41d8c3d6411179f2ce793ed04dd6e9a1c0f827810672811",
@@ -1647,6 +1815,24 @@
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Factorizer.zs",
       "sha256": "366a85c09df89e5a3977578f8003942d4df305b923799dd6fdb3ff1cb7e87249",
       "size": 2519
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Ingots.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Ingots.zs",
+      "sha256": "cd482cb1370183ab6bf85dcf6c90e8d180c91198a838b6dd5efba0e0898b3ea2",
+      "size": 988
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Plates.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Plates.zs",
+      "sha256": "3807ee6d787d10c6b9b7ef634d6e336467e0dafee8ff7ee91de4330361c3821a",
+      "size": 34364
+    },
+    {
+      "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Rods, Gear.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Dust%2C%20Plates%2C%20Rods%2C%20Blocks%2C%20Ingots%2C%20Slabs/Rods%2C%20Gear.zs",
+      "sha256": "121d68baf7295b29079ba7bb9c3179f8cec818b2c6be6923522cc007a2fd53d7",
+      "size": 2810
     },
     {
       "path": "scripts/Dust, Plates, Rods, Blocks, Ingots, Slabs/Slabs/AE2 Slabs.zs",
@@ -1721,6 +1907,30 @@
       "size": 56896
     },
     {
+      "path": "scripts/Loot Tables/Loot Immersive Crates.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Immersive%20Crates.zs",
+      "sha256": "da8c5fffaeae4942abd7bd6b039c751c914c837fa8f552007e340e6f9f43fd04",
+      "size": 4706
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Quark Pirate Ships.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Quark%20Pirate%20Ships.zs",
+      "sha256": "88cb64465396d4c4c96a5332e341c2324e47491eab4968b596e120ccdd851c22",
+      "size": 7637
+    },
+    {
+      "path": "scripts/Loot Tables/Loot Vanilla Bonus Chest.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20Vanilla%20Bonus%20Chest.zs",
+      "sha256": "5546b2958e7082b088c212f4f66ea898d271dd146d3fa37ace41cf0226c55687",
+      "size": 6293
+    },
+    {
+      "path": "scripts/Loot Tables/Loot VanillaChests.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Loot%20Tables/Loot%20VanillaChests.zs",
+      "sha256": "d515ab89b953e43b323e3e27a3e721329fa4257e2339222257a40e5e6d96080d",
+      "size": 102688
+    },
+    {
       "path": "scripts/Magic Chemistry/Alchemistry Elements.zs",
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Magic%20Chemistry/Alchemistry%20Elements.zs",
       "sha256": "2728d0a3ad5d2811c0fb468970d1a505c3bb13d1a13d6d3b61facad758a03d68",
@@ -1749,6 +1959,18 @@
       "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Advanced%20Alloy%20Factory.zs",
       "sha256": "716be852aa245d73116270ba2d86315a3419b50ed4a0b27f273168990507ebc9",
       "size": 99360
+    },
+    {
+      "path": "scripts/Modular Machinery/Master Assembler 2k20.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Master%20Assembler%202k20.zs",
+      "sha256": "137ec53c66cd548a85468858eb63af3d73442958da577c6595ec80b5962ac672",
+      "size": 46366
+    },
+    {
+      "path": "scripts/Modular Machinery/Modular Machinery.zs",
+      "url": "https://raw.githubusercontent.com/m1naaato/Valhalla-Launcher/main/ddss-pack-files/scripts/Modular%20Machinery/Modular%20Machinery.zs",
+      "sha256": "f87b1c4e7feb663b5e0adce22d5e8d0a5cb705df2fd298684292b617d225b4f0",
+      "size": 9952
     },
     {
       "path": "scripts/Recipes/AE2.zs",
